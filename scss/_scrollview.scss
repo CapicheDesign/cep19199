@@ -1,0 +1,36 @@
+.scroll-pagination {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	z-index: 5;
+	list-style: none;
+	margin: 0;
+    padding: 5px 15px 15px 5px;
+    background: $white;
+    
+    li a {
+        padding: 10px;
+        display: block;	
+        
+        &:before {
+            content: '';
+            position: absolute;
+            width: 11px;
+            height: 11px;
+            background: $cp-blue-dark;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+        }
+        &.active:before {
+            content: '';
+            position: absolute;
+            width: 11px;
+            height: 11px;
+            background: $cp-yellow;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+        }
+    }
+}
