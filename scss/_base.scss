@@ -4,6 +4,7 @@ body {
     font-size: 18px;
     color: $cp-black;
     line-height: 1.2;
+    letter-spacing: .5px;
 }
 
 h1 {
@@ -32,4 +33,24 @@ button {
         color: $cp-blue-dark;
         border: $cp-blue-dark;
     }
+}
+
+.white-bg {
+    background: white;
+}
+
+.light-blue-bg {
+    background: $cp-blue-light;
+}
+
+.dark-blue-bg {
+    background: $cp-blue-dark;
+}
+
+.yellow-bg {
+    background: $cp-yellow;
+}
+
+.black-bg {
+    background: $cp-black;
 }

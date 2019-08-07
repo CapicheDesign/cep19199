@@ -14,8 +14,8 @@ body {
 }
 
 #main>section {
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   overflow: hidden;
   position: relative;
 }
@@ -24,47 +24,65 @@ body {
     background: url('../img/home-hero.jpg');
     background-size: cover;
     padding: 50px;
-    
-    .home__content {
-        position: absolute;
-        bottom: 50px;
-        h1 {
-            color: $white;
-            font-size: 8em;
-            line-height: 0.9;
-        }
-        h2 {
-            color: $cp-yellow;
-            font-size: 2em;
-            margin-bottom: 50px;
+    height: 100vh;
+    .landing-inner {
+        height: 100vh;
+        .home__content {
+            position: absolute;
+            bottom: 50px;
+            h1 {
+                color: $white;
+                font-size: 8em;
+                line-height: 0.9;
+            }
+            h2 {
+                color: $cp-yellow;
+                font-size: 2em;
+                margin-bottom: 50px;
+            }
         }
     }
 }
 
-#main>section#highlights { background-color: #3BB0D6; }
+#main>section#highlights { background-color: $cp-blue-dark; }
 
 #main>section#business { background-color: #DA4453; }
 
 /* panels */
-
 .home-panel {
-    border-right: 1px solid #000;
     position: absolute;
     display: table-cell;
     overflow: hidden;
+    color: white;
+    padding: 20vh 50px 50px; 
+    span {
+        display: block;
+        &.small-bold-text {
+            font-weight: 700;
+            font-size: 1.25em;
+            margin-bottom: 20px;
+        }
+        &.large-text {
+            font-size: 5em;
+            font-weight: 900;
+            letter-spacing: -5px;
+            @media (min-width: 1400px) {
+                font-size: 7em;
+            }
+        }
+        &.mid-size-text {
+            font-size: 2em;
+            margin-top: -10px;
+        }
+    }
     &.panel-third {
-        width: 33.3%;
-        height: 60%;
-        border-bottom: 1px solid #000;
+        width: 33.333%;
+        height: 45vh;
         &:last-of-type {
             border-right: none;
         }
     }
-    &.panel-fifth {
-        width: 20%;
-        height: 40%;
-    }
-    .panel-more {
+    .home-panel--overlay {
         -moz-transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1);
         -o-transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1);
         -webkit-transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1);
@@ -77,30 +95,99 @@ body {
     }
 }
 
+.arrow-yellow-fwd {
+    background: url('../img/yellow-arrow-fwd.svg') no-repeat;
+    width: 35px;
+    height: 15px;
+    display: block;
+    position: absolute;
+    bottom: 50px;
+    &:hover, &:focus {
+        background: url('../img/white-arrow-fwd.svg') no-repeat;
+    }
+}
+
 #panel-1 {
     top: 0;
     left: 0;
+    height: 55vh;
+    padding-top: 17vh;
+    z-index: 100;
+    &:hover {
+        .home-panel--overlay {
+            top: 0;
+            left: 0;
+        }
+    }
+    .home-panel--overlay {
+        top: 100%;
+    }
 }
 
 #panel-2 {
     top: 0;
     left: 33.3%;
+    height: 55vh;
+    padding-top: 10vh;
+    background: url('../img/safety-bg.jpg') no-repeat;
+    background-size: cover;
+    .mid-size-text {
+        position: absolute;
+        bottom: 9vh;
+    }
+    &:hover {
+        .panel-more {
+            top: 10vh;
+            left: 33.3%;
+        }
+    }
+    .panel-more {
+        left: 100%;
+    }
 }
 
-#panel-1 .panel-more {
-    top: 100%;
-}
-
-#panel-2 .panel-more {
-    left: 100%;
-}
-
-#panel-1:hover .panel-more {
+#panel-3 {
     top: 0;
-    left: 0;
+    left: 66.7%;
+    height: 55vh;
+    padding-top: 10vh;
+    &:hover {
+        .panel-more {
+            top: 10vh;
+            left: 66.6%;
+        }
+    }
 }
 
-#panel-2:hover .panel-more {
+#panel-4 {
+    top: 55vh;
     left: 0;
-    top: 0;
+    &:hover {
+        .panel-more {
+            top: 55vh;
+            left: 0;
+        }
+    }
+}
+
+#panel-5 {
+    top: 55vh;
+    left: 33.3%;
+    &:hover {
+        .panel-more {
+            top: 55vh;
+            left: 33.3%;
+        }
+    }
+}
+
+#panel-6 {
+    top: 55vh;
+    left: 66.7%;
+    &:hover {
+        .panel-more {
+            top: 55vh;
+            left: 66.6%;
+        }
+    }
 }

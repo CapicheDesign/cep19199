@@ -6,11 +6,19 @@ nav {
     {
         display: block;
         position: absolute;
-        top: 50px;
-        left: 50px;
+        top: 30px;
+        left: 30px;
         z-index: 1;
         -webkit-user-select: none;
         user-select: none;
+        transition: all 0.5s linear;
+
+        &.white-bg {
+            top: 30px;
+            span {
+                background: $cp-black;
+            }
+        }
 
         label {
             height: 0;
@@ -38,10 +46,6 @@ nav {
             &:nth-last-child(2)
             {
               transform-origin: 0% 100%;
-            }
-
-            &.black {
-                background: $cp-black;
             }
         }
 

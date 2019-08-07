@@ -7,27 +7,43 @@
 <?php include 'includes/header.php'; ?>
 	<div id="main">
 		<section data-index=1 id="home">
-			<div class="home__content">
-				<h1>2019<br>Annual Report</h1>
-				<h2>Port of choice for<br>Central New Zealand</h2>
-				<button>
-					Download Annual Report PDF (175kb)
-				</button>
+			<div class="landing-inner">
+				<div class="home__content">
+					<h1>2019<br>Annual Report</h1>
+					<h2>Port of choice for<br>Central New Zealand</h2>
+					<button>
+						Download Annual Report PDF (175kb)
+					</button>
+				</div>
 			</div>
 		</section>
 		<section data-index=2 id="highlights">
-				<div id="panel-1" class="home-panel panel-third">
-					<div class="panel-more">Overlay content<br><a href="#">click me</a></div>
+				<div id="panel-1" class="home-panel panel-third light-blue-bg">
+					<div class="panel-content">
+					<span class="small-bold-text">Net Revenue</span>
+					<span class="large-text">$67.7m</span>
+					<span class="mid-size-text">growth of 14%</span>
+				</div>
+				<a class="arrow-yellow-fwd" href="#"></a>
+					<!-- <div class="home-panel--overlay">Overlay content</div> -->
 				</div>
 				<div id="panel-2" class="home-panel panel-third">
-					<div class="panel-more">Overlay content</div>
+					<span class="mid-size-text">We're serious<br>about safety</span>
+					<a class="arrow-yellow-fwd" href="#"></a>
+					<!-- <div class="home-panel--overlay">Overlay content</div> -->
 				</div>
-				<div class="home-panel panel-third" style="top:0;left:66.6%;"><a href="#">click me</a></div>
-				<div class="home-panel panel-fifth" style="top:60%;left:0;"></div>
-				<div class="home-panel panel-fifth" style="top:60%;left:20%;"></div>
-				<div class="home-panel panel-fifth" style="top:60%;left:40%;"></div>
-				<div class="home-panel panel-fifth" style="top:60%;left:60%;"></div>
-				<div class="home-panel panel-fifth" style="top:60%;left:80%;"></div>
+				<div id="panel-3" class="home-panel panel-third yellow-bg" >
+					<!-- <div class="home-panel--overlay">Overlay content</div> -->
+				</div>
+				<div id="panel-4" class="home-panel panel-third">
+					<!-- <div class="home-panel--overlay">Overlay content</div> -->
+				</div>
+				<div id="panel-5" class="home-panel panel-third white-bg">
+					<!-- <div class="home-panel--overlay">Overlay content</div> -->
+				</div>
+				<div id="panel-6" class="home-panel panel-third black-bg">
+					<!-- <div class="home-panel--overlay">Overlay content</div> -->
+				</div>
 		</section>
 		<section data-index=3 id="business">Business</section>
 		<section data-index=4 id="people">People</section>

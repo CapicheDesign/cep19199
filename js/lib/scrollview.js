@@ -164,9 +164,21 @@
 			}
 		};
 		$.fn.transformPage = function(settings, pos, index) {
-			if (defaults.supportOld && $('html').hasClass('ie8')) {
-				console.log("降级处理");
-			} else {
+			if (defaults.supportOld && $('html').hasClass('ie8')) { 
+				
+			//  } else if ( index == '2' ) {
+			// 	$(this).css({
+			// 		"-webkit-transform": (settings.direction == 'horizontal') ? "translate3d(-110vh, 0, 0)" : "translate3d(0, -110vh, 0)",
+			// 		"-webkit-transition": "all " + settings.animationTime + "ms " + settings.easing,
+			// 		"-moz-transform": (settings.direction == 'horizontal') ? "translate3d(-110vh, 0, 0)" : "translate3d(0, -110vh, 0)",
+			// 		"-moz-transition": "all " + settings.animationTime + "ms " + settings.easing,
+			// 		"-ms-transform": (settings.direction == 'horizontal') ? "translate3d(110vh%, 0, 0)" : "translate3d(0, -110vh, 0)",
+			// 		"-ms-transition": "all " + settings.animationTime + "ms " + settings.easing,
+			// 		"transform": (settings.direction == 'horizontal') ? "translate3d(-110vh, 0, 0)" : "translate3d(0, -110vh, 0)",
+			// 		"transition": "all " + settings.animationTime + "ms " + settings.easing
+			// 	});
+			
+			 } else {
 				$(this).css({
 					"-webkit-transform": (settings.direction == 'horizontal') ? "translate3d(" + pos + "%, 0, 0)" : "translate3d(0, " + pos + "%, 0)",
 					"-webkit-transition": "all " + settings.animationTime + "ms " + settings.easing,

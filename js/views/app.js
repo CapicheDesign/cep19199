@@ -61,12 +61,13 @@ var AppView = Backbone.View.extend({
   updateHeader: function(e) {    
     if ( $(e.currentTarget).data('index') == '1') {
       $('header').addClass('header__transparent');
+       $('header').addClass('header__transparent');
       $('.logo img').attr('src','img/logo.svg');
-      $('#menuToggle span').removeClass('black');
+      $('#menuToggle').removeClass('white-bg');
     } else {
       $('header').removeClass('header__transparent');
       $('.logo img').attr('src','img/logo-black.svg');
-      $('#menuToggle span').addClass('black');
+      $('#menuToggle').addClass('white-bg');
     }
   }
 });
