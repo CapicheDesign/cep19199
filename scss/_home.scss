@@ -1,4 +1,3 @@
-
 html { height: 100%; }
 
 body {
@@ -49,7 +48,7 @@ body {
 #main>section#business { background-color: #DA4453; }
 
 /* panels */
-.home-panel {
+.panel__home {
     position: absolute;
     display: table-cell;
     overflow: hidden;
@@ -57,32 +56,50 @@ body {
     padding: 20vh 50px 50px; 
     span {
         display: block;
-        &.small-bold-text {
-            font-weight: 700;
-            font-size: 1.25em;
-            margin-bottom: 20px;
-        }
         &.large-text {
-            font-size: 5em;
+            font-size: 3em;
             font-weight: 900;
-            letter-spacing: -5px;
+            letter-spacing: -2.5px;
+            @media (min-width: 1024px) and (max-width: 1399px) {
+                font-size: 4.5em;
+                letter-spacing: -5px;
+            }
             @media (min-width: 1400px) {
-                font-size: 7em;
+                font-size: 6em;
+                letter-spacing: -5px;
             }
         }
         &.mid-size-text {
-            font-size: 2em;
-            margin-top: -10px;
+            font-size: 1.5em;
+            @media (min-width: 1024px) and (max-width: 1399px) {
+                // font-size: 4.5em;
+            }
+        }
+        &.mid-size-bold {
+            font-size: 1.5em;
+            font-family: 'Roboto-Black', sans-serif;
+            @media (min-width: 1024px) {
+                font-size: 2em;
+            }
         }
     }
-    &.panel-third {
-        width: 33.333%;
+    &.panel__quarter {
+        width: 25%;
         height: 45vh;
-        &:last-of-type {
-            border-right: none;
-        }
     }
-    .home-panel--overlay {
+    &.panel__third {
+        width: 33.36%;
+        height: 45vh;
+    }
+    &.panel__half {
+        width: 50%;
+        height: 90vh;
+    }
+
+    &.panel__half-height {
+        height: 45vh;
+    }
+    .panel__home--overlay {
         -moz-transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1);
         -o-transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1);
         -webkit-transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1);
@@ -92,6 +109,36 @@ body {
         z-index: 6;
         width: 100.5%;
         height: 100.5%;
+    }
+}
+
+.panel--content {
+    padding-right: 50px;
+    .panel--content--half {
+        margin-top: 2vh;
+        display: inline-block;
+        width: 48%;
+        @media (min-width: 768px) and (max-width: 1023px) {
+           display: block;
+        }
+        @media (min-width: 1024px) and (max-width: 1399px) {
+            margin-top: 3vh;
+        }
+        @media (min-width: 1400px) {
+            width: 49%;
+            margin-top: 3vh;
+        }
+        .large-text {
+            font-size: 2.5em;
+            line-height: 1;
+            margin-top: 2vh;
+            @media (min-width: 1024px) and (max-width: 1399px) {
+                font-size: 3em;
+            }
+            @media (min-width: 1400px) {
+                font-size: 4.5em;
+            }
+        }
     }
 }
 
@@ -107,87 +154,14 @@ body {
     }
 }
 
-#panel-1 {
-    top: 0;
-    left: 0;
-    height: 55vh;
-    padding-top: 17vh;
-    z-index: 100;
-    &:hover {
-        .home-panel--overlay {
-            top: 0;
-            left: 0;
-        }
-    }
-    .home-panel--overlay {
-        top: 100%;
-    }
-}
-
-#panel-2 {
-    top: 0;
-    left: 33.3%;
-    height: 55vh;
-    padding-top: 10vh;
-    background: url('../img/safety-bg.jpg') no-repeat;
-    background-size: cover;
-    .mid-size-text {
-        position: absolute;
-        bottom: 9vh;
-    }
-    &:hover {
-        .panel-more {
-            top: 10vh;
-            left: 33.3%;
-        }
-    }
-    .panel-more {
-        left: 100%;
-    }
-}
-
-#panel-3 {
-    top: 0;
-    left: 66.7%;
-    height: 55vh;
-    padding-top: 10vh;
-    &:hover {
-        .panel-more {
-            top: 10vh;
-            left: 66.6%;
-        }
-    }
-}
-
-#panel-4 {
-    top: 55vh;
-    left: 0;
-    &:hover {
-        .panel-more {
-            top: 55vh;
-            left: 0;
-        }
-    }
-}
-
-#panel-5 {
-    top: 55vh;
-    left: 33.3%;
-    &:hover {
-        .panel-more {
-            top: 55vh;
-            left: 33.3%;
-        }
-    }
-}
-
-#panel-6 {
-    top: 55vh;
-    left: 66.7%;
-    &:hover {
-        .panel-more {
-            top: 55vh;
-            left: 66.6%;
-        }
+.arrow-white-fwd {
+    background: url('../img/white-arrow-fwd.svg') no-repeat;
+    width: 35px;
+    height: 15px;
+    display: block;
+    position: absolute;
+    bottom: 50px;
+    &:hover, &:focus {
+        background: url('../img/black-arrow-fwd.svg') no-repeat;
     }
 }

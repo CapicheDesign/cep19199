@@ -79,8 +79,7 @@
 		function init_scroll(event, delta) {
 			var timeNow = new Date().getTime(); 
 			if (timeNow - lastAnimation < quietPeriod + settings.animationTime) {
-				console.log("本次滑动取消"); 
-				return
+				return;
 			} else {
 				if (delta < 0) {
 					element.moveDown(); 
@@ -93,7 +92,9 @@
 		$.fn.moveDown = function() {
 			var index = $(settings.sectionContainer + ".active").data("index"), 
 				current = $(settings.sectionContainer + "[data-index='" + index + "']"), 
-				next = $(settings.sectionContainer + "[data-index='" + (index + 1) + "']") 
+				next = $(settings.sectionContainer + "[data-index='" + (index + 1) + "']"),
+				headingText = '',
+				nextIndex = null;
 				if (next.length == 0) {
 					if (settings.loop) {
 						var pos = 0;
@@ -118,18 +119,47 @@
 			if (settings.updateURL) {
 				var href = window.location.href.substr(0, window.location.href.indexOf('#')) + "#" + (index + 1);
 			} 
-			$(this).transformPage(settings, pos, next.data("index")); 
+			$(this).transformPage(settings, pos, next.data("index"));
+			nextIndex = next.data('index');
+			if ( nextIndex === 1 ) {
+				$('header').addClass('header__transparent');
+				$('header').addClass('header__transparent');
+				$('.logo img').attr('src','img/logo.svg');
+				$('#menuToggle').removeClass('white-bg');
+			} else {
+				$('header').removeClass('header__transparent');
+      			$('.logo img').attr('src','img/logo-black.svg');
+				$('#menuToggle').addClass('white-bg');
+				switch (nextIndex)
+				{
+					case 2:
+						headingText = 'Highlights';
+						break;
+			
+					case 3:
+						headingText = 'Business';
+						break;
+			
+					case 4:
+					  headingText = 'Financial Statements';
+					  break;
+				  }
+				 $('#sectionHeading').text(headingText);  
+			}
 		}
 		$.fn.moveUp = function() {
+			console.log('moveUp');
 			var index = $(settings.sectionContainer + ".active").data("index"),
 				current = $(settings.sectionContainer + "[data-index='" + index + "']"),
-				next = $(settings.sectionContainer + "[data-index='" + (index - 1) + "']");
+				next = $(settings.sectionContainer + "[data-index='" + (index - 1) + "']"),
+				headingText = '',
+				nextIndex = null;
 			if (next.length == 0) {
 				if (settings.loop) {
 					var pos = ((total - 1) * 100) * -1;
 					next = $(settings.sectionContainer + "[data-index='" + total + "']");
 				} else {
-					return
+					return;
 				}
 			} else {
 				var pos = ((next.data("index") - 1) * 100) * -1;
@@ -145,8 +175,34 @@
 			$("body")[0].className = "current-page-" + next.data("index");
 			if (settings.updateURL) {
 				var href = window.location.href.substr(0, window.location.href.indexOf('#')) + "#" + (index + 1);
-			} 
-			$(this).transformPage(settings, pos, next.data("index")); 
+			}
+			nextIndex = next.data('index'); 
+			$(this).transformPage(settings, pos, nextIndex);
+			if ( nextIndex === 1 ) {
+				$('header').addClass('header__transparent');
+				$('header').addClass('header__transparent');
+				$('.logo img').attr('src','img/logo.svg');
+				$('#menuToggle').removeClass('white-bg');
+			} else {
+				$('header').removeClass('header__transparent');
+      			$('.logo img').attr('src','img/logo-black.svg');
+				  $('#menuToggle').addClass('white-bg');
+				  switch (nextIndex)
+				{
+					case 2:
+						headingText = 'Highlights';
+						break;
+			
+					case 3:
+						headingText = 'Business';
+						break;
+			
+					case 4:
+					  headingText = 'Financial Statements';
+					  break;
+				  }
+				 $('#sectionHeading').text(headingText);  
+			}
 		};
 		$.fn.moveTo = function(page_index) {
 			var current = $(settings.sectionContainer + ".active");
@@ -161,7 +217,7 @@
 				$("body")[0].className = "current-page-" + goPage.data("index");
 				var pos = ((page_index - 1) * 100) * -1;
 				$(this).transformPage(settings, pos, page_index);
-			}
+			}  
 		};
 		$.fn.transformPage = function(settings, pos, index) {
 			if (defaults.supportOld && $('html').hasClass('ie8')) { 
@@ -273,30 +329,32 @@
 						"-webkit-transition": "all " + 0 + "ms ",
 						"transform": (settings.direction === 'vertical')?"translate3d(0," + (comPos-pageHeight*current_index) + "px,0)":"translate3d(" + (comPos-pageWidth*current_index) + "px,0,0)",
 						"transition": "all " + 0 + "ms "
-					})
+					});
 				}
 			}
 			steps=2;
 		}
 		$(document).on("wheel mousewheel DOMMouseScroll", function(event) {
-			event.preventDefault();
+			//event.preventDefault();
 			var delta = event.originalEvent.wheelDelta || -event.originalEvent.detail * 40;
 			init_scroll(event, delta);
 		}).on("touchstart",function(event){
-			event.preventDefault();
+			//event.preventDefault();
 			onStart(event.originalEvent.changedTouches[0]);   
 		}).on("touchmove",function(event){
-			event.preventDefault();
+			//event.preventDefault();
 			onMove(event.originalEvent.changedTouches[0]);
 		}).on("touchend",function(event){
-			event.preventDefault();
+			//event.preventDefault();
 			onEnd(event.originalEvent.changedTouches[0]);
-		})
+		});
 
 		$("ul.scroll-pagination").on("click", "a", function(event) {
 			event.preventDefault();
 			var page_index = $(this).data("index");
 			element.moveTo(page_index);
-		}) 
-	}
-})(jQuery)
+		});
+
+		
+	};
+})(jQuery);

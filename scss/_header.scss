@@ -23,6 +23,9 @@ header {
         display: inline-block;
         width: 156px;
         margin-left: 110px;
+        @media (min-width: 1024px) and (max-width: 1399px) {
+            width: 135px;
+        }
         img {
             width: 100%;
         }
@@ -35,5 +38,13 @@ header {
         left: 50%;
         position: absolute;
         transform: translateX(-50%);
+        margin-top: 10px;
+        transition: all 0.5s linear;
+        @media (min-width: 1024px) and (max-width: 1399px) {
+            margin-top: 5px;
+        }
+        @media (min-width: 1400px) {
+            margin-top: 10px;
+        }
     }
 }

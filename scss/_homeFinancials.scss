@@ -1,0 +1,62 @@
+#financials-panel-1 {
+    top: 0;
+    left: 0;
+    height: 100vh;
+    padding-top: 10vh;
+    background: url('../img/financials-bg.jpg') no-repeat center;
+    background-size: cover;
+    .panel--content {
+        position: absolute;
+        bottom: 50px;
+        .arrow-white-fwd {
+            position: relative;
+            bottom: 0;
+            margin: 1vh 0 2vh;
+        }
+        button {
+            margin-top: 2vh;
+        }
+    }
+}
+
+#financials-panel-2 {
+    top: 0;
+    left: 50%;
+    height: 55vh;
+    padding-top: 10vh;
+    background: url('../img/auditors-bg.jpg') no-repeat center;
+    background-size: cover;
+    .panel--content {
+        position: absolute;
+        bottom: 50px;
+        .arrow-white-fwd {
+            position: relative;
+            bottom: 0;
+            margin: 1vh 0 2vh;
+        }
+        button {
+            margin-top: 2vh;
+        }
+    }
+}
+
+#financials-panel-3 {
+    top: 55vh;
+    left: 50%;
+    height: 45vh;
+    padding-top: 10vh;
+    background: url('../img/governance-bg.jpg') no-repeat center;
+    background-size: cover;
+    .panel--content {
+        position: absolute;
+        bottom: 50px;
+        .arrow-white-fwd {
+            position: relative;
+            bottom: 0;
+            margin: 1vh 0 2vh;
+        }
+        button {
+            margin-top: 2vh;
+        }
+    }
+}

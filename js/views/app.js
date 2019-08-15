@@ -8,15 +8,24 @@ var AppView = Backbone.View.extend({
     'click #menu-checkbox': 'toggleMainNav',
     'click .toggleSubnav': 'toggleSubNav',
     'keyup #menu-checkbox': 'keyboardToggleSubnav',
-    'click .scroll-pagination a': 'updateHeader'
+    'click .scroll-pagination a': 'updateHeader',
+    'wheel document': 'updateHeader',
+    'mousewheel document': 'updateHeader',
+    'DOMMouseScroll document': 'updateHeader',
+    'touchstart document': 'updateHeader',
+    'touchmove document': 'updateHeader',
+    'touchend document': 'updateHeader',
+    'mouseenter #business-panel-4' : 'showBAUSubnav',
+    'mouseleave #business-panel-4' : 'hideBAUSubnav'
   },
 
   initialize: function() {
-    $('#main').scrollview({
-     
-    });
+    $('#main').scrollview({loop: false});
+    $('#bau-subnav-container').slideUp('fast');
 
-    $('html').on('click', this.closeNavOnClick);
+    this.$subnavContainer = $('#bau-subnav-container');
+
+    //$('html').on('click', this.closeNavOnClick);
   },
 
   toggleMainNav: function(e) {
@@ -59,7 +68,8 @@ var AppView = Backbone.View.extend({
   },
 
   updateHeader: function(e) {    
-    if ( $(e.currentTarget).data('index') == '1') {
+    var dataIndex = $(e.currentTarget).data('index');
+    if ( dataIndex == '1') {
       $('header').addClass('header__transparent');
        $('header').addClass('header__transparent');
       $('.logo img').attr('src','img/logo.svg');
@@ -68,7 +78,36 @@ var AppView = Backbone.View.extend({
       $('header').removeClass('header__transparent');
       $('.logo img').attr('src','img/logo-black.svg');
       $('#menuToggle').addClass('white-bg');
+      this.updateSectionHeading(dataIndex);
     }
+  },
+
+  updateSectionHeading: function(i) {
+    var headingText = '';
+    switch (i)
+    {
+        case 2:
+            headingText = 'Highlights';
+            break;
+
+        case 3:
+            headingText = 'Business';
+            break;
+
+        case 4:
+          headingText = 'Financial Statements';
+          break;
+      }
+     $('#sectionHeading').text(headingText);
+    //  $('#sectionHeading').delay(500).text(headingText).fadeIn(500);
+  },
+  showBAUSubnav: function(e) {
+    e.stopPropagation();
+    this.$subnavContainer.slideDown('fast');
+  },
+  hideBAUSubnav: function(e) {
+    e.stopPropagation();
+    this.$subnavContainer.slideUp('fast');
   }
 });
 

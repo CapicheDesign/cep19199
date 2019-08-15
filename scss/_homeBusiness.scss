@@ -1,0 +1,98 @@
+/* business panels */
+
+#business-panel-1 {
+    top: 0;
+    left: 0;
+    height: 100vh;
+    padding-top: 10vh;
+    background: url('../img/hubs-bg.jpg') no-repeat center;
+    background-size: cover;
+    .panel--content {
+        position: absolute;
+        bottom: 10vh;
+    }
+}
+
+#business-panel-2 {
+    top: 0;
+    left: 50%;
+    height: 55vh;
+    padding-top: 10vh;
+    background: url('../img/chair-bg.jpg') no-repeat center;
+    background-size: cover;
+    .panel--content {
+        position: absolute;
+        bottom: 10vh;
+    }
+}
+
+#business-panel-3 {
+    top: 0;
+    left: 75%;
+    height: 55vh;
+    padding-top: 10vh;
+    background: url('../img/ceo-bg.jpg') no-repeat center;
+    background-size: cover;
+    .panel--content {
+        position: absolute;
+        bottom: 10vh;
+    }
+}
+
+#business-panel-4 {
+    top: 55vh;
+    left: 50%;
+    height: 45vh;
+    .panel--content {
+        position: absolute;
+        bottom: 10vh;
+    }
+}
+
+/* business custom icon */
+    
+.panel--icon__container {
+    background: url('../img/container.svg') no-repeat;
+    width: 81px;
+    height: 84px;
+    margin-left: -9px;
+    margin-bottom: 3vh;
+    @media (min-width: 1024px) and (max-width: 1399px) {
+        width: 61px;
+        height: 64px;
+        margin-bottom: 1vh;
+        margin-left: -6px;
+    }
+}
+
+/* bau subnav */
+
+#bau-subnav-container {
+    nav.bau-subnav {
+        margin-bottom: -50px;
+        padding-left: 50px;
+        margin-left: -50px;
+        z-index: 0;
+        ul {
+            list-style: none;
+            li {
+                border-bottom: 1px solid white;
+                cursor: pointer;
+                a {
+                    font-size: 1.12em;
+                    color: $cp-yellow;
+                    font-weight: 700;
+                    line-height: 1.5;
+                    &:hover, &:focus {
+                        color: white;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#bau-link {
+    bottom: -4vh;
+}

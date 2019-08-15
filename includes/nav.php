@@ -1,4 +1,4 @@
-<nav role="navigation" aria-label="main">
+<nav aria-label="main">
   <div id="menuToggle">
     <label for="menu-checkbox">Menu</label>
     <input type="checkbox" type="text" name="menu-checkbox" id="menu-checkbox" aria-haspopup="true" aria-expanded="false"/>

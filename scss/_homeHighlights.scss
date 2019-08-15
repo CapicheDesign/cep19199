@@ -1,0 +1,113 @@
+/* highlights panels */
+
+#highlights-panel-1 {
+    top: 0;
+    left: 0;
+    height: 55vh;
+    padding-top: 17vh;
+    z-index: 100;
+    .panel--content {
+        position: absolute;
+        bottom: 14vh;
+        .mid-size-text {
+            @media (min-width: 768px) and (max-width: 1023px) {
+                margin-top: 2vh;
+             }
+        }
+    }
+}
+
+#highlights-panel-2 {
+    top: 0;
+    left: 33.3%;
+    height: 55vh;
+    padding-top: 10vh;
+    background: url('../img/safety-bg.jpg') no-repeat center;
+    background-size: cover;
+    .panel--content {
+        position: absolute;
+        bottom: 14vh;
+    }
+}
+
+#highlights-panel-3 {
+    top: 0;
+    left: 66.7%;
+    height: 55vh;
+    padding-top: 17vh;
+    color: $cp-black;
+    .panel--content {
+        padding-right: 0;
+        .small-text {
+            white-space: nowrap;
+        }
+    }
+}
+
+#highlights-panel-4 {
+    top: 55vh;
+    left: 0;
+    background: url('../img/people-bg.jpg') no-repeat center;
+    background-size: cover;
+    .mid-size-text {
+        position: absolute;
+        bottom: 9vh;
+    }
+}
+
+#highlights-panel-5 {
+    top: 55vh;
+    left: 33.3%;
+    color: $cp-black;
+    .panel--content {
+        position: absolute;
+        bottom: 10vh;
+        .panel--icon__worker {
+            margin-bottom: 2vh;
+        }
+    }
+}
+
+#highlights-panel-6 {
+    top: 55vh;
+    left: 66.7%;
+    .panel--content {
+        position: absolute;
+        bottom: 10vh;
+        .panel--icon__leaf {
+            margin-bottom: 2vh;
+        }
+    }
+}
+
+/* highlights custom icons */
+    
+.panel--icon__ship {
+    background: url('../img/ship.svg') no-repeat;
+    width: 135px;
+    height: 59px;
+    @media (min-width: 768px) and (max-width: 1023px) {
+        display: none;
+    }
+}
+
+.panel--icon__truck {
+    background: url('../img/truck.svg') no-repeat;
+    width: 48px;
+    height: 54px;
+    @media (min-width: 768px) and (max-width: 1023px) {
+        display: none;
+    }
+}
+
+.panel--icon__worker {
+    background: url('../img/worker.svg') no-repeat;
+    width: 70px;
+    height: 69px;
+}
+
+.panel--icon__leaf {
+    background: url('../img/leaf.svg') no-repeat;
+    width: 38px;
+    height: 72px;
+}
