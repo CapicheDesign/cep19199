@@ -6,6 +6,11 @@
     height: 55vh;
     padding-top: 17vh;
     z-index: 100;
+    transition: all 250ms linear;
+    &:hover, &:focus, &:active {
+        color: white;
+        background: darken( $cp-blue-light, 10% );
+    }
     .panel--content {
         position: absolute;
         bottom: 14vh;
@@ -19,15 +24,30 @@
 
 #highlights-panel-2 {
     top: 0;
-    left: 33.3%;
+    left: 33.36%;
     height: 55vh;
     padding-top: 10vh;
     background: url('../img/safety-bg.jpg') no-repeat center;
     background-size: cover;
+    &:hover, &:focus, &:active {
+        color: white;
+        background: url('../img/safety-bg-dark.jpg') no-repeat center;
+        background-size: cover;
+    }
     .panel--content {
         position: absolute;
         bottom: 14vh;
     }
+}
+#highlights-panel-2--overlay {
+        position: absolute;
+        background: $cp-black;
+        top: 0;
+        left: 33.36%;
+        width: 33.36%;
+        height: 55vh;
+        padding-top: 10vh;
+        opacity: 0.5;
 }
 
 #highlights-panel-3 {
@@ -36,6 +56,10 @@
     height: 55vh;
     padding-top: 17vh;
     color: $cp-black;
+    transition: all 250ms linear;
+    &:hover, &:focus, &:active {
+        background: darken( $cp-yellow, 10% );
+    }
     .panel--content {
         padding-right: 0;
         .small-text {
@@ -49,6 +73,11 @@
     left: 0;
     background: url('../img/people-bg.jpg') no-repeat center;
     background-size: cover;
+    &:hover, &:focus, &:active {
+        color: white;
+        background: url('../img/people-bg-dark.jpg') no-repeat center;
+        background-size: cover;
+    }
     .mid-size-text {
         position: absolute;
         bottom: 9vh;
@@ -57,8 +86,11 @@
 
 #highlights-panel-5 {
     top: 55vh;
-    left: 33.3%;
+    left: 33.36%;
     color: $cp-black;
+    &:hover, &:focus, &:active {
+        background: $cp-blue-light;
+    }
     .panel--content {
         position: absolute;
         bottom: 10vh;
@@ -70,7 +102,11 @@
 
 #highlights-panel-6 {
     top: 55vh;
-    left: 66.7%;
+    left: 66.72%;
+    &:hover, &:focus, &:active {
+        color: white;
+        background: lighten($cp-black, 10%);
+    }
     .panel--content {
         position: absolute;
         bottom: 10vh;

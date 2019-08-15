@@ -1,24 +1,24 @@
 
 
 <section data-index=3 id="business">
-    <div id="business-panel-1" class="panel__home panel__half">
+    <a href="#" id="business-panel-1" class="panel__home panel__half">
         <div class="panel--content">
             <span class="mid-size-bold">Inland Hubs</span>
         </div>
-        <a class="arrow-yellow-fwd" href="#"></a>
-    </div>
-    <div id="business-panel-2" class="panel__home panel__quarter">
+        <span class="arrow-yellow-fwd" href="#"></span>
+    </a>
+    <a href="#" id="business-panel-2" class="panel__home panel__quarter">
         <div class="panel--content">
             <span class="mid-size-bold">Chair&#39;s Report</span>
         </div>
-        <a class="arrow-white-fwd" href="#"></a>
-    </div>
-    <div id="business-panel-3" class="panel__home panel__quarter">
+        <span class="arrow-white-fwd" href="#"></span>
+    </a>
+    <a href="#" id="business-panel-3" class="panel__home panel__quarter">
         <div class="panel--content">
             <span class="mid-size-bold">CEO Report</span>
         </div>
-        <a class="arrow-white-fwd" href="#"></a>
-    </div>
+        <span class="arrow-white-fwd" href="#"></span>
+    </a>
     <div id="business-panel-4" class="panel__home panel__half panel__half-height black-bg">
         <div class="panel--content">
             <div role="presentation" class="panel--icon__container"></div>
@@ -35,7 +35,7 @@
                     </ul>
                 </nav>
             </div>
-            <a class="arrow-yellow-fwd" id="bau-link" href="#"></a>
+            <span class="arrow-yellow-fwd" id="bau-link" href="#"></span>
         </div>
     </div>
 </section>

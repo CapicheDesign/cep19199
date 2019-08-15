@@ -7,6 +7,12 @@
     padding-top: 10vh;
     background: url('../img/hubs-bg.jpg') no-repeat center;
     background-size: cover;
+    transition: none;
+    &:hover, &:focus, &:active {
+        color: $cp-blue-light;
+        background: url('../img/hubs-bg-reverse.jpg') no-repeat center;
+        background-size: cover;
+    }
     .panel--content {
         position: absolute;
         bottom: 10vh;
@@ -20,6 +26,11 @@
     padding-top: 10vh;
     background: url('../img/chair-bg.jpg') no-repeat center;
     background-size: cover;
+    &:hover, &:focus, &:active {
+        color: white;
+        background: url('../img/chair-bg-dark.jpg') no-repeat center;
+        background-size: cover;
+    }
     .panel--content {
         position: absolute;
         bottom: 10vh;
@@ -33,6 +44,11 @@
     padding-top: 10vh;
     background: url('../img/ceo-bg.jpg') no-repeat center;
     background-size: cover;
+    &:hover, &:focus, &:active {
+        color: white;
+        background: url('../img/ceo-bg-dark.jpg') no-repeat center;
+        background-size: cover;
+    }
     .panel--content {
         position: absolute;
         bottom: 10vh;
