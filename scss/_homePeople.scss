@@ -1,16 +1,33 @@
 /* business panels */
 
-#business-panel-1 {
-    background: url('../img/hubs-bg.jpg') no-repeat center;
+#people-panel-1 {
+    background: url('../img/training-bg.jpg') no-repeat center;
     background-size: cover;
     &:hover, &:focus, &:active {
-        color: $cp-blue-light;
-        background: url('../img/hubs-bg-reverse.jpg') no-repeat center;
+        color: white;
+        background: url('../img/training-bg-dark.jpg') no-repeat center;
         background-size: cover;
     }
 }
 
-#business-panel-2 {
+#people-panel-2 {
+    background: url('../img/resilient-bg.jpg') no-repeat top center;
+    background-size: cover;
+    &:hover, &:focus, &:active {
+        color: white;
+        background: url('../img/resilient-bg-dark.jpg') no-repeat top center;
+        background-size: cover;
+    }
+    .panel--content {
+        .arrow-white-fwd {
+            position: relative;
+            bottom: 0;
+            margin: 1vh 0 2vh;
+        }
+    }
+}
+
+#people-panel-3 {
     background: url('../img/chair-bg.jpg') no-repeat center;
     background-size: cover;
     &:hover, &:focus, &:active {
@@ -20,23 +37,13 @@
     }
 }
 
-#business-panel-3 {
+#people-panel-4 {
     background: url('../img/ceo-bg.jpg') no-repeat center;
     background-size: cover;
     &:hover, &:focus, &:active {
         color: white;
         background: url('../img/ceo-bg-dark.jpg') no-repeat center;
         background-size: cover;
-    }
-}
-
-#business-panel-4 {
-    top: 55vh;
-    left: 50%;
-    height: 45vh;
-    .panel--content {
-        position: absolute;
-        bottom: 10vh;
     }
 }
 

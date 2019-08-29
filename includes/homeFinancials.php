@@ -1,4 +1,4 @@
-<section data-index=4 id="financials">
+<section data-index=6 id="financials">
     <div id="financials-panel-1" class="panel__home panel__half">
         <div class="panel--content">
             <span class="mid-size-bold">Financial Statements</span>
@@ -8,7 +8,7 @@
             </button>
         </div>
     </div>
-    <div id="financials-panel-2" class="panel__home panel__half panel__half-height">
+    <div id="financials-panel-2" class="panel__home panel__half panel__half-height panel__half-height__top panel__half-height__right">
         <div class="panel--content">
             <span class="mid-size-bold">Auditors Report</span>
             <a class="arrow-white-fwd" href="#"></a>

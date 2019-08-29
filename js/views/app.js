@@ -95,6 +95,14 @@ var AppView = Backbone.View.extend({
             break;
 
         case 4:
+          headingText = 'Our People';
+          break;
+
+        case 5:
+          headingText = 'Our Focus';
+          break;
+
+        case 6:
           headingText = 'Financial Statements';
           break;
       }
@@ -104,10 +112,12 @@ var AppView = Backbone.View.extend({
   showBAUSubnav: function(e) {
     e.stopPropagation();
     this.$subnavContainer.slideDown('fast');
+    $('#bau-link').hide();
   },
   hideBAUSubnav: function(e) {
     e.stopPropagation();
     this.$subnavContainer.slideUp('fast');
+    $('#bau-link').show();
   }
 });
 

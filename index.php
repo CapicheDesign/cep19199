@@ -21,6 +21,10 @@
 		<?php include $includesPath.'/homeHighlights.php'; ?>
 
 		<?php include $includesPath.'/homeBusiness.php'; ?>
+
+		<?php include $includesPath.'/homePeople.php'; ?>
+
+		<?php include $includesPath.'/homeFocus.php'; ?>
 		
 		<?php include $includesPath.'/homeFinancials.php'; ?>
 	</div>

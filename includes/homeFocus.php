@@ -1,19 +1,19 @@
 
 
-<section data-index=3 id="business">
+<section data-index=5 id="focus">
     <a href="#" id="business-panel-1" class="panel__home panel__half panel__half__left">
         <div class="panel--content">
             <span class="mid-size-bold">Inland Hubs</span>
         </div>
         <span class="arrow-yellow-fwd" href="#"></span>
     </a>
-    <a href="#" id="business-panel-2" class="panel__home panel__quarter panel__quarter__top panel__quarter__center-right">
+    <a href="#" id="business-panel-2" class="panel__home panel__quarter">
         <div class="panel--content">
             <span class="mid-size-bold">Chair&#39;s Report</span>
         </div>
         <span class="arrow-white-fwd" href="#"></span>
     </a>
-    <a href="#" id="business-panel-3" class="panel__home panel__quarter panel__quarter__top panel__quarter__right">
+    <a href="#" id="business-panel-3" class="panel__home panel__quarter">
         <div class="panel--content">
             <span class="mid-size-bold">CEO Report</span>
         </div>

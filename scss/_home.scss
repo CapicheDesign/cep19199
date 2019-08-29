@@ -45,7 +45,7 @@ body {
 
 #main>section#highlights { background-color: $cp-blue-dark; }
 
-#main>section#business { background-color: #DA4453; }
+#main>section#business { background-color:white; }
 
 /* panels */
 .panel__home {
@@ -90,7 +90,30 @@ body {
     }
     &.panel__quarter {
         width: 25%;
-        height: 45vh;
+        &.panel__quarter__top {
+            padding-top: 10vh;
+            height: 55vh;
+        }
+        &.panel__quarter__bottom {
+            top: 55vh;
+            height: 45vh;
+        }
+        &.panel__quarter__center-right {
+            left: 50%;
+        }
+        &.panel__quarter__right {
+            left: 75%;
+        }
+        &.panel__quarter__center-left {
+            left: 50%;
+        }
+        &.panel__quarter__left {
+            left: 0;
+        }
+        .panel--content {
+            position: absolute;
+            bottom: 10vh;
+        }
     }
     &.panel__third {
         width: 33.36%;
@@ -99,10 +122,32 @@ body {
     &.panel__half {
         width: 50%;
         height: 90vh;
+        &.panel__half__left {
+            top: 0;
+            left: 0;
+            height: 100vh;
+            padding-top: 10vh;
+            transition: all 250ms linear;
+        }
+        .panel--content {
+            position: absolute;
+            bottom: 10vh;
+        }
     }
 
     &.panel__half-height {
         height: 45vh;
+        &.panel__half-height__top {
+            height: 55vh;
+            top: 0;
+            padding-top: 10vh;
+        }
+        &.panel__half-height__right {
+            left: 50%;
+        }
+        .panel--content {
+            bottom: 5vh;
+        }
     }
 }
 

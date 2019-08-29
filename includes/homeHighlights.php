@@ -2,13 +2,13 @@
     <a href="#" id="highlights-panel-1" class="panel__home panel__third light-blue-bg">
         <div class="panel--content">
             <span class="large-text">$67.7m</span>
-            <span class="mid-size-text">Revenue up 14% Increased volumes</span>
+            <span class="mid-size-text">Revenue up 14%<br>Increased volumes</span>
         </div>
         <span class="arrow-yellow-fwd"></span>
     </a>
     <a href="#" id="highlights-panel-2" class="panel__home panel__third">
         <div class="panel--content">
-            <span class="mid-size-text">We're serious about safety</span>
+            <span class="mid-size-text">We're serious about health and safety</span>
         </div>
         <span class="arrow-yellow-fwd"></span>
     </a>
