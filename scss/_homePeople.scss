@@ -28,32 +28,27 @@
 }
 
 #people-panel-3 {
-    background: url('../img/chair-bg.jpg') no-repeat center;
-    background-size: cover;
+    color: $cp-black;
     &:hover, &:focus, &:active {
+        background: $cp-blue-light;
         color: white;
-        background: url('../img/chair-bg-dark.jpg') no-repeat center;
-        background-size: cover;
-    }
+    }   
 }
 
 #people-panel-4 {
-    background: url('../img/ceo-bg.jpg') no-repeat center;
-    background-size: cover;
+    
     &:hover, &:focus, &:active {
+        background: $cp-blue-dark;
         color: white;
-        background: url('../img/ceo-bg-dark.jpg') no-repeat center;
-        background-size: cover;
     }
 }
 
-/* business custom icon */
-    
-.panel--icon__container {
-    background: url('../img/container.svg') no-repeat;
-    width: 81px;
-    height: 84px;
-    margin-left: -9px;
+/* custom icon */
+
+.panel--icon__hardhat {
+    background: url('../img/hardhat.svg') no-repeat;
+    width: 59px;
+    height: 36px;
     margin-bottom: 3vh;
     @media (min-width: 1024px) and (max-width: 1399px) {
         width: 61px;
@@ -63,34 +58,15 @@
     }
 }
 
-/* bau subnav */
-
-#bau-subnav-container {
-    nav.bau-subnav {
-        margin-bottom: -50px;
-        margin-left: -40px;
-        z-index: 0;
-        ul {
-            list-style: none;
-            li {
-                border-bottom: 1px solid white;
-                cursor: pointer;
-                a {
-                    font-size: 1.12em;
-                    color: $cp-yellow;
-                    font-weight: 700;
-                    line-height: 1.5;
-                    &:hover, &:focus {
-                        color: white;
-                        text-decoration: none;
-                    }
-                }
-            }
-        }
+.panel--icon__values {
+    background: url('../img/values-icons.svg') no-repeat;
+    width: 273px;
+    height: 54px;
+    margin-bottom: 3vh;
+    @media (min-width: 1024px) and (max-width: 1399px) {
+        width: 200px;
+        height: 44px;
+        margin-bottom: 1vh;
+        margin-left: -6px;
     }
-}
-
-#bau-link {
-    bottom: -4vh;
-    transition: all 250ms linear;
 }

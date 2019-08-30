@@ -3,8 +3,11 @@
     left: 0;
     height: 100vh;
     padding-top: 10vh;
-    background: url('../img/financials-bg.jpg') no-repeat center;
+    background: $cp-yellow url('../img/financials-bg.jpg') no-repeat center;
     background-size: cover;
+    background-position-y: 50vh;
+    color: $cp-black;
+    transition: all 1s linear;
     .panel--content {
         position: absolute;
         bottom: 50px;
@@ -22,6 +25,10 @@
 #financials-panel-2 {
     background: url('../img/auditors-bg.jpg') no-repeat center;
     background-size: cover;
+    &:hover, &:focus {
+        background: url('../img/auditors-bg-dark.jpg') no-repeat center;
+        background-size: cover;
+    }
     .panel--content {
         position: absolute;
         bottom: 50px;
@@ -43,6 +50,10 @@
     padding-top: 10vh;
     background: url('../img/governance-bg.jpg') no-repeat center;
     background-size: cover;
+    &:hover, &:focus {
+        background: url('../img/governance-bg-dark.jpg') no-repeat center;
+        background-size: cover;
+    }
     .panel--content {
         position: absolute;
         bottom: 50px;
@@ -54,5 +65,23 @@
         button {
             margin-top: 2vh;
         }
+    }
+}
+
+.panel--icon__financial {
+    background: url('../img/financial.svg') no-repeat;
+    width: 75px;
+    height: 80px;
+    margin-bottom: 3vh;
+    @media (min-width: 1024px) and (max-width: 1399px) {
+        width: 65px;
+        height: 70px;
+        margin-bottom: 1vh;
+    }
+}
+
+.active {
+    #financials-panel-1 {
+        background-position-y: 0;
     }
 }

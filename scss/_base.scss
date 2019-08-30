@@ -34,6 +34,14 @@ button {
         color: $cp-blue-dark;
         border: $cp-blue-dark;
     }
+    &.button-black {
+        border-color: $cp-black;
+        color: $cp-black;
+        &:hover, &:focus {
+            background: $cp-black;
+            color: white;
+        }
+    }
 }
 
 .white-bg {

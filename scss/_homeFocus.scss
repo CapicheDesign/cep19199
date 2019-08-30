@@ -1,0 +1,74 @@
+/* business panels */
+
+#focus-panel-1 {
+    background: url('../img/op-plan-bg.jpg') no-repeat center;
+    background-size: cover;
+    &:hover, &:focus, &:active {
+        color: white;
+        background: url('../img/op-plan-bg-dark.jpg') no-repeat center;
+        background-size: cover;
+    }
+}
+
+#focus-panel-2 {
+    &:hover, &:focus, &:active {
+        color: white;
+        background: $cp-blue-dark;
+    }
+}
+
+#focus-panel-3 {
+    background: url('../img/terminal-bg.jpg') no-repeat center;
+    background-size: cover;
+    &:hover, &:focus, &:active {
+        color: white;
+        background: url('../img/terminal-bg-dark.jpg') no-repeat center;
+        background-size: cover;
+    }
+}
+
+#focus-panel-4 {
+    top: 55vh;
+    left: 50%;
+    height: 45vh;
+    &:hover, &:focus, &:active {
+        color: white;
+        background: $cp-black;
+    }
+    .panel--content {
+        position: absolute;
+        bottom: 10vh;
+        .arrow {
+            bottom: -4vh;
+        }
+    }
+}
+
+/* business custom icon */
+    
+.panel--icon__leaf {
+    margin-left: -9px;
+    margin-bottom: 3vh;
+    @media (min-width: 1024px) and (max-width: 1399px) {
+        width: 61px;
+        height: 64px;
+        margin-bottom: 1vh;
+        margin-left: -6px;
+    }
+}
+
+/* business custom icon */
+    
+.panel--icon__ropes {
+    background: url('../img/ropes.svg') no-repeat;
+    margin-left: -9px;
+    margin-bottom: 3vh;
+    width: 63px;
+    height: 58px;
+    @media (min-width: 1024px) and (max-width: 1399px) {
+        width: 61px;
+        height: 64px;
+        margin-bottom: 1vh;
+        margin-left: -6px;
+    }
+}

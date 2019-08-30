@@ -181,13 +181,16 @@ body {
     }
 }
 
-.arrow-yellow-fwd {
-    background: url('../img/yellow-arrow-fwd.svg') no-repeat;
+.arrow {
     width: 35px;
     height: 15px;
     display: block;
     position: absolute;
     bottom: 50px;
+}
+
+.arrow-yellow-fwd {
+    background: url('../img/yellow-arrow-fwd.svg') no-repeat;
     &:hover, &:focus {
         background: url('../img/white-arrow-fwd.svg') no-repeat;
     }
@@ -195,12 +198,14 @@ body {
 
 .arrow-white-fwd {
     background: url('../img/white-arrow-fwd.svg') no-repeat;
-    width: 35px;
-    height: 15px;
-    display: block;
-    position: absolute;
-    bottom: 50px;
     &:hover, &:focus {
         background: url('../img/black-arrow-fwd.svg') no-repeat;
+    }
+}
+
+.arrow-black-fwd {
+    background: url('../img/black-arrow-fwd.svg') no-repeat;
+    &:hover, &:focus {
+        background: url('../img/yellow-arrow-fwd.svg') no-repeat;
     }
 }

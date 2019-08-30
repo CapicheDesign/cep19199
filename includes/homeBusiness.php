@@ -5,19 +5,19 @@
         <div class="panel--content">
             <span class="mid-size-bold">Inland Hubs</span>
         </div>
-        <span class="arrow-yellow-fwd" href="#"></span>
+        <span class="arrow arrow-yellow-fwd" href="#"></span>
     </a>
     <a href="#" id="business-panel-2" class="panel__home panel__quarter panel__quarter__top panel__quarter__center-right">
         <div class="panel--content">
             <span class="mid-size-bold">Chair&#39;s Report</span>
         </div>
-        <span class="arrow-white-fwd" href="#"></span>
+        <span class="arrow arrow-white-fwd" href="#"></span>
     </a>
     <a href="#" id="business-panel-3" class="panel__home panel__quarter panel__quarter__top panel__quarter__right">
         <div class="panel--content">
             <span class="mid-size-bold">CEO Report</span>
         </div>
-        <span class="arrow-white-fwd" href="#"></span>
+        <span class="arrow arrow-white-fwd" href="#"></span>
     </a>
     <div id="business-panel-4" class="panel__home panel__half panel__half-height black-bg">
         <div class="panel--content">
@@ -35,7 +35,7 @@
                     </ul>
                 </nav>
             </div>
-            <span class="arrow-yellow-fwd" id="bau-link" href="#"></span>
+            <span class="arrow arrow-yellow-fwd" id="bau-link" href="#"></span>
         </div>
     </div>
 </section>
