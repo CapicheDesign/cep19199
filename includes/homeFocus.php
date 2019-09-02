@@ -24,7 +24,7 @@
             <div class="panel--content">
                 <div role="presentation" class="panel--icon__ropes"></div>
                 <span class="mid-size-bold">Lifelines</span>
-                <span class="arrow arrow-white-fwd"></span>
+                <span class="arrow arrow-black-fwd"></span>
             </div>
         </div>
 </section>

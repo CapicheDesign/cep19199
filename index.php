@@ -2,10 +2,10 @@
 <?php include 'includes/html.php'; ?>
 <?php include 'includes/head.php'; ?>
 
-<body class="homepage">
-<?php include 'includes/nav.php'; ?>
-<?php include 'includes/header.php'; ?>
-	<div id="main">
+<body id="homepage">
+<?php include 'includes/navHome.php'; ?>
+<?php include 'includes/headerHome.php'; ?>
+	<div id="main" role="main">
 		<section data-index=1 id="home">
 			<div class="landing-inner">
 				<div class="home__content">

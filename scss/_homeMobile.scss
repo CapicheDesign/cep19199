@@ -1,0 +1,33 @@
+.mobile {
+    body#homepage {
+        width: 100%;
+        height: auto;
+        overflow: visible;
+      }
+
+      #main {
+        height: auto;
+      }
+      
+      #main>section {
+        overflow: visible;
+        position: relative;
+        height: auto;
+        &#home {
+            height: 100vh;
+        }
+
+        .panel__home {
+            width: 100%;
+            height: auto !important;
+            min-height: 230px !important;
+            display: block;
+            position: static;
+            transition: none !important;
+            padding-top: 50px;
+            .panel--content {
+                position: static;
+            }
+        }
+      }
+}

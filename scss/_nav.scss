@@ -1,6 +1,10 @@
 nav {
-    position: relative;
+    position: fixed;
     z-index: 2;
+
+    &.nav__home {
+        position: relative;
+    }
 
     #menuToggle
     {

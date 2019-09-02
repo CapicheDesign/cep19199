@@ -23,9 +23,9 @@
         <div class="panel--content">
             <div role="presentation" class="panel--icon__container"></div>
             <span class="mid-size-bold">Trades</span>
-            <div id="bau-subnav-container">
+            <div id="trades-subnav-container">
                 <p>Result areas and achievement for</p>
-                <nav aria-label="bau-subnav" class="bau-subnav">
+                <nav aria-label="trades-subnav" class="trades-subnav">
                     <ul>     
                         <li><a href="#">Logs</a></li>
                         <li><a href="#">Containers</a></li>
@@ -35,7 +35,7 @@
                     </ul>
                 </nav>
             </div>
-            <span class="arrow arrow-yellow-fwd" id="bau-link" href="#"></span>
+            <span class="arrow arrow-yellow-fwd" id="trades-link" href="#"></span>
         </div>
     </div>
 </section>

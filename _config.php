@@ -2,7 +2,7 @@
 	$siteTitle = "Centreport Annual Review 2018-2019";
 
 	/* Site Relative Paths */
-	$siteBaseURL = "/";
+	$siteBaseURL = "http://cep19199.local:8888/";
 
 	/* File Structure Relative Paths */
 	$includesPath = "includes/";

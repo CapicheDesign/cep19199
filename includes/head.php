@@ -8,6 +8,6 @@
     <?php } ?>
     <link href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/master.css">
-    <script src="bower_components/modernizr/modernizr.js"></script>
+    <link rel="stylesheet" href="<?=$siteBaseURL;?>css/master.css">
+    <script src="<?=$siteBaseURL;?>bower_components/modernizr/modernizr.js"></script>
 </head>

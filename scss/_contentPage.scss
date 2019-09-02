@@ -1,0 +1,23 @@
+section#contentPage-container {
+    position: relative;
+
+    aside.left-col {
+        position: fixed;
+        width: 40%;
+        height: 100%;
+        float:left;
+        background: url('../img/forklift-driver.jpg') center no-repeat;
+        background-size: cover;
+        margin-top: 93px;
+    }
+
+    .right-col {
+        width: 60%;
+        float: right;
+        padding: 0 50px;
+    }
+
+    .content-inner {
+        padding-top: 100px;
+    }
+}

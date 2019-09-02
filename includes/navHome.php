@@ -1,5 +1,5 @@
-<nav aria-label="main" id="mainNav">
-  <div id="menuToggle" class="white-bg">
+<nav aria-label="main" id="mainNav" class="nav__home">
+  <div id="menuToggle">
     <label for="menu-checkbox">Menu</label>
     <input type="checkbox" type="text" name="menu-checkbox" id="menu-checkbox" aria-haspopup="true"/>
     <span></span>
