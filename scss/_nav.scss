@@ -4,6 +4,9 @@ nav {
 
     &.nav__home {
         position: relative;
+        @media (max-width: 767px) {
+            position: fixed;
+         }
     }
 
     #menuToggle
@@ -16,6 +19,9 @@ nav {
         -webkit-user-select: none;
         user-select: none;
         transition: all 0.5s linear;
+        @media (max-width: 767px) {
+            transition: none;
+         }
 
         &.white-bg {
             top: 30px;

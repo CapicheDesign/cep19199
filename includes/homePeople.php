@@ -1,5 +1,3 @@
-
-
 <section data-index=4 id="people">
     <a href="#" id="people-panel-1" class="panel__home panel__half panel__half__left">
         <div class="panel--content">

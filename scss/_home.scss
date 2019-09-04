@@ -155,6 +155,9 @@ body#homepage {
 
 .panel--content {
     padding-right: 50px;
+    span {
+        word-break: break-word;
+    }
     .panel--content--half {
         margin-top: 2vh;
         display: inline-block;
@@ -189,6 +192,11 @@ body#homepage {
     display: block;
     position: absolute;
     bottom: 50px;
+   
+    @media (max-width: 767px) {
+        margin-top: 10px;
+        position: static;
+    }
 }
 
 .arrow-yellow-fwd {

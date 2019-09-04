@@ -5,6 +5,10 @@
         overflow: visible;
       }
 
+      .scroll-pagination {
+          display: none !important;
+      }
+
       #main {
         height: auto;
       }
@@ -13,8 +17,12 @@
         overflow: visible;
         position: relative;
         height: auto;
+        width: 100%;
         &#home {
             height: 100vh;
+            .home__content h1 {
+                font-size: 3em;
+            }
         }
 
         .panel__home {
@@ -27,7 +35,13 @@
             padding-top: 50px;
             .panel--content {
                 position: static;
+                padding-right: 0;
             }
         }
-      }
+    }
+    .trades-subnav {
+        @media (max-width: 767px) {
+            position: static;
+        }
+    }
 }

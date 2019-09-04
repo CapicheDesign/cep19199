@@ -81,6 +81,9 @@
     .mid-size-text {
         position: absolute;
         bottom: 9vh;
+        @media (max-width: 767px) {
+            position: static;
+        }
     }
 }
 
@@ -146,4 +149,12 @@
     background: url('../img/leaf.svg') no-repeat;
     width: 38px;
     height: 72px;
+}
+
+/* mobile */
+
+#mobile {
+    #highlights-panel-2 {
+
+    }
 }

@@ -38,6 +38,12 @@
         position: absolute;
         bottom: 10vh;
     }
+    @media (max-width: 767px)  {
+        padding-bottom: 0;
+        .arrow {
+            display: none;
+        }
+    }
 }
 
 /* business custom icon */
@@ -59,6 +65,8 @@
 /* trades subnav */
 
 #trades-subnav-container {
+    margin-bottom: 14vh;
+    transition: margin 150ms linear; 
     nav.trades-subnav {
         margin-bottom: -50px;
         margin-left: -40px;

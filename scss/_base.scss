@@ -5,6 +5,9 @@ body {
     color: $cp-black;
     line-height: 1.2;
     letter-spacing: .5px;
+    @media (max-width: 767px) {
+        font-size: 12px;
+    }
 }
 
 h1 {

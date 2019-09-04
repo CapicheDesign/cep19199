@@ -1,5 +1,6 @@
 var Backbone = require('backbone');
 var ScrollReveal = require('../lib/scrollview.js');
+var Waypoints = require('../../node_modules/waypoints/lib/jquery.waypoints.min.js');
 
 var AppView = Backbone.View.extend({
   el: 'html',
@@ -9,52 +10,113 @@ var AppView = Backbone.View.extend({
     'click body': 'closeNavOnClick',
     'click .toggleSubnav': 'toggleSubNav',
     'keyup #menu-checkbox': 'keyboardToggleSubnav',
-    'click .scroll-pagination a': 'updateHeader',
-    'wheel document': 'updateHeader',
-    'mousewheel document': 'updateHeader',
-    'DOMMouseScroll document': 'updateHeader',
-    'touchstart document': 'updateHeader',
-    'touchmove document': 'updateHeader',
-    'touchend document': 'updateHeader',
+    'click .scroll-pagination a': 'updateHeaderDesktop',
+    'wheel document': 'updateHeaderDesktop',
+    'mousewheel document': 'uupdateHeaderDesktop',
+    'DOMMouseScroll document': 'updateHeaderDesktop',
+    'touchstart document': 'updateHeaderDesktop',
+    'touchmove document': 'updateHeaderDesktop',
+    'touchend document': 'updateHeaderDesktop',
     'mouseenter #business-panel-4' : 'showTradesSubnav',
     'mouseleave #business-panel-4' : 'hideTradesSubnav'
   },
 
   initialize: function() {
+
+    var self = this;
+
+    var waypoint1 = new Waypoint({
+      element: document.getElementById('highlights'),
+      handler: function() {
+        $('.logo').hide();
+        $('#sectionHeading').text('Highlights');
+      }
+    });
+
+    var waypoint2 = new Waypoint({
+      element: document.getElementById('business'),
+      handler: function() {
+        $('#sectionHeading').text('Business');
+      }
+    });
+
+    var waypoint3 = new Waypoint({
+      element: document.getElementById('people'),
+      handler: function() {
+        $('#sectionHeading').text('People');
+      }
+    });
+
+    var waypoint4 = new Waypoint({
+      element: document.getElementById('focus'),
+      handler: function() {
+        $('#sectionHeading').text('Focus');
+      }
+    });
+
+    var waypoint5 = new Waypoint({
+      element: document.getElementById('financials'),
+      handler: function() {
+        $('#sectionHeading').text('Financials');
+      }
+    });
+
+    _.bindAll(this, 'checkScreenSize');
+
+    $(window).scrollTop(0); // start at top
+
+    $(window).scroll(this.updateHeaderMobile);
     
+    // set small screen size to check mobile 
     var $screenSize = window.matchMedia("(max-width: 767px)");
 
+    //run screen size check
     this.checkScreenSize($screenSize);
 
-    if ( $('#homepage').length === 1 ) {
-      if (!$('html').hasClass('mobile')) {
-        $('#main').scrollview({loop: false});
-      }
-      this.$subnavContainer = $('#trades-subnav-container');
-      $('#trades-subnav-container').slideUp('fast');
-    }
+    // reload page on resize
+    $(window).on('resize', function() {
+      window.location.reload(false);
+    });
 
+    // fixed image on content page
     if ( $('#contentPage-container').length === 1 ) {
       this.fixContentPageImage();
     }
   },
 
+  // check screen size
   checkScreenSize: function($screenSize) {
-    if ($screenSize.matches) { // If media query matches
-      $('html').addClass('mobile');
+    if ($screenSize.matches) { // if small screen size
+      $('html').addClass('mobile'); // ...add mobile class
+    } else { // .. otherwise if large screen size
+      this.setUpScrollView(); // ... add scrollview plugin for homepage
+      $('html').removeClass('mobile'); // ..remove mobile class
+      // hide trades subnav on load
+      if ( $('#homepage').length === 1 ) {
+        this.$subnavContainer = $('#trades-subnav-container');
+        $('#trades-subnav-container').hide();
+      }
+    }
+  },
+  
+  // set up scrollview plugin for large screen home page
+  setUpScrollView: function() {
+    if ( $('#homepage').length === 1 ) { // if we are on the home page
+      $('#main').scrollview({loop: false}); // ... instantiate scrollview plugin
     } else {
-      $('html').removeClass('mobile');
+      return; // .. otherwise do nothing
     }
   },
 
+  // set the size of left-hand image on content page
   fixContentPageImage: function(e) {
     var $height = $(window).height() - $('header').height();  
     $('.left-col').css('height',$height);
   },
 
+  // close the main nav if clicking outside
   closeNavOnClick: function(e) {
     if ($(e.target).closest("#mainNav").length === 0) { 
-      console.log('notonNav!');
       var $btn = $('#menu-checkbox');
       $($btn).prop('checked', false);
       $($btn).removeClass('open');
@@ -62,6 +124,7 @@ var AppView = Backbone.View.extend({
     } 
   },
 
+  // open and close main nav
   toggleMainNav: function() {
     var $btn = $('#menu-checkbox');
     if($($btn).prop('checked') == true){
@@ -74,6 +137,7 @@ var AppView = Backbone.View.extend({
     }
   },
 
+  // open and close subnav (within main nav menu)
   toggleSubNav: function(e) {
     e.preventDefault();
     if ( $(e.currentTarget).hasClass('sub-nav--open')) {
@@ -87,62 +151,94 @@ var AppView = Backbone.View.extend({
     }
   },
 
+  // open close menu using enter key
   keyboardToggleSubnav: function(e){
     if(e.keyCode == 13){
         this.$('#menu-checkbox').click();
     }
   },
 
-  updateHeader: function(e) {    
-    var dataIndex = $(e.currentTarget).data('index');
-    if ( dataIndex == '1') {
-      $('header').addClass('header__transparent');
-       $('header').addClass('header__transparent');
-      $('.logo img').attr('src','img/logo.svg');
-      $('#menuToggle').removeClass('white-bg');
-    } else {
-      $('header').removeClass('header__transparent');
-      $('.logo img').attr('src','img/logo-black.svg');
-      $('#menuToggle').addClass('white-bg');
-      this.updateSectionHeading(dataIndex);
+  // update header when changing sections on homepage
+  updateHeaderMobile: function(e) {
+    
+    if ($('html.mobile').length === 1) { // if small screen size 
+  
+      if ( $('#homepage').length === 1 ) { // ... and we are on the home page 
+        var distance = $('header').offset().top;
+         
+        if ( $(window).scrollTop() !== 0 ) { // if we are not at top of page
+          // ... remove transparency from header and nav
+          $('.header__home').removeClass('header__transparent'); 
+          $('.logo img').attr('src','img/logo-black.svg');
+          $('#menuToggle').addClass('white-bg'); 
+        } else if ( $(window).scrollTop() === 0 ) {
+          $('header').addClass('header__transparent');
+          $('.logo img').attr('src','img/logo.svg');
+          $('.logo').show();
+          $('#sectionHeading').text('');
+          $('#menuToggle').removeClass('white-bg');
+        }
+      }
     }
   },
 
-  updateSectionHeading: function(i) {
-    var headingText = '';
-    switch (i)
-    {
-        case 2:
-            headingText = 'Highlights';
-            break;
-
-        case 3:
-            headingText = 'Business';
-            break;
-
-        case 4:
-          headingText = 'Our People';
-          break;
-
-        case 5:
-          headingText = 'Our Focus';
-          break;
-
-        case 6:
-          headingText = 'Financial Statements';
-          break;
+  // update header when changing sections on homepage
+  updateHeaderDesktop: function(e) {
+    if ( $('#homepage').length === 1 ) { // if we are on the home page    
+      var dataIndex = $(e.currentTarget).data('index');
+      if ( dataIndex == '1') {
+        $('header').addClass('header__transparent');
+        $('.logo img').attr('src','img/logo.svg');
+        $('#menuToggle').removeClass('white-bg');
+      } else {
+        $('header').removeClass('header__transparent');
+        $('.logo img').attr('src','img/logo-black.svg');
+        $('#menuToggle').addClass('white-bg');
+        this.updateSectionHeading(dataIndex);
       }
-     $('#sectionHeading').text(headingText);
+    }
   },
+
+  // update heading when changing sections on homepage
+  updateSectionHeading: function(i) {
+    if ( $('#homepage').length === 1 ) { // if we are on the home page    
+      var headingText = '';
+      switch (i)
+      {
+          case 2:
+              headingText = 'Highlights';
+              break;
+
+          case 3:
+              headingText = 'Business';
+              break;
+
+          case 4:
+            headingText = 'Our People';
+            break;
+
+          case 5:
+            headingText = 'Our Focus';
+            break;
+
+          case 6:
+            headingText = 'Financial Statements';
+            break;
+        }
+      $('#sectionHeading').text(headingText);
+    }
+  },
+
+  // show or hide 'trades' subnav on homepage
   showTradesSubnav: function(e) {
     e.stopPropagation();
-    this.$subnavContainer.slideDown('fast');
+    this.$subnavContainer.show().css('margin-bottom','14vh');
     $('#trades-link').hide();
   },
   hideTradesSubnav: function(e) {
     e.stopPropagation();
-    this.$subnavContainer.slideUp('fast');
-    $('#trades-link').show();
+    this.$subnavContainer.hide();
+    $('#trades-link').show().css('margin-bottom','0');
   }
 });
 
