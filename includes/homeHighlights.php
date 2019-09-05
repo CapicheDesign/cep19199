@@ -6,11 +6,13 @@
         </div>
         <span class="arrow arrow-yellow-fwd"></span>
     </a>
-    <a href="#" id="highlights-panel-2" class="panel__home panel__third">
-        <div class="panel--content">
-            <span class="mid-size-text">We're serious about health and safety</span>
+    <a href="#" id="highlights-panel-2" class="panel__home panel__home__img panel__third">
+        <div id="highlights-panel-2--bg" class="panel__home__inner">
+            <div class="panel--content">
+                <span class="mid-size-text">We're serious about health and safety</span>
+            </div>
+            <span class="arrow arrow-yellow-fwd"></span>
         </div>
-        <span class="arrow arrow-yellow-fwd"></span>
     </a>
     <a href="#" id="highlights-panel-3" class="panel__home panel__third yellow-bg" >
         <div class="panel--content">
@@ -32,11 +34,13 @@
         </div>
         <span class="arrow arrow-white-fwd" href="#"></span>
     </a>
-    <a href="#" id="highlights-panel-4" class="panel__home panel__third">
-        <div class="panel--content">
-            <span class="mid-size-text">Our People</span>
+    <a href="#" id="highlights-panel-4" class="panel__home panel__home__img panel__third">
+        <div id="highlights-panel-4--bg" class="panel__home__inner">
+            <div class="panel--content">
+                <span class="mid-size-text">Our People</span>
+            </div>
+            <span class="arrow arrow-yellow-fwd" href="#"></span>
         </div>
-        <span class="arrow arrow-yellow-fwd" href="#"></span>
     </a>
     <a href="#" id="highlights-panel-5" class="panel__home panel__third white-bg">
         <div class="panel--content">

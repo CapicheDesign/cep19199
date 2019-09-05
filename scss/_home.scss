@@ -31,7 +31,7 @@ body#homepage {
             bottom: 50px;
             h1 {
                 color: $white;
-                font-size: 8em;
+                font-size: 6em;
                 line-height: 0.9;
             }
             h2 {
@@ -55,8 +55,11 @@ body#homepage {
     padding: 20vh 50px 50px;
     cursor: pointer;
     transition: all 250ms linear;
-    @media (max-width: 767px) {
-    //    width: 100% !important;
+    &.panel__home__img {
+        padding: 0;
+        .panel__home__inner {
+            padding: 20vh 50px 50px;
+        }
     }
     &:hover, &:focus, &:active {
         text-decoration: none;
@@ -78,6 +81,9 @@ body#homepage {
         }
         &.mid-size-text {
             font-size: 1.5em;
+            @media (max-width: 767px) {
+                font-size: 2em;
+            }
             @media (min-width: 1024px) and (max-width: 1399px) {
                 // font-size: 4.5em;
             }
@@ -196,6 +202,10 @@ body#homepage {
     @media (max-width: 767px) {
         margin-top: 10px;
         position: static;
+    }
+
+    @media (min-width: 768px) and (max-height: 730px) {
+        bottom: 25px;
     }
 }
 

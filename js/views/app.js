@@ -73,9 +73,11 @@ var AppView = Backbone.View.extend({
     //run screen size check
     this.checkScreenSize($screenSize);
 
-    // reload page on resize
+    // reload page on resize desktop only
     $(window).on('resize', function() {
-      window.location.reload(false);
+      if ($('html.mobile').length !== 1) {
+        window.location.reload(false);
+      }
     });
 
     // fixed image on content page
@@ -145,6 +147,8 @@ var AppView = Backbone.View.extend({
       $(e.currentTarget).next('.sub-nav').slideUp();
       $('#menu').attr('aria-expanded','false');
     } else {
+      $('#menu').find('.sub-nav--open').next('.sub-nav').slideUp();
+      $('#menu').find('.sub-nav--open').removeClass('sub-nav--open');
       $(e.currentTarget).addClass('sub-nav--open');
       $(e.currentTarget).next('.sub-nav').slideDown();
       $('#menu').attr('aria-expanded','true');
@@ -232,7 +236,7 @@ var AppView = Backbone.View.extend({
   // show or hide 'trades' subnav on homepage
   showTradesSubnav: function(e) {
     e.stopPropagation();
-    this.$subnavContainer.show().css('margin-bottom','14vh');
+    this.$subnavContainer.show().addClass('visible');
     $('#trades-link').hide();
   },
   hideTradesSubnav: function(e) {

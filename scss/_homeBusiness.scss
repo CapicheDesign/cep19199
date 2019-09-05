@@ -1,32 +1,55 @@
 /* business panels */
 
 #business-panel-1 {
-    background: url('../img/hubs-bg.jpg') no-repeat center;
+    background: url('../img/hubs-bg-reverse.jpg') no-repeat center;
     background-size: cover;
-    &:hover, &:focus, &:active {
-        color: $cp-blue-light;
-        background: url('../img/hubs-bg-reverse.jpg') no-repeat center;
+    padding-top: 0;
+    #business-panel-1--bg {
+        background: url('../img/hubs-bg.jpg') no-repeat center;
         background-size: cover;
+        height: 100vh;
+        width: 100%;
+        padding-top: 10vh;
+        &:hover, &:focus, &:active {
+            color: $cp-blue-light;
+            background: none;
+        }
     }
 }
 
 #business-panel-2 {
-    background: url('../img/chair-bg.jpg') no-repeat center;
+    background: url('../img/chair-bg-dark.jpg') no-repeat center;
     background-size: cover;
-    &:hover, &:focus, &:active {
-        color: white;
-        background: url('../img/chair-bg-dark.jpg') no-repeat center;
+    padding-top: 0;
+    color: white;
+    #business-panel-2--bg {
+        background: url('../img/chair-bg.jpg') no-repeat center;
         background-size: cover;
+        width: 100%;
+        height: 55vh;
+        padding-top: 10vh;
+        &:hover, &:focus, &:active {
+            color: white;
+            background: none;
+        }
     }
 }
 
 #business-panel-3 {
-    background: url('../img/ceo-bg.jpg') no-repeat center;
+    background: url('../img/ceo-bg-dark.jpg') no-repeat center;
     background-size: cover;
-    &:hover, &:focus, &:active {
-        color: white;
-        background: url('../img/ceo-bg-dark.jpg') no-repeat center;
+    padding-top: 0;
+    color: white;
+    #business-panel-3--bg {
+        background: url('../img/ceo-bg.jpg') no-repeat center;
         background-size: cover;
+        width: 100%;
+        height: 55vh;
+        padding-top: 10vh;
+        &:hover, &:focus, &:active {
+            color: white;
+            background: none;
+        }
     }
 }
 
@@ -60,6 +83,9 @@
         margin-bottom: 1vh;
         margin-left: -6px;
     }
+    @media screen and ( max-height: 735px ) {
+        display: none;
+    }
 }
 
 /* trades subnav */
@@ -67,6 +93,9 @@
 #trades-subnav-container {
     margin-bottom: 14vh;
     transition: margin 150ms linear; 
+    @media screen and ( max-height: 735px ) {
+        margin-bottom: 20vh;
+    }
     nav.trades-subnav {
         margin-bottom: -50px;
         margin-left: -40px;

@@ -8,20 +8,24 @@
             </button>
         </div>
     </div>
-    <div id="financials-panel-2" class="panel__home panel__half panel__half-height panel__half-height__top panel__half-height__right">
-        <div class="panel--content">
-            <span class="mid-size-bold">Auditors Report</span>
-            <button>
-                Download Auditors Report PDF (175kb)
-            </button>
+    <div id="financials-panel-2" class="panel__home panel__home__img panel__half panel__half-height panel__half-height__top panel__half-height__right">
+        <div id="financials-panel-2--bg" class="panel__home__inner">                
+            <div class="panel--content">
+                <span class="mid-size-bold">Auditors Report</span>
+                <button>
+                    Download Auditors Report PDF (175kb)
+                </button>
+            </div>
         </div>
     </div>
-    <div id="financials-panel-3" class="panel__home panel__half panel__half-height">
-        <div class="panel--content">
-            <span class="mid-size-bold">Governance Report</span>
-            <button>
-                Download Governance Report PDF (175kb)
-            </button>
+    <div id="financials-panel-3" class="panel__home panel__home__img panel__home__img panel__half panel__half-height">
+        <div id="financials-panel-3--bg" class="panel__home__inner">    
+            <div class="panel--content">
+                <span class="mid-size-bold">Governance Report</span>
+                <button>
+                    Download Governance Report PDF (175kb)
+                </button>
+            </div>
         </div>
     </div>
 </section>

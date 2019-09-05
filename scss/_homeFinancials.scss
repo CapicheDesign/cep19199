@@ -23,22 +23,32 @@
 }
 
 #financials-panel-2 {
-    background: url('../img/auditors-bg.jpg') no-repeat center;
+    background: url('../img/auditors-bg-dark.jpg') no-repeat center;
     background-size: cover;
-    &:hover, &:focus {
-        background: url('../img/auditors-bg-dark.jpg') no-repeat center;
+    padding-top: 0;
+    color: white;
+
+    #financials-panel-2--bg {
+        background: url('../img/auditors-bg.jpg') no-repeat center;
         background-size: cover;
-    }
-    .panel--content {
-        position: absolute;
-        bottom: 50px;
-        .arrow-white-fwd {
-            position: relative;
-            bottom: 0;
-            margin: 1vh 0 2vh;
+        padding-top: 10vh;
+        height: 55vh;
+        color: white;
+        &:hover, &:focus {
+            background: none;
+            color: white;
         }
-        button {
-            margin-top: 2vh;
+        .panel--content {
+            position: absolute;
+            bottom: 50px;
+            .arrow-white-fwd {
+                position: relative;
+                bottom: 0;
+                margin: 1vh 0 2vh;
+            }
+            button {
+                margin-top: 2vh;
+            }
         }
     }
 }
@@ -47,23 +57,32 @@
     top: 55vh;
     left: 50%;
     height: 45vh;
-    padding-top: 10vh;
-    background: url('../img/governance-bg.jpg') no-repeat center;
+    padding-top: 0;
+    background: url('../img/governance-bg-dark.jpg') no-repeat center;
     background-size: cover;
-    &:hover, &:focus {
-        background: url('../img/governance-bg-dark.jpg') no-repeat center;
+
+    #financials-panel-3--bg{
+        top: 55vh;
+        left: 50%;
+        height: 45vh;
+        padding-top: 10vh;
+        background: url('../img/governance-bg.jpg') no-repeat center;
         background-size: cover;
-    }
-    .panel--content {
-        position: absolute;
-        bottom: 50px;
-        .arrow-white-fwd {
-            position: relative;
-            bottom: 0;
-            margin: 1vh 0 2vh;
+        &:hover, &:focus {
+            background: none;
+            background-size: cover;
         }
-        button {
-            margin-top: 2vh;
+        .panel--content {
+            position: absolute;
+            bottom: 50px;
+            .arrow-white-fwd {
+                position: relative;
+                bottom: 0;
+                margin: 1vh 0 2vh;
+            }
+            button {
+                margin-top: 2vh;
+            }
         }
     }
 }

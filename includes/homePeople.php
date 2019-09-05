@@ -1,14 +1,18 @@
 <section data-index=4 id="people">
-    <a href="#" id="people-panel-1" class="panel__home panel__half panel__half__left">
-        <div class="panel--content">
-            <span class="mid-size-bold">Training</span>
+    <a href="#" id="people-panel-1" class="panel__home panel__home__img panel__half panel__half__left">
+        <div id="people-panel-1--bg" class="panel__home__inner">
+            <div class="panel--content">
+                <span class="mid-size-bold">Training</span>
+            </div>
+            <span class="arrow arrow-yellow-fwd" href="#"></span>
         </div>
-        <span class="arrow arrow-yellow-fwd" href="#"></span>
     </a>
-    <a href="#" id="people-panel-2" class="panel__home panel__half panel__half-height panel__half-height__top panel__half-height__right">
-        <div class="panel--content">
-            <span class="mid-size-bold">Resilient People</span>
-            <span class="arrow arrow-white-fwd" href="#"></span>
+    <a href="#" id="people-panel-2" class="panel__home panel__home__img panel__half panel__half-height panel__half-height__top panel__half-height__right">
+        <div id="people-panel-2--bg" class="panel__home__inner">        
+            <div class="panel--content">
+                <span class="mid-size-bold">Resilient People</span>
+                <span class="arrow arrow-white-fwd" href="#"></span>
+            </div>
         </div>
     </a>
     <a href="#" id="people-panel-3" class="panel__home panel__quarter panel__quarter__bottom panel__quarter__center-right yellow-bg">

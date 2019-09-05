@@ -44,4 +44,17 @@
             position: static;
         }
     }
+    .panel__home__inner {
+        background: none !important;
+        min-height: 230px !important;
+        height: auto!important;
+        display: block !important;
+        padding-top: 50px !important;
+        .panel--content {
+            position: static !important;
+        }
+    }
+    #business-panel-1 {
+        background: url(../img/hubs-bg.jpg) center no-repeat;
+    }
 }

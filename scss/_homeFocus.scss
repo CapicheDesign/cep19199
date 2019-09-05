@@ -1,12 +1,21 @@
 /* business panels */
 
 #focus-panel-1 {
-    background: url('../img/op-plan-bg.jpg') no-repeat center;
+    background: url('../img/op-plan-bg-dark.jpg') no-repeat center;
     background-size: cover;
-    &:hover, &:focus, &:active {
-        color: white;
-        background: url('../img/op-plan-bg-dark.jpg') no-repeat center;
+    padding-top: 0;
+    color: white;
+    #focus-panel-1--bg {
+        background: url('../img/op-plan-bg.jpg') no-repeat center;
         background-size: cover;
+        height: 100vh;
+        width: 100%;
+        padding-top: 10vh;
+        color: white;
+        &:hover, &:focus, &:active {
+            color: white;
+            background: none;
+        }
     }
 }
 
@@ -18,12 +27,20 @@
 }
 
 #focus-panel-3 {
-    background: url('../img/terminal-bg.jpg') no-repeat center;
+    background: url('../img/terminal-bg-dark.jpg') no-repeat center;
     background-size: cover;
-    &:hover, &:focus, &:active {
-        color: white;
-        background: url('../img/terminal-bg-dark.jpg') no-repeat center;
+    padding-top: 0;
+    color: white;
+    #focus-panel-3--bg {
+        background: url('../img/terminal-bg.jpg') no-repeat center;
         background-size: cover;
+        width: 100%;
+        height: 55vh;
+        padding-top: 10vh;
+        &:hover, &:focus, &:active {
+            color: white;
+            background: none;
+        }
     }
 }
 
@@ -34,7 +51,10 @@
     color: $cp-black;
     &:hover, &:focus, &:active {
         color: white;
-        background: $cp-black;
+        background: $cp-blue-dark;
+        .arrow {
+            background: url('../img/white-arrow-fwd.svg') no-repeat;
+        }
     }
     .panel--content {
         position: absolute;

@@ -26,28 +26,27 @@
     top: 0;
     left: 33.36%;
     height: 55vh;
-    padding-top: 10vh;
-    background: url('../img/safety-bg.jpg') no-repeat center;
+    background: url('../img/safety-bg-dark.jpg') no-repeat center;
     background-size: cover;
-    &:hover, &:focus, &:active {
-        color: white;
-        background: url('../img/safety-bg-dark.jpg') no-repeat center;
-        background-size: cover;
-    }
-    .panel--content {
-        position: absolute;
-        bottom: 14vh;
-    }
-}
-#highlights-panel-2--overlay {
-        position: absolute;
-        background: $cp-black;
+    #highlights-panel-2--bg {
         top: 0;
         left: 33.36%;
-        width: 33.36%;
         height: 55vh;
         padding-top: 10vh;
-        opacity: 0.5;
+        background: url('../img/safety-bg.jpg') no-repeat center;
+        background-size: cover;
+        &:hover, &:focus, &:active {
+            color: white;
+            background: none;
+        }
+        .panel--content {
+            position: absolute;
+            bottom: 14vh;
+            .mid-size-text { 
+                color: white;
+            }
+        }
+    }
 }
 
 #highlights-panel-3 {
@@ -66,23 +65,40 @@
             white-space: nowrap;
         }
     }
+    @media screen and ( max-height: 735px ) {
+        .arrow {
+            display: none;
+        }
+    }
 }
 
 #highlights-panel-4 {
     top: 55vh;
     left: 0;
-    background: url('../img/people-bg.jpg') no-repeat center;
+    background: url('../img/people-bg-dark.jpg') no-repeat center;
     background-size: cover;
-    &:hover, &:focus, &:active {
-        color: white;
-        background: url('../img/people-bg-dark.jpg') no-repeat center;
+
+    #highlights-panel-4--bg {
+        top: 55vh;
+        left: 0;
+        background: url('../img/people-bg.jpg') no-repeat center;
         background-size: cover;
-    }
-    .mid-size-text {
-        position: absolute;
-        bottom: 9vh;
-        @media (max-width: 767px) {
-            position: static;
+        width: 100%;
+        height: 45vh;
+        &:hover, &:focus, &:active {
+            color: white;
+            background: none;
+            .mid-size-text {
+                color: white;
+            }
+        }
+        .mid-size-text {
+            position: absolute;
+            bottom: 9vh;
+            color: white;
+            @media (max-width: 767px) {
+                position: static;
+            }
         }
     }
 }

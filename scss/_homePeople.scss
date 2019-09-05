@@ -1,28 +1,45 @@
 /* business panels */
 
 #people-panel-1 {
-    background: url('../img/training-bg.jpg') no-repeat center;
+    background: url('../img/training-bg-dark.jpg') no-repeat center;
     background-size: cover;
-    &:hover, &:focus, &:active {
-        color: white;
-        background: url('../img/training-bg-dark.jpg') no-repeat center;
+    color: white;
+    padding-top: 0;
+    #people-panel-1--bg {
+        background: url('../img/training-bg.jpg') no-repeat center;
         background-size: cover;
+        color: white;
+        height: 100vh;
+        width: 100%;
+        padding-top: 10vh;
+        &:hover, &:focus, &:active {
+            color: white;
+            background: none;
+        }
     }
 }
 
 #people-panel-2 {
-    background: url('../img/resilient-bg.jpg') no-repeat top center;
+    background: url('../img/resilient-bg-dark.jpg') no-repeat top center;
     background-size: cover;
-    &:hover, &:focus, &:active {
-        color: white;
-        background: url('../img/resilient-bg-dark.jpg') no-repeat top center;
+    padding-top: 0;
+    color: white;
+    #people-panel-2--bg {
+        background: url('../img/resilient-bg.jpg') no-repeat top center;
         background-size: cover;
-    }
-    .panel--content {
-        .arrow-white-fwd {
-            position: relative;
-            bottom: 0;
-            margin: 1vh 0 2vh;
+        padding-top: 10vh;
+        height: 55vh;
+        color: white;
+        &:hover, &:focus, &:active {
+            color: white;
+            background: none;
+        }
+        .panel--content {
+            .arrow-white-fwd {
+                position: relative;
+                bottom: 0;
+                margin: 1vh 0 2vh;
+            }
         }
     }
 }
@@ -63,6 +80,7 @@
     width: 273px;
     height: 54px;
     margin-bottom: 3vh;
+    max-width: 100%;
     @media (min-width: 1024px) and (max-width: 1399px) {
         width: 200px;
         height: 44px;
