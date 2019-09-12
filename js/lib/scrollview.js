@@ -68,10 +68,20 @@
 
 
 			} else {
-				$(settings.sectionContainer + "[data-index='1']").addClass("active")
-				$("body").addClass("current-page-1")
-				if (settings.pagination == true) {
-					$(".scroll-pagination li a" + "[data-index='1']").addClass("active");
+				console.log(document.referrer);
+				if(document.referrer.indexOf("/our-business") > 0){
+					 console.log('came from business');
+					$(settings.sectionContainer + "[data-index='3']").addClass("active")
+					$("body").addClass("current-page-3")
+					if (settings.pagination == true) {
+						$(".scroll-pagination li a" + "[data-index='3']").addClass("active");
+					}
+				  } else {
+					$(settings.sectionContainer + "[data-index='1']").addClass("active")
+					$("body").addClass("current-page-1")
+					if (settings.pagination == true) {
+						$(".scroll-pagination li a" + "[data-index='1']").addClass("active");
+					}
 				}
 			} 
 		})() 	
@@ -148,7 +158,6 @@
 			}
 		}
 		$.fn.moveUp = function() {
-			console.log('moveUp');
 			var index = $(settings.sectionContainer + ".active").data("index"),
 				current = $(settings.sectionContainer + "[data-index='" + index + "']"),
 				next = $(settings.sectionContainer + "[data-index='" + (index - 1) + "']"),

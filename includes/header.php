@@ -10,5 +10,5 @@
         </div>
         <?php include '../../includes/subnav.php'; ?>
     </div>
-    <a href="/" id="close-btn"><img src="<?=$siteBaseURL;?>img/icon-close.png" alt="Close" /></a>
+    <a href="/" class="animisition-link" role="button" id="close-btn"><img src="<?=$siteBaseURL;?>img/icon-close.png" alt="Close" /></a>
 </header>

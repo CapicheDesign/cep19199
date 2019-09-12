@@ -1,7 +1,7 @@
 var Backbone = require('backbone');
 var ScrollReveal = require('../lib/scrollview.js');
 var Waypoints = require('../../node_modules/waypoints/lib/jquery.waypoints.min.js');
-var SmoothState = require('../lib/jquery.smoothState.js');
+var Animsition = require('../lib/animsition.min.js');
 
 var AppView = Backbone.View.extend({
   el: 'html',
@@ -22,43 +22,46 @@ var AppView = Backbone.View.extend({
     'mouseleave #business-panel-4' : 'hideTradesSubnav',
     'mouseenter .panel__home' : 'showHoverText',
     'mouseleave .panel__home' : 'hideHoverText',
-    'click #close-btn': 'closeContentPage'
+    'click #close-btn': 'closeContentPage',
+    'click a': 'hideNav'
   },
 
   initialize: function() {
     this.render();
 
-    /* smoothstate for page transitions */
+    /* this needs to be updated in scrollview.js too */
+    if(document.referrer.indexOf("/our-business") > 0){
+      $('#main').css({'transform':'translate3d(0px, -200%, 0px)'});
+      $('body').removeClass('current-page-1').addClass('current-page-3');
+      $('header').removeClass('header__transparent');
+      $('#menuToggle').addClass('white-bg');
+    }
 
-    var $page = $('#animate-page')
-    options = {
-      debug: true,
-      prefetch: true,
-      cacheLength: 2,
-      forms: 'form',
-      onStart: {
-        duration: 100, // Duration of our animation
-        render: function ($container) {
-          // Add your CSS animation reversing class
-          $container.addClass('is-exiting');
-          // Restart your animation
-          smoothState.restartCSSAnimations();
-        }
-      },
-      onReady: {
-        duration: 0,
-        render: function ($container, $newContent) {
-          // Remove your CSS animation reversing class
-          $container.removeClass('is-exiting');
-          // Inject the new content
-          $container.html($newContent);
-        }
-      },
-      onAfter: function() {
+    $(".animsition").animsition({
+      inClass: 'fade-in-right',
+      outClass: 'fade-out',
+      inDuration: 500,
+      outDuration: 750,
+      linkElement: '.animsition-link',
+      // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
+      loading: true,
+      loadingParentElement: 'html', //animsition wrapper element
+      loadingClass: 'animsition-loading',
+      loadingInner: '<img src="http://cep19199.local:8888/img/loader.svg" />',
+      timeout: false,
+      timeoutCountdown: 5000,
+      onLoadEvent: true,
+      browser: [ 'animation-duration', '-webkit-animation-duration'],
+      // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
+      // The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+      transition: function(url){ window.location.href = url; }
+    })
+    .one('animsition.inStart',function(){
   
-      }
-    },
-    smoothState = $page.smoothState(options).data('smoothState');
+    })
+    .one('animsition.inEnd',function(){
+      $('#menu').css('display','block');
+    });
 
     var self = this;
 
@@ -88,6 +91,7 @@ var AppView = Backbone.View.extend({
       var waypoint4 = new Waypoint({
         element: document.getElementById('focus'),
         handler: function() {
+          console.log('waypoint1');
           $('#sectionHeading').text('Focus');
         }
       });
@@ -95,6 +99,7 @@ var AppView = Backbone.View.extend({
       var waypoint5 = new Waypoint({
         element: document.getElementById('financials'),
         handler: function() {
+          console.log('waypoint2');
           $('#sectionHeading').text('Financials');
         }
       });
@@ -127,13 +132,21 @@ var AppView = Backbone.View.extend({
   /*** end initalize function ***/
 
   render: function(){   
-    $('#mainNav').css('display','block');
+
   },
 
   closeContentPage: function() {
       var $section = $('#areaHeading').text();
       console.log($section);
+      // $('#mainNav').fadeOut();
       
+  },
+
+  hideNav: function(e) {
+    console.log(e.currentTarget);
+    if(!$(e.currentTarget).parents('.scroll-pagination').length) {
+      $('#menu').hide();
+   }
   },
 
   // check screen size
