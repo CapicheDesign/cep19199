@@ -1,8 +1,8 @@
 <section data-index=2 id="highlights">
     <a href="#" id="highlights-panel-1" class="panel__home panel__third light-blue-bg">
         <div class="panel--content">
-            <span class="large-text">$67.7m</span>
-            <span class="mid-size-text">Revenue up 14%<br>Increased volumes</span>
+            <span class="large-text">$16.6m</span>
+            <span class="mid-size-text">Underlying profit up 41%<br>Increased volumes</span>
         </div>
         <span class="arrow arrow-yellow-fwd"></span>
     </a>

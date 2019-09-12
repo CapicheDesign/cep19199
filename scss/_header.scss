@@ -26,6 +26,11 @@ header {
             position: fixed;
             height: 8vh;
          }
+         h1 {
+            left: 50%;
+            position: absolute;
+            transform: translateX(-50%);
+         }
     }
     &.header__transparent {
         background: transparent;
@@ -62,7 +67,7 @@ header {
             margin-top: 0;
          }
         @media (min-width: 1024px) and (max-width: 1399px) {
-            width: 15vw;
+            width: 11vw;
             margin-top: 0;
         }
         img {
@@ -74,9 +79,6 @@ header {
     }
     h1 {
         display: inline-block;
-        left: 50%;
-        position: absolute;
-        transform: translateX(-50%);
         margin-top: 10px;
         transition: all 0.5s linear;
         @media (max-width: 413px) {
@@ -91,5 +93,32 @@ header {
             font-size: 30px;
             margin-top: 20px;
          }
+    }
+    &.content-page-header {
+        .centered-container {
+            display: inline-block;
+            position: absolute;
+            left: 50%;
+            margin-left: -25%;
+            .headings {
+                display: inline-block;
+                h2 {
+                    display: inline;
+                    font-weight: 300;
+                }
+                h1 {
+
+                }
+                .divider {
+                    font-size: 2em;
+                    font-weight: 300;
+                    padding: 0 10px;
+                }
+            }
+        }
+        #close-btn {
+            position: absolute;
+            right: 20px;
+        }
     }
 }

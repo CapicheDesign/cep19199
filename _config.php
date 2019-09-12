@@ -9,7 +9,8 @@
 
 	/* Default Page Meta Info */
 	$pageMeta = array(
-    'title' => $siteTitle,
+	'title' => $siteTitle,
+		'section' => '',
 		'heading' => '',
     'description' => ''
   );

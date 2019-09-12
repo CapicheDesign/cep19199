@@ -1,6 +1,7 @@
 var Backbone = require('backbone');
 var ScrollReveal = require('../lib/scrollview.js');
 var Waypoints = require('../../node_modules/waypoints/lib/jquery.waypoints.min.js');
+var SmoothState = require('../lib/jquery.smoothState.js');
 
 var AppView = Backbone.View.extend({
   el: 'html',
@@ -18,48 +19,86 @@ var AppView = Backbone.View.extend({
     'touchmove document': 'updateHeaderDesktop',
     'touchend document': 'updateHeaderDesktop',
     'mouseenter #business-panel-4' : 'showTradesSubnav',
-    'mouseleave #business-panel-4' : 'hideTradesSubnav'
+    'mouseleave #business-panel-4' : 'hideTradesSubnav',
+    'mouseenter .panel__home' : 'showHoverText',
+    'mouseleave .panel__home' : 'hideHoverText',
+    'click #close-btn': 'closeContentPage'
   },
 
   initialize: function() {
+    this.render();
+
+    /* smoothstate for page transitions */
+
+    var $page = $('#animate-page')
+    options = {
+      debug: true,
+      prefetch: true,
+      cacheLength: 2,
+      forms: 'form',
+      onStart: {
+        duration: 100, // Duration of our animation
+        render: function ($container) {
+          // Add your CSS animation reversing class
+          $container.addClass('is-exiting');
+          // Restart your animation
+          smoothState.restartCSSAnimations();
+        }
+      },
+      onReady: {
+        duration: 0,
+        render: function ($container, $newContent) {
+          // Remove your CSS animation reversing class
+          $container.removeClass('is-exiting');
+          // Inject the new content
+          $container.html($newContent);
+        }
+      },
+      onAfter: function() {
+  
+      }
+    },
+    smoothState = $page.smoothState(options).data('smoothState');
 
     var self = this;
 
-    var waypoint1 = new Waypoint({
-      element: document.getElementById('highlights'),
-      handler: function() {
-        $('.logo').hide();
-        $('#sectionHeading').text('Highlights');
-      }
-    });
+    if ( $('#homepage').length ) {
+      var waypoint1 = new Waypoint({
+        element: document.getElementById('highlights'),
+        handler: function() {
+          $('.logo').hide();
+          $('#sectionHeading').text('Highlights');
+        }
+      });
 
-    var waypoint2 = new Waypoint({
-      element: document.getElementById('business'),
-      handler: function() {
-        $('#sectionHeading').text('Business');
-      }
-    });
+      var waypoint2 = new Waypoint({
+        element: document.getElementById('business'),
+        handler: function() {
+          $('#sectionHeading').text('Business');
+        }
+      });
 
-    var waypoint3 = new Waypoint({
-      element: document.getElementById('people'),
-      handler: function() {
-        $('#sectionHeading').text('People');
-      }
-    });
+      var waypoint3 = new Waypoint({
+        element: document.getElementById('people'),
+        handler: function() {
+          $('#sectionHeading').text('People');
+        }
+      });
 
-    var waypoint4 = new Waypoint({
-      element: document.getElementById('focus'),
-      handler: function() {
-        $('#sectionHeading').text('Focus');
-      }
-    });
+      var waypoint4 = new Waypoint({
+        element: document.getElementById('focus'),
+        handler: function() {
+          $('#sectionHeading').text('Focus');
+        }
+      });
 
-    var waypoint5 = new Waypoint({
-      element: document.getElementById('financials'),
-      handler: function() {
-        $('#sectionHeading').text('Financials');
-      }
-    });
+      var waypoint5 = new Waypoint({
+        element: document.getElementById('financials'),
+        handler: function() {
+          $('#sectionHeading').text('Financials');
+        }
+      });
+    }
 
     _.bindAll(this, 'checkScreenSize');
 
@@ -84,6 +123,17 @@ var AppView = Backbone.View.extend({
     if ( $('#contentPage-container').length === 1 ) {
       this.fixContentPageImage();
     }
+  },
+  /*** end initalize function ***/
+
+  render: function(){   
+    $('#mainNav').css('display','block');
+  },
+
+  closeContentPage: function() {
+      var $section = $('#areaHeading').text();
+      console.log($section);
+      
   },
 
   // check screen size
@@ -214,7 +264,7 @@ var AppView = Backbone.View.extend({
               break;
 
           case 3:
-              headingText = 'Business';
+              headingText = 'Our Business';
               break;
 
           case 4:
@@ -236,14 +286,26 @@ var AppView = Backbone.View.extend({
   // show or hide 'trades' subnav on homepage
   showTradesSubnav: function(e) {
     e.stopPropagation();
-    this.$subnavContainer.show().addClass('visible');
+    this.$subnavContainer.show();
     $('#trades-link').hide();
   },
   hideTradesSubnav: function(e) {
     e.stopPropagation();
     this.$subnavContainer.hide();
     $('#trades-link').show().css('margin-bottom','0');
-  }
+  },
+
+  // show or hide hover text on homepage
+  showHoverText: function(e) {
+    if ($(e.target).find('#hover-text-container').length) {
+      $(e.target).find('#hover-text-container').show();
+    }
+  },
+  hideHoverText: function(e) {
+    if ($(e.target).find('#hover-text-container').length) {
+      $(e.target).find('#hover-text-container').hide();
+    }
+  },
 });
 
 module.exports = AppView;

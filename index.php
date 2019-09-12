@@ -2,17 +2,17 @@
 <?php include 'includes/html.php'; ?>
 <?php include 'includes/head.php'; ?>
 
-<body id="homepage">
-<?php include 'includes/navHome.php'; ?>
-<?php include 'includes/headerHome.php'; ?>
+<body id="homepage" class="scene_element--fadeinleft">
+	<?php include 'includes/navHome.php'; ?>
+	<?php include 'includes/headerHome.php'; ?>
 	<div id="main" role="main">
 		<section data-index=1 id="home">
 			<div class="landing-inner">
 				<div class="home__content">
 					<h1>2019<br>Annual Report</h1>
-					<h2>Port of choice for<br>Central New Zealand</h2>
+					<h2>The port of choice for<br>Central New Zealand</h2>
 					<button>
-						Download Annual Report PDF (175kb)
+						Download Annual Report PDF (XXXkb)
 					</button>
 				</div>
 			</div>
@@ -28,7 +28,6 @@
 		
 		<?php include $includesPath.'/homeFinancials.php'; ?>
 	</div>
-
 	<?php include $includesPath.'tail-scripts.php'; ?>
 </body>
 </html>

@@ -1,10 +1,11 @@
-
-
 <section data-index=3 id="business">
-    <a href="#" id="business-panel-1" class="panel__home panel__home__img panel__half panel__half__left">
+    <a href="/our-business/inland-strategy/" id="business-panel-1" class="panel__home panel__home__img panel__half panel__half__left">
         <div id="business-panel-1--bg" class="panel__home__inner">
             <div class="panel--content">
                 <span class="mid-size-bold">Inland Hubs</span>
+                <div id="hover-text-container">
+                    <span class="mid-size-text">CentrePort’s inland hub strategy continued to help drive economic success across central New Zealand this year.</span>
+                </div>
             </div>
             <span class="arrow arrow-yellow-fwd" href="#"></span>
         </div>
@@ -12,7 +13,10 @@
     <a href="#" id="business-panel-2" class="panel__home panel__home__img panel__quarter panel__quarter__top panel__quarter__center-right">
         <div id="business-panel-2--bg" class="panel__home__inner">
             <div class="panel--content">
-                <span class="mid-size-bold">Chair&#39;s Report</span>
+            <span class="mid-size-bold">CEO Report</span>
+                <div id="hover-text-container">
+                    <span>"This year has been a successful one for CentrePort of growth and recovery."</span>
+                </div>
             </div>
             <span class="arrow arrow-white-fwd" href="#"></span>
         </div>
@@ -20,7 +24,10 @@
     <a href="#" id="business-panel-3" class="panel__home panel__home__img panel__quarter panel__quarter__top panel__quarter__right">
         <div id="business-panel-3--bg" class="panel__home__inner">
             <div class="panel--content">
-                <span class="mid-size-bold">CEO Report</span>
+                <span class="mid-size-bold">Chair&#39;s Report</span>
+                <div id="hover-text-container">
+                    <span>Lorem ipsum dolorem blah blah</span>
+                </div>
             </div>
             <span class="arrow arrow-white-fwd" href="#"></span>
         </div>
@@ -44,4 +51,5 @@
             <span class="arrow arrow-yellow-fwd" id="trades-link" href="#"></span>
         </div>
     </div>
+   
 </section>

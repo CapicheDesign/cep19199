@@ -1,0 +1,14 @@
+.subnav {
+    display: inline;
+    li {
+        display: inline;
+        margin-left: 10px;
+        a {
+            color: $cp-black;
+            &.active {
+                color: $cp-blue-light;
+                font-weight: 900;
+            }
+        }
+    }
+}
