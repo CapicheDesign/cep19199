@@ -11,7 +11,7 @@
 		<?php include '../../includes/nav.php'; ?>
 		<?php include '../../includes/header.php'; ?>
 		<section class="clearfix">
-			<aside class="left-col">
+			<aside class="left-col" id="inland-strategy">
 				<img src="<?=$siteBaseURL?>img/inland-strategy/left-col-img.jpg" alt="Logs on port" />
 			</aside>
 			<div class="right-col" role="main">

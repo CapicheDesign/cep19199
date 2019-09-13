@@ -11,8 +11,8 @@
 		<?php include '../../includes/nav.php'; ?>
 		<?php include '../../includes/header.php'; ?>
 		<section class="clearfix">
-			<aside class="left-col">
-				<img src="<?=$siteBaseURL?>img/containers/left-col-img.jpg" alt="Logs" />
+			<aside class="left-col" id="containers">
+				
 			</aside>
 			<div class="right-col" role="main">
 				<div class="content-inner">

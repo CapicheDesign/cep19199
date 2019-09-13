@@ -1768,10 +1768,14 @@ body#homepage{width:100%;height:100%;background:#153145}
 }
 .active #financials-panel-1{background-position-y:0}
 #content-page{background:#153145}
-#content-page section{position:relative;background:#fff;min-height:100vh}
-#content-page section aside.left-col{position:fixed;width:40%;height:100%;float:left;margin-top:89px}
-#content-page section aside.left-col img{width:100%;height:100%;margin-top:-50%;-ms-transform:translateY(25%);transform:translateY(25%)}
-#content-page section .right-col{width:60%;float:right;padding-top:100px}
+#content-page section{position:relative;min-height:100vh;background:#153145}
+#content-page section aside.left-col{position:fixed;width:40%;height:100%;float:left}
+#content-page section aside.left-col#ceo-report{background:url(../img/ceo-report/left-col-img.jpg) center no-repeat #153145;background-size:cover}
+#content-page section aside.left-col#chair-report{background:url(../img/chair-report/left-col-img.jpg) center no-repeat #153145;background-size:cover}
+#content-page section aside.left-col#containers{background:url(../img/containers/left-col-img.jpg) center no-repeat #153145;background-size:cover}
+#content-page section aside.left-col#cruise{background:url(../img/cruise/left-col-img.jpg) center no-repeat #153145;background-size:cover}
+#content-page section aside.left-col#ferries{background:url(../img/ferries-and-fuel/left-col-img.jpg) center no-repeat #153145;background-size:cover}
+#content-page section .right-col{width:60%;float:right;padding-top:100px;background:#fff}
 @media (max-width:767px){#content-page section aside.left-col{display:none}
 #content-page section .right-col{width:100%;padding-top:120px;float:none}
 }

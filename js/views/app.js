@@ -25,7 +25,9 @@ var AppView = Backbone.View.extend({
     'mouseenter .panel__home' : 'showHoverText',
     'mouseleave .panel__home' : 'hideHoverText',
     'click #close-btn': 'closeContentPage',
-    'click a': 'hideNav'
+    'click a': 'hideNav',
+    'click .test-link': 'testFunction'
+
   },
 
   initialize: function() {
@@ -83,10 +85,11 @@ var AppView = Backbone.View.extend({
         transition: function(url){ window.location.href = url; }
       })
       .one('animsition.inStart',function(){
-  
+
       })
       .one('animsition.inEnd',function(){
         $('#menu').css('display','block');
+        $('.left-col').css({'opacity':'1'});
       });
     }
 
@@ -159,6 +162,11 @@ var AppView = Backbone.View.extend({
     }
   },
   /*** end initalize function ***/
+
+  testFunction: function() {
+    console.log('test');
+    $('#chair-report').addClass('is-visible').css({'position':'relative'});
+  },
 
   closeContentPage: function() {
       var $section = $('#areaHeading').text();

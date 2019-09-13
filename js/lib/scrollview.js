@@ -147,12 +147,20 @@
 						break;
 			
 					case 3:
-						headingText = 'Business';
+						headingText = 'Our Business';
 						break;
 			
 					case 4:
-					  headingText = 'Financial Statements';
+					  headingText = 'Our People';
 					  break;
+
+					case 5:
+						headingText = 'Our Focus';
+						break;
+
+					case 6:
+						headingText = 'Financial Statements';
+						break;
 				  }
 				 $('#sectionHeading').text(headingText);  
 			}
@@ -203,12 +211,20 @@
 						break;
 			
 					case 3:
-						headingText = 'Business';
+						headingText = 'Our Business';
 						break;
 			
 					case 4:
-					  headingText = 'Financial Statements';
+					  headingText = 'Our People';
 					  break;
+
+					case 5:
+						headingText = 'Our Focus';
+						break;
+
+					case 6:
+						headingText = 'Financial Statements';
+						break;
 				  }
 				 $('#sectionHeading').text(headingText);  
 			}

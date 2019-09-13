@@ -11,8 +11,8 @@
 		<?php include '../../includes/nav.php'; ?>
 		<?php include '../../includes/header.php'; ?>
 		<section class="clearfix">
-			<aside class="left-col">
-				<img src="<?=$siteBaseURL?>img/chair-report/left-col-img.jpg" alt="Lachie Johnstone" />
+			<aside class="left-col" id="chair-report">
+				<img src="<?=$siteBaseURL?>img/chair-report/left-col-img.jpg" alt="Logs on port" />
 			</aside>
 			<div class="right-col" role="main">
 				<div class="content-inner">
@@ -33,7 +33,7 @@
 					<p>Log exports increased by 27 percent, container volumes by 11 percent and cruise showed continued strong growth with 110 ship visits resulting in a 36 percent increase.</p>
 				</div>
 
-				<div class="content-inner m-t-m">
+				<div class="content-inner m-t-m m-b-m">
 					<h2>Progress towards regeneration</h2>
 					<p><strong>CentrePort has continued to deliver on its strategy to grow freight capacity, and to increase resilience. That is putting the business in a strong position to progress the CentrePort regeneration plan to deliver a 21st century logistics asset which will benefit the economy and the community.</strong></p>    
 					<p>The underlying profit after tax and before earthquake impacts, changes in fair value and realisation of financial instruments was $16.6m reflecting a 41 percent improvement on the previous year. Shareholders were paid a dividend of $4m, up from $2m.</p>
@@ -42,9 +42,9 @@
 					<p>I would like to pay tribute to Director Richard Janes who departed are fifteen years’ service on the board. His astute judgement and counsel were an asset to the company.</p>
 					<p>We welcomed Kerrie-Lee Magill as a new director and her experience across a range of senior roles in corporates in New Zealand and the UK, complement the board as it steers CentrePort through its regeneration plan with an exciting future ahead.</p>
 					<p>The Board thanks the CentrePort team, including Chief Executive Derek Nind, for continuing to grow the business, drive health and safety improvement and progress the development of the regeneration plan.</p>
+					<img class="m-t-m" src="<?=$siteBaseURL?>img/chair-report/wharf.jpg" alt="Centreport aerial view"/>
 				</div>
 		
-				<img class="full-width-img m-t-m m-b-lg p-b-lg" src="<?=$siteBaseURL?>img/chair-report/wharf.jpg" alt="Centreport aerial view"/>
 			</div>
 		</section>
 		<?php include '../../includes/tail-scripts.php'; ?>
