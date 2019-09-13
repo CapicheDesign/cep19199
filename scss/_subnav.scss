@@ -1,5 +1,18 @@
 .subnav {
     display: inline;
+    @media (max-width: 1439px) {
+       display: inline-block;
+       padding: 0;
+    }
+    @media (min-width: 1024px) and (max-width: 1439px) {
+        margin: 0px 0 0 -1vw;
+    }
+    @media (min-width: 768px) and (max-width: 1023px) {
+        margin: 0px 0 0 -5vw;
+    }
+    @media (max-width: 320px) {
+        margin: 5px 0 0 -19vw
+    }
     li {
         display: inline;
         margin-left: 10px;

@@ -10,7 +10,7 @@
             <span class="arrow arrow-yellow-fwd" href="#"></span>
         </div>
     </a>
-    <a href="#" id="business-panel-2" class="panel__home panel__home__img panel__quarter panel__quarter__top panel__quarter__center-right animsition-link">
+    <a href="our-business/ceo-report/" id="business-panel-2" class="panel__home panel__home__img panel__quarter panel__quarter__top panel__quarter__center-right animsition-link">
         <div id="business-panel-2--bg" class="panel__home__inner">
             <div class="panel--content">
             <span class="mid-size-bold">CEO Report</span>
@@ -21,7 +21,7 @@
             <span class="arrow arrow-white-fwd" href="#"></span>
         </div>
     </a>
-    <a href="#" id="business-panel-3" class="panel__home panel__home__img panel__quarter panel__quarter__top panel__quarter__right animsition-link">
+    <a href="our-business/chair-report/" id="business-panel-3" class="panel__home panel__home__img panel__quarter panel__quarter__top panel__quarter__right animsition-link">
         <div id="business-panel-3--bg" class="panel__home__inner">
             <div class="panel--content">
                 <span class="mid-size-bold">Chair&#39;s Report</span>
@@ -40,15 +40,15 @@
                 <p>Result areas and achievement for</p>
                 <nav aria-label="trades-subnav" class="trades-subnav">
                     <ul>     
-                        <li><a href="#" class="animsition-link">Logs</a></li>
-                        <li><a href="#" class="animsition-link">Containers</a></li>
-                        <li><a href="#" class="animsition-link">Ferries &amp; Fuel</a></li>
-                        <li><a href="#" class="animsition-link">Cruise</a></li>
+                        <li><a href="our-business/logs/" class="animsition-link">Logs</a></li>
+                        <li><a href="our-business/containers/" class="animsition-link">Containers</a></li>
+                        <li><a href="our-business/ferries-and-fuel/" class="animsition-link">Ferries &amp; Fuel</a></li>
+                        <li><a href="our-business/cruise/" class="animsition-link">Cruise</a></li>
                         <li><a href="#" class="animsition-link">Other bulk</a></li>
                     </ul>
                 </nav>
             </div>
-            <span class="arrow arrow-yellow-fwd" id="trades-link" href="#"></span>
+            <span class="arrow arrow-yellow-fwd" id="trades-link"></span>
         </div>
     </div>
    

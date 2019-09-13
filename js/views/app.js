@@ -2,6 +2,8 @@ var Backbone = require('backbone');
 var ScrollReveal = require('../lib/scrollview.js');
 var Waypoints = require('../../node_modules/waypoints/lib/jquery.waypoints.min.js');
 var Animsition = require('../lib/animsition.min.js');
+var YouTubeModal = require('../lib/jquery-modal-video.min.js');
+var SlickSlider = require('../lib/slick.min.js');
 
 var AppView = Backbone.View.extend({
   el: 'html',
@@ -27,7 +29,14 @@ var AppView = Backbone.View.extend({
   },
 
   initialize: function() {
-    this.render();
+
+    /* set up youtube modals */
+    $(".js-modal-btn").modalVideo();
+
+    /* set up slick sliders */
+    $('.slick-slider').slick({
+      dots: true,
+    });
 
     /* this needs to be updated in scrollview.js too */
     if(document.referrer.indexOf("/our-business") > 0){
@@ -37,33 +46,53 @@ var AppView = Backbone.View.extend({
       $('#menuToggle').addClass('white-bg');
     }
 
-    $(".animsition").animsition({
-      inClass: 'fade-in-right',
-      outClass: 'fade-out',
-      inDuration: 500,
-      outDuration: 750,
-      linkElement: '.animsition-link',
-      // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
-      loading: true,
-      loadingParentElement: 'html', //animsition wrapper element
-      loadingClass: 'animsition-loading',
-      loadingInner: '<img src="http://cep19199.local:8888/img/loader.svg" />',
-      timeout: false,
-      timeoutCountdown: 5000,
-      onLoadEvent: true,
-      browser: [ 'animation-duration', '-webkit-animation-duration'],
-      // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
-      // The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
-      transition: function(url){ window.location.href = url; }
-    })
-    .one('animsition.inStart',function(){
+    if ( $('#homepage').length ) {
+      $(".animsition").animsition({
+        linkElement: '.animsition-link',
+        loading: true,
+        loadingParentElement: 'html', //animsition wrapper element
+        loadingClass: 'animsition-loading',
+        loadingInner: '<img src="http://cep19199.local:8888/img/loader.svg" />',
+        timeout: false,
+        timeoutCountdown: 5000,
+        onLoadEvent: true,
+        browser: [ 'animation-duration', '-webkit-animation-duration'],
+        transition: function(url){ window.location.href = url; }
+      })
+      .one('animsition.inStart',function(){
+        
+      })
+      .one('animsition.inEnd',function(){
+        $('#menu').css('display','block');
+      });
+    } else {
+      $(".animsition").animsition({
+        inClass: 'fade-in-right',
+        outClass: 'fade-out-right',
+        inDuration: 1000,
+        outDuration: 800,
+        linkElement: '.animsition-link',
+        loading: true,
+        loadingParentElement: 'body', //animsition wrapper element
+        loadingClass: 'animsition-loading',
+        loadingInner: '<img src="http://cep19199.local:8888/img/loader.svg" />',
+        timeout: false,
+        timeoutCountdown: 5000,
+        onLoadEvent: true,
+        browser: [ 'animation-duration', '-webkit-animation-duration'],
+        transition: function(url){ window.location.href = url; }
+      })
+      .one('animsition.inStart',function(){
   
-    })
-    .one('animsition.inEnd',function(){
-      $('#menu').css('display','block');
-    });
+      })
+      .one('animsition.inEnd',function(){
+        $('#menu').css('display','block');
+      });
+    }
 
     var self = this;
+
+
 
     if ( $('#homepage').length ) {
       var waypoint1 = new Waypoint({
@@ -91,7 +120,6 @@ var AppView = Backbone.View.extend({
       var waypoint4 = new Waypoint({
         element: document.getElementById('focus'),
         handler: function() {
-          console.log('waypoint1');
           $('#sectionHeading').text('Focus');
         }
       });
@@ -99,7 +127,6 @@ var AppView = Backbone.View.extend({
       var waypoint5 = new Waypoint({
         element: document.getElementById('financials'),
         handler: function() {
-          console.log('waypoint2');
           $('#sectionHeading').text('Financials');
         }
       });
@@ -117,10 +144,12 @@ var AppView = Backbone.View.extend({
     //run screen size check
     this.checkScreenSize($screenSize);
 
-    // reload page on resize desktop only
+    // reload page on resize on homepage desktop only
     $(window).on('resize', function() {
-      if ($('html.mobile').length !== 1) {
-        window.location.reload(false);
+      if ( $('#homepage').length === 1 ) {
+        if ($('html.mobile').length !== 1) {
+          window.location.reload(false);
+        }
       }
     });
 
@@ -131,10 +160,6 @@ var AppView = Backbone.View.extend({
   },
   /*** end initalize function ***/
 
-  render: function(){   
-
-  },
-
   closeContentPage: function() {
       var $section = $('#areaHeading').text();
       console.log($section);
@@ -144,7 +169,7 @@ var AppView = Backbone.View.extend({
 
   hideNav: function(e) {
     console.log(e.currentTarget);
-    if(!$(e.currentTarget).parents('.scroll-pagination').length) {
+    if( !$(e.currentTarget).parents('.scroll-pagination').length && !$(e.currentTarget).hasClass('toggleSubnav') ) {
       $('#menu').hide();
    }
   },

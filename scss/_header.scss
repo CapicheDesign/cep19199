@@ -1,12 +1,13 @@
 header {
     position: fixed;
     top: 0;
-    z-index: 1;
+    z-index: 2;
     width: 100%;
     height: 10vh;
     min-height: 80px;
     background: $white;
     padding: 20px 0;
+    box-shadow: 0 -6px 10px 0px;
    
     &.header__home {
         position: absolute;
@@ -22,7 +23,7 @@ header {
             position: fixed;
             height: 12vh;
          }
-         @media (min-width:1024px) and (max-width: 1399px) {
+         @media (min-width:1024px) and (max-width: 1439px) {
             position: fixed;
             height: 8vh;
          }
@@ -34,6 +35,7 @@ header {
     }
     &.header__transparent {
         background: transparent;
+        box-shadow: none;
         
         a.logo {
             width: 15vw;
@@ -66,7 +68,7 @@ header {
             width: 20vw;
             margin-top: 0;
          }
-        @media (min-width: 1024px) and (max-width: 1399px) {
+        @media (min-width: 1024px) and (max-width: 1439px) {
             width: 11vw;
             margin-top: 0;
         }
@@ -95,19 +97,59 @@ header {
          }
     }
     &.content-page-header {
+        @media (min-width: 768px) and (max-width: 1439px) {
+            min-height: 120px;
+        }
+        @media (max-width: 767px) {
+            min-height: 100px;
+         }
+        a.logo {
+            transition: none;
+            @media (max-width: 1023px) {
+                display: none;
+            }
+        }
         .centered-container {
             display: inline-block;
             position: absolute;
             left: 50%;
             margin-left: -25%;
+            @media (min-width: 321px) and (max-width: 375px) {
+                left: 45%;
+            }
+            @media (min-width: 768px) and (max-width: 1023px) {
+                margin-top: -15px;
+            }
+            @media (min-width: 1024px) and (max-width: 1439px) {
+                margin-left: -20%;
+            }
             .headings {
                 display: inline-block;
                 h2 {
                     display: inline;
                     font-weight: 300;
+                    transition: none;
+                    @media (max-width: 1023px) {
+                        font-size: 1.5em;
+                    }
+                    @media (max-width: 414px) {
+                        font-size: 1.2em;
+                    }
+                    @media (max-width: 320px) {
+                        font-size: 1em;
+                    }
                 }
                 h1 {
-
+                    transition: none;
+                    @media (max-width: 1023px) {
+                        font-size: 1.5em;
+                    }
+                    @media (max-width: 414px) {
+                        font-size: 1.2em;
+                    }
+                    @media (max-width: 320px) {
+                        font-size: 1em;
+                    }
                 }
                 .divider {
                     font-size: 2em;
@@ -119,6 +161,19 @@ header {
         #close-btn {
             position: absolute;
             right: 20px;
+            width:40px;
+            height:40px;
+            @media (max-width: 414px) {
+                width:30px;
+                height:30px;
+            }
+            @media (max-width: 320px) {
+                display: none;
+            }
+            background: url('../img/close-btn-dark.svg');
+            &:hover, &:focus {
+                background: url('../img/close-btn-light.svg')
+            }
         }
     }
 }

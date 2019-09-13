@@ -1,0 +1,64 @@
+.case-study {
+    background: $cp-blue-light;
+    color: white;
+    .case-study--header {
+        position: relative;
+        .case-study--heading {
+            background: $cp-yellow;
+            position: absolute;
+            padding: 0 50px 20px 40px;
+            @media (max-width: 767px) {
+                position: relative;
+            }
+            img {
+                max-width: 33px;
+                display:inline-block;
+                margin-top: -10px;
+            }
+            h3 {
+                color: $cp-black;
+                display:inline-block;
+                font-size: 1.66em;
+                margin-left: 10px;
+                margin-top: 30px;
+            }
+        }
+    }
+    .case-study--content {
+        padding: 0 50px;
+        @media (max-width: 767px) {
+            padding: 0 25px;
+        }
+        .heading-divider {
+            margin: 50px 0 10px !important;
+            @media (max-width: 767px) {
+                margin: 25px 0 10px !important;
+            }
+        }
+        h2 {
+            margin-top: 10px;
+            margin-bottom: 30px;
+            @media (max-width: 767px) {
+                font-size: 2em;
+                margin-bottom: 20px;
+            }
+        }
+    }
+    blockquote {
+        background: $cp-black;
+        border: none;
+        padding: 30px 50px;
+        @media (max-width: 767px) {
+            padding: 20px 25px;
+        }
+        p {
+            font-size:1.4em;
+            font-weight: 300;
+            font-style: italic;
+            line-height: 1.2;
+            @media (max-width: 767px) {
+                font-size:1em;
+            }
+        }
+    }
+}

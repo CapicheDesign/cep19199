@@ -1,6 +1,6 @@
 nav {
     position: fixed;
-    z-index: 2;
+    z-index: 3;
 
     &.nav__home {
         position: relative;
@@ -56,6 +56,11 @@ nav {
             &:nth-last-child(2)
             {
               transform-origin: 0% 100%;
+            }
+            @media (max-width: 375px) {
+                width: 30px;
+                height: 2px;
+                margin-bottom: 6px;
             }
         }
 
@@ -178,6 +183,9 @@ nav {
         transform-origin: 0% 0%;
         transform: translate(-100%, 0);
         transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+        @media (max-width: 414px) {
+            min-width: 320px;
+        }
 
         li {
             line-height: 2;

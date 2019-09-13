@@ -1,0 +1,32 @@
+.slick-slider {
+    &.slick-slider__black {
+        background: $cp-black;
+    }
+    &.slick-slider__light-blue {
+        background: $cp-blue-light;
+    }
+    img {
+        width: 100%;
+    }
+
+    .slick-dots {
+        bottom: 25px;
+        li {
+            &.slick-active {
+                button {
+                    &:before {
+                        color: $cp-yellow;
+                    }
+                }
+            }
+            button {
+        
+                &:before {
+                    font-size: 50px;
+                    opacity: 1;
+                    color: white;
+                }
+            }
+        }
+    }
+}

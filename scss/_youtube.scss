@@ -1,0 +1,30 @@
+.youtube-wrapper {
+  
+    a.js-modal-btn {
+        position: relative;
+        width: 100%;
+        display: block;
+        left: 50%;
+        transform: translateX(-50%);
+        img {
+            &.yt-poster {
+                width: 100%;
+            }
+            &.yt-play-btn {
+                position: absolute;
+                max-width: 70px;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%,-50%);
+            }
+        }
+        &:hover {
+            .yt-play-btn {
+                opacity: 0.85;
+            }
+        }
+        // @media screen and (max-width: $screen-xs-max) {
+        //     display: none;
+        // }
+    }
+}

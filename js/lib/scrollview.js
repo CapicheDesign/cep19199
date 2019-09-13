@@ -125,7 +125,7 @@
 				$(".scroll-pagination li a" + "[data-index='" + next.data("index") + "']").addClass("active");
 			}
 			$("body")[0].className = ""; 
-			$("body")[0].className = "current-page-" + next.data("index");
+			$("body")[0].className = "animsition current-page-" + next.data("index");
 			if (settings.updateURL) {
 				var href = window.location.href.substr(0, window.location.href.indexOf('#')) + "#" + (index + 1);
 			} 
@@ -181,7 +181,7 @@
 				$(".scroll-pagination li a" + "[data-index='" + next.data("index") + "']").addClass("active");
 			}
 			$("body")[0].className = ""; 
-			$("body")[0].className = "current-page-" + next.data("index");
+			$("body")[0].className = "animsition current-page-" + next.data("index");
 			if (settings.updateURL) {
 				var href = window.location.href.substr(0, window.location.href.indexOf('#')) + "#" + (index + 1);
 			}
@@ -223,7 +223,7 @@
 				$(".scroll-pagination li a" + ".active").removeClass("active");
 				$(".scroll-pagination li a" + "[data-index='" + (page_index) + "']").addClass("active");
 				$("body")[0].className = "";
-				$("body")[0].className = "current-page-" + goPage.data("index");
+				$("body")[0].className = "animsition current-page-" + goPage.data("index");
 				var pos = ((page_index - 1) * 100) * -1;
 				$(this).transformPage(settings, pos, page_index);
 			}  

@@ -22,6 +22,10 @@ ul {
     list-style-type: none;
 }
 
+img {
+    width: 100%;
+}
+
 button {
     border: 1px solid $white;
     background: transparent;
@@ -69,4 +73,78 @@ button {
 
 .black-bg {
     background: $cp-black;
+}
+
+.m-t-0 {
+    margin-top: 0 !important;
+}
+
+.m-b-0 {
+    margin-bottom: 0 !important;
+}
+
+.m-t-m {
+    margin-top: 40px !important;
+}
+
+.m-b-m {
+    margin-bottom: 40px !important;
+}
+
+.p-t-m {
+    padding-top: 40px !important;
+}
+
+.p-b-m {
+    padding-bottom: 40px !important;
+}
+
+.m-t-lg {
+    margin-top: 60px !important;
+}
+
+.m-b-lg {
+    margin-bottom: 60px !important;
+}
+
+.p-t-lg {
+    padding-top: 60px !important;
+}
+
+.p-b-lg {
+    padding-bottom: 60px !important;
+}
+
+@media (max-width: 767px) {
+    .m-t-m {
+        margin-top: 30px !important;
+    }
+    
+    .m-b-m {
+        margin-bottom: 30px !important;
+    }
+    
+    .p-t-m {
+        padding-top: 30px !important;
+    }
+    
+    .p-b-m {
+        padding-bottom: 30px !important;
+    }
+    
+    .m-t-lg {
+        margin-top: 45px !important;
+    }
+    
+    .m-b-lg {
+        margin-bottom: 45px !important;
+    }
+    
+    .p-t-lg {
+        padding-top: 45px !important;
+    }
+    
+    .p-b-lg {
+        padding-bottom: 45px !important;
+    }
 }
