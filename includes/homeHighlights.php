@@ -1,4 +1,4 @@
-<section data-index=2 id="highlights">
+<section data-index=2 id="highlights" class="animsition">
     <a href="#" id="highlights-panel-1" class="panel__home panel__third light-blue-bg">
         <div class="panel--content">
             <span class="large-text">$16.6m</span>

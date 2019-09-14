@@ -6,7 +6,7 @@
 <?php include '../../includes/html.php'; ?>
 <?php include '../../includes/head.php'; ?>
 
-<body id="content-page">
+<body class="content-page" id="cruise">
 	<div class="animsition" data-animsition-in-class="fade-in-right" data-animsition-in-duration="1000" data-animsition-out-class="fade-out-right" data-animsition-out-duration="800">
 		<?php include '../../includes/nav.php'; ?>
 		<?php include '../../includes/header.php'; ?>
@@ -18,11 +18,9 @@
 				<div class="content-inner">
 					<h1>Cruise</h1>
 					<div class="heading-divider"></div>
-				
+					<p>[LEFT COLUMN IMAGE REQUIRED]</p>
 					<p><strong>History was made in the 2018/19 cruise ship season with ship visits passing the centrury mark for the first time.  By the end of the season a total of 110 visits were achieved.</strong></p>    
-					<p>TThe growth in log volumes through CentrePort has been significant. The volumes have doubled in the past six years, and this growth is predicted to continue over the next decade. 
-					<p>A record 1,709,435 JAS (Japanese Agricultural Standard) was exported. This was a 27 percent increase on the previous year, led by strong demand from China. </p>
-				
+					
 					<div class="youtube-wrapper m-t-m m-b-m">
 						<a class="js-modal-btn" data-video-id="IWXpyBJztFE">
 							<img class="yt-poster" src="<?=$siteBaseURL?>img/video-placeholder.jpg" alt="video thumbnail image"/>
@@ -59,6 +57,16 @@
 					<div><img src="<?=$siteBaseURL?>img/cruise/slider-2-img-2.svg" alt="+300k visitors"/></div>
 					<div><img src="<?=$siteBaseURL?>img/cruise/slider-2-img-3.svg" alt="+$56m to local economy"/></div>
 				</div>
+
+				<div class="content-inner m-t-m">
+					<p>The demographics of cruise passengers are changing, with an increase in families and a growing diversity of nationalities.</p>
+					<p>Next year will be even bigger, with 123 ships booked to land in the 2019/20 season.</p>
+				</div>
+
+				<blockquote class="m-t-lg m-b-0">
+					<p>“Cruise ships contribute $60 million to the Capital’s retail, hospitality and tourism sectors every year. It is a great way to highlight Wellington. We are proud to be part of boosting tourism to the city.”</p>
+					<cite>Derek Nind, Chief Executive, CentrePort</cite>
+				</blockquote>
 			</div>
 		</section>
 		<?php include '../../includes/tail-scripts.php'; ?>

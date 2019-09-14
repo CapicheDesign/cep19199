@@ -1,4 +1,4 @@
-#content-page {
+.content-page {
     background: $cp-blue-dark;
 
     section {
@@ -12,41 +12,17 @@
             width: 40%;
             height: 100%;
             float:left;
-            // opacity: 0;
-            // transition: opacity 0.5s linear;
-            // margin-top: 89px;
-            &#inland-strategy {
-                // background: $cp-blue-dark url('../img/inland-strategy/left-col-img.jpg') center no-repeat;
-                // background-size: cover;
-            }
-            &#ceo-report {
-                background: $cp-blue-dark url('../img/ceo-report/left-col-img.jpg') center no-repeat;
-                background-size: cover;
-            }
-            &#chair-report {
-                background: $cp-blue-dark url('../img/chair-report/left-col-img.jpg') center no-repeat;
-                background-size: cover;
-            }
-            &#containers {
-                background: $cp-blue-dark url('../img/containers/left-col-img.jpg') center no-repeat;
-                background-size: cover;
-            }
-            &#cruise {
-                background: $cp-blue-dark url('../img/cruise/left-col-img.jpg') center no-repeat;
-                background-size: cover;
-            }
-            &#ferries {
-                background: $cp-blue-dark url('../img/ferries-and-fuel/left-col-img.jpg') center no-repeat;
-                background-size: cover;
-            }
+            min-height: 100vh;
 
             @media (max-width: 767px) {
                 display: none;
             }
-            img {
-                // width: 100%;
-                // height: 100%;
-                // position: absolute;
+        }
+
+        &#ceo-report {
+            aside.left-col {
+                background: $cp-blue-dark url('../img/ceo-report/left-col-img.jpg') center no-repeat;
+                background-size: cover;
             }
         }
 
@@ -55,6 +31,7 @@
             float: right;
             padding-top: 100px;
             background: white;
+            min-height: 100vh;
             @media (max-width: 767px) {
                 width: 100%;
                 padding-top: 120px;
@@ -97,6 +74,15 @@
                 margin-bottom: 20px;
                 @media (max-width: 767px) {
                     margin-bottom: 10px;
+                }
+            }
+
+            ul {
+                list-style: disc;
+                padding: 0;
+                margin-left: 20px;
+                li {
+                    margin-bottom: 15px;
                 }
             }
         }

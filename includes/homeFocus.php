@@ -1,7 +1,7 @@
 
 
-<section data-index=5 id="focus">
-    <a href="#" id="focus-panel-1" class="panel__home panel__home__img panel__half panel__half__left">
+<section data-index=5 id="focus" class="animsition">
+    <a href="/our-focus/medium-term-plan/" id="focus-panel-1" class="panel__home panel__home__img panel__half panel__half__left animsition-link" >
         <div id="focus-panel-1--bg" class="panel__home__inner">
             <div class="panel--content">
                 <span class="mid-size-bold">Medium term operating plan</span>
@@ -12,7 +12,7 @@
             <span class="arrow arrow-yellow-fwd" href="#"></span>
         </div>
     </a>
-    <a href="#" id="focus-panel-2" class="panel__home panel__quarter panel__quarter__top panel__quarter__center-right light-blue-bg">
+    <a href="/our-focus/sustainability/" id="focus-panel-2" class="panel__home panel__quarter panel__quarter__top panel__quarter__center-right light-blue-bg animsition-link">
         <div class="panel--content">
             <div role="presentation" class="panel--icon__leaf"></div>
             <span class="mid-size-bold">Sustainability</span>
@@ -22,7 +22,7 @@
         </div>
         <span class="arrow arrow-white-fwd"></span>
     </a>
-    <a href="#" id="focus-panel-3" class="panel__home panel__home__img panel__quarter panel__quarter__top panel__quarter__right">
+    <a href="/our-focus/ferry-terminal/" id="focus-panel-3" class="panel__home panel__home__img panel__quarter panel__quarter__top panel__quarter__right animsition-link">
         <div id="focus-panel-3--bg" class="panel__home__inner">
             <div class="panel--content">
                 <span class="mid-size-bold">Multi-user ferry terminal</span>
@@ -33,7 +33,7 @@
             <span class="arrow arrow-white-fwd"></span>
         </div>
     </a>
-    <div id="focus-panel-4" class="panel__home panel__half panel__half-height yellow-bg">
+    <a href="/our-focus/lifelines/" id="focus-panel-4" class="panel__home panel__half panel__half-height yellow-bg animsition-link">
         <div class="panel--content">
             <div role="presentation" class="panel--icon__ropes"></div>
             <span class="mid-size-bold">Lifelines</span>
@@ -42,5 +42,5 @@
                 </div>
             <span class="arrow arrow-black-fwd"></span>
         </div>
-    </div>
+    </a>
 </section>

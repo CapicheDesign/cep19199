@@ -6,12 +6,12 @@
 <?php include '../../includes/html.php'; ?>
 <?php include '../../includes/head.php'; ?>
 
-<body id="content-page">
+<body class="content-page" id="ferries-and-fuel">
 	<div class="animsition" data-animsition-in-class="fade-in-right" data-animsition-in-duration="1000" data-animsition-out-class="fade-out-right" data-animsition-out-duration="800">
 		<?php include '../../includes/nav.php'; ?>
 		<?php include '../../includes/header.php'; ?>
 		<section class="clearfix">
-			<aside class="left-col" id="ferries">
+			<aside class="left-col">
 				<img src="<?=$siteBaseURL?>img/ferries-and-fuel/left-col-img.jpg" alt="Logs" />
 			</aside>
 			<div class="right-col" role="main">

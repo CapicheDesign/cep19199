@@ -1,4 +1,4 @@
-<section data-index=6 id="financials">
+<section data-index=6 id="financials" class="animsition">
     <div id="financials-panel-1" class="panel__home panel__half yellow-bg">
         <div class="panel--content">
             <div role="presentation" class="panel--icon__financial"></div>
@@ -18,7 +18,7 @@
             </div>
         </div>
     </div>
-    <div id="financials-panel-3" class="panel__home panel__home__img panel__home__img panel__half panel__half-height">
+    <a href="/our-financials/governance/" id="financials-panel-3" class="panel__home panel__home__img panel__home__img panel__half panel__half-height animsition-link">
         <div id="financials-panel-3--bg" class="panel__home__inner">    
             <div class="panel--content">
                 <span class="mid-size-bold">Governance Report</span>
@@ -27,5 +27,5 @@
                 </button>
             </div>
         </div>
-    </div>
+    </a>
 </section>

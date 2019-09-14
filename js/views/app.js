@@ -40,15 +40,33 @@ var AppView = Backbone.View.extend({
       dots: true,
     });
 
-    /* this needs to be updated in scrollview.js too */
-    if(document.referrer.indexOf("/our-business") > 0){
+    /* go back to correct section from content page */
+    /* note: this needs to be updated in /lib/scrollview.js too */
+    var $referrer = document.referrer;
+    if($referrer.indexOf("/our-business") > 0){
       $('#main').css({'transform':'translate3d(0px, -200%, 0px)'});
       $('body').removeClass('current-page-1').addClass('current-page-3');
+      $('header').removeClass('header__transparent');
+      $('#menuToggle').addClass('white-bg');
+    } else if ($referrer.indexOf("/our-people") > 0) {
+      $('#main').css({'transform':'translate3d(0px, -300%, 0px)'});
+      $('body').removeClass('current-page-1').addClass('current-page-4');
+      $('header').removeClass('header__transparent');
+      $('#menuToggle').addClass('white-bg');
+    } else if ($referrer.indexOf("/our-focus") > 0) {
+      $('#main').css({'transform':'translate3d(0px, -400%, 0px)'});
+      $('body').removeClass('current-page-1').addClass('current-page-5');
+      $('header').removeClass('header__transparent');
+      $('#menuToggle').addClass('white-bg');
+    } else if ($referrer.indexOf("/our-financials") > 0) {
+      $('#main').css({'transform':'translate3d(0px, -500%, 0px)'});
+      $('body').removeClass('current-page-1').addClass('current-page-6');
       $('header').removeClass('header__transparent');
       $('#menuToggle').addClass('white-bg');
     }
 
     if ( $('#homepage').length ) {
+
       $(".animsition").animsition({
         linkElement: '.animsition-link',
         loading: true,

@@ -6,8 +6,8 @@
 <?php include '../../includes/html.php'; ?>
 <?php include '../../includes/head.php'; ?>
 
-<body id="content-page">
-	<div class="animsition" data-animsition-in-class="fade-in-right" data-animsition-in-duration="1000">
+<body class="content-page" id="log">
+	<div class="animsition" data-animsition-in-class="fade-in-right" data-animsition-in-duration="1000" data-animsition-out-class="fade-out-right" data-animsition-out-duration="800">
 		<?php include '../../includes/nav.php'; ?>
 		<?php include '../../includes/header.php'; ?>
 		<section class="clearfix">
@@ -21,8 +21,8 @@
 				
 					<h2>The incoming wall of wood</h2>
 					<p><strong>The lower North Island region’s forests of the 1990s are reaching maturity. This is creating a “wall of wood” and significant growth for the log industry in the region.</strong></p>    
-					<p>TThe growth in log volumes through CentrePort has been significant. The volumes have doubled in the past six years, and this growth is predicted to continue over the next decade. 
-					<p>A record 1,709,435 JAS (Japanese Agricultural Standard) was exported. This was a 27 percent increase on the previous year, led by strong demand from China. </p>
+					<p>The growth in log volumes through CentrePort has been significant. The volumes have doubled in the past six years, and this growth is predicted to continue over the next decade.</p>
+					<p>A record 1,709,435 JAS (Japanese Agricultural Standard) was exported. This was a 27 percent increase on the previous year, led by strong demand from China.</p>
 				
 					<div class="youtube-wrapper m-t-m m-b-m">
 						<a class="js-modal-btn" data-video-id="IWXpyBJztFE">
@@ -40,10 +40,10 @@
 
 				<div class="content-inner m-t-m">
 					<h2>Putting the log in logistics</h2>
-					<p><strong>As logging continues to expand, CentrePort has been looking at innovative ways to increase log volumes and its off-port storage capacity.to continue to develop cost-effective, safe, sustainable and efficient supply chain solutions that reduce truck movements.</strong></p>    
+					<p><strong>As logging continues to expand, CentrePort has been looking at innovative ways to continue to develop cost-effective, safe, sustainable and efficient supply chain solutions that reduce truck movements.</strong></p>    
 					<p>The Waingawa log hub, outside Masterton, was specifically built to support the efficient and fast movement of logs directly to the Port.</p>  
 					<p>Waingawa is almost a hectare of land which is leased by KiwiRail and CentrePort and subleased to three individual parties.  The land has been developed by CentrePort, with the rail maintained by KiwiRail, to ensure there is capacity to take logs directly to the port.</p>
-					<p>Logs arrive at the Waingawa rail hub and are sent by rail to Wellington daily.  This has taken a significant number of trucks off the road – reducing the number of truck journeys over the Rimutakas by 16,000 up to 30,000 annually – an environmental, social and economic win for the region.  Rail also reduces road maintenance coasts and has 66 percent fewer emissions per tonne compared to trucks.</p>
+					<p>Logs arrive at the Waingawa rail hub and are sent by rail to Wellington daily.  This has taken a significant number of trucks off the road – reducing the number of truck journeys over the Rimutakas by up to 30,000 annually – an environmental, social and economic win for the region.  Rail also reduces road maintenance coasts and has 66 percent fewer emissions per tonne compared to trucks.</p>
 				
 					[ANIMATION REQUIRED - CAN'T GO IN SLIDER]
 				
@@ -56,8 +56,8 @@
 				</div>
 
 				<div class="content-inner m-t-m">
-					<p>In July 2019, KiwiRail and CentrePort announced additional capacity from Waingawa from 30 to 45 wagons a day.  Transporting an additional 100,000 tonnes of logs by rail from the Wairarapa to CentrePort will reduce 6,000 truck trips annually, bringing total saved truck movements to 30,000.  Ultimately the expanded service will increase capacity by up to 200,000 tonnes perre annum.</p>
-					<p>As log volume continues to increase, CentrePort will invest in infrastructure and rail capacity will  continue to grow to meet the demand.</p>
+					<p>In July 2019, KiwiRail and CentrePort announced additional capacity from Waingawa from 30 to 45 wagons a day.  Transporting an additional 100,000 tonnes of logs by rail from the Wairarapa to CentrePort will reduce 6,000 truck trips annually, bringing total saved truck movements to 30,000.  Ultimately the expanded service will increase capacity by up to 200,000 tonnes per annum.</p>
+					<p>As log volume continues to increase, CentrePort will invest in infrastructure and rail capacity will grow to meet the demand.</p>
 
 					<img class="full-width-img m-t-m m-b-m" src="<?=$siteBaseURL?>img/logs/seedling.jpg" alt="Seedling"/>
 				</div>

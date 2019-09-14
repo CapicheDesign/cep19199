@@ -141,6 +141,7 @@ header {
                 }
                 h1 {
                     transition: none;
+                    display: inline;
                     @media (max-width: 1023px) {
                         font-size: 1.5em;
                     }
@@ -155,6 +156,7 @@ header {
                     font-size: 2em;
                     font-weight: 300;
                     padding: 0 10px;
+                    display: inline;
                 }
             }
         }

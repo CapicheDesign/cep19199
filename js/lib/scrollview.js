@@ -68,23 +68,39 @@
 
 
 			} else {
-				console.log(document.referrer);
-				if(document.referrer.indexOf("/our-business") > 0){
-					 console.log('came from business');
+				 if(document.referrer.indexOf("/our-business") > 0){
 					$(settings.sectionContainer + "[data-index='3']").addClass("active")
-					$("body").addClass("current-page-3")
+					$("body").addClass("current-page-3");
 					if (settings.pagination == true) {
 						$(".scroll-pagination li a" + "[data-index='3']").addClass("active");
 					}
-				  } else {
+				  } else if(document.referrer.indexOf("/our-people") > 0) {
+					$(settings.sectionContainer + "[data-index='4']").addClass("active")
+					$("body").addClass("current-page-4");
+					if (settings.pagination == true) {
+						$(".scroll-pagination li a" + "[data-index='4']").addClass("active");
+					}
+				} else if(document.referrer.indexOf("/our-focus") > 0) {
+					$(settings.sectionContainer + "[data-index='5']").addClass("active")
+					$("body").addClass("current-page-5");
+					if (settings.pagination == true) {
+						$(".scroll-pagination li a" + "[data-index='5']").addClass("active");
+					}
+				} else if(document.referrer.indexOf("/our-financials") > 0) {
+					$(settings.sectionContainer + "[data-index='6']").addClass("active")
+					$("body").addClass("current-page-6");
+					if (settings.pagination == true) {
+						$(".scroll-pagination li a" + "[data-index='6']").addClass("active");
+					}
+				} else {
 					$(settings.sectionContainer + "[data-index='1']").addClass("active")
-					$("body").addClass("current-page-1")
+					$("body").addClass("current-page-1");
 					if (settings.pagination == true) {
 						$(".scroll-pagination li a" + "[data-index='1']").addClass("active");
 					}
 				}
 			} 
-		})() 	
+		})();	
 
 		function init_scroll(event, delta) {
 			var timeNow = new Date().getTime(); 

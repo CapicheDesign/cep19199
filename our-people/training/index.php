@@ -6,7 +6,7 @@
 <?php include '../../includes/html.php'; ?>
 <?php include '../../includes/head.php'; ?>
 
-<body id="content-page">
+<body class="content-page" id="training">
 	<div class="animsition" data-animsition-in-class="fade-in-right" data-animsition-in-duration="1000" data-animsition-out-class="fade-out-right" data-animsition-out-duration="800">
 		<?php include '../../includes/nav.php'; ?>
 		<?php include '../../includes/header.php'; ?>
@@ -34,7 +34,7 @@
 				</div>
 
 				<blockquote class="m-t-m m-b-m">
-					<p>“It's been a really satisfying process to see people grow, evolve, change and grow in confidence as a result of that. It's been a really positive experience and something that we want to do more and more of with all of our staff.”</p>
+					<p>“It's been a really satisfying process to see people evolve, change and grow in confidence as a result of that. It's been a really positive experience and something that we want to do more and more of with all of our staff.”</p>
 					<cite>Derek Nind, CEO, CentrePort</cite>
 				</blockquote>
 
@@ -45,7 +45,7 @@
 				</div>
 
 				<blockquote class="m-t-m m-b-0">
-					<p>“Probably one of the best nights  of my life this year would be watching the pride and the sense of satisfaction from the staff who graduated that night, something maybe they haven't done before in front of their families and friends. It's great to be part of that and a vehicle to encourage it and to see that transformation in them.”</p>
+					<p>“Probably one of the best nights this year would be watching the pride and the sense of satisfaction from the staff who graduated that night, something maybe they haven't done before in front of their families and friends. It's great to be part of that and a vehicle to encourage it and to see that transformation in them.”</p>
 					<cite>Derek Nind, CEO, CentrePort</cite>
 				</blockquote>
 

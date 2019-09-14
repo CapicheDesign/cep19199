@@ -6,7 +6,7 @@
 <?php include '../../includes/html.php'; ?>
 <?php include '../../includes/head.php'; ?>
 
-<body id="content-page">
+<body class="content-page" id="health-and-safety">
 	<div class="animsition" data-animsition-in-class="fade-in-right" data-animsition-in-duration="1000" data-animsition-out-class="fade-out-right" data-animsition-out-duration="800">
 		<?php include '../../includes/nav.php'; ?>
 		<?php include '../../includes/header.php'; ?>
@@ -21,10 +21,10 @@
 
 					[LEFT COLUMN IMAGE REQUIRED]<br><br>
 					<p><strong>Health and safety is about more than processes and systems. It requires a culture that empowers colleagues to advocate for safer ways of working.</strong></p>
-					<p>Our staff are  have been more proactive than ever in delivering our health and safety strategy. The CentrePort health and safety reps and frontline staff are empowered to identify new and safer ways of doing things.</p>  
+					<p>Our staff are proactive in delivering our health and safety strategy. The CentrePort health and safety reps and frontline staff are empowered to identify new and safer ways of doing things.</p>  
 				</div>
 
-				<blockquote class="m-t-m m-b-m">
+				<blockquote class="m-t-m m-b-lg">
 					<p>Health and safety is the number one priority for CentrePort in everything we do.</p>
 				</blockquote>
 
@@ -53,12 +53,12 @@
 
 				<div class="slick-slider slick-slider__black m-t-m m-b-m">
 					<div><img src="<?=$siteBaseURL?>img/health-and-safety/slider-2-img-1.svg" alt="23 health and safety reps"/></div>
-					<div><img src="<?=$siteBaseURL?>img/health-and-safety/slider-2-img-2.svg" alt="X days since lost time injury"/></div>
+					<div><img src="<?=$siteBaseURL?>img/health-and-safety/slider-2-img-2.svg" alt="4 months with no lost time injury"/></div>
 					<div><img src="<?=$siteBaseURL?>img/health-and-safety/slider-2-img-3.svg" alt="We were policemen, now we are partners - Paul Baptista, Health and Safety Manager"/></div>
 				</div>
 
 				<blockquote class="m-t-m m-b-m">
-					<p>“The port is a dynamic environment and we need to make sure that everybody in the port is focused on that. WI think we're making those changes and we are seeing great progress. E, and everybody in the business is committed in the business to making that happen. It's a journey and we continue to strive towards our goal of being a zero-harm workplace.”</p>
+					<p>“The port is a dynamic environment and we need to make sure that everybody is focused on that. We're making those changes and we are seeing great progress. Everybody in the business is committed to making that happen. It's a journey and we continue to strive towards our goal of being a zero-harm workplace.”</p>
 					<cite>Derek Nind, CentrePort Chief Executive.</cite>
 				</blockquote>
 

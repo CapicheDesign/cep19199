@@ -1,5 +1,5 @@
-<section data-index=4 id="people">
-    <a href="#" id="people-panel-1" class="panel__home panel__home__img panel__half panel__half__left">
+<section data-index=4 id="people" class="animsition">
+    <a href="/our-people/training/" id="people-panel-1" class="panel__home panel__home__img panel__half panel__half__left animsition-link">
         <div id="people-panel-1--bg" class="panel__home__inner">
             <div class="panel--content">
                 <span class="mid-size-bold">Training</span>
@@ -10,7 +10,7 @@
             <span class="arrow arrow-yellow-fwd" href="#"></span>
         </div>
     </a>
-    <a href="#" id="people-panel-2" class="panel__home panel__home__img panel__half panel__half-height panel__half-height__top panel__half-height__right">
+    <a href="/our-people/resilient-people/" id="people-panel-2" class="panel__home panel__home__img panel__half panel__half-height panel__half-height__top panel__half-height__right animsition-link">
         <div id="people-panel-2--bg" class="panel__home__inner">        
             <div class="panel--content">
                 <span class="mid-size-bold">Resilient People</span>
@@ -21,7 +21,7 @@
             </div>
         </div>
     </a>
-    <a href="#" id="people-panel-3" class="panel__home panel__quarter panel__quarter__bottom panel__quarter__center-right yellow-bg">
+    <a href="/our-people/health-and-safety/" id="people-panel-3" class="panel__home panel__quarter panel__quarter__bottom panel__quarter__center-right yellow-bg animsition-link">
         <div class="panel--content">
             <div role="presentation" class="panel--icon__hardhat"></div>
             <span class="mid-size-bold">Health and Safety</span>
@@ -31,7 +31,7 @@
         </div>
         <span class="arrow arrow-black-fwd" href="#"></span>
     </a>
-    <a href="#" id="people-panel-4" class="panel__home panel__quarter panel__quarter__bottom panel__quarter__right black-bg">
+    <a href="/our-people/values/" id="people-panel-4" class="panel__home panel__quarter panel__quarter__bottom panel__quarter__right black-bg animsition-link">
         <div class="panel--content">
             <div role="presentation" class="panel--icon__values"></div>
             <span class="mid-size-bold">Values</span>

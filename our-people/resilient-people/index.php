@@ -6,7 +6,7 @@
 <?php include '../../includes/html.php'; ?>
 <?php include '../../includes/head.php'; ?>
 
-<body id="content-page">
+<body class="content-page" id="resilient-people">
 	<div class="animsition" data-animsition-in-class="fade-in-right" data-animsition-in-duration="1000" data-animsition-out-class="fade-out-right" data-animsition-out-duration="800">
 		<?php include '../../includes/nav.php'; ?>
 		<?php include '../../includes/header.php'; ?>
@@ -36,7 +36,7 @@
 				</div>
 
 				<blockquote class="m-t-m m-b-m">
-					<p>“A highlight for me this year has been working with the team on the ground and doing the work to truly understand what CentrePort needs. The executive leadership team has provided ongoing support backed us and that really empowers you to make improvements.”</p>
+					<p>“A highlight for me this year has been working with the team on the ground and doing the work to truly understand what CentrePort needs. The executive leadership team has provided ongoing support and that really empowers you to make improvements.”</p>
 				</blockquote>
 
 				<div class="content-inner m-t-m m-b-m">
