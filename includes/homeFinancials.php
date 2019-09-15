@@ -9,7 +9,7 @@
         </div>
     </div>
     <div id="financials-panel-2" class="panel__home panel__home__img panel__half panel__half-height panel__half-height__top panel__half-height__right">
-        <div id="financials-panel-2--bg" class="panel__home__inner">                
+        <div class="panel__home__overlay">                
             <div class="panel--content">
                 <span class="mid-size-bold">Auditors Report</span>
                 <button>
@@ -18,13 +18,14 @@
             </div>
         </div>
     </div>
-    <a href="/our-financials/governance/" id="financials-panel-3" class="panel__home panel__home__img panel__home__img panel__half panel__half-height animsition-link">
-        <div id="financials-panel-3--bg" class="panel__home__inner">    
+    <a href="/our-financials/governance/" id="financials-panel-3" class="panel__home panel__home__img panel__home__img panel__half panel__half-height panel__half-height__bottom animsition-link">
+        <div class="panel__home__overlay">    
             <div class="panel--content">
                 <span class="mid-size-bold">Governance Report</span>
-                <button>
-                    Download Governance Report PDF (175kb)
-                </button>
+                <span class="arrow arrow-yellow-fwd" href="#"></span>
+                <div id="hover-text-container">
+                    <span>Lorem ipsum dolorem</span>
+                </div>
             </div>
         </div>
     </a>

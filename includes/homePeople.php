@@ -1,23 +1,23 @@
 <section data-index=4 id="people" class="animsition">
     <a href="/our-people/training/" id="people-panel-1" class="panel__home panel__home__img panel__half panel__half__left animsition-link">
-        <div id="people-panel-1--bg" class="panel__home__inner">
+        <div class="panel__home__overlay">
             <div class="panel--content">
                 <span class="mid-size-bold">Training</span>
+                <span class="arrow arrow-yellow-fwd" href="#"></span>
                 <div id="hover-text-container">
                     <span class="mid-size-text">Our investment in training has helped improve the skills of our team.</span>
                 </div>
             </div>
-            <span class="arrow arrow-yellow-fwd" href="#"></span>
         </div>
     </a>
     <a href="/our-people/resilient-people/" id="people-panel-2" class="panel__home panel__home__img panel__half panel__half-height panel__half-height__top panel__half-height__right animsition-link">
-        <div id="people-panel-2--bg" class="panel__home__inner">        
+        <div class="panel__home__overlay">        
             <div class="panel--content">
                 <span class="mid-size-bold">Resilient People</span>
+                <span class="arrow arrow-white-fwd" href="#"></span>
                 <div id="hover-text-container">
                     <span>This year, people along the front lines have stepped up to meet challenges, solve problems and improve processes.</span>
                 </div>
-                <span class="arrow arrow-white-fwd" href="#"></span>
             </div>
         </div>
     </a>

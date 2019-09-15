@@ -162,13 +162,13 @@ var AppView = Backbone.View.extend({
     this.checkScreenSize($screenSize);
 
     // reload page on resize on homepage desktop only
-    $(window).on('resize', function() {
-      if ( $('#homepage').length === 1 ) {
-        if ($('html.mobile').length !== 1) {
-          window.location.reload(false);
-        }
-      }
-    });
+    // $(window).on('resize', function() {
+    //   if ( $('#homepage').length === 1 ) {
+    //     if ($('html.mobile').length !== 1) {
+    //       window.location.reload(false);
+    //     }
+    //   }
+    // });
 
     // fixed image on content page
     if ( $('#contentPage-container').length === 1 ) {
