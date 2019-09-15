@@ -20,10 +20,6 @@ var AppView = Backbone.View.extend({
     'touchstart document': 'updateHeaderDesktop',
     'touchmove document': 'updateHeaderDesktop',
     'touchend document': 'updateHeaderDesktop',
-    'mouseenter #business-panel-4' : 'showTradesSubnav',
-    'mouseleave #business-panel-4' : 'hideTradesSubnav',
-    'mouseenter .panel__home' : 'showHoverText',
-    'mouseleave .panel__home' : 'hideHoverText',
     'click #close-btn': 'closeContentPage',
     'click a': 'hideNav',
     'click .test-link': 'testFunction'
@@ -210,7 +206,7 @@ var AppView = Backbone.View.extend({
       // hide trades subnav on load
       if ( $('#homepage').length === 1 ) {
         this.$subnavContainer = $('#trades-subnav-container');
-        $('#trades-subnav-container').hide();
+        // $('#trades-subnav-container').hide();
       }
     }
   },
@@ -345,31 +341,7 @@ var AppView = Backbone.View.extend({
         }
       $('#sectionHeading').text(headingText);
     }
-  },
-
-  // show or hide 'trades' subnav on homepage
-  showTradesSubnav: function(e) {
-    e.stopPropagation();
-    this.$subnavContainer.show();
-    $('#trades-link').hide();
-  },
-  hideTradesSubnav: function(e) {
-    e.stopPropagation();
-    this.$subnavContainer.hide();
-    $('#trades-link').show().css('margin-bottom','0');
-  },
-
-  // show or hide hover text on homepage
-  showHoverText: function(e) {
-    if ($(e.target).find('#hover-text-container').length) {
-      $(e.target).find('#hover-text-container').show();
-    }
-  },
-  hideHoverText: function(e) {
-    if ($(e.target).find('#hover-text-container').length) {
-      $(e.target).find('#hover-text-container').hide();
-    }
-  },
+  }
 });
 
 module.exports = AppView;
