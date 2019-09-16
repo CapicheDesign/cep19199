@@ -34,7 +34,7 @@
 				</div>
 
 				<div class="slick-slider slick-slider__light-blue m-t-lg m-b-m">
-					<div><img src="<?=$siteBaseURL?>img/containers/slider-1-img-1.svg" alt="Containers up 11% in 2019"/></div>
+					<div><img src="<?=$siteBaseURL?>img/containers/slider-1-img-1.jpg" alt="Containers up 11% in 2019"/></div>
 					<div><img src="<?=$siteBaseURL?>img/containers/slider-1-img-2.jpg" alt=""/></div>
 					<div><img src="<?=$siteBaseURL?>img/containers/slider-1-img-3.jpg" alt=""/></div>
 				</div>
@@ -72,7 +72,7 @@
 							<cite>Brendon Bartley, Managing Director, Ali Arc.</cite>
 						</blockquote>
 						<div class="case-study--content p-b-lg">
-							<img class="m-b-m"src="<?=$siteBaseURL?>img/containers/ali-arc.jpg" alt="Brendon Bartley, Managing Director, Ali Arc."/>
+							<img class="m-b-m" src="<?=$siteBaseURL?>img/containers/ali-arc.jpg" alt="Brendon Bartley, Managing Director, Ali Arc."/>
 							<p>CentreRail's ability to provide certainty around timing of shipments, efficiency of operations, and flexibility ensures the partnership works well.</p>
 							<p>“The relationship is great because our core business is warehousing logistics.  They've got to come from somewhere. If it comes from CentrePort that's the best result for us so the quicker we get with them in and out of the port the better.”</p>
 							<p>“We've got the ability to grow with CentrePort, and we're currently working on a development for adding biosecurity services to what we do.</p>

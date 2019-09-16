@@ -50,7 +50,7 @@ var AppView = Backbone.View.extend({
         loading: true,
         loadingParentElement: 'html', //animsition wrapper element
         loadingClass: 'animsition-loading',
-        loadingInner: '<img src="'+baseUrl+'/img/loader.svg" />',
+        loadingInner: '<img src="/cep19199/img/loader.svg" />',
         timeout: false,
         timeoutCountdown: 5000,
         onLoadEvent: true,
@@ -73,7 +73,7 @@ var AppView = Backbone.View.extend({
         loading: true,
         loadingParentElement: 'body', //animsition wrapper element
         loadingClass: 'animsition-loading',
-        loadingInner: '<img src="'+this.baseUrl+'/img/loader.svg" />',
+        loadingInner: '<img src="/cep19199/img/loader.svg" />',
         timeout: false,
         timeoutCountdown: 5000,
         onLoadEvent: true,

@@ -52,9 +52,9 @@
 				</div>
 
 				<div class="slick-slider slick-slider__black m-t-m m-b-m">
-					<div><img src="<?=$siteBaseURL?>img/health-and-safety/slider-2-img-1.svg" alt="23 health and safety reps"/></div>
-					<div><img src="<?=$siteBaseURL?>img/health-and-safety/slider-2-img-2.svg" alt="4 months with no lost time injury"/></div>
-					<div><img src="<?=$siteBaseURL?>img/health-and-safety/slider-2-img-3.svg" alt="We were policemen, now we are partners - Paul Baptista, Health and Safety Manager"/></div>
+					<div><img src="<?=$siteBaseURL?>img/health-and-safety/slider-2-img-1.jpg" alt="23 health and safety reps"/></div>
+					<div><img src="<?=$siteBaseURL?>img/health-and-safety/slider-2-img-2.jpg" alt="4 months with no lost time injury"/></div>
+					<div><img src="<?=$siteBaseURL?>img/health-and-safety/slider-2-img-3.jpg" alt="We were policemen, now we are partners - Paul Baptista, Health and Safety Manager"/></div>
 				</div>
 
 				<blockquote class="m-t-m m-b-m">

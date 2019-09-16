@@ -1544,7 +1544,6 @@ header a.logo{width:8vw;margin-left:110px;margin-top:-1vh}
 @media (min-width:768px) and (max-width:1023px){header a.logo{margin-left:87px;width:20vw;margin-top:0}
 }
 @media (min-width:1024px) and (max-width:1439px){header a.logo{width:11vw;margin-top:0}
-header.content-page-header .centered-container{margin-left:-20%}
 }
 header a.logo img{width:100%}
 header a.logo:focus,header a.logo:hover{opacity:.75}
@@ -1567,7 +1566,7 @@ header.content-page-header .centered-container{display:block;position:absolute;l
 @media (min-width:768px) and (max-width:1023px){header h1{font-size:30px;margin-top:20px}
 header.content-page-header .centered-container{margin-top:-15px}
 }
-header.content-page-header .centered-container .headings{display:inline-block}
+header.content-page-header .centered-container .headings{display:block}
 header.content-page-header .centered-container .headings h2{display:inline;font-weight:300;transition:none}
 @media (max-width:1023px){header.content-page-header .centered-container .headings h2{font-size:1.5em}
 }
@@ -2160,3 +2159,6 @@ to{transform:translate(0,0)}
 .case-study blockquote p{font-size:1.4em;font-weight:300;font-style:italic;line-height:1.2}
 @media (max-width:767px){.case-study blockquote p{font-size:1em}
 }
+body .buorg{border-bottom:1px solid #153145;color:#fff;background-color:#006EC6;font-family:Roboto,sans-serif;font-size:1em}
+body .buorg #buorgig,body .buorg #buorgul{border:none;background:#153145;color:#fff;font-size:.88em;cursor:pointer;border-radius:0;padding:5px 10px}
+body .buorg #buorgig:focus,body .buorg #buorgig:hover,body .buorg #buorgul:focus,body .buorg #buorgul:hover{background:#006EC6}

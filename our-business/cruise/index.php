@@ -53,9 +53,9 @@
 				</blockquote>
 
 				<div class="slick-slider slick-slider__light-blue m-t-lg m-b-lg">
-					<div><img src="<?=$siteBaseURL?>img/cruise/slider-2-img-1.svg" alt="110 Ships"/></div>
-					<div><img src="<?=$siteBaseURL?>img/cruise/slider-2-img-2.svg" alt="+300k visitors"/></div>
-					<div><img src="<?=$siteBaseURL?>img/cruise/slider-2-img-3.svg" alt="+$56m to local economy"/></div>
+					<div><img src="<?=$siteBaseURL?>img/cruise/slider-2-img-1.jpg" alt="110 Ships"/></div>
+					<div><img src="<?=$siteBaseURL?>img/cruise/slider-2-img-2.jpg" alt="+300k visitors"/></div>
+					<div><img src="<?=$siteBaseURL?>img/cruise/slider-2-img-3.jpg" alt="+$56m to local economy"/></div>
 				</div>
 
 				<div class="content-inner m-t-m">

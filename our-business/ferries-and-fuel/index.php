@@ -43,9 +43,9 @@
 				</div>
 
 				<div class="slick-slider slick-slider__black m-t-lg m-b-m">
-					<div><img src="<?=$siteBaseURL?>img/ferries-and-fuel/slider-1-img-1.svg" alt="AQ3 supplies tanks at Kaiwharawhara for ferries and bunkering shipping"/></div>
-					<div><img src="<?=$siteBaseURL?>img/ferries-and-fuel/slider-1-img-2.svg" alt="Burnham Wharf supplies jet fuel to Wellington Airport"/></div>
-					<div><img src="<?=$siteBaseURL?>img/ferries-and-fuel/slider-1-img-3.svg" alt="Seaview provides a number of fuel products in the tank farms out at Seaview"/></div>
+					<div><img src="<?=$siteBaseURL?>img/ferries-and-fuel/slider-1-img-1.jpg" alt="AQ3 supplies tanks at Kaiwharawhara for ferries and bunkering shipping"/></div>
+					<div><img src="<?=$siteBaseURL?>img/ferries-and-fuel/slider-1-img-2.jpg" alt="Burnham Wharf supplies jet fuel to Wellington Airport"/></div>
+					<div><img src="<?=$siteBaseURL?>img/ferries-and-fuel/slider-1-img-3.jpg" alt="Seaview provides a number of fuel products in the tank farms out at Seaview"/></div>
 				</div>
 
 				<blockquote class="m-t-lg m-b-m">

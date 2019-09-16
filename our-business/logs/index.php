@@ -50,9 +50,9 @@
 				</div>
 
 				<div class="slick-slider slick-slider__black m-t-m m-b-m">
-					<div><img src="<?=$siteBaseURL?>img/logs/slider-2-img-1.svg" alt="Increased daily capacity from 30 to 45 wagons"/></div>
-					<div><img src="<?=$siteBaseURL?>img/logs/slider-2-img-2.svg" alt="The log trade for us is growing rapidly and it has been a record volume of logs through the port this year. We've grown that business fromapproximately 1.3 to 1.7 million - Derek Nind"/></div>
-					<div><img src="<?=$siteBaseURL?>img/logs/slider-2-img-3.svg" alt="Planned growth of 60 wagons per day by March 2020"/></div>
+					<div><img src="<?=$siteBaseURL?>img/logs/slider-2-img-1.jpg" alt="Increased daily capacity from 30 to 45 wagons"/></div>
+					<div><img src="<?=$siteBaseURL?>img/logs/slider-2-img-2.jpg" alt="Planned growth of 60 wagons per day by March 2020" /></div>
+					<div><img src="<?=$siteBaseURL?>img/logs/slider-2-img-3.jpg" alt="The log trade for us is growing rapidly and it has been a record volume of logs through the port this year. We've grown that business fromapproximately 1.3 to 1.7 million - Derek Nind"/></div>
 				</div>
 
 				<div class="content-inner m-t-m">

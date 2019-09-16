@@ -24,10 +24,10 @@
 				</div>
 
 				<div class="slick-slider m-t-lg m-b-lg">
-					<div><img src="<?=$siteBaseURL?>img/values/slider-1-img-1.svg" alt="Be Safe"/></div>
-					<div><img src="<?=$siteBaseURL?>img/values/slider-1-img-2.svg" alt="One Team"/></div>
-					<div><img src="<?=$siteBaseURL?>img/values/slider-1-img-3.svg" alt="Make it happen"/></div>
-					<div><img src="<?=$siteBaseURL?>img/values/slider-1-img-4.svg" alt="Aim higher"/></div>
+					<div><img src="<?=$siteBaseURL?>img/values/slider-1-img-1.jpg" alt="Be Safe"/></div>
+					<div><img src="<?=$siteBaseURL?>img/values/slider-1-img-2.jpg" alt="One Team"/></div>
+					<div><img src="<?=$siteBaseURL?>img/values/slider-1-img-3.jpg" alt="Make it happen"/></div>
+					<div><img src="<?=$siteBaseURL?>img/values/slider-1-img-4.jpg" alt="Aim higher"/></div>
 				</div>
 
 			</div>

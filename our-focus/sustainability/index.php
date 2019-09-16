@@ -42,9 +42,9 @@
 				</div>
 
 				<div class="slick-slider m-t-0 m-b-m">
-					<div><img src="<?=$siteBaseURL?>img/sustainability/slider-1-img-1.svg" alt="27,297 cubic tonnes of concrete"/></div>
-					<div><img src="<?=$siteBaseURL?>img/sustainability/slider-1-img-2.svg" alt="Excellence in Civil Construction at the Concrete NZ awards"/></div>
-					<div><img src="<?=$siteBaseURL?>img/sustainability/slider-1-img-3.svg" alt="Committed to making ongoing environmental improvements"/></div>
+					<div><img src="<?=$siteBaseURL?>img/sustainability/slider-1-img-1.jpg" alt="27,297 cubic tonnes of concrete"/></div>
+					<div><img src="<?=$siteBaseURL?>img/sustainability/slider-1-img-2.jpg" alt="Excellence in Civil Construction at the Concrete NZ awards"/></div>
+					<div><img src="<?=$siteBaseURL?>img/sustainability/slider-1-img-3.jpg" alt="Committed to making ongoing environmental improvements"/></div>
 				</div>
 
 				<div class="content-inner m-t-lg m-b-m"">
