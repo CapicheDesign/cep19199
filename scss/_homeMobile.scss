@@ -3,6 +3,7 @@
         width: 100%;
         height: auto;
         overflow: visible;
+        background: white;
       }
 
       .scroll-pagination {
@@ -29,13 +30,73 @@
             width: 100%;
             height: auto !important;
             min-height: 230px !important;
+            max-height: 350px !important;
             display: block;
             position: static;
             transition: none !important;
-            padding-top: 50px;
+            transform: none !important;
+            .panel__home__overlay {
+                transform: none !important;
+                height: auto !important;
+                padding-top: 0 !important;
+            }
             .panel--content {
-                position: static;
-                padding-right: 0;
+                position: static !important;
+                height: auto !important;
+                padding-left: 5vw;
+                padding-right: 5vw;
+                margin-top: 3vh;
+                transform: none !important;
+                .hover-text-container {
+                    display: block;
+                    margin-top: 2vh;
+                    font-size: 1.2em;
+                    span.mid-size-text {
+                        font-size: 1.2em !important;
+                    }
+                }
+            }
+            &#highlights-panel-1 {
+                padding-top: 3vh !important;
+            }
+            &#highlights-panel-3 {
+                padding-top: 3vh !important;
+                padding-bottom: 3vh !important;
+            }
+            &#business-panel-1 {
+                padding-top: 5vh !important;
+            }
+            &#business-panel-4 {
+                .panel--content {
+                    #trades-subnav-container {
+                        display: block;
+                    }
+                }
+            }
+            &#people-panel-2 {
+                padding-top: 3vh;
+                padding-bottom: 3vh;
+            }
+            &#focus-panel-2 {
+                padding-top: 3vh;
+                padding-bottom: 3vh;
+            }
+            &#focus-panel-4 {
+                border-bottom: 2px solid $cp-black;
+                padding: 3vh 0 5vh;
+            }
+            &#financials-panel-1 {
+                padding: 3vh 0 5vh;
+            }
+            &#financials-panel-2 {
+                .panel--content {
+                    margin-top: 10vh;
+                }
+            }
+            &#financials-panel-3 {
+                .panel--content {
+                    margin-top: 15vh;
+                }
             }
         }
     }
@@ -50,9 +111,6 @@
         height: auto!important;
         display: block !important;
         padding-top: 50px !important;
-        .panel--content {
-            position: static !important;
-        }
     }
     #business-panel-1 {
         background: url(../img/hubs-bg.jpg) center no-repeat;

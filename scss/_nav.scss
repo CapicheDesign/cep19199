@@ -87,6 +87,9 @@ nav {
                 background: white;
                 z-index: 1;
                 transform-origin: 5px 0px;
+                @media (max-width: 414px) {
+                    height: 1px;
+                }
 
                 &:first-child
                 {
@@ -174,6 +177,7 @@ nav {
         transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
         @media (max-width: 414px) {
             min-width: 320px;
+            padding: 150px 35px 0;
         }
 
         li {

@@ -161,7 +161,9 @@
 						headingText = 'Financial Statements';
 						break;
 				  }
-				 $('#sectionHeading').text(headingText);  
+				  if ( $('.mobile').length <= 0 ) {
+					 $('#sectionHeading').text(headingText);
+				  }  
 			}
 		}
 		$.fn.moveUp = function() {
@@ -203,7 +205,7 @@
 			} else {
 				$('header').removeClass('header__transparent');
       			$('.logo img').attr('src','img/logo-black.svg');
-				  $('#menuToggle').addClass('white-bg');
+				$('#menuToggle').addClass('white-bg');
 				  switch (nextIndex)
 				{
 					case 2:

@@ -15,7 +15,7 @@ var AppView = Backbone.View.extend({
     'keyup #menu-checkbox': 'keyboardToggleSubnav',
     'click .scroll-pagination a': 'updateHeaderDesktop',
     'wheel document': 'updateHeaderDesktop',
-    'mousewheel document': 'uupdateHeaderDesktop',
+    'mousewheel document': 'updateHeaderDesktop',
     'DOMMouseScroll document': 'updateHeaderDesktop',
     'touchstart document': 'updateHeaderDesktop',
     'touchmove document': 'updateHeaderDesktop',
@@ -30,6 +30,8 @@ var AppView = Backbone.View.extend({
 
   initialize: function() {
 
+    var self = this;
+
     /* set up youtube modals */
     $(".js-modal-btn").modalVideo();
 
@@ -40,53 +42,15 @@ var AppView = Backbone.View.extend({
 
     if ( $('#homepage').length ) {
 
-      $('#menu li a').removeClass('active');
-      if (location.search == '?s=1') {
-        $('#main').css({'transform':'translate3d(0px, -100%, 0px)'});
-        $('body').removeClass('current-page-1').addClass('current-page-3');
-        $('header').removeClass('header__transparent');
-        $('#menuToggle').addClass('white-bg');
-        $('#menu li a#highlightsLink').addClass('active');
-        $('.logo img').attr('src','/img/logo-black.svg');
-      } else if (location.search == '?s=2') {
-        $('#main').css({'transform':'translate3d(0px, -200%, 0px)'});
-        $('body').removeClass('current-page-1').addClass('current-page-3');
-        $('header').removeClass('header__transparent');
-        $('#menuToggle').addClass('white-bg');
-        $('#menu li a#businessLink').addClass('active');
-        $('.logo img').attr('src','/img/logo-black.svg');
-      } else if (location.search == '?s=3') {
-        $('#main').css({'transform':'translate3d(0px, -300%, 0px)'});
-        $('body').removeClass('current-page-1').addClass('current-page-4');
-        $('header').removeClass('header__transparent');
-        $('#menuToggle').addClass('white-bg');
-        $('#menu li a#peopleLink').addClass('active');
-        $('.logo img').attr('src','/img/logo-black.svg');
-      } else if (location.search == '?s=4') {
-        $('#main').css({'transform':'translate3d(0px, -400%, 0px)'});
-        $('body').removeClass('current-page-1').addClass('current-page-5');
-        $('header').removeClass('header__transparent');
-        $('#menuToggle').addClass('white-bg');
-        $('#menu li a#focusLink').addClass('active');
-        $('.logo img').attr('src','/img/logo-black.svg');
-      } else if (location.search == '?s=5') {
-        $('#main').css({'transform':'translate3d(0px, -500%, 0px)'});
-        $('body').removeClass('current-page-1').addClass('current-page-6');
-        $('header').removeClass('header__transparent');
-        $('#menuToggle').addClass('white-bg');
-        $('#menu li a#financialsLink').addClass('active');
-        $('.logo img').attr('src','/img/logo-black.svg');
-      } else {
-        $('#menu li a#homeLink').addClass('active');
-        $('.logo img').attr('src','/img/logo.svg');
-      }
+      var getUrl = window.location;
+      var baseUrl = getUrl .protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];
 
       $(".animsition").animsition({
         linkElement: '.animsition-link',
         loading: true,
         loadingParentElement: 'html', //animsition wrapper element
         loadingClass: 'animsition-loading',
-        loadingInner: '<img src="http://cep19199.local:8888/img/loader.svg" />',
+        loadingInner: '<img src="'+baseUrl+'/img/loader.svg" />',
         timeout: false,
         timeoutCountdown: 5000,
         onLoadEvent: true,
@@ -109,7 +73,7 @@ var AppView = Backbone.View.extend({
         loading: true,
         loadingParentElement: 'body', //animsition wrapper element
         loadingClass: 'animsition-loading',
-        loadingInner: '<img src="http://cep19199.local:8888/img/loader.svg" />',
+        loadingInner: '<img src="'+this.baseUrl+'/img/loader.svg" />',
         timeout: false,
         timeoutCountdown: 5000,
         onLoadEvent: true,
@@ -124,10 +88,6 @@ var AppView = Backbone.View.extend({
         $('.left-col').css({'opacity':'1'});
       });
     }
-
-    var self = this;
-
-    this.initWaypoints();
 
     _.bindAll(this, 'checkScreenSize');
 
@@ -145,8 +105,70 @@ var AppView = Backbone.View.extend({
     if ( $('#contentPage-container').length === 1 ) {
       this.fixContentPageImage();
     }
+
+    this.setUpHeader();
+
+    this.initWaypoints();
   },
   /*** end initalize function ***/
+
+
+  setUpHeader: function() {
+    var getUrl = window.location;
+    var baseUrl = getUrl .protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];
+    if ( $('#homepage').length ) {
+      $('#menu li a').removeClass('active');
+      if (location.search == '?s=1') {
+        $('body').removeClass('current-page-1').addClass('current-page-2');
+        $('header').removeClass('header__transparent');
+        $('#menuToggle').addClass('white-bg');
+        $('#menu li a#highlightsLink').addClass('active');
+        $('.logo img').attr('src', baseUrl+'/img/logo-black.svg');
+        if ( $('.mobile').length <= 0) {
+          $('#main').css({'transform':'translate3d(0px, -100%, 0px)'});
+        }
+      } else if (location.search == '?s=2') {
+        $('body').removeClass('current-page-1').addClass('current-page-3');
+        $('header').removeClass('header__transparent');
+        $('#menuToggle').addClass('white-bg');
+        $('#menu li a#businessLink').addClass('active');
+        $('.logo img').attr('src',baseUrl+'/img/logo-black.svg');
+        if ( $('.mobile').length <= 0) {
+          $('#main').css({'transform':'translate3d(0px, -200%, 0px)'});
+        }
+      } else if (location.search == '?s=3') {
+        $('body').removeClass('current-page-1').addClass('current-page-4');
+        $('header').removeClass('header__transparent');
+        $('#menuToggle').addClass('white-bg');
+        $('#menu li a#peopleLink').addClass('active');
+        $('.logo img').attr('src',baseUrl+'/img/logo-black.svg');
+        if ( $('.mobile').length <= 0) {
+          $('#main').css({'transform':'translate3d(0px, -300%, 0px)'});
+        }
+      } else if (location.search == '?s=4') {
+        $('body').removeClass('current-page-1').addClass('current-page-5');
+        $('header').removeClass('header__transparent');
+        $('#menuToggle').addClass('white-bg');
+        $('#menu li a#focusLink').addClass('active');
+        $('.logo img').attr('src',baseUrl+'/img/logo-black.svg');
+        if ( $('.mobile').length <= 0) {
+          $('#main').css({'transform':'translate3d(0px, -400%, 0px)'});
+        }
+      } else if (location.search == '?s=5') {
+        $('body').removeClass('current-page-1').addClass('current-page-6');
+        $('header').removeClass('header__transparent');
+        $('#menuToggle').addClass('white-bg');
+        $('#menu li a#financialsLink').addClass('active');
+        $('.logo img').attr('src',baseUrl+'/img/logo-black.svg');
+        if ( $('.mobile').length <= 0) {
+          $('#main').css({'transform':'translate3d(0px, -500%, 0px)'});
+        }
+      } else {
+        $('#menu li a#homeLink').addClass('active');
+        $('.logo img').attr('src',baseUrl+'/img/logo.svg');
+      }
+    }
+  },
 
   updateNavActive: function(e) {
     $('#menu li a').removeClass('active');
@@ -167,7 +189,7 @@ var AppView = Backbone.View.extend({
   },
 
   initWaypoints: function() {
-    if ( $('#homepage').length ) {
+    if ( $('.mobile').length <= 0 && $('#homepage').length ) {
       var waypoint1 = new Waypoint({
         element: document.getElementById('highlights'),
         handler: function() {
@@ -224,13 +246,11 @@ var AppView = Backbone.View.extend({
   checkScreenSize: function($screenSize) {
     if ($screenSize.matches) { // if small screen size
       $('html').addClass('mobile'); // ...add mobile class
+      $('.nav__home').addClass('nav__mobile'); // ...add mobile class
+      $('.header__home #sectionHeading').text('Highlights');
     } else { // .. otherwise if large screen size
       this.setUpScrollView(); // ... add scrollview plugin for homepage
       $('html').removeClass('mobile'); // ..remove mobile class
-      // hide trades subnav on load
-      if ( $('#homepage').length === 1 ) {
-        this.$subnavContainer = $('#trades-subnav-container');
-      }
     }
   },
   
@@ -298,20 +318,22 @@ var AppView = Backbone.View.extend({
 
   // update header when changing sections on homepage
   updateHeaderMobile: function(e) {
+
+    var getUrl = window.location;
+    var baseUrl = getUrl .protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];
     
     if ($('html.mobile').length === 1) { // if small screen size 
   
       if ( $('#homepage').length === 1 ) { // ... and we are on the home page 
-        var distance = $('header').offset().top;
          
         if ( $(window).scrollTop() !== 0 ) { // if we are not at top of page
           // ... remove transparency from header and nav
           $('.header__home').removeClass('header__transparent'); 
-          $('.logo img').attr('src','img/logo-black.svg');
+          $('.logo img').attr('src',baseUrl+'/img/logo-black.svg');
           $('#menuToggle').addClass('white-bg'); 
         } else if ( $(window).scrollTop() === 0 ) {
           $('header').addClass('header__transparent');
-          $('.logo img').attr('src','img/logo.svg');
+          $('.logo img').attr('src',baseUrl+'/img/logo.svg');
           $('.logo').show();
           $('#sectionHeading').text('');
           $('#menuToggle').removeClass('white-bg');
@@ -322,15 +344,17 @@ var AppView = Backbone.View.extend({
 
   // update header when changing sections on homepage
   updateHeaderDesktop: function(e) {
+    var getUrl = window.location;
+    var baseUrl = getUrl .protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];
     if ( $('#homepage').length === 1 ) { // if we are on the home page    
       var dataIndex = $(e.currentTarget).data('index');
       if ( dataIndex == '1') {
         $('header').addClass('header__transparent');
-        $('.logo img').attr('src','img/logo.svg');
+        $('.logo img').attr('src',baseUrl+'/img/logo.svg');
         $('#menuToggle').removeClass('white-bg');
       } else {
         $('header').removeClass('header__transparent');
-        $('.logo img').attr('src','img/logo-black.svg');
+        $('.logo img').attr('src',baseUrl+'/img/logo-black.svg');
         $('#menuToggle').addClass('white-bg');
         this.updateSectionHeading(dataIndex);
       }
@@ -376,70 +400,125 @@ var AppView = Backbone.View.extend({
   },
 
   homePageNav: function(e) {
-    console.log('home link clicked');
-    var $btn = $('#menu-checkbox');
-    $($btn).prop('checked', false);
-    $($btn).removeClass('open');
-    $('#menu').attr('aria-expanded','false');
-    $('#main').css('transition', 'all 1000ms ease 0s');
-    $(".scroll-pagination li a").removeClass('active');
-    $("#menu li a").removeClass('active');
-    $(e.currentTarget).addClass('active');
-    if( $(e.currentTarget).attr('id') == 'homeLink' ) {
-      $('#main').css({'transform':'translate3d(0px, 0px, 0px)'});
-      $('body').removeClass().addClass('animsition current-page-1');
-      $('header').addClass('header__transparent');
-      $('#menuToggle').removeClass('white-bg');
-      $('.logo img').attr('src','/img/logo.svg');
-      $('.logo').show();
-      $('#sectionHeading').text('');
-      $(".scroll-pagination li a" + "[data-index='1']").addClass("active");
+    var getUrl = window.location;
+    var baseUrl = getUrl .protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];
+    
+      var $btn = $('#menu-checkbox');
+      $($btn).prop('checked', false);
+      $($btn).removeClass('open');
+      $('#menu').attr('aria-expanded','false');
+      $("#menu li a").removeClass('active');
+      $(e.currentTarget).addClass('active');
+    if ($('.mobile').length > 0) {
+      /* mobile */
+      var $headerHeight = $('header').outerHeight();
+      var $myScroll;
+      var $sectionTop;
+      e.preventDefault();
+       /* mobile */
+       if ( $(e.currentTarget).attr('id') == 'homeLink' ) {
+        $('#sectionHeading').text('');
+          $sectionTop = $("#home").offset().top;
+          $myScroll = $sectionTop -= $headerHeight;
+        $('html, body').animate({
+          scrollTop: $myScroll
+        }, 500);
+      } else if( $(e.currentTarget).attr('id') == 'highlightsLink' ) {
+        $('#sectionHeading').text('Highlights');
+        $sectionTop = $("#highlights").offset().top;
+        $myScroll = $sectionTop -= $headerHeight;
+       $('html, body').animate({
+         scrollTop: $myScroll
+       }, 500);
+      } else if ( $(e.currentTarget).attr('id') == 'businessLink' ) {
+        $('#sectionHeading').text('Our Business');
+        $sectionTop = $("#business").offset().top;
+        $myScroll = $sectionTop -= $headerHeight;
+       $('html, body').animate({
+         scrollTop: $myScroll
+       }, 500);
+      } else if ( $(e.currentTarget).attr('id') == 'peopleLink' ) {
+        $('#sectionHeading').text('Our People');
+        $sectionTop = $("#people").offset().top;
+        $myScroll = $sectionTop -= $headerHeight;
+       $('html, body').animate({
+         scrollTop: $myScroll
+       }, 500);
+      } else if ( $(e.currentTarget).attr('id') == 'focusLink' ) {
+        $('#sectionHeading').text('Our Focus');
+        $sectionTop = $("#focus").offset().top;
+        $myScroll = $sectionTop -= $headerHeight;
+       $('html, body').animate({
+         scrollTop: $myScroll
+       }, 500);
+      } else if ( $(e.currentTarget).attr('id') == 'financialsLink' ) {
+        $('#sectionHeading').text('Our Financials');
+        $sectionTop = $("#financials").offset().top;
+        $myScroll = $sectionTop -= $headerHeight;
+       $('html, body').animate({
+         scrollTop: $myScroll
+       }, 500);
+      }
+    } else {
+      /* desktop */
+      $('#main').css('transition', 'all 1000ms ease 0s');
+      $(".scroll-pagination li a").removeClass('active');
+      if( $(e.currentTarget).attr('id') == 'homeLink' ) {
+        $('#main').css({'transform':'translate3d(0px, 0px, 0px)'});
+        $('body').removeClass().addClass('animsition current-page-1');
+        $('header').addClass('header__transparent');
+        $('#menuToggle').removeClass('white-bg');
+        $('.logo img').attr('src',baseUrl+'/img/logo.svg');
+        $('.logo').show();
+        $('#sectionHeading').text('');
+        $(".scroll-pagination li a" + "[data-index='1']").addClass("active");
 
-    } else if( $(e.currentTarget).attr('id') == 'highlightsLink' ) {
-      $('#main').css({'transform':'translate3d(0px, -100%, 0px)'});
-      $('body').removeClass().addClass('animsition current-page-2');
-      $('header').removeClass('header__transparent');
-      $('#menuToggle').addClass('white-bg');
-      $('.logo img').attr('src','/img/logo-black.svg');
-      $('.logo').show();
-      $('#sectionHeading').text('Highlights');
-      $(".scroll-pagination li a" + "[data-index='2']").addClass("active");
-    } else if( $(e.currentTarget).attr('id') == 'businessLink' ) {
-      $('#main').css({'transform':'translate3d(0px, -200%, 0px)'});
-      $('body').removeClass().addClass('animsition current-page-3');
-      $('header').removeClass('header__transparent');
-      $('#menuToggle').addClass('white-bg');
-      $('.logo img').attr('src','/img/logo-black.svg');
-      $('.logo').show();
-      $('#sectionHeading').text('Our Business');
-      $(".scroll-pagination li a" + "[data-index='3']").addClass("active");
-    } else if ( $(e.currentTarget).attr('id') == 'peopleLink' ) {
-      $('#main').css({'transform':'translate3d(0px, -300%, 0px)'});
-      $('body').removeClass().addClass('animsition current-page-4');
-      $('header').removeClass('header__transparent');
-      $('#menuToggle').addClass('white-bg');
-      $('.logo img').attr('src','/img/logo-black.svg');
-      $('.logo').show();
-      $('#sectionHeading').text('Our People');
-      $(".scroll-pagination li a" + "[data-index='4']").addClass("active");
-    } else if ( $(e.currentTarget).attr('id') == 'focusLink' ) {
-      $('#main').css({'transform':'translate3d(0px, -400%, 0px)'});
-      $('body').removeClass().addClass('animsition current-page-5');
-      $('header').removeClass('header__transparent');
-      $('#menuToggle').addClass('white-bg');
-      $('.logo img').attr('src','/img/logo-black.svg');
-      $('.logo').show();
-      $('#sectionHeading').text('Our Focus');
-      $(".scroll-pagination li a" + "[data-index='5']").addClass("active");
-    } else if ( $(e.currentTarget).attr('id') == 'financialsLink' ) {
-      $('#main').css({'transform':'translate3d(0px, -500%, 0px)'});
-      $('body').removeClass().addClass('animsition current-page-6');
-      $('header').removeClass('header__transparent');
-      $('#menuToggle').addClass('white-bg');
-      $('.logo img').attr('src','/img/logo-black.svg');
-      $('.logo').show();
-      $('#sectionHeading').text('Our Financials');
-      $(".scroll-pagination li a" + "[data-index='6']").addClass("active");
+      } else if( $(e.currentTarget).attr('id') == 'highlightsLink' ) {
+        $('#main').css({'transform':'translate3d(0px, -100%, 0px)'});
+        $('body').removeClass().addClass('animsition current-page-2');
+        $('header').removeClass('header__transparent');
+        $('#menuToggle').addClass('white-bg');
+        $('.logo img').attr('src',baseUrl+'/img/logo-black.svg');
+        $('.logo').show();
+        $('#sectionHeading').text('Highlights');
+        $(".scroll-pagination li a" + "[data-index='2']").addClass("active");
+      } else if( $(e.currentTarget).attr('id') == 'businessLink' ) {
+        $('#main').css({'transform':'translate3d(0px, -200%, 0px)'});
+        $('body').removeClass().addClass('animsition current-page-3');
+        $('header').removeClass('header__transparent');
+        $('#menuToggle').addClass('white-bg');
+        $('.logo img').attr('src',baseUrl+'/img/logo-black.svg');
+        $('.logo').show();
+        $('#sectionHeading').text('Our Business');
+        $(".scroll-pagination li a" + "[data-index='3']").addClass("active");
+      } else if ( $(e.currentTarget).attr('id') == 'peopleLink' ) {
+        $('#main').css({'transform':'translate3d(0px, -300%, 0px)'});
+        $('body').removeClass().addClass('animsition current-page-4');
+        $('header').removeClass('header__transparent');
+        $('#menuToggle').addClass('white-bg');
+        $('.logo img').attr('src',baseUrl+'/img/logo-black.svg');
+        $('.logo').show();
+        $('#sectionHeading').text('Our People');
+        $(".scroll-pagination li a" + "[data-index='4']").addClass("active");
+      } else if ( $(e.currentTarget).attr('id') == 'focusLink' ) {
+        $('#main').css({'transform':'translate3d(0px, -400%, 0px)'});
+        $('body').removeClass().addClass('animsition current-page-5');
+        $('header').removeClass('header__transparent');
+        $('#menuToggle').addClass('white-bg');
+        $('.logo img').attr('src',baseUrl+'/img/logo-black.svg');
+        $('.logo').show();
+        $('#sectionHeading').text('Our Focus');
+        $(".scroll-pagination li a" + "[data-index='5']").addClass("active");
+      } else if ( $(e.currentTarget).attr('id') == 'financialsLink' ) {
+        $('#main').css({'transform':'translate3d(0px, -500%, 0px)'});
+        $('body').removeClass().addClass('animsition current-page-6');
+        $('header').removeClass('header__transparent');
+        $('#menuToggle').addClass('white-bg');
+        $('.logo img').attr('src',baseUrl+'/img/logo-black.svg');
+        $('.logo').show();
+        $('#sectionHeading').text('Our Financials');
+        $(".scroll-pagination li a" + "[data-index='6']").addClass("active");
+      }
     }
   }
 });

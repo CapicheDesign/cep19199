@@ -18,12 +18,12 @@
             </div>
         </div>
     </div>
-    <a href="/our-financials/governance/" id="financials-panel-3" class="panel__home panel__home__img panel__home__img panel__half panel__half-height panel__half-height__bottom animsition-link">
+    <a href="our-financials/governance/" id="financials-panel-3" class="panel__home panel__home__img panel__home__img panel__half panel__half-height panel__half-height__bottom animsition-link">
         <div class="panel__home__overlay">    
             <div class="panel--content">
                 <span class="mid-size-bold">Governance Report</span>
                 <span class="arrow arrow-yellow-fwd" href="#"></span>
-                <div id="hover-text-container">
+                <div class="hover-text-container">
                     <span>Lorem ipsum dolorem</span>
                 </div>
             </div>

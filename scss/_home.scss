@@ -1,4 +1,4 @@
-html { height: 100%; }
+html { height: 100%; background: $cp-blue-dark; }
 
 body#homepage {
   width: 100%;
@@ -91,7 +91,7 @@ body#homepage {
         transition: margin 0.25s linear;
 
         /* hover-text */
-        #hover-text-container {
+        .hover-text-container {
             margin-top: 50vh;
             transition: margin 0.25s linear, opacity 0.25s linear;
         }
@@ -113,7 +113,7 @@ body#homepage {
             &.mid-size-text {
                 font-size: 1.5em;
                 @media (max-width: 767px) {
-                    font-size: 2em;
+                    // font-size: 2em;
                 }
                 @media (min-width: 1024px) and (max-width: 1399px) {
                     // font-size: 4.5em;
@@ -157,7 +157,7 @@ body#homepage {
             }
         }
         .panel--content {
-            #hover-text-container {
+            .hover-text-container {
                 margin-top: 20px;
             }
         }

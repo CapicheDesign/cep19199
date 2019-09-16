@@ -13,7 +13,7 @@
             <a href="<?=$siteBaseURL?>?s=1" class="homePageLink" id="highlightsLink" title="Highlights">Highlights</a>
         </li>
         <li>
-            <a href="<?=$siteBaseURL?>?s=2" class="homePageLink <?php if ($pageMeta['section'] == 'Our Business'):?>active<?php endif; ?>" id="businessLink" title="Our Business">Our Business</a>
+            <a href="<?=$siteBaseURL?>?s=2" class="homePageLink <?php if ($pageMeta['section'] == 'Our Business'):?>active<?php endif; ?> <?php if ($pageMeta['section'] == 'Trades'):?>active<?php endif; ?>" id="businessLink" title="Our Business">Our Business</a>
             <a href="#" class="toggleSubnav" aria-haspopup="true" aria-expanded="false">
                 <span></span>
                 <span></span>

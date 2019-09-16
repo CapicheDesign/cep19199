@@ -1,10 +1,10 @@
 <section data-index=3 id="business" class="animsition">
-    <a href="/our-business/inland-strategy/" id="business-panel-1" class="panel__home panel__home__img panel__half panel__half__left animsition-link">
+    <a href="our-business/inland-strategy/" id="business-panel-1" class="panel__home panel__home__img panel__half panel__half__left animsition-link">
         <div class="panel__home__overlay">
             <div class="panel--content">
                 <span class="mid-size-bold">Inland Hubs</span>
                 <span class="arrow arrow-yellow-fwd" href="#"></span>
-                <div id="hover-text-container">
+                <div class="hover-text-container">
                     <span class="mid-size-text">CentrePort’s inland hub strategy continued to help drive economic success across central New Zealand this year.</span>
                 </div>
             </div> 
@@ -15,7 +15,7 @@
             <div class="panel--content">
                 <span class="mid-size-bold">CEO Report</span>
                 <span class="arrow arrow-white-fwd" href="#"></span>
-                <div id="hover-text-container">
+                <div class="hover-text-container">
                     <span>"This year has been a successful one for CentrePort of growth and recovery."</span>
                 </div>
             </div>
@@ -26,8 +26,8 @@
             <div class="panel--content">
                 <span class="mid-size-bold">Chair&#39;s Report</span>
                 <span class="arrow arrow-white-fwd" href="#"></span>
-                <div id="hover-text-container">
-                    <span>Lorem ipsum dolorem blah blah</span>
+                <div class="hover-text-container">
+                    <span>Lorem ipsum dolorem</span>
                 </div>
             </div>
         </div>
