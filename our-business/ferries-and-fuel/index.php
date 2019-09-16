@@ -1,5 +1,5 @@
 <?php require '../../_config.php'; 
-		$pageMeta['section'] = 'Our Business';
+		$pageMeta['section'] = 'Trades';
 		$pageMeta['heading'] = 'Ferries & Fuel';
 		$pageMeta['description'] = 'For the third year in a row, fuel volumes have been greater than a million tonnes at CentrePort.';
 ?>

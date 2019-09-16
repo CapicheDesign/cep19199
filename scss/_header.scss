@@ -54,7 +54,7 @@ header {
     a.logo {
         transition: all 0.5s linear;
         display: inline-block;
-        width: 10vw;
+        width: 8vw;
         margin-left: 110px;
         margin-top: -1vh;
         @media (max-width: 414px) {
@@ -81,7 +81,7 @@ header {
     }
     h1 {
         display: inline-block;
-        margin-top: 10px;
+        margin-top: 5px;
         transition: all 0.5s linear;
         @media (max-width: 413px) {
             margin-top: 5px;
@@ -97,6 +97,8 @@ header {
          }
     }
     &.content-page-header {
+        height: auto;
+        padding: 30px 0 40px;
         @media (min-width: 768px) and (max-width: 1439px) {
             min-height: 120px;
         }
@@ -110,10 +112,12 @@ header {
             }
         }
         .centered-container {
-            display: inline-block;
+            display: block;
             position: absolute;
             left: 50%;
-            margin-left: -25%;
+            transform: translateX(-50%);
+            top: 20px;
+            text-align: center;
             @media (min-width: 321px) and (max-width: 375px) {
                 left: 45%;
             }
@@ -165,6 +169,7 @@ header {
             right: 20px;
             width:40px;
             height:40px;
+            top: 20px;
             @media (max-width: 414px) {
                 width:30px;
                 height:30px;

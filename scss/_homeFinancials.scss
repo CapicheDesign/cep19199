@@ -7,6 +7,7 @@
     background-size: cover;
     background-position-y: 50vh;
     color: $cp-black;
+    transition: background-position 1.25s linear;
     .panel--content {
         transform: translate3d(0,55%,0);
         transition: none;

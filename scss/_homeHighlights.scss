@@ -4,7 +4,7 @@
     top: 0;
     left: 0;
     height: 55vh;
-    padding-top: 17vh;
+    padding-top: 14vh;
     z-index: 100;
     transition: all 250ms linear;
     &:hover, &:focus, &:active {
@@ -59,7 +59,7 @@
     top: 0;
     left: 66.7%;
     height: 55vh;
-    padding-top: 17vh;
+    padding-top: 14vh;
     color: $cp-black;
     transition: all 250ms linear;
     &:hover, &:focus, &:active {
@@ -68,6 +68,9 @@
     .panel--content {
         padding-right: 0;
         height: auto;
+        .mid-size-text {
+           margin-bottom: 20px;
+        }
         .small-text {
             white-space: nowrap;
         }

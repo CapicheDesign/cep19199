@@ -22,8 +22,10 @@ var AppView = Backbone.View.extend({
     'touchend document': 'updateHeaderDesktop',
     'click #close-btn': 'closeContentPage',
     'click a': 'hideNav',
-    'click .test-link': 'testFunction'
-
+    'mouseover #focus-panel-4': 'toggleRopeIconIn',
+    'mouseout #focus-panel-4': 'toggleRopeIconOut',
+    'click #homepage .homePageLink': 'homePageNav',
+    'click .scroll-pagination li a': 'updateNavActive'
   },
 
   initialize: function() {
@@ -36,32 +38,48 @@ var AppView = Backbone.View.extend({
       dots: true,
     });
 
-    /* go back to correct section from content page */
-    /* note: this needs to be updated in /lib/scrollview.js too */
-    var $referrer = document.referrer;
-    if($referrer.indexOf("/our-business") > 0){
-      $('#main').css({'transform':'translate3d(0px, -200%, 0px)'});
-      $('body').removeClass('current-page-1').addClass('current-page-3');
-      $('header').removeClass('header__transparent');
-      $('#menuToggle').addClass('white-bg');
-    } else if ($referrer.indexOf("/our-people") > 0) {
-      $('#main').css({'transform':'translate3d(0px, -300%, 0px)'});
-      $('body').removeClass('current-page-1').addClass('current-page-4');
-      $('header').removeClass('header__transparent');
-      $('#menuToggle').addClass('white-bg');
-    } else if ($referrer.indexOf("/our-focus") > 0) {
-      $('#main').css({'transform':'translate3d(0px, -400%, 0px)'});
-      $('body').removeClass('current-page-1').addClass('current-page-5');
-      $('header').removeClass('header__transparent');
-      $('#menuToggle').addClass('white-bg');
-    } else if ($referrer.indexOf("/our-financials") > 0) {
-      $('#main').css({'transform':'translate3d(0px, -500%, 0px)'});
-      $('body').removeClass('current-page-1').addClass('current-page-6');
-      $('header').removeClass('header__transparent');
-      $('#menuToggle').addClass('white-bg');
-    }
-
     if ( $('#homepage').length ) {
+
+      $('#menu li a').removeClass('active');
+      if (location.search == '?s=1') {
+        $('#main').css({'transform':'translate3d(0px, -100%, 0px)'});
+        $('body').removeClass('current-page-1').addClass('current-page-3');
+        $('header').removeClass('header__transparent');
+        $('#menuToggle').addClass('white-bg');
+        $('#menu li a#highlightsLink').addClass('active');
+        $('.logo img').attr('src','/img/logo-black.svg');
+      } else if (location.search == '?s=2') {
+        $('#main').css({'transform':'translate3d(0px, -200%, 0px)'});
+        $('body').removeClass('current-page-1').addClass('current-page-3');
+        $('header').removeClass('header__transparent');
+        $('#menuToggle').addClass('white-bg');
+        $('#menu li a#businessLink').addClass('active');
+        $('.logo img').attr('src','/img/logo-black.svg');
+      } else if (location.search == '?s=3') {
+        $('#main').css({'transform':'translate3d(0px, -300%, 0px)'});
+        $('body').removeClass('current-page-1').addClass('current-page-4');
+        $('header').removeClass('header__transparent');
+        $('#menuToggle').addClass('white-bg');
+        $('#menu li a#peopleLink').addClass('active');
+        $('.logo img').attr('src','/img/logo-black.svg');
+      } else if (location.search == '?s=4') {
+        $('#main').css({'transform':'translate3d(0px, -400%, 0px)'});
+        $('body').removeClass('current-page-1').addClass('current-page-5');
+        $('header').removeClass('header__transparent');
+        $('#menuToggle').addClass('white-bg');
+        $('#menu li a#focusLink').addClass('active');
+        $('.logo img').attr('src','/img/logo-black.svg');
+      } else if (location.search == '?s=5') {
+        $('#main').css({'transform':'translate3d(0px, -500%, 0px)'});
+        $('body').removeClass('current-page-1').addClass('current-page-6');
+        $('header').removeClass('header__transparent');
+        $('#menuToggle').addClass('white-bg');
+        $('#menu li a#financialsLink').addClass('active');
+        $('.logo img').attr('src','/img/logo-black.svg');
+      } else {
+        $('#menu li a#homeLink').addClass('active');
+        $('.logo img').attr('src','/img/logo.svg');
+      }
 
       $(".animsition").animsition({
         linkElement: '.animsition-link',
@@ -109,45 +127,7 @@ var AppView = Backbone.View.extend({
 
     var self = this;
 
-
-
-    if ( $('#homepage').length ) {
-      var waypoint1 = new Waypoint({
-        element: document.getElementById('highlights'),
-        handler: function() {
-          $('.logo').hide();
-          $('#sectionHeading').text('Highlights');
-        }
-      });
-
-      var waypoint2 = new Waypoint({
-        element: document.getElementById('business'),
-        handler: function() {
-          $('#sectionHeading').text('Business');
-        }
-      });
-
-      var waypoint3 = new Waypoint({
-        element: document.getElementById('people'),
-        handler: function() {
-          $('#sectionHeading').text('People');
-        }
-      });
-
-      var waypoint4 = new Waypoint({
-        element: document.getElementById('focus'),
-        handler: function() {
-          $('#sectionHeading').text('Focus');
-        }
-      });
-
-      var waypoint5 = new Waypoint({
-        element: document.getElementById('financials'),
-        handler: function() {
-          $('#sectionHeading').text('Financials');
-        }
-      });
-    }
+    this.initWaypoints();
 
     _.bindAll(this, 'checkScreenSize');
 
@@ -161,15 +141,6 @@ var AppView = Backbone.View.extend({
     //run screen size check
     this.checkScreenSize($screenSize);
 
-    // reload page on resize on homepage desktop only
-    // $(window).on('resize', function() {
-    //   if ( $('#homepage').length === 1 ) {
-    //     if ($('html.mobile').length !== 1) {
-    //       window.location.reload(false);
-    //     }
-    //   }
-    // });
-
     // fixed image on content page
     if ( $('#contentPage-container').length === 1 ) {
       this.fixContentPageImage();
@@ -177,22 +148,75 @@ var AppView = Backbone.View.extend({
   },
   /*** end initalize function ***/
 
-  testFunction: function() {
-    console.log('test');
-    $('#chair-report').addClass('is-visible').css({'position':'relative'});
+  updateNavActive: function(e) {
+    $('#menu li a').removeClass('active');
+    var $linkIndex = $(e.currentTarget).data('index');
+    if ( $linkIndex == '1' ) {
+      $('#menu li a#homeLink').addClass('active');
+    } else if ( $linkIndex == '2') {
+      $('#menu li a#highlightsLink').addClass('active');
+    } else if ( $linkIndex == '3' ) {
+      $('#menu li a#businessLink').addClass('active');
+    } else if ( $linkIndex == '4' ) {
+      $('#menu li a#peopleLink').addClass('active');
+    } else if ( $linkIndex == '5' ) {
+      $('#menu li a#focusLink').addClass('active');
+    } else if ( $linkIndex == '6' ) {
+      $('#menu li a#financialsLink').addClass('active');
+    }
+  },
+
+  initWaypoints: function() {
+    if ( $('#homepage').length ) {
+      var waypoint1 = new Waypoint({
+        element: document.getElementById('highlights'),
+        handler: function() {
+          $('.logo').hide();
+          $('#sectionHeading').text('Highlights');
+        }
+      });
+
+      var waypoint2 = new Waypoint({
+        element: document.getElementById('business'),
+        handler: function() {
+          $('.logo').show();
+          $('#sectionHeading').text('Our Business');
+        }
+      });
+
+      var waypoint3 = new Waypoint({
+        element: document.getElementById('people'),
+        handler: function() {
+          $('.logo').show();
+          $('#sectionHeading').text('Our People');
+        }
+      });
+
+      var waypoint4 = new Waypoint({
+        element: document.getElementById('focus'),
+        handler: function() {
+          $('.logo').show();
+          $('#sectionHeading').text('Our Focus');
+        }
+      });
+
+      var waypoint5 = new Waypoint({
+        element: document.getElementById('financials'),
+        handler: function() {
+          $('.logo').show();
+          $('#sectionHeading').text('Financial Statements');
+        }
+      });
+    }
   },
 
   closeContentPage: function() {
-      var $section = $('#areaHeading').text();
-      console.log($section);
-      // $('#mainNav').fadeOut();
-      
+      var $section = $('#areaHeading').text();      
   },
 
   hideNav: function(e) {
-    console.log(e.currentTarget);
     if( !$(e.currentTarget).parents('.scroll-pagination').length && !$(e.currentTarget).hasClass('toggleSubnav') ) {
-      $('#menu').hide();
+     $('#menu').hide();
    }
   },
 
@@ -206,7 +230,6 @@ var AppView = Backbone.View.extend({
       // hide trades subnav on load
       if ( $('#homepage').length === 1 ) {
         this.$subnavContainer = $('#trades-subnav-container');
-        // $('#trades-subnav-container').hide();
       }
     }
   },
@@ -239,6 +262,7 @@ var AppView = Backbone.View.extend({
   // open and close main nav
   toggleMainNav: function() {
     var $btn = $('#menu-checkbox');
+    $('#menu').css('display','block');
     if($($btn).prop('checked') == true){
       $($btn).addClass('open');
       $('#menu').attr('aria-expanded','true');
@@ -340,6 +364,82 @@ var AppView = Backbone.View.extend({
             break;
         }
       $('#sectionHeading').text(headingText);
+    }
+  }, 
+
+  toggleRopeIconIn: function() {
+      $('.panel--icon__ropes').css('background','url(../img/ropes-yellow.svg) no-repeat');
+  },
+
+  toggleRopeIconOut: function() {
+    $('.panel--icon__ropes').css('background','url(../img/ropes.svg) no-repeat');
+  },
+
+  homePageNav: function(e) {
+    console.log('home link clicked');
+    var $btn = $('#menu-checkbox');
+    $($btn).prop('checked', false);
+    $($btn).removeClass('open');
+    $('#menu').attr('aria-expanded','false');
+    $('#main').css('transition', 'all 1000ms ease 0s');
+    $(".scroll-pagination li a").removeClass('active');
+    $("#menu li a").removeClass('active');
+    $(e.currentTarget).addClass('active');
+    if( $(e.currentTarget).attr('id') == 'homeLink' ) {
+      $('#main').css({'transform':'translate3d(0px, 0px, 0px)'});
+      $('body').removeClass().addClass('animsition current-page-1');
+      $('header').addClass('header__transparent');
+      $('#menuToggle').removeClass('white-bg');
+      $('.logo img').attr('src','/img/logo.svg');
+      $('.logo').show();
+      $('#sectionHeading').text('');
+      $(".scroll-pagination li a" + "[data-index='1']").addClass("active");
+
+    } else if( $(e.currentTarget).attr('id') == 'highlightsLink' ) {
+      $('#main').css({'transform':'translate3d(0px, -100%, 0px)'});
+      $('body').removeClass().addClass('animsition current-page-2');
+      $('header').removeClass('header__transparent');
+      $('#menuToggle').addClass('white-bg');
+      $('.logo img').attr('src','/img/logo-black.svg');
+      $('.logo').show();
+      $('#sectionHeading').text('Highlights');
+      $(".scroll-pagination li a" + "[data-index='2']").addClass("active");
+    } else if( $(e.currentTarget).attr('id') == 'businessLink' ) {
+      $('#main').css({'transform':'translate3d(0px, -200%, 0px)'});
+      $('body').removeClass().addClass('animsition current-page-3');
+      $('header').removeClass('header__transparent');
+      $('#menuToggle').addClass('white-bg');
+      $('.logo img').attr('src','/img/logo-black.svg');
+      $('.logo').show();
+      $('#sectionHeading').text('Our Business');
+      $(".scroll-pagination li a" + "[data-index='3']").addClass("active");
+    } else if ( $(e.currentTarget).attr('id') == 'peopleLink' ) {
+      $('#main').css({'transform':'translate3d(0px, -300%, 0px)'});
+      $('body').removeClass().addClass('animsition current-page-4');
+      $('header').removeClass('header__transparent');
+      $('#menuToggle').addClass('white-bg');
+      $('.logo img').attr('src','/img/logo-black.svg');
+      $('.logo').show();
+      $('#sectionHeading').text('Our People');
+      $(".scroll-pagination li a" + "[data-index='4']").addClass("active");
+    } else if ( $(e.currentTarget).attr('id') == 'focusLink' ) {
+      $('#main').css({'transform':'translate3d(0px, -400%, 0px)'});
+      $('body').removeClass().addClass('animsition current-page-5');
+      $('header').removeClass('header__transparent');
+      $('#menuToggle').addClass('white-bg');
+      $('.logo img').attr('src','/img/logo-black.svg');
+      $('.logo').show();
+      $('#sectionHeading').text('Our Focus');
+      $(".scroll-pagination li a" + "[data-index='5']").addClass("active");
+    } else if ( $(e.currentTarget).attr('id') == 'financialsLink' ) {
+      $('#main').css({'transform':'translate3d(0px, -500%, 0px)'});
+      $('body').removeClass().addClass('animsition current-page-6');
+      $('header').removeClass('header__transparent');
+      $('#menuToggle').addClass('white-bg');
+      $('.logo img').attr('src','/img/logo-black.svg');
+      $('.logo').show();
+      $('#sectionHeading').text('Our Financials');
+      $(".scroll-pagination li a" + "[data-index='6']").addClass("active");
     }
   }
 });

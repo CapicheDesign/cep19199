@@ -6,7 +6,8 @@
 <?php include '../../includes/html.php'; ?>
 <?php include '../../includes/head.php'; ?>
 
-<body class="content-page" id="ceo-report" class="animsition" data-animsition-in-class="fade-in-right" data-animsition-in-duration="1000" data-animsition-out-class="fade-out-right" data-animsition-out-duration="800">
+<body class="content-page" id="ceo-report">
+	<div class="animsition" data-animsition-in-class="fade-in-right" data-animsition-in-duration="1000" data-animsition-out-class="fade-out-right" data-animsition-out-duration="800">
 		<?php include '../../includes/nav.php'; ?>
 		<?php include '../../includes/header.php'; ?>
 		<section class="clearfix">
@@ -140,5 +141,6 @@
 			</div>
 		</section>
 		<?php include '../../includes/tail-scripts.php'; ?>
+	</div>
 </body>
 </html>

@@ -1,5 +1,5 @@
 <?php require '../../_config.php'; 
-		$pageMeta['section'] = 'Our Business';
+		$pageMeta['section'] = 'Trades';
 		$pageMeta['heading'] = 'Containers';
 		$pageMeta['description'] = 'Containers have grown in the past year – showing strong progress in the CentrePort recovery.';
 ?>

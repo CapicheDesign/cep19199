@@ -10,5 +10,5 @@
         </div>
         <?php include '../../includes/subnav.php'; ?>
     </div>
-    <a href="/" class="animisition-link" data-animsition-out-class="fade-out-right" data-animsition-out-duration="800" role="button" id="close-btn"></a>
+    <a href="/" class="animsition-link" role="button" id="close-btn"></a>
 </header>

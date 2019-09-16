@@ -12,7 +12,7 @@
 		<?php include '../../includes/header.php'; ?>
 		<section class="clearfix">
 			<aside class="left-col">
-				<img src="<?=$siteBaseURL?>img/medium-term-plan/left-col-img.jpg" alt="Interior of damaged former 	BNZ building" />
+				<img src="<?=$siteBaseURL?>img/medium-term-plan/left-col-img.jpg" alt="Interior of damaged former BNZ building" />
 			</aside>
 			<div class="right-col" role="main">
 				<div class="content-inner">

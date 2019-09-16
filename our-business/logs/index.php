@@ -1,5 +1,5 @@
 <?php require '../../_config.php'; 
-		$pageMeta['section'] = 'Our Business';
+		$pageMeta['section'] = 'Trades';
 		$pageMeta['heading'] = 'Logs';
 		$pageMeta['description'] = 'The lower North Island region’s forests of the 1990s are reaching maturity. This is creating a “wall of wood” and significant growth for the log industry in the region.';
 ?>

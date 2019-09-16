@@ -68,36 +68,19 @@
 
 
 			} else {
-				 if(document.referrer.indexOf("/our-business") > 0){
-					$(settings.sectionContainer + "[data-index='3']").addClass("active")
-					$("body").addClass("current-page-3");
-					if (settings.pagination == true) {
-						$(".scroll-pagination li a" + "[data-index='3']").addClass("active");
-					}
-				  } else if(document.referrer.indexOf("/our-people") > 0) {
-					$(settings.sectionContainer + "[data-index='4']").addClass("active")
-					$("body").addClass("current-page-4");
-					if (settings.pagination == true) {
-						$(".scroll-pagination li a" + "[data-index='4']").addClass("active");
-					}
-				} else if(document.referrer.indexOf("/our-focus") > 0) {
-					$(settings.sectionContainer + "[data-index='5']").addClass("active")
-					$("body").addClass("current-page-5");
-					if (settings.pagination == true) {
-						$(".scroll-pagination li a" + "[data-index='5']").addClass("active");
-					}
-				} else if(document.referrer.indexOf("/our-financials") > 0) {
-					$(settings.sectionContainer + "[data-index='6']").addClass("active")
-					$("body").addClass("current-page-6");
-					if (settings.pagination == true) {
-						$(".scroll-pagination li a" + "[data-index='6']").addClass("active");
-					}
+
+				if (location.search == '?s=1') {
+					$(".scroll-pagination li a" + "[data-index='2']").addClass("active");
+				} else if (location.search == '?s=2') {
+					$(".scroll-pagination li a" + "[data-index='3']").addClass("active");
+				} else if (location.search == '?s=3') {
+					$(".scroll-pagination li a" + "[data-index='4']").addClass("active");
+				} else if (location.search == '?s=4') {
+					$(".scroll-pagination li a" + "[data-index='5']").addClass("active");
+				} else if (location.search == '?s=5') {
+					$(".scroll-pagination li a" + "[data-index='6']").addClass("active");
 				} else {
-					$(settings.sectionContainer + "[data-index='1']").addClass("active")
-					$("body").addClass("current-page-1");
-					if (settings.pagination == true) {
-						$(".scroll-pagination li a" + "[data-index='1']").addClass("active");
-					}
+					$(".scroll-pagination li a" + "[data-index='1']").addClass("active");
 				}
 			} 
 		})();	
@@ -211,6 +194,7 @@
 			}
 			nextIndex = next.data('index'); 
 			$(this).transformPage(settings, pos, nextIndex);
+			
 			if ( nextIndex === 1 ) {
 				$('header').addClass('header__transparent');
 				$('header').addClass('header__transparent');
@@ -242,7 +226,7 @@
 						headingText = 'Financial Statements';
 						break;
 				  }
-				 $('#sectionHeading').text(headingText);  
+				 $('#sectionHeading').text(headingText); 
 			}
 		};
 		$.fn.moveTo = function(page_index) {
@@ -308,7 +292,6 @@
 			scrollToMove();
 		}
 		function onEnd(event){
-			console.log(steps);
 			if(movePrevent === true && steps !=2){
 				return false;
 			}else{
@@ -349,7 +332,6 @@
 					next = $(settings.sectionContainer + "[data-index='" + (index + 1) + "']");
 				if(endPos < startPos){
 					if(next.length === 0){
-						console.log("已经到达最后一个");
 						return false;   
 					}
 					var current_index=parseInt(index)-1;

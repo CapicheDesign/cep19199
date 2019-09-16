@@ -25,6 +25,7 @@
         <div class="panel--content">
             <div role="presentation" class="panel--icon__hardhat"></div>
             <span class="mid-size-bold">Health and Safety</span>
+            <span class="arrow arrow-black-fwd" href="#"></span>
             <div id="hover-text-container">
                 <span>Health and safety is the number one priority for CentrePort in everything we do.</span>
             </div>
@@ -35,6 +36,7 @@
         <div class="panel--content">
             <div role="presentation" class="panel--icon__values"></div>
             <span class="mid-size-bold">Values</span>
+            <span class="arrow arrow-yellow-fwd" href="#"></span>
             <div id="hover-text-container">
                 <span>Lorem ipsum dolorem dolorem</span>
             </div>

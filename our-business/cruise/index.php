@@ -1,5 +1,5 @@
 <?php require '../../_config.php'; 
-		$pageMeta['section'] = 'Our Business';
+		$pageMeta['section'] = 'Trades';
 		$pageMeta['heading'] = 'Cruise';
 		$pageMeta['description'] = 'History was made in the 2018/19 cruise ship season with ship visits passing the centrury mark for the first time.  By the end of the season a total of 110 visits were achieved.';
 ?>
