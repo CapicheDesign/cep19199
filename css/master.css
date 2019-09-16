@@ -2159,6 +2159,6 @@ to{transform:translate(0,0)}
 .case-study blockquote p{font-size:1.4em;font-weight:300;font-style:italic;line-height:1.2}
 @media (max-width:767px){.case-study blockquote p{font-size:1em}
 }
-body .buorg{border-bottom:1px solid #153145;color:#fff;background-color:#006EC6;font-family:Roboto,sans-serif;font-size:1em}
+body .buorg{border-bottom:1px solid #153145;color:#fff;background-color:#006EC6;font-family:Roboto,sans-serif;font-size:1em;animation:.25s ease-out 0s buorgfly}
 body .buorg #buorgig,body .buorg #buorgul{border:none;background:#153145;color:#fff;font-size:.88em;cursor:pointer;border-radius:0;padding:5px 10px}
 body .buorg #buorgig:focus,body .buorg #buorgig:hover,body .buorg #buorgul:focus,body .buorg #buorgul:hover{background:#006EC6}

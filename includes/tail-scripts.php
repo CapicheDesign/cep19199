@@ -2,7 +2,7 @@
 <script src="<?=$siteBaseURL;?>js/bundle.js"></script>
 <!-- browser warning -->
 <script> 
-    var $buoop = {required:{e:-4,f:-3,o:-3,s:-1,c:-3},insecure:true,api:2019.09}; 
+    var $buoop = {required:{e:-4,f:-3,o:-3,s:-1,c:-3},insecure:true,api:2019.09,no_permanent_hide: true}; 
     function $buo_f(){ 
     var e = document.createElement("script"); 
     e.src = "//browser-update.org/update.min.js"; 

@@ -4,6 +4,7 @@ body .buorg {
     background-color: $cp-blue-light;
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
+    animation: 0.25s ease-out 0s buorgfly;
 
     #buorgul, #buorgig {
         border: none;
