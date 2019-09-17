@@ -15,7 +15,7 @@
 				<img src="<?=$siteBaseURL?>img/ferry-terminal/left-col-img.jpg" alt="" />
 			</aside>
 			<div class="right-col" role="main">
-				<div class="content-inner m-b-lg">
+				<div class="content-inner m-b-m">
 					<h1>Multi-user Ferry Terminal</h1>
 					<div class="heading-divider"></div>
 					<p><strong>The Cook Strait ferries are part of the national supply chain, and are the water covered section of State Highway 1, with 3,148 vessel movements in the past year carrying cargo and passengers.</strong></p> 
@@ -27,9 +27,8 @@
 					</div>
 					<p>Through strong collaboration significant progress has been made in advancing the multi-user ferry terminal concept.  CentrePort is a member of the future ports working group which is developing plans for the facility. Along with CentrePort the group consists of NZTA, KiwiRail, StraitNZ Bluebridge, Greater Wellington Regional Council and Wellington City Council.</p>
 					<p>The result of the working groups collaboration over the last 18 months was the delivery of a high-level business case on 16 August 2019.  Kaiwharawhara was announced as the preferred site for the multi-user terminal subject to further structural and resilience engineering feasibility studies.</p>
-				
-					<p>[IMAGE REQUIRED]</p>
 				</div>
+				<img class="full-width-img m-t-m m-b-0" src="<?=$siteBaseURL?>img/ferry-terminal/image-1.jpg" alt=""/>
 			</div>
 		</section>
 		<?php include '../../includes/tail-scripts.php'; ?>

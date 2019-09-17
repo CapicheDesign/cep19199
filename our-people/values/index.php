@@ -12,7 +12,7 @@
 		<?php include '../../includes/header.php'; ?>
 		<section class="clearfix">
 			<aside class="left-col">
-				<!-- <img src="<?=$siteBaseURL?>img/values/left-col-img.jpg" alt="Our values signage" /> -->
+				<img src="<?=$siteBaseURL?>img/values/left-col-img.jpg" alt="" />
 			</aside>
 			<div class="right-col" role="main">
 				<div class="content-inner">

@@ -40,16 +40,16 @@
 
 				<img class="full-width-img m-t-m m-b-m" src="<?=$siteBaseURL?>img/training/body-img-1.jpg" alt=""/> 
 
-				<div class="content-inner m-t-lg m-b-m">
+				<div class="content-inner m-t-m m-b-m">
 					<h2>Training graduation ceremonies</h2>
 				</div>
 
-				<blockquote class="m-t-m m-b-0">
+				<blockquote class="m-t-m m-b-m">
 					<p>“Probably one of the best nights this year would be watching the pride and the sense of satisfaction from the staff who graduated that night, something maybe they haven't done before in front of their families and friends. It's great to be part of that and a vehicle to encourage it and to see that transformation in them.”</p>
 					<cite>Derek Nind, CEO, CentrePort</cite>
 				</blockquote>
 
-				<div class="slick-slider m-t-0 m-b-m">
+				<div class="slick-slider m-t-m m-b-m">
 					<div><img src="<?=$siteBaseURL?>img/training/slider-1-img-1.jpg" alt=""/></div>
 					<div><img src="<?=$siteBaseURL?>img/training/slider-1-img-2.jpg" alt=""/></div>
 					<div><img src="<?=$siteBaseURL?>img/training/slider-1-img-3.jpg" alt=""/></div>

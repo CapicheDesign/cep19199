@@ -86,6 +86,19 @@
                     margin-bottom: 15px;
                 }
             }
+            .board-member {
+                float: left;
+                width: 30%;
+                margin-right: 4%;
+                margin-bottom: 20px;
+                p {
+                    font-weight: 700;
+                    padding-top: 2vh;
+                }
+                &.board-member__third {
+                    margin-right: 0;
+                }
+            }
         }
     }
 

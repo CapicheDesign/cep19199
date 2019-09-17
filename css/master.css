@@ -1730,8 +1730,8 @@ html.mobile{height:auto}
 .panel--icon__worker{background:url(../img/worker.svg) no-repeat;width:70px;height:69px}
 .panel--icon__leaf{background:url(../img/leaf.svg) no-repeat;width:38px;height:72px}
 #business-panel-1{background:url(../img/hubs-bg.jpg) center no-repeat;background-size:cover}
-#business-panel-2{background:url(../img/ceo-bg.jpg) center no-repeat;background-size:cover;color:#fff}
-#business-panel-3{background:url(../img/chair-bg.jpg) center no-repeat;background-size:cover;color:#fff}
+#business-panel-2{background:url(../img/ceo-bg.jpg) center top no-repeat;background-size:cover;color:#fff}
+#business-panel-3{background:url(../img/chair-bg.jpg) center top no-repeat;background-size:cover;color:#fff}
 #business-panel-4{background:#231F20;position:absolute;left:50%;top:55vh;height:45vh}
 #business-panel-4 .panel--content{margin-top:18vh}
 #business-panel-4:focus .panel--content,#business-panel-4:hover .panel--content{margin-top:0}
@@ -1753,7 +1753,7 @@ html.mobile{height:auto}
 }
 #people-panel-1{background:url(../img/training-bg.jpg) center no-repeat;background-size:cover}
 #people-panel-2{background:url(../img/resilient-bg.jpg) top center no-repeat;background-size:cover}
-#people-panel-3 .panel--content{margin-top:-13vh}
+#people-panel-3 .panel--content{margin-top:-11vh}
 #people-panel-3:active .panel--content,#people-panel-3:focus .panel--content,#people-panel-3:hover .panel--content{margin-top:2vh}
 #people-panel-4{color:#231F20}
 #people-panel-4 .panel--content{transform:translate3d(0,22%,0)}
@@ -1826,6 +1826,9 @@ html.mobile{height:auto}
 }
 .content-page section .content-inner ul{list-style:disc;padding:0;margin-left:20px}
 .content-page section .content-inner ul li{margin-bottom:15px}
+.content-page section .content-inner .board-member{float:left;width:30%;margin-right:4%;margin-bottom:20px}
+.content-page section .content-inner .board-member p{font-weight:700;padding-top:2vh}
+.content-page section .content-inner .board-member.board-member__third{margin-right:0}
 .content-page blockquote{background:#fff;border:none;padding:10px 50px;color:#231F20}
 .content-page blockquote p{font-size:1.4em;font-weight:300;font-style:italic;line-height:1.2}
 @media (max-width:767px){.content-page blockquote{padding:5px 25px}

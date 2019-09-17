@@ -25,7 +25,7 @@
         <div class="panel__home__overlay">
             <div class="panel--content">
                 <div role="presentation" class="panel--icon__community"></div>
-                <span class="mid-size-bold">Community Engagement</span>
+                <span class="mid-size-bold">Community<br>Engagement</span>
                 <span class="arrow arrow-white-fwd" href="#"></span>
                 <div class="hover-text-container">
                     <span>Lorem ipsum dolorem</span>

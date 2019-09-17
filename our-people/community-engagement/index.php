@@ -1,6 +1,6 @@
 <?php require '../../_config.php'; 
 		$pageMeta['section'] = 'Our People';
-		$pageMeta['heading'] = 'Community';
+		$pageMeta['heading'] = 'Community Engagement';
 		$pageMeta['description'] = 'CentrePort recognises it is part of the wider Wellington community and engages and supports a variety of organisations and events.';
 ?>
 <?php include '../../includes/html.php'; ?>
