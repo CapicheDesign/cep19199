@@ -25,10 +25,6 @@
 							<img class="yt-play-btn" src="<?=$siteBaseURL?>img/youtube-play-btn.svg" alt="play"/>
 						</a>
 					</div>
-
-					<p>The past year saw record CentreRail volumes supported by the continued development of the hub network with volumes of 800 twenty-foot equivalent (TEUs) containers per week.</p> 
-					<p>Moving forward, CentrePort is looking to expand the model elsewhere with rail hubs in the planning stages in various locations throughout central New Zealand.</p>
-
 					<p><strong>CentrePort’s inland hub strategy continued to help drive economic success across the lower North Island this year.</strong></p>
 					<p>CentrePort and KiwiRail have provided the CentreRail service since 2013. This connects businesses in Taranaki, Whanganui, Manawatu, the Wairarapa and Marlborough to global markets.</p>  
 					<p>The inland hubs utilise long-haul rail transport to the port from key aggregation points.  This improves efficiencies in logistics, creating a reliable, sustainable connection from aggregation points to the world.</p>
@@ -46,7 +42,7 @@
 
 				</div>
 
-				<div class="slick-slider m-t-m m-b-m">
+				<div class="slick-slider m-t-lg m-b-m">
 					<div><img src="<?=$siteBaseURL?>img/inland-strategy/slider-1-img-1.jpg" alt=""/></div>
 					<div><img src="<?=$siteBaseURL?>img/inland-strategy/slider-1-img-2.jpg" alt=""/></div>
 					<div><img src="<?=$siteBaseURL?>img/inland-strategy/slider-1-img-3.jpg" alt=""/></div>
@@ -78,12 +74,6 @@
 						</blockquote>
 						<div class="case-study--content">
 							<p>Products ready to export are stored at the Whanganui hub, which is hugely important for Open Country Dairy as it frees up storage at their own facility.  The ability for Ali Arc to recondition containers and manage storage is also a huge benefit to Open Country Dairy.</p>
-							<div class="youtube-wrapper m-t-m">
-								<a class="js-modal-btn" data-video-id="IWXpyBJztFE">
-									<img class="yt-poster" src="<?=$siteBaseURL?>img/video-placeholder.jpg" alt="video thumbnail image"/>
-									<img class="yt-play-btn" src="<?=$siteBaseURL?>img/youtube-play-btn.svg" alt="play"/>
-								</a>
-							</div>
 						</div>
 						<blockquote class="case-study--pull-quote m-t-m m-b-m">
 							<p>“The whole system works well. We don’t hear any noise which is exactly what you want from a logistics perspective. We have the assurance that everything is working seamlessly”</p>

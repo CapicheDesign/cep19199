@@ -66,17 +66,8 @@ nav {
 
         .toggleSubnav {
             float: right;
-            padding: 5px;
+            padding: 5px 50px 5px 0;
             margin-top: 18px;
-            transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-                            // background 0.25s cubic-bezier(0.77,0.2,0.05,1.0),
-                            opacity 0.55s ease;
-            &:hover, &:active, &:focus {
-                span
-                {
-                    background: $cp-blue-dark;
-                }
-            }
             span
             {
                 margin-bottom: 0;
@@ -84,7 +75,7 @@ nav {
                 width: 25px;
                 height: 2px;
                 position: relative;
-                background: white;
+                background: $cp-blue-light;
                 z-index: 1;
                 transform-origin: 5px 0px;
                 @media (max-width: 414px) {
@@ -109,6 +100,7 @@ nav {
 
             &.sub-nav--open {
                 transform: rotate(45deg);
+                padding-top: 30px;
             }
         }
 
@@ -138,7 +130,7 @@ nav {
             {
                 opacity: 1;
                 transform: rotate(45deg) translate(-2px, -1px);
-                background: white;
+                background: $cp-blue-light;
             }
 
             &:checked ~ span:nth-last-child(3)
@@ -163,41 +155,86 @@ nav {
         display: none;
         position: absolute;
         top: -50px;
-        left: -50px;
+        left: -30px;
         width: 20vw;
         min-width: 400px;
         height: 110vh;
         margin: 0;
-        padding: 150px 50px 0;
-        background: $cp-blue-light;
+        padding: 135px 0 0 0;
+        background: white;
         list-style-type: none;
         -webkit-font-smoothing: antialiased;
         transform-origin: 0% 0%;
         transform: translate(-100%, 0);
         transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+        .menu-divider {
+            width: 80%;
+            margin-left: 30px;
+            margin-bottom: 30px;
+            height: 1px;
+            background: $cp-blue-light;
+        }
         @media (max-width: 414px) {
             min-width: 320px;
-            padding: 150px 35px 0;
         }
 
         li {
             line-height: 2;
+            margin-bottom: 20px;
+            width: 100%;
+            &.active {
+                background: $cp-blue-light;
+               .toggleSubnav span {
+                   background: white;
+               }
+               .sub-nav {
+                   padding-top: 20px;
+                   a.active {
+                       color: $cp-blue-light;
+                   }
+               }
+            }
             a {
-                color: white;
+                color: $cp-black;
                 font-size: 1.25em;
-                font-weight: 300;
+                font-weight: 600;
                 text-decoration: none;
                 letter-spacing: 0.5px;
-                @media (max-width: 767px) {
-                    font-size: 1.75em;
-                }
+                padding: 5px 0 5px 30px;
 
                 &:hover, &:active, &:focus {
                     color: $cp-blue-dark;
                     text-decoration: none;
                 }
                 &.active {
-                    color: $cp-blue-dark;
+                    color: white;
+                    display: inline-block;
+                }
+            }
+
+            footer {
+                padding: 150px 30px 0;
+                p {
+                    line-height: 1.5;
+                    span {
+                        font-weight: 700;
+                        font-size: 1.2em;
+                    }
+                    a {
+                        font-size: 1em;
+                        font-weight: 400;
+                        padding: 0;
+                        color: $cp-blue-light;
+                    }
+                }
+                span {
+                    transform: none !important;
+                    background: none !important;
+                    width: auto;
+                    height: auto;
+                    margin: 0;
+                    position: static;
+                    transition: none;
                 }
             }
         }
@@ -206,15 +243,50 @@ nav {
             display: none;
             list-style: none;
             margin-bottom: 30px;
+            background: white;
             li {
                line-height: 2.5;
+               margin-bottom: 5px;
                a {
+                   font-weight: 300;
                    font-size: 1em;
-                   @media (max-width: 767px) {
-                    font-size: 1.5em;
+                    &.active {
+                        display: block;
+                        width: auto;
+                        background: white;
+                    }
+                    &:hover, &:focus {
+                        color: $cp-blue-light;
                     }
                }
            }
        }
+    }
+}
+
+.mobile {
+    nav {
+        #menuToggle {
+            .toggleSubnav {
+                margin-top: 14px;
+                &.sub-nav--open {
+                    padding-top: 26px;
+                    .sub-nav {
+                        margin-top: 10px;
+                    }
+                }
+                span {
+                    margin-bottom: 1px;
+                    width: 17px;
+                }
+            }
+        }
+        #menu {
+            li {
+                .sub-nav {
+                    width: 100%;
+                }
+            }
+        }
     }
 }

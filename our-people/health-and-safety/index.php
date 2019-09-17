@@ -12,14 +12,12 @@
 		<?php include '../../includes/header.php'; ?>
 		<section class="clearfix">
 			<aside class="left-col">
-				<img src="<?=$siteBaseURL?>img/inland-strategy/left-col-img.jpg" alt="Logs on port" />
+				<img src="<?=$siteBaseURL?>img/health-and-safety/left-col-img.jpg" alt="" />
 			</aside>
 			<div class="right-col" role="main">
 				<div class="content-inner">
 					<h1>Health and Safety</h1>
 					<div class="heading-divider"></div>
-
-					[LEFT COLUMN IMAGE REQUIRED]<br><br>
 					<p><strong>Health and safety is about more than processes and systems. It requires a culture that empowers colleagues to advocate for safer ways of working.</strong></p>
 					<p>Our staff are proactive in delivering our health and safety strategy. The CentrePort health and safety reps and frontline staff are empowered to identify new and safer ways of doing things.</p>  
 				</div>
@@ -37,15 +35,13 @@
 					</div>
 				</div>
 
-				<!-- <div class="slick-slider m-t-m m-b-m">
+				<div class="slick-slider m-t-lg m-b-m">
 					<div><img src="<?=$siteBaseURL?>img/health-and-safety/slider-1-img-1.jpg" alt=""/></div>
 					<div><img src="<?=$siteBaseURL?>img/health-and-safety/slider-1-img-2.jpg" alt=""/></div>
 					<div><img src="<?=$siteBaseURL?>img/health-and-safety/slider-1-img-3.jpg" alt=""/></div>
-				</div> -->
+				</div>
 
 				<div class="content-inner m-t-m m-b-m">
-					[3 x IMAGES FOR SLIDER REQUIRED]<br><br>
-					
 					<p>The bSafe reporting system has been driving innovation and improvement in ways of working, including a greater quality of reporting, and problem solving from the frontline.</p>
 					<p>Frontline staff are intervening, acting and making a difference. This is contributing to the port’s drive to being a zero harm workplace with prevention of injury rates higher than at any point in the past decade.</p>
 					<p>Health and safety is an enabler.  It drives efficiency and effectiveness of but most importantly supports everyone getting home healthy and safe each day.</p>

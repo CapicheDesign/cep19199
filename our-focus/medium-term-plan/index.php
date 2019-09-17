@@ -54,6 +54,20 @@
 					</div>
 				</div>
 
+				<div class="content-inner m-t-m m-b-m"">
+					<p>Infrastructure assets are also being upgraded to support future resilience. This includes the cranes, Aotea Quay, Kings Wharf, the Interislander Ferry operation, and the Seaview and Burnham Wharves.</p>
+					<p>CentrePort has gathered facts around our diesel and electricity use and determined how we can be more efficient and sustainable in the short term and longer term.</p>
+					<p>In the longer term, CentrePort is looking at how it reimagines what the port will look like in the future.  This includes spatial planning, urban integration, resilience and our environmental and people platforms.</p>
+
+					<div class="youtube-wrapper m-t-m m-b-m">
+						<a class="js-modal-btn" data-video-id="IWXpyBJztFE">
+							<img class="yt-poster" src="<?=$siteBaseURL?>img/video-placeholder.jpg" alt="video thumbnail image"/>
+							<img class="yt-play-btn" src="<?=$siteBaseURL?>img/youtube-play-btn.svg" alt="play"/>
+						</a>
+					</div>
+				
+				</div>
+
 				<div class="content-inner m-b-lg">
 
 					<div class="case-study m-t-lg m-b-m p-b-lg">

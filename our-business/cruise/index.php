@@ -34,7 +34,7 @@
 					<p>The biggest week for cruise was in January, with 10 ships and 17,500 passengers visiting in a single week.</p>
 				</div>
 
-				<blockquote class="m-t-lg m-b-0">
+				<blockquote class="m-t-lg m-b-lg">
 					<p>"Cruise visitors are fantastic for the city’s economy, and passengers certainly add a great buzz and vibrancy to the city.”</p>
 					<cite>David Perks, General Manager of Wellington NZ</cite>
 				</blockquote>
@@ -42,11 +42,8 @@
 	
 				<div aria-hidden="true" class="slick-slider slick-slider__black m-t-0 m-b-m">
 					<div><img src="<?=$siteBaseURL?>img/cruise/slider-1-img-1.jpg" alt=""/></div>
-					<!-- <div><img src="<?=$siteBaseURL?>img/cruise/slider-2-img-2.svg" alt=""/></div> -->
 					<div><img src="<?=$siteBaseURL?>img/cruise/slider-1-img-3.jpg" alt=""/></div>
-				</div>
-				<div class="content-inner">
-					[IMAGE REQUIRED FOR SLIDER ABOVE]
+					<div><img src="<?=$siteBaseURL?>img/cruise/slider-1-img-2.jpg" alt=""/></div>
 				</div>
 				<blockquote class="m-t-lg m-b-0">
 					<p>"Wellington is a great place for international travellers to see the stories of the nation and visit Te Papa and Parliament, experience a New Zealand city or go on a specialist tour. The people of Wellington have embraced cruise visitors – it is a fantastic promotion of the city and many visitors are inspired to return in the future.”</p>
@@ -63,7 +60,7 @@
 					<p>Next year will be even bigger, with 123 ships booked to land in the 2019/20 season.</p>
 				</div>
 
-				<blockquote class="m-t-lg m-b-0">
+				<blockquote class="m-t-lg m-b-lg">
 					<p>“Cruise ships contribute $60 million to the Capital’s retail, hospitality and tourism sectors every year. It is a great way to highlight Wellington. We are proud to be part of boosting tourism to the city.”</p>
 					<cite>Derek Nind, Chief Executive, CentrePort</cite>
 				</blockquote>

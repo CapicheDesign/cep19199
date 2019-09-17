@@ -12,14 +12,12 @@
 		<?php include '../../includes/header.php'; ?>
 		<section class="clearfix">
 			<aside class="left-col">
-				<img src="<?=$siteBaseURL?>img/inland-strategy/left-col-img.jpg" alt="Logs on port" />
+				<img src="<?=$siteBaseURL?>img/resilient-people/left-col-img.jpg" alt="Logs on port" />
 			</aside>
 			<div class="right-col" role="main">
 				<div class="content-inner">
 					<h1>Resilient People</h1>
 					<div class="heading-divider"></div>
-
-					[LEFT COLUMN IMAGE REQUIRED]<br><br>
 					<p><strong>Our business is nothing without its people. This year, people along the front lines have stepped up to meet challenges, solve problems and improve processes.</strong></p>
 					<p>The flexibility and resilience of staff has been outstanding and is the main reason CentrePort has maintained its strong growth.</p>  
 				</div>

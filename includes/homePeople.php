@@ -10,8 +10,8 @@
             </div>
         </div>
     </a>
-    <a href="our-people/resilient-people/" id="people-panel-2" class="panel__home panel__home__img panel__half panel__half-height panel__half-height__top panel__half-height__right animsition-link">
-        <div class="panel__home__overlay">        
+    <a href="our-people/resilient-people/" id="people-panel-2" class="panel__home panel__home__img panel__quarter panel__quarter__top panel__quarter__center-right animsition-link">
+        <div class="panel__home__overlay">
             <div class="panel--content">
                 <span class="mid-size-bold">Resilient People</span>
                 <span class="arrow arrow-white-fwd" href="#"></span>
@@ -21,7 +21,19 @@
             </div>
         </div>
     </a>
-    <a href="our-people/health-and-safety/" id="people-panel-3" class="panel__home panel__quarter panel__quarter__bottom panel__quarter__center-right yellow-bg animsition-link">
+    <a href="our-people/community-engagement/" id="people-panel-3" class="panel__home panel__home__img panel__quarter panel__quarter__top panel__quarter__right light-blue-bg animsition-link">
+        <div class="panel__home__overlay">
+            <div class="panel--content">
+                <div role="presentation" class="panel--icon__community"></div>
+                <span class="mid-size-bold">Community Engagement</span>
+                <span class="arrow arrow-white-fwd" href="#"></span>
+                <div class="hover-text-container">
+                    <span>Lorem ipsum dolorem</span>
+                </div>
+            </div>
+        </div>
+    </a>
+    <a href="our-people/health-and-safety/" id="people-panel-4" class="panel__home panel__quarter panel__quarter__bottom panel__quarter__center-right yellow-bg animsition-link">
         <div class="panel--content">
             <div role="presentation" class="panel--icon__hardhat"></div>
             <span class="mid-size-bold">Health and Safety</span>
@@ -31,7 +43,7 @@
             </div>
         </div>
     </a>
-    <a href="our-people/values/" id="people-panel-4" class="panel__home panel__quarter panel__quarter__bottom panel__quarter__right black-bg animsition-link">
+    <a href="our-people/values/" id="people-panel-5" class="panel__home panel__quarter panel__quarter__bottom panel__quarter__right black-bg animsition-link">
         <div class="panel--content">
             <div role="presentation" class="panel--icon__values"></div>
             <span class="mid-size-bold">Values</span>

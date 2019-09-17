@@ -13,6 +13,7 @@
         <li><a href="<?=$siteBaseURL?>our-people/resilient-people/" class="animsition-link <?php if ($pageMeta['heading'] == 'Resilient People'):?>active<?php endif; ?>">Resilient People</a></li>
         <li><a href="<?=$siteBaseURL?>our-people/health-and-safety/" class="animsition-link <?php if ($pageMeta['heading'] == 'Health and Safety'):?>active<?php endif; ?>">Health and Safety</a></li>
         <li><a href="<?=$siteBaseURL?>our-people/values/" class="animsition-link <?php if ($pageMeta['heading'] == 'Values'):?>active<?php endif; ?>">Values</a></li>
+        <li><a href="<?=$siteBaseURL?>our-people/community-engagement/" class="animsition-link <?php if ($pageMeta['heading'] == 'Community Engagement'):?>active<?php endif; ?>">Community Engagement</a></li> 
     <?php elseif ($pageMeta['section'] == 'Our Focus'): ?>
         <li><a href="<?=$siteBaseURL?>our-focus/medium-term-plan/" class="animsition-link <?php if ($pageMeta['heading'] == 'Medium Term Operating Plan'):?>active<?php endif; ?>">Medium Term Operating Plan</a></li>
         <li><a href="<?=$siteBaseURL?>our-focus/sustainability/" class="animsition-link <?php if ($pageMeta['heading'] == 'Sustainability'):?>active<?php endif; ?>">Sustainability</a></li>

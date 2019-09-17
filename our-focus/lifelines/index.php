@@ -23,12 +23,12 @@
 					<p>In the event of an emergency, fuel facilitated through CentrePort assets would be essential to supply rescue equipment in the immediate response. Ferries will also play an important part in the response, as the key supply chain due to the expected loss of roading after an earthquake.</p>
 				</div>
 
-				<blockquote class="m-t-m m-b-0">
+				<blockquote class="m-t-m m-b-m">
 					<p>"In the event of an emergency, fuel facilitated through CentrePort assets would be essential to supply rescue equipment in the immediate response. Ferries will also play an important part in the response, as the key supply chain due to the expected loss of roading after an earthquake."</p>
 					<cite>Dame Fran Wilde, Chair, Wellington Lifelines Group</cite>
 				</blockquote>
 
-				<div class="slick-slider m-t-0 m-b-m">
+				<div class="slick-slider m-t-m m-b-m">
 					<div><img src="<?=$siteBaseURL?>img/lifelines/slider-1-img-1.jpg" alt=""/></div>
 					<div><img src="<?=$siteBaseURL?>img/lifelines/slider-1-img-2.jpg" alt=""/></div>
 				</div>

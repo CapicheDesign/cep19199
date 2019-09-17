@@ -25,7 +25,8 @@ var AppView = Backbone.View.extend({
     'mouseover #focus-panel-4': 'toggleRopeIconIn',
     'mouseout #focus-panel-4': 'toggleRopeIconOut',
     'click #homepage .homePageLink': 'homePageNav',
-    'click .scroll-pagination li a': 'updateNavActive'
+    'click .scroll-pagination li a': 'updateNavActive',
+    'click #menu li a' : 'updateNavActive'
   },
 
   initialize: function() {
@@ -91,7 +92,7 @@ var AppView = Backbone.View.extend({
 
     _.bindAll(this, 'checkScreenSize');
 
-    $(window).scrollTop(0); // start at top
+    // $(window).scrollTop(0); // start at top
 
     $(window).scroll(this.updateHeaderMobile);
     
@@ -109,6 +110,7 @@ var AppView = Backbone.View.extend({
     this.setUpHeader();
 
     this.initWaypoints();
+
   },
   /*** end initalize function ***/
 
@@ -118,11 +120,13 @@ var AppView = Backbone.View.extend({
     var baseUrl = getUrl .protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];
     if ( $('#homepage').length ) {
       $('#menu li a').removeClass('active');
+      $('#menu li').removeClass('active');
       if (location.search == '?s=1') {
         $('body').removeClass('current-page-1').addClass('current-page-2');
         $('header').removeClass('header__transparent');
         $('#menuToggle').addClass('white-bg');
         $('#menu li a#highlightsLink').addClass('active');
+        $('#menu li a#highlightsLink').closest('li').addClass('active');
         $('.logo img').attr('src', baseUrl+'/img/logo-black.svg');
         if ( $('.mobile').length <= 0) {
           $('#main').css({'transform':'translate3d(0px, -100%, 0px)'});
@@ -132,6 +136,7 @@ var AppView = Backbone.View.extend({
         $('header').removeClass('header__transparent');
         $('#menuToggle').addClass('white-bg');
         $('#menu li a#businessLink').addClass('active');
+        $('#menu li a#businessLink').closest('li').addClass('active');
         $('.logo img').attr('src',baseUrl+'/img/logo-black.svg');
         if ( $('.mobile').length <= 0) {
           $('#main').css({'transform':'translate3d(0px, -200%, 0px)'});
@@ -141,6 +146,7 @@ var AppView = Backbone.View.extend({
         $('header').removeClass('header__transparent');
         $('#menuToggle').addClass('white-bg');
         $('#menu li a#peopleLink').addClass('active');
+        $('#menu li a#peopleLink').closest('li').addClass('active');
         $('.logo img').attr('src',baseUrl+'/img/logo-black.svg');
         if ( $('.mobile').length <= 0) {
           $('#main').css({'transform':'translate3d(0px, -300%, 0px)'});
@@ -150,6 +156,7 @@ var AppView = Backbone.View.extend({
         $('header').removeClass('header__transparent');
         $('#menuToggle').addClass('white-bg');
         $('#menu li a#focusLink').addClass('active');
+        $('#menu li a#focusLink').closest('li').addClass('active');
         $('.logo img').attr('src',baseUrl+'/img/logo-black.svg');
         if ( $('.mobile').length <= 0) {
           $('#main').css({'transform':'translate3d(0px, -400%, 0px)'});
@@ -159,32 +166,44 @@ var AppView = Backbone.View.extend({
         $('header').removeClass('header__transparent');
         $('#menuToggle').addClass('white-bg');
         $('#menu li a#financialsLink').addClass('active');
+        $('#menu li a#financialsLink').closest('li').addClass('active');
         $('.logo img').attr('src',baseUrl+'/img/logo-black.svg');
         if ( $('.mobile').length <= 0) {
           $('#main').css({'transform':'translate3d(0px, -500%, 0px)'});
         }
       } else {
         $('#menu li a#homeLink').addClass('active');
+        $('#menu li a#homeLink').closest('li').addClass('active');
         $('.logo img').attr('src',baseUrl+'/img/logo.svg');
       }
     }
   },
 
   updateNavActive: function(e) {
-    $('#menu li a').removeClass('active');
-    var $linkIndex = $(e.currentTarget).data('index');
-    if ( $linkIndex == '1' ) {
-      $('#menu li a#homeLink').addClass('active');
-    } else if ( $linkIndex == '2') {
-      $('#menu li a#highlightsLink').addClass('active');
-    } else if ( $linkIndex == '3' ) {
-      $('#menu li a#businessLink').addClass('active');
-    } else if ( $linkIndex == '4' ) {
-      $('#menu li a#peopleLink').addClass('active');
-    } else if ( $linkIndex == '5' ) {
-      $('#menu li a#focusLink').addClass('active');
-    } else if ( $linkIndex == '6' ) {
-      $('#menu li a#financialsLink').addClass('active');
+    if ( !$(e.currentTarget).hasClass('toggleSubnav') ) {
+      $('#menu li a').removeClass('active');
+      $('#menu li').removeClass('active');
+      var $linkIndex = $(e.currentTarget).data('index');
+      var $linkId = $(e.currentTarget).attr('id');
+      if ( $linkIndex == '1' || $linkId == 'homeLink') {
+        $('#menu li a#homeLink').addClass('active');
+        $('#menu li a#homeLink').closest('li').addClass('active');
+      } else if ( $linkIndex == '2'  || $linkId == 'highlightsLink' ) {
+        $('#menu li a#highlightsLink').addClass('active');
+        $('#menu li a#highlightsLink').closest('li').addClass('active');
+      } else if ( $linkIndex == '3' || $linkId == 'businessLink' ) {
+        $('#menu li a#businessLink').addClass('active');
+        $('#menu li a#businessLink').closest('li').addClass('active');
+      } else if ( $linkIndex == '4' || $linkId == 'peopleLink' ) {
+        $('#menu li a#peopleLink').addClass('active');
+        $('#menu li a#peopleLink').closest('li').addClass('active');
+      } else if ( $linkIndex == '5' || $linkId == 'focusLink' ) {
+        $('#menu li a#focusLink').addClass('active');
+        $('#menu li a#focusLink').closest('li').addClass('active');
+      } else if ( $linkIndex == '6' || $linkId == 'financialsLink' ) {
+        $('#menu li a#financialsLink').addClass('active');
+        $('#menu li a#financialsLink').closest('li').addClass('active');
+      }
     }
   },
 
@@ -245,9 +264,11 @@ var AppView = Backbone.View.extend({
   // check screen size
   checkScreenSize: function($screenSize) {
     if ($screenSize.matches) { // if small screen size
+     
+     
       $('html').addClass('mobile'); // ...add mobile class
       $('.nav__home').addClass('nav__mobile'); // ...add mobile class
-      $('.header__home #sectionHeading').text('Highlights');
+      $('.header__home #sectionHeading').text('');
     } else { // .. otherwise if large screen size
       this.setUpScrollView(); // ... add scrollview plugin for homepage
       $('html').removeClass('mobile'); // ..remove mobile class
@@ -326,16 +347,14 @@ var AppView = Backbone.View.extend({
   
       if ( $('#homepage').length === 1 ) { // ... and we are on the home page 
          
-        if ( $(window).scrollTop() !== 0 ) { // if we are not at top of page
+        if ( $(window).scrollTop() > 0 ) { // if we are not at top of page
           // ... remove transparency from header and nav
           $('.header__home').removeClass('header__transparent'); 
-          $('.logo img').attr('src',baseUrl+'/img/logo-black.svg');
+          $('.header__home .logo img').attr('src', baseUrl+'/img/logo-black.svg');
           $('#menuToggle').addClass('white-bg'); 
-        } else if ( $(window).scrollTop() === 0 ) {
+        } else if ( $(window).scrollTop() <= 0 ) {
           $('header').addClass('header__transparent');
           $('.logo img').attr('src',baseUrl+'/img/logo.svg');
-          $('.logo').show();
-          $('#sectionHeading').text('');
           $('#menuToggle').removeClass('white-bg');
         }
       }
@@ -344,19 +363,21 @@ var AppView = Backbone.View.extend({
 
   // update header when changing sections on homepage
   updateHeaderDesktop: function(e) {
-    var getUrl = window.location;
-    var baseUrl = getUrl .protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];
-    if ( $('#homepage').length === 1 ) { // if we are on the home page    
-      var dataIndex = $(e.currentTarget).data('index');
-      if ( dataIndex == '1') {
-        $('header').addClass('header__transparent');
-        $('.logo img').attr('src',baseUrl+'/img/logo.svg');
-        $('#menuToggle').removeClass('white-bg');
-      } else {
-        $('header').removeClass('header__transparent');
-        $('.logo img').attr('src',baseUrl+'/img/logo-black.svg');
-        $('#menuToggle').addClass('white-bg');
-        this.updateSectionHeading(dataIndex);
+    if ( $('.mobile').length <= 0 ) {
+      var getUrl = window.location;
+      var baseUrl = getUrl .protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];
+      if ( $('#homepage').length === 1 ) { // if we are on the home page    
+        var dataIndex = $(e.currentTarget).data('index');
+        if ( dataIndex == '1') {
+          $('header').addClass('header__transparent');
+          $('.logo img').attr('src',baseUrl+'/img/logo.svg');
+          $('#menuToggle').removeClass('white-bg');
+        } else {
+          $('header').removeClass('header__transparent');
+          $('.logo img').attr('src',baseUrl+'/img/logo-black.svg');
+          $('#menuToggle').addClass('white-bg');
+          this.updateSectionHeading(dataIndex);
+        }
       }
     }
   },
@@ -392,11 +413,11 @@ var AppView = Backbone.View.extend({
   }, 
 
   toggleRopeIconIn: function() {
-      $('.panel--icon__ropes').css('background','url(../img/ropes-yellow.svg) no-repeat');
+      $('.panel--icon__ropes').addClass('inverse');
   },
 
   toggleRopeIconOut: function() {
-    $('.panel--icon__ropes').css('background','url(../img/ropes.svg) no-repeat');
+    $('.panel--icon__ropes').removeClass('inverse');
   },
 
   homePageNav: function(e) {
@@ -417,42 +438,42 @@ var AppView = Backbone.View.extend({
       e.preventDefault();
        /* mobile */
        if ( $(e.currentTarget).attr('id') == 'homeLink' ) {
-        $('#sectionHeading').text('');
+        // $('#sectionHeading').text('');
           $sectionTop = $("#home").offset().top;
           $myScroll = $sectionTop -= $headerHeight;
         $('html, body').animate({
           scrollTop: $myScroll
         }, 500);
       } else if( $(e.currentTarget).attr('id') == 'highlightsLink' ) {
-        $('#sectionHeading').text('Highlights');
+        // $('#sectionHeading').text('Highlights');
         $sectionTop = $("#highlights").offset().top;
         $myScroll = $sectionTop -= $headerHeight;
        $('html, body').animate({
          scrollTop: $myScroll
        }, 500);
       } else if ( $(e.currentTarget).attr('id') == 'businessLink' ) {
-        $('#sectionHeading').text('Our Business');
+        // $('#sectionHeading').text('Our Business');
         $sectionTop = $("#business").offset().top;
         $myScroll = $sectionTop -= $headerHeight;
        $('html, body').animate({
          scrollTop: $myScroll
        }, 500);
       } else if ( $(e.currentTarget).attr('id') == 'peopleLink' ) {
-        $('#sectionHeading').text('Our People');
+        // $('#sectionHeading').text('Our People');
         $sectionTop = $("#people").offset().top;
         $myScroll = $sectionTop -= $headerHeight;
        $('html, body').animate({
          scrollTop: $myScroll
        }, 500);
       } else if ( $(e.currentTarget).attr('id') == 'focusLink' ) {
-        $('#sectionHeading').text('Our Focus');
+        // $('#sectionHeading').text('Our Focus');
         $sectionTop = $("#focus").offset().top;
         $myScroll = $sectionTop -= $headerHeight;
        $('html, body').animate({
          scrollTop: $myScroll
        }, 500);
       } else if ( $(e.currentTarget).attr('id') == 'financialsLink' ) {
-        $('#sectionHeading').text('Our Financials');
+        // $('#sectionHeading').text('Our Financials');
         $sectionTop = $("#financials").offset().top;
         $myScroll = $sectionTop -= $headerHeight;
        $('html, body').animate({

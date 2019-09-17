@@ -1,4 +1,7 @@
-<?php require '_config.php'; ?>
+<?php require '_config.php'; 
+		$pageMeta['section'] = 'Home';
+		$pageMeta['description'] = 'CentrePort’s Annual Report 2019';
+?>
 <?php include 'includes/html.php'; ?>
 <?php include 'includes/head.php'; ?>
 

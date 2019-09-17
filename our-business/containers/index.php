@@ -12,7 +12,7 @@
 		<?php include '../../includes/header.php'; ?>
 		<section class="clearfix">
 			<aside class="left-col">
-
+				<img src="<?=$siteBaseURL?>img/containers/left-col-img.jpg" alt="Machinery" />
 			</aside>
 			<div class="right-col" role="main">
 				<div class="content-inner">
@@ -39,12 +39,14 @@
 					<div><img src="<?=$siteBaseURL?>img/containers/slider-1-img-3.jpg" alt=""/></div>
 				</div>
 
-				<div class="content-inner m-t-m m-b-lg p-b-lg">
+				<div class="content-inner m-t-m m-b-lg">
 					<p>CentrePort made the decision to phase out its straddles cranes due to the uneven nature of the land post-quake. From February 2020 they will be replaced with ‘bomb carts’.</p>
 					<p>This will increase lifting capacity from 30 to 70 tonnes – and improve the cycle up to eight minutes from truck-to-crane-to-ship. The bomb carts will also be able to drive directly under cranes – improving safety and productivity.</p>
-				
-					<p>[IMAGE REQUIRED]</p>
+				</div>
 
+				<img class="full-width-img m-t-m m-b-m" src="<?=$siteBaseURL?>img/containers/image-1.jpg" alt=""/>
+
+				<div class="content-inner m-t-m m-b-lg p-b-lg">
 					<div class="case-study m-t-m m-b-m">
 						<div class="case-study--header">
 							<div class="case-study--heading">

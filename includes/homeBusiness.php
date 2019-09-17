@@ -51,5 +51,4 @@
             <span class="arrow arrow-yellow-fwd" id="trades-link"></span>
         </div>
     </div>
-   
 </section>

@@ -1,5 +1,5 @@
 <?php require '../../_config.php'; 
-		$pageMeta['section'] = 'Our Financials';
+		$pageMeta['section'] = 'Financial Statements';
 		$pageMeta['heading'] = 'Governance';
 		$pageMeta['description'] = 'The CentrePort Board of Directors (the Board) is committed to maintaining best-practice governance policies and behaviours.';
 ?>

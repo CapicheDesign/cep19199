@@ -4,6 +4,44 @@
     }
     &.slick-slider__light-blue {
         background: $cp-blue-light;
+        .slick-dots {
+            li {
+                &.slick-active {
+                    button {
+                        &:before {
+                            color: $cp-yellow;
+                        }
+                    }
+                }
+            }
+        }
+        .slick-prev {
+            left: 25px;
+            [dir="rtl"] & {
+                left: auto;
+                right: 25px;
+            }
+            &:before {
+                content: url(../img/chevron-left-yellow.svg);
+                [dir="rtl"] & {
+                    content: url(../img/chevron-right-yellow.svg);
+                }
+            }
+        }
+        
+        .slick-next {
+            right: 25px;
+            [dir="rtl"] & {
+                left: 25px;
+                right: auto;
+            }
+            &:before {
+                content: url(../img/chevron-right-yellow.svg);
+                [dir="rtl"] & {
+                    content: url(../img/chevron-left-yellow.svg);
+                }
+            }
+        }
     }
     img {
         width: 100%;
@@ -15,7 +53,7 @@
             &.slick-active {
                 button {
                     &:before {
-                        color: $cp-yellow;
+                        color: $cp-blue-light;
                     }
                 }
             }

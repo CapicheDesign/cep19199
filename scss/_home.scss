@@ -1,4 +1,7 @@
+
+
 html { height: 100%; background: $cp-blue-dark; }
+html.mobile { height: auto; }
 
 body#homepage {
   width: 100%;
@@ -64,7 +67,7 @@ body#homepage {
     }
     &.panel__half {
         .panel__home__overlay {
-            transform: translate3d(0,60%,0);
+            transform: translate3d(0,64%,0);
         }
     }
     &.panel__quarter {

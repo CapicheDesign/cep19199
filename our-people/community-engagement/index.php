@@ -12,13 +12,12 @@
 		<?php include '../../includes/header.php'; ?>
 		<section class="clearfix">
 			<aside class="left-col">
-				<!-- <img src="<?=$siteBaseURL?>img/community-engagement/left-col-img.jpg" alt="" /> -->
+				<img src="<?=$siteBaseURL?>img/community-engagement/left-col-img.jpg" alt="" />
 			</aside>
 			<div class="right-col" role="main">
 				<div class="content-inner m-t-lg m-b-lg">
 					<h1>Community Engagement</h1>
 					<div class="heading-divider"></div>
-					<p>[LEFT COLUMN IMAGE REQUIRED]
 					<p>CentrePort recognises it is part of the wider Wellington community and engages and supports a variety of organisations and events.</p>
 					<p>This year we were proud to support a range of events including:</p> 
 					<ul>

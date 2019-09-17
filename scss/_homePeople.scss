@@ -1,4 +1,4 @@
-/* business panels */
+/* people panels */
 
 #people-panel-1 {
     background: url('../img/training-bg.jpg') no-repeat center;
@@ -11,6 +11,17 @@
 }
 
 #people-panel-3 {
+    .panel--content {
+        margin-top: -13vh;
+    }
+    &:hover, &:focus, &:active {
+        .panel--content {
+            margin-top: 2vh;
+        }
+    }
+}
+
+#people-panel-4 {
     color: $cp-black;
     .panel--content {
         transform: translate3d(0,22%,0);
@@ -24,7 +35,7 @@
     }   
 }
 
-#people-panel-4 {
+#people-panel-5 {
     .panel--content {
         transform: translate3d(0,20%,0);
     }
@@ -61,6 +72,19 @@
     @media (min-width: 1024px) and (max-width: 1399px) {
         width: 200px;
         height: 44px;
+        margin-bottom: 1vh;
+        margin-left: -6px;
+    }
+}
+
+.panel--icon__community {
+    background: url('../img/community-icon.svg') no-repeat;
+    width: 62px;
+    height: 58px;
+    margin-bottom: 2vh;
+    @media (min-width: 1024px) and (max-width: 1399px) {
+        width: 62px;
+        height: 58px;
         margin-bottom: 1vh;
         margin-left: -6px;
     }

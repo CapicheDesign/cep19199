@@ -12,7 +12,7 @@
 		<?php include '../../includes/header.php'; ?>
 		<section class="clearfix">
 			<aside class="left-col">
-				<img src="<?=$siteBaseURL?>img/values/left-col-img.jpg" alt="Our values signage" />
+				<!-- <img src="<?=$siteBaseURL?>img/values/left-col-img.jpg" alt="Our values signage" /> -->
 			</aside>
 			<div class="right-col" role="main">
 				<div class="content-inner">
@@ -29,6 +29,8 @@
 					<div><img src="<?=$siteBaseURL?>img/values/slider-1-img-3.jpg" alt="Make it happen"/></div>
 					<div><img src="<?=$siteBaseURL?>img/values/slider-1-img-4.jpg" alt="Aim higher"/></div>
 				</div>
+
+				<img class="full-width-img m-t-m m-b-m" src="<?=$siteBaseURL?>img/values/image-1.jpg" alt="Our values"/>
 
 			</div>
 		</section>

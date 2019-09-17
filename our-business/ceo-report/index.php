@@ -31,18 +31,22 @@
 					<p>We’ve invested in our people to ensure they have the range of skills to work safely and effectively.  For our container services staff, this has been driven by the successful introduction of a fixed-flexi rostering system which guaranteed normalised working hours and opened broader opportunities of tasks / roles.  Providing the appropriate training and support was a priority.</p>
 					<p>One of my most rewarding moments of the year was attending a graduation ceremony for our staff who had gained a range of qualifications, including NZQA recognised courses.  Family and friends attended, and the pride in achievement was clearly apparent.</p>
 				</div>
-		
+
+				<blockquote class="m-t-m m-b-m">
+					<p>"Almost all our trades have grown again significantly over the last 12 months – and we've invested a lot of energy into bringing key assets back into play and providing what our customers need.</p>  
+					<p>The key to our success is our people – the people have made it work.  They've found solutions, they've worked safely, and they've worked with other people on the port to make it a very successful year,”</p>
+					<cite>Derek Nind, Chief Executive.</cite>
+				</blockquote>
+
 				<img class="full-width-img m-t-m m-b-m" src="<?=$siteBaseURL?>img/ceo-report/crane.jpg" alt="Hurry Crane"/>
 
 				<div class="content-inner">
 					<h2>Health and Safety</h2>
 					<p><strong>CentrePort takes a continuous improvement approach to health and safety, and we built on previous gains.  Positive trends in our key health and safety metrics continued showing the systems and safety-in-design approach is making an impact.  The redesign of our log yard lay-out achieved significant improvement in man-machine separation.</strong></p>    
 					<p>Systems and metrics were only half story – with the safety culture being key.  Our people took ownership of health and safety to complement the supportive approach of management.  Our 23 health and safety representatives benefited from an extensive training programme.  This empowered them to work collaboratively with their colleagues to help achieve CentrePort’s continued evolution from a reactive to proactive health and safety culture.</p>
-				
-					[IMAGE REQUIRED]
 				</div>
 		
-				<!-- <img class="full-width-img m-t-m m-b-m" src="<?=$siteBaseURL?>img/ceo-report/crane.jpg" alt="Hurry Crane"/> -->
+				<img class="full-width-img m-t-m m-b-m" src="<?=$siteBaseURL?>img/ceo-report/image-2.jpg" alt=""/>
 
 				<div class="content-inner m-t-m">
 					<h2>Environmental Sustainability</h2>
@@ -67,12 +71,10 @@
 					<p>We continued working with international experts including Hamburg Port Consulting and Royal HaskongingDHV as well as Berl and KPMG to explore opportunities with relation to developing a modern and effective logistics supply asset.</p>
 					<p>The planning is considering a variety of factors including safety, resilience, the environment, technology, risk management, the needs of the community, and regional and national economies.</p>
 					<p>The multi-user ferry terminal project sits under that regeneration plan and good progress was made in the delivery of a business case in August 2019. We engaged with the project group of partners to produce a collaborative, well-researched piece of work.  Ensuring connectivity that integrates with the city’s needs and ensures that State Highway One is efficiently connected between the North and South Islands is paramount in that planning.</p>
-
-					[IMAGE REQUIRED]
 				
 				</div>
 
-				<!-- <img class="full-width-img m-t-m m-b-m" src="<?=$siteBaseURL?>img/ceo-report/crane.jpg" alt="Hurry Crane"/> -->
+				<img class="full-width-img m-t-m m-b-m" src="<?=$siteBaseURL?>img/ceo-report/image-3.jpg" alt=""/>
 
 				<div class="content-inner m-t-m">
 					<h2>Resilience</h2>
@@ -80,63 +82,10 @@
 					<p>The removal of redundant buildings on the ‘E-site’ adjacent to Waterloo Quay and remediation of the land created a new vehicle marshalling area for the StraitNZ Bluebridge service, while the removal of the former cruise terminal improved Aotea Quay bulk cargo capacity.</p> 
 					<p>A total of 15 structures have now been removed including the former cruise terminal in Shed 51, Sheds R & S, the Coldstore, and Shed 19 on Waterloo Wharf.  Further projects commenced including the removal of the former BNZ building.</p>
 					<p>Critical resilience work on key assets including Kings Wharf, Aotea Quay, and the Seaview fuel facility progressed.  These involve significant investment and ongoing work in the years to come, that will not only benefit CentrePort, but are important for the emergency Lifelines network.</p>
-					
-					[IMAGE REQUIRED]
-				
 				</div>
 
-				<!-- <img class="full-width-img m-t-m m-b-m" src="<?=$siteBaseURL?>img/ceo-report/crane.jpg" alt="Hurry Crane"/> -->
+				<img class="full-width-img m-t-m m-b-0" src="<?=$siteBaseURL?>img/ceo-report/image-4.jpg" alt=""/>
 
-				<div class="content-inner">
-					<div class="youtube-wrapper m-t-m m-b-m">
-						<a class="js-modal-btn" data-video-id="IWXpyBJztFE">
-							<img class="yt-poster" src="<?=$siteBaseURL?>img/video-placeholder.jpg" alt="video thumbnail image"/>
-							<img class="yt-play-btn" src="<?=$siteBaseURL?>img/youtube-play-btn.svg" alt="play"/>
-						</a>
-					</div>
-
-					<div class="slick-slider m-t-m m-b-m">
-						<div><img src="<?=$siteBaseURL?>img/inland-strategy/slider-1-img-1.jpg" alt=""/></div>
-						<div><img src="<?=$siteBaseURL?>img/inland-strategy/slider-1-img-2.jpg" alt=""/></div>
-						<div><img src="<?=$siteBaseURL?>img/inland-strategy/slider-1-img-3.jpg" alt=""/></div>
-					</div>
-
-					<p>The past year saw record CentreRail volumes supported by the continued development of the hub network with volumes of 800 twenty-foot equivalent (TEUs) containers per week.</p> 
-					<p>Moving forward, CentrePort is looking to expand the model elsewhere with rail hubs in the planning stages in various locations throughout central New Zealand.</p>
-				
-					<div class="case-study m-t-m m-b-m">
-						<div class="case-study--header">
-							<div class="case-study--heading">
-								<img src="<?=$siteBaseURL?>img/icon-case-study.svg" alt=""/>	
-								<h3>Case Study</h3>
-							</div>
-							<img src="<?=$siteBaseURL?>img/case-study-placeholder.jpg" alt="placeholder" />
-						</div>
-						<div class="case-study--content">
-							<div class="heading-divider"></div>
-							<h2>Open Country Dairy</h2>
-							<p><strong>Open Country Dairy is the second biggest dairy company in New Zealand, and exports 30 per cent of its products through CentrePort via Whanganui to more than 70 countries across the world.</strong></p>
-							<p>Open Country Dairy has a long-standing relationship with CentrePort and moves containerised export product through the Wellington port to its international markets.</p>
-							<p>The Ali Arc and CentrePort service provides efficiencies for Open Country Dairy, with certainty of the daily rail service through to CentrePort.</p>  
-						</div>
-						<blockquote class="case-study--pull-quote m-t-m m-b-m">
-							<p>“Rail works brilliantly. The nature of it means that delivering products is efficient and easy, and means we have to use fewer trucks.”</p>
-							<cite>Greg Sewell, General Manager Supply Chain, Open Country Dairy.</cite>
-						</blockquote>
-						<div class="case-study--content">
-							<p>Products ready to export are stored at the Whanganui hub, which is hugely important for Open Country Dairy as it frees up storage at their own facility.  The ability for Ali Arc to recondition containers and manage storage is also a huge benefit to Open Country Dairy.</p>
-							<div class="youtube-wrapper m-t-m">
-								<a class="js-modal-btn" data-video-id="IWXpyBJztFE">
-									<img class="yt-poster" src="<?=$siteBaseURL?>img/video-placeholder.jpg" alt="video thumbnail image"/>
-									<img class="yt-play-btn" src="<?=$siteBaseURL?>img/youtube-play-btn.svg" alt="play"/>
-								</a>
-							</div>
-						</div>
-						<blockquote class="case-study--pull-quote m-t-m m-b-m">
-							<p>“The whole system works well. We don’t hear any noise which is exactly what you want from a logistics perspective. We have the assurance that everything is working seamlessly”</p>
-							<cite>Greg Sewell, General Manager Supply Chain, Open Country Dairy.</cite>
-						</blockquote>
-					</div>
 				</div>
 			</div>
 		</section>

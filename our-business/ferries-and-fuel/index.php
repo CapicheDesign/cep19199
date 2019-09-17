@@ -12,7 +12,7 @@
 		<?php include '../../includes/header.php'; ?>
 		<section class="clearfix">
 			<aside class="left-col">
-				<img src="<?=$siteBaseURL?>img/ferries-and-fuel/left-col-img.jpg" alt="Logs" />
+				<img src="<?=$siteBaseURL?>img/ferries-and-fuel/left-col-img.jpg" alt="" />
 			</aside>
 			<div class="right-col" role="main">
 				<div class="content-inner">
@@ -29,14 +29,11 @@
 							<img class="yt-play-btn" src="<?=$siteBaseURL?>img/youtube-play-btn.svg" alt="play"/>
 						</a>
 					</div>
-
-					[IMAGE REQUIRED]<br><br>
-
 				</div>
 
-				<div class="content-inner m-t-m m-b-m">
+				<img class="full-width-img m-t-m m-b-m" src="<?=$siteBaseURL?>img/ferries-and-fuel/image-1.jpg" alt=""/>
 
-					<!-- <img class="full-width-img m-t-m m-b-m" src="<?=$siteBaseURL?>img/video-placeholder.jpg" alt="placeholder image"/> -->
+				<div class="content-inner m-t-m m-b-m">
 
 					<p>Ferries and Bulk General Manager Andrew Steele says given the fuel facility is essential for Lifelines and the regional economy, CentrePort has been working on increasing resilience of the fuel berths over the past year.</p>
 					<p>“At Seaview Wharf we are continuing to improve facilities and we’ve removed a lot of redundant infrastructure to reduce the load on the wharf.  We're also scoping up the longer-term project in terms of resilience developments.”</p>
@@ -54,7 +51,7 @@
 				</blockquote>
 
 				<div class="content-inner m-t-m m-b-lg p-b-lg">
-					<h2>Ferries</h2>
+					<h2 class="h1">Ferries</h2>
 					<p>The inter-island ferry services that CentrePort facilitates is a vital link between the North and South Islands, effectively extending State Highway 1 over Cook Strait.</p>
 					<p>Across the Interislander and StraitNZ Bluebridge services a total of 3,148 ferry journeys were undertaken between Wellington and Picton.  The ferry link between the North and South Island is a critical part of New Zealand’s transport network, responsible for moving up to $20bn worth of freight and over 1.1 million passengers per annum.</p>
 				</div>

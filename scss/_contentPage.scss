@@ -41,12 +41,12 @@
         }
 
         .content-inner {
-            padding: 0 50px;
+            padding: 0 120px 0 50px;
             @media (max-width: 767px) {
                 padding: 0 25px;
             }
 
-            h1 {
+            h1, .h1 {
                 color: $cp-blue-light;
                 font-size: 2.22em;
                 margin-top: 50px;
@@ -90,12 +90,12 @@
     }
 
     blockquote {
-        background: $cp-black;
+        background: white;
         border: none;
-        padding: 30px 50px;
-        color: white;
+        padding: 10px 50px;
+        color: $cp-black;
         @media (max-width: 767px) {
-            padding: 20px 25px;
+            padding: 5px 25px;
         }
         p {
             font-size:1.4em;
