@@ -38,7 +38,7 @@
 					<cite>Derek Nind, CEO, CentrePort</cite>
 				</blockquote>
 
-				<img class="full-width-img m-t-m m-b-m" src="<?=$siteBaseURL?>img/training/body-img-1.jpg" alt=""/> 
+				<img class="full-width-img m-t-m m-b-m" src="<?=$siteBaseURL?>img/training/image-1.jpg" alt=""/> 
 
 				<div class="content-inner m-t-m m-b-m">
 					<h2>Training graduation ceremonies</h2>

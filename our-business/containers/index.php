@@ -19,7 +19,6 @@
 					<h1>Containers</h1>
 					<div class="heading-divider"></div>
 
-					<p>[LEFT COLUMN IMAGE REQUIRED]</p>
 					<p><strong>Containers have grown in the past year – showing strong progress in the CentrePort recovery.</strong></p>    
 					<p>Containers were up 11 percent this year, with 93,846 Twenty-Foot Equivalent Units (TEUs).</p>
 					<p>This year, CentrePort has increased capacity to continue growing the container business.</p>
@@ -39,12 +38,12 @@
 					<div><img src="<?=$siteBaseURL?>img/containers/slider-1-img-3.jpg" alt=""/></div>
 				</div>
 
-				<div class="content-inner m-t-m m-b-lg">
+				<div class="content-inner m-t-m m-b-m">
 					<p>CentrePort made the decision to phase out its straddles cranes due to the uneven nature of the land post-quake. From February 2020 they will be replaced with ‘bomb carts’.</p>
 					<p>This will increase lifting capacity from 30 to 70 tonnes – and improve the cycle up to eight minutes from truck-to-crane-to-ship. The bomb carts will also be able to drive directly under cranes – improving safety and productivity.</p>
 				</div>
 
-				<img class="full-width-img m-t-m m-b-m" src="<?=$siteBaseURL?>img/containers/image-1.jpg" alt=""/>
+				<img class="full-width-img m-b-m" src="<?=$siteBaseURL?>img/containers/image-1.jpg" alt=""/>
 
 				<div class="content-inner m-t-m m-b-lg p-b-lg">
 					<div class="case-study m-t-m m-b-m">
@@ -53,7 +52,7 @@
 								<img src="<?=$siteBaseURL?>img/icon-case-study.svg" alt=""/>	
 								<h3>Case Study</h3>
 							</div>
-							<img src="<?=$siteBaseURL?>img/case-study-placeholder.jpg" alt="placeholder" />
+							<img src="<?=$siteBaseURL?>img/containers/case-study-header.jpg" alt="Brendon Bartley, Managing Director, Ali Arc." />
 						</div>
 						<div class="case-study--content">
 							<div class="youtube-wrapper m-t-lg">
@@ -74,7 +73,6 @@
 							<cite>Brendon Bartley, Managing Director, Ali Arc.</cite>
 						</blockquote>
 						<div class="case-study--content p-b-lg">
-							<img class="m-b-m" src="<?=$siteBaseURL?>img/containers/ali-arc.jpg" alt="Brendon Bartley, Managing Director, Ali Arc."/>
 							<p>CentreRail's ability to provide certainty around timing of shipments, efficiency of operations, and flexibility ensures the partnership works well.</p>
 							<p>“The relationship is great because our core business is warehousing logistics.  They've got to come from somewhere. If it comes from CentrePort that's the best result for us so the quicker we get with them in and out of the port the better.”</p>
 							<p>“We've got the ability to grow with CentrePort, and we're currently working on a development for adding biosecurity services to what we do.</p>

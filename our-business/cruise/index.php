@@ -18,7 +18,6 @@
 				<div class="content-inner">
 					<h1>Cruise</h1>
 					<div class="heading-divider"></div>
-					<p>[LEFT COLUMN IMAGE REQUIRED]</p>
 					<p><strong>History was made in the 2018/19 cruise ship season with ship visits passing the centrury mark for the first time.  By the end of the season a total of 110 visits were achieved.</strong></p>    
 					
 					<div class="youtube-wrapper m-t-m m-b-m">
@@ -34,7 +33,7 @@
 					<p>The biggest week for cruise was in January, with 10 ships and 17,500 passengers visiting in a single week.</p>
 				</div>
 
-				<blockquote class="m-t-lg m-b-lg">
+				<blockquote class="m-t-m m-b-lg">
 					<p>"Cruise visitors are fantastic for the city’s economy, and passengers certainly add a great buzz and vibrancy to the city.”</p>
 					<cite>David Perks, General Manager of Wellington NZ</cite>
 				</blockquote>
@@ -60,7 +59,7 @@
 					<p>Next year will be even bigger, with 123 ships booked to land in the 2019/20 season.</p>
 				</div>
 
-				<blockquote class="m-t-lg m-b-lg">
+				<blockquote class="m-t-m m-b-lg">
 					<p>“Cruise ships contribute $60 million to the Capital’s retail, hospitality and tourism sectors every year. It is a great way to highlight Wellington. We are proud to be part of boosting tourism to the city.”</p>
 					<cite>Derek Nind, Chief Executive, CentrePort</cite>
 				</blockquote>

@@ -31,47 +31,111 @@
 				</div>
 
 				<div class="content-inner m-t-m m-b-m">
-					<div class="board-member">
-						<img class="board-photo" src="<?=$siteBaseURL?>img/governance/board/derek-nind.jpg" alt="Derek Nind" />
-						<p><small>Derek Nind</small></p>
-					</div>
-					<div class="board-member">
-						<img class="board-photo" src="<?=$siteBaseURL?>img/governance/board/lachie-johnstone.jpg" alt="Lachie Johnstone" />
-						<p><small>Lachie Johnstone</small></p>
-					</div>
-					<div class="board-member board-member__third">
-						<img class="board-photo" src="<?=$siteBaseURL?>img/governance/board/mark-thompson.jpg" alt="Mark Thompson" />
-						<p><small>Mark Thompson</small></p>
-					</div>
-
-					<div class="board-member">
-						<img class="board-photo" src="<?=$siteBaseURL?>img/governance/board/murray-julian.jpg" alt="Murray Julian" />
-						<p><small>Murray Julian</small></p>
-					</div>
-					<div class="board-member">
-						<img class="board-photo" src="<?=$siteBaseURL?>img/governance/board/kieran-sweetman.jpg" alt="Kieran Sweetman" />
-						<p><small>Kieran Sweetman</small></p>
-					</div>
-					<div class="board-member board-member__third">
-						<img class="board-photo board-photo__third" src="<?=$siteBaseURL?>img/governance/board/bernard-huizenga.jpg" alt="Bernard Huizenga" />
-						<p><small>Bernard Huizenga</small></p>
-					</div>
-
-					<div class="board-member">
-						<img class="board-photo" src="<?=$siteBaseURL?>img/governance/board/anthony-delaney.jpg" alt="Anthony Delaney" />
-						<p><small>Anthony Delaney</small></p>
-					</div>
-					<div class="board-member">
-						<img class="board-photo" src="<?=$siteBaseURL?>img/governance/board/andrew-steele.jpg" alt="Andrew Steele" />
-						<p><small>Andrew Steele</small></p>
-					</div>
-					<div class="board-member board-member__third">
-						<img class="board-photo board-photo__third" src="<?=$siteBaseURL?>img/governance/board/andrew-locke.jpg" alt="Andrew Locke" />
-						<p><small>Andrew Locke</small></p>
-					</div>
+					<table class="board" cellpadding="0" cellspacing="0">
+						<tr>
+							<td>
+								<table>
+									<tr>
+										<td><img class="board-photo" src="<?=$siteBaseURL?>img/governance/board/derek-nind.jpg" alt="Derek Nind" /></td>
+									</tr>
+									<tr>
+										<td><small><strong>Derek Nind</strong><br>Chief Executive</small></td>
+									</tr>
+								</table>
+							</td>
+							<td>
+								<table>
+									<tr>
+										<td><img class="board-photo" src="<?=$siteBaseURL?>img/governance/board/lachie-johnstone.jpg" alt="Lachie Johnstone" /></td>
+									</tr>
+									<tr>
+										<td><small><strong>Lachie Johnstone</strong><br>Chairman</small></td>
+									</tr>
+								</table>
+							</td>
+							<td>
+								<table>
+										<tr>
+											<td><img class="board-photo" src="<?=$siteBaseURL?>img/governance/board/mark-thompson.jpg" alt="Mark Thompson" /></td>
+										</tr>
+										<tr>
+											<td><small><strong>Mark Thompson</strong><br>General Manager Logistics</small></td>
+										</tr>
+									</table>
+								</td>
+						</tr>
+					</table>
+					<table class="board" cellpadding="0" cellspacing="0">
+						<tr>
+							<td>
+								<table>
+									<tr>
+										<td><img class="board-photo" src="<?=$siteBaseURL?>img/governance/board/murray-julian.jpg" alt="Murray Julian" /></td>
+									</tr>
+									<tr>
+										<td><small><strong>Murray Julian</strong><br>GM, People, Safety and Culture</small></td>
+									</tr>
+								</table>
+							</td>
+							<td>
+								<table>
+									<tr>
+										<td><img class="board-photo" src="<?=$siteBaseURL?>img/governance/board/kieran-sweetman.jpg" alt="Kieran Sweetman" /></td>
+									</tr>
+									<tr>
+										<td><small><strong>Kieran Sweetman</strong><br>General Manager, Capital</small></p></td>
+									</tr>
+								</table>
+							</td>
+							<td>
+								<table>
+									<tr>
+										<td><img class="board-photo" src="<?=$siteBaseURL?>img/governance/board/bernard-huizenga.jpg" alt="Bernard Huizenga" /></td>
+									</tr>
+									<tr>
+										<td><small><strong>Bernard Huizenga</strong><br>General Manager Break Bulk</small></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+					<table class="board" cellpadding="0" cellspacing="0">
+						<tr>
+							<td>
+								<table>
+									<tr>
+										<td><img class="board-photo" src="<?=$siteBaseURL?>img/governance/board/anthony-delaney.jpg" alt="Anthony Delaney" /></td>
+										</tr>
+										<tr>
+										<td><small><strong>Anthony Delaney</strong><br>General Manager<br>Infrastructure and Environment</small></td>
+									</tr>
+								</table>
+							</td>
+							<td>
+								<table>
+									<tr>
+										<td><img class="board-photo" src="<?=$siteBaseURL?>img/governance/board/andrew-steele.jpg" alt="Andrew Steele" /></td>
+									</tr>
+									<tr>
+										<td><small><strong>Andrew Steele</strong><br>General Manager Ferries and Bulk</small></td>
+									</tr>
+								</table>
+							</td>
+							<td>
+								<table>
+									<tr>
+										<td><img class="board-photo" src="<?=$siteBaseURL?>img/governance/board/andrew-locke.jpg" alt="Andrew Locke" /></td>
+										</tr>
+<tr>
+										<td><small><strong>Andrew Locke</strong><br>General Manager Commercial</small></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
 				</div>
 
-				<div class="content-inner m-t-m m-b-lg p-b-lg">
+				<div style="clear: both;" class="content-inner m-t-m m-b-lg p-b-lg">
 					<h2>Role of the Board and Responsibilities</h2>
 					<p>The Board has statutory responsibility for the affairs and activities of CentrePort Limited and its subsidiary companies. Without undermining this responsibility, the day-to-day leadership and management of the Group is delegated to the Chief Executive and management of CentrePort Limited.</p>
 					<p>Key areas of responsibility that remain with the Board are:</p>
@@ -82,6 +146,7 @@
 						<li>appointing and reviewing the performance of the Chief Executive</li>
 						<li>safeguarding and growing the value of CentrePort Limited’s assets.</li>
 					</ul>
+					<button class="button-black m-t-m">Download Governance Report</button>
 				</div>
 
 			</div>

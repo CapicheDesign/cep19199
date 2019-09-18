@@ -86,18 +86,24 @@
                     margin-bottom: 15px;
                 }
             }
-            .board-member {
-                float: left;
-                width: 30%;
-                margin-right: 4%;
-                margin-bottom: 20px;
-                p {
-                    font-weight: 700;
-                    padding-top: 2vh;
-                }
-                &.board-member__third {
-                    margin-right: 0;
-                }
+            .board {
+                    border: none;
+                    border-collapse: collapse;
+                    display:table;
+                    width:100%;
+                    table-layout:fixed;
+               tr {
+                   td {
+                    padding-bottom: 20px;
+                    width: 30%;
+                    padding-right: 3%;
+                    vertical-align:top;
+                    small {
+                        max-width: 90%;
+                        display: inline-block;
+                    }
+                   }
+               }
             }
         }
     }

@@ -26,8 +26,8 @@
 					<p>Health and safety is the number one priority for CentrePort in everything we do.</p>
 				</blockquote>
 
-				<div class="content-inner m-t-m m-b-m">
-					<div class="youtube-wrapper m-t-m m-b-m">
+				<div class="content-inner m-t-m m-b-lg">
+					<div class="youtube-wrapper">
 						<a class="js-modal-btn" data-video-id="IWXpyBJztFE">
 							<img class="yt-poster" src="<?=$siteBaseURL?>img/video-placeholder.jpg" alt="video thumbnail image"/>
 							<img class="yt-play-btn" src="<?=$siteBaseURL?>img/youtube-play-btn.svg" alt="play"/>
@@ -61,9 +61,9 @@
 				<div class="content-inner m-t-m m-b-m">
 					<p>CentrePort can have up to 1,000 people on the ground at various times, including multiple Persons Conducting Business or Undertakings (PCBUs). All PCBUs involving works on Port are put through a three-stage health and safety process.</p>
 					<p>In June 2019 CentrePort was sentenced and fined $506,048 in the District Court at Wellington for the death of Teihi Whaanga following a fall from a ladder. The team continue to think of Teihi every day and his legacy lives on in the ongoing commitment to health and safety on the port.</p> 
-				
-					[IMAGE REQUIRED]<br><br>
 				</div>
+
+				<img class="full-width-img m-t-m m-b-m" src="<?=$siteBaseURL?>img/health-and-safety/image-1.jpg" alt=""/>
 
 				<div class="content-inner m-t-m m-b-m">
 					<h2>Craig Riddell</h2>

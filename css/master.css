@@ -7,7 +7,7 @@ hr,img{border:0}
 .navbar-fixed-bottom .navbar-collapse,.navbar-fixed-top .navbar-collapse,.pre-scrollable{max-height:340px}
 .slick-slider,html{-webkit-tap-highlight-color:transparent}
 .form-control-feedback,.slick-slide.dragging img,a.btn.disabled,fieldset[disabled] a.btn{pointer-events:none}
-.invisible,.slick-loading .slick-slide,.slick-loading .slick-track{visibility:hidden}
+.clearfix:after,.invisible,.slick-loading .slick-slide,.slick-loading .slick-track{visibility:hidden}
 html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
 article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}
 audio,canvas,progress,video{display:inline-block;vertical-align:baseline}
@@ -405,10 +405,10 @@ blockquote{padding:10px 20px;margin:0 0 20px;font-size:17.5px;border-left:5px so
 blockquote .small,blockquote footer,blockquote small{display:block;font-size:80%;line-height:1.42857;color:#777}
 legend,pre{color:#333}
 blockquote .small:before,blockquote footer:before,blockquote small:before{content:'\2014 \00A0'}
+.blockquote-reverse .small:before,.blockquote-reverse footer:before,.blockquote-reverse small:before,.scroll-pagination li a.active:before,.scroll-pagination li a:before,blockquote.pull-right .small:before,blockquote.pull-right footer:before,blockquote.pull-right small:before{content:''}
 .blockquote-reverse,blockquote.pull-right{padding-right:15px;padding-left:0;border-right:5px solid #eee;border-left:0;text-align:right}
 code,kbd{padding:2px 4px;font-size:90%}
 caption,th{text-align:left}
-.blockquote-reverse .small:before,.blockquote-reverse footer:before,.blockquote-reverse small:before,blockquote.pull-right .small:before,blockquote.pull-right footer:before,blockquote.pull-right small:before{content:''}
 .blockquote-reverse .small:after,.blockquote-reverse footer:after,.blockquote-reverse small:after,blockquote.pull-right .small:after,blockquote.pull-right footer:after,blockquote.pull-right small:after{content:'\00A0 \2014'}
 address{font-style:normal;line-height:1.42857}
 code,kbd,pre,samp{font-family:Menlo,Monaco,Consolas,"Courier New",monospace}
@@ -1441,8 +1441,9 @@ td.visible-print,th.visible-print{display:table-cell!important}
 }
 .scroll-pagination{position:absolute;right:0;top:50%;z-index:5;list-style:none;margin:0;padding:5px 15px 15px 5px;background:#fff}
 .scroll-pagination li a{padding:10px;display:block}
-.scroll-pagination li a:before{content:'';position:absolute;width:11px;height:11px;background:#153145;border-radius:50%;-webkit-border-radius:50%;-moz-border-radius:50%}
-.scroll-pagination li a.active:before{content:'';position:absolute;width:11px;height:11px;background:#FBC817;border-radius:50%;-webkit-border-radius:50%;-moz-border-radius:50%}
+.scroll-pagination li a:before{position:absolute;width:11px;height:11px;background:#153145;border-radius:50%;-webkit-border-radius:50%;-moz-border-radius:50%}
+.scroll-pagination li a.active:before{position:absolute;width:11px;height:11px;background:#FBC817;border-radius:50%;-webkit-border-radius:50%;-moz-border-radius:50%}
+.clearfix:after{content:" ";display:block;height:0}
 body{margin:0 auto;font-family:Roboto,sans-serif;font-size:18px;color:#231F20;line-height:1.2}
 @media (max-width:767px){body{font-size:12px}
 }
@@ -1826,9 +1827,9 @@ html.mobile{height:auto}
 }
 .content-page section .content-inner ul{list-style:disc;padding:0;margin-left:20px}
 .content-page section .content-inner ul li{margin-bottom:15px}
-.content-page section .content-inner .board-member{float:left;width:30%;margin-right:4%;margin-bottom:20px}
-.content-page section .content-inner .board-member p{font-weight:700;padding-top:2vh}
-.content-page section .content-inner .board-member.board-member__third{margin-right:0}
+.content-page section .content-inner .board{border:none;border-collapse:collapse;display:table;width:100%;table-layout:fixed}
+.content-page section .content-inner .board tr td{padding-bottom:20px;width:30%;padding-right:3%;vertical-align:top}
+.content-page section .content-inner .board tr td small{max-width:90%;display:inline-block}
 .content-page blockquote{background:#fff;border:none;padding:10px 50px;color:#231F20}
 .content-page blockquote p{font-size:1.4em;font-weight:300;font-style:italic;line-height:1.2}
 @media (max-width:767px){.content-page blockquote{padding:5px 25px}

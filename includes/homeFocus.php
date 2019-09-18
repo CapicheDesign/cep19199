@@ -7,7 +7,7 @@
                 <span class="mid-size-bold">Medium term operating plan</span>
                 <span class="arrow arrow-yellow-fwd" href="#"></span>
                 <div class="hover-text-container">
-                    <span class="mid-size-text">The medium-term operating plan focuses on key enablers for regeneration</span>
+                    <span class="mid-size-text">The medium-term operating plan focuses on key enablers for regeneration.</span>
                 </div>
             </div>
         </div>
@@ -18,7 +18,7 @@
             <span class="mid-size-bold">Sustainability</span>
             <span class="arrow arrow-white-fwd"></span>
             <div class="hover-text-container">
-                <span>Our commitment to environmental sustainability has continued to grow this year</span>
+                <span>Our commitment to environmental sustainability has continued to grow this year.</span>
             </div>
         </div>
     </a>
@@ -28,7 +28,7 @@
                 <span class="mid-size-bold">Multi-user ferry terminal</span>
                 <span class="arrow arrow-white-fwd"></span>
                 <div class="hover-text-container">
-                    <span>Progress of the future ports working group – currently developing plans for a multi-user ferry terminal</span>
+                    <span>Progress of the future ports working group – currently developing plans for a multi-user ferry terminal.</span>
                 </div>
             </div>
         </div>
@@ -39,7 +39,7 @@
             <span class="mid-size-bold">Lifelines</span>
             <span class="arrow arrow-black-fwd"></span>
             <div class="hover-text-container">
-                <span>CentrePort will be a critical lifeline in the event of a major disaster</span>
+                <span>CentrePort will be a critical lifeline in the event of a major disaster.</span>
             </div>
         </div>
     </a>

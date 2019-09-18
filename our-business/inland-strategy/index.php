@@ -59,7 +59,7 @@
 								<img src="<?=$siteBaseURL?>img/icon-case-study.svg" alt=""/>	
 								<h3>Case Study</h3>
 							</div>
-							<img src="<?=$siteBaseURL?>img/case-study-placeholder.jpg" alt="placeholder" />
+							<img src="<?=$siteBaseURL?>img/inland-strategy/case-study-header.jpg" alt="Open Country Dairy" />
 						</div>
 						<div class="case-study--content">
 							<div class="heading-divider"></div>

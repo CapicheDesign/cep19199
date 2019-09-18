@@ -18,7 +18,6 @@
 				<div class="content-inner">
 					<h1>Fuel</h1>
 					<div class="heading-divider"></div>
-					[LEFT COLUMN IMAGE REQUIRED]<br><br>
 					<p><strong>For the third year in a row, fuel volumes have been greater than a million tonnes at CentrePort.</strong></p>    
 					<p>Based at Seaview on the Lower Hutt side of Wellington harbour, fuel is the “quiet cargo” for CenterPort and the Seaview wharf facility is a critical asset for the region.</p>  
 					<p>The million tonnes through Seaview provides fuel for nearly all land-fuel in the lower North Island. In addition, CentrePort facilitates all the aviation fuel supplies for Wellington International Airport.</p>
@@ -52,6 +51,7 @@
 
 				<div class="content-inner m-t-m m-b-lg p-b-lg">
 					<h2 class="h1">Ferries</h2>
+					<div class="heading-divider"></div>
 					<p>The inter-island ferry services that CentrePort facilitates is a vital link between the North and South Islands, effectively extending State Highway 1 over Cook Strait.</p>
 					<p>Across the Interislander and StraitNZ Bluebridge services a total of 3,148 ferry journeys were undertaken between Wellington and Picton.  The ferry link between the North and South Island is a critical part of New Zealand’s transport network, responsible for moving up to $20bn worth of freight and over 1.1 million passengers per annum.</p>
 				</div>

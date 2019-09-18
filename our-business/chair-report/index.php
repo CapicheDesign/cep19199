@@ -42,9 +42,9 @@
 					<p>I would like to pay tribute to Director Richard Janes who departed are fifteen years’ service on the board. His astute judgement and counsel were an asset to the company.</p>
 					<p>We welcomed Kerrie-Lee Magill as a new director and her experience across a range of senior roles in corporates in New Zealand and the UK, complement the board as it steers CentrePort through its regeneration plan with an exciting future ahead.</p>
 					<p>The Board thanks the CentrePort team, including Chief Executive Derek Nind, for continuing to grow the business, drive health and safety improvement and progress the development of the regeneration plan.</p>
-					<img class="m-t-m" src="<?=$siteBaseURL?>img/chair-report/wharf.jpg" alt="Centreport aerial view"/>
 				</div>
-		
+				
+				<img class="full-width-img m-t-m" src="<?=$siteBaseURL?>img/chair-report/wharf.jpg" alt=""/>
 			</div>
 		</section>
 		<?php include '../../includes/tail-scripts.php'; ?>
