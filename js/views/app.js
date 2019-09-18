@@ -4,6 +4,7 @@ var Waypoints = require('../../node_modules/waypoints/lib/jquery.waypoints.min.j
 var Animsition = require('../lib/animsition.min.js');
 var YouTubeModal = require('../lib/jquery-modal-video.min.js');
 var SlickSlider = require('../lib/slick.min.js');
+var Lottie = require('../lib/bodymovin/lottie.js');
 
 var AppView = Backbone.View.extend({
   el: 'html',
@@ -92,8 +93,6 @@ var AppView = Backbone.View.extend({
 
     _.bindAll(this, 'checkScreenSize');
 
-    // $(window).scrollTop(0); // start at top
-
     $(window).scroll(this.updateHeaderMobile);
     
     // set small screen size to check mobile 
@@ -110,6 +109,16 @@ var AppView = Backbone.View.extend({
     this.setUpHeader();
 
     this.initWaypoints();
+
+    if ( $('.lottie').length ) {
+      Lottie.loadAnimation({
+        container: document.getElementById('logs-anim'), 
+        renderer: 'svg',
+        loop: true,
+        autoplay: true,
+        path: '../../js/lib/bodymovin/data.json'
+      });
+    }
 
   },
   /*** end initalize function ***/

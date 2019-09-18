@@ -44,9 +44,9 @@
 					<p>The Waingawa log hub, outside Masterton, was specifically built to support the efficient and fast movement of logs directly to the Port.</p>  
 					<p>The land has been developed by CentrePort, with the rail maintained by KiwiRail, to ensure there is capacity to take logs directly to the port.</p>
 					<p>Logs arrive at the Waingawa rail hub and are sent by rail to Wellington daily.  This has taken a significant number of trucks off the road – reducing the number of truck journeys over the Rimutakas by up to 30,000 annually – an environmental, social and economic win for the region.  Rail also reduces road maintenance coasts and has 66 percent fewer emissions per tonne compared to trucks.</p>
-				
-					[ANIMATION REQUIRED]
-				
+				</div>
+
+				<div class="lottie m-t-m m-b-lg" id="logs-anim">
 				</div>
 
 				<div class="slick-slider slick-slider__black m-t-m m-b-m">

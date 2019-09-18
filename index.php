@@ -31,6 +31,6 @@
 				
 				<?php include $includesPath.'/homeFinancials.php'; ?>
 			</div>
-	<?php include $includesPath.'tail-scripts.php'; ?>
+		<?php include $includesPath.'tail-scripts.php'; ?>
 </body>
 </html>
