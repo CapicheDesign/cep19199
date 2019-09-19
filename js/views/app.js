@@ -27,7 +27,9 @@ var AppView = Backbone.View.extend({
     'mouseout #focus-panel-4': 'toggleRopeIconOut',
     'click #homepage .homePageLink': 'homePageNav',
     'click .scroll-pagination li a': 'updateNavActive',
-    'click #menu li a' : 'updateNavActive'
+    'click #menu li a' : 'updateNavActive',
+    'click #highlights-panel-1': 'moveHighlight1',
+    'click #highlights-panel-4': 'moveHighlight4'
   },
 
   initialize: function() {
@@ -123,6 +125,15 @@ var AppView = Backbone.View.extend({
   },
   /*** end initalize function ***/
 
+  moveHighlight1: function(e) {
+    e.preventDefault();
+    $('a[data-index="6"]').trigger("click");
+  },
+
+  moveHighlight4: function(e) {
+    e.preventDefault();
+    $('a[data-index="4"]').trigger("click");
+  },
 
   setUpHeader: function() {
     var getUrl = window.location;

@@ -20,7 +20,7 @@
 					<div class="heading-divider"></div>
 
 					<div class="youtube-wrapper m-t-m m-b-m">
-						<a class="js-modal-btn" data-video-id="IWXpyBJztFE">
+						<a class="js-modal-btn" data-video-id="Go09E4OS9OE">
 							<img class="yt-poster" src="<?=$siteBaseURL?>img/video-placeholder.jpg" alt="video thumbnail image"/>
 							<img class="yt-play-btn" src="<?=$siteBaseURL?>img/youtube-play-btn.svg" alt="play"/>
 						</a>
@@ -34,8 +34,8 @@
 				<div class="content-inner">
 
 					<div class="youtube-wrapper m-t-m m-b-m">
-						<a class="js-modal-btn" data-video-id="IWXpyBJztFE">
-							<img class="yt-poster" src="<?=$siteBaseURL?>img/video-placeholder.jpg" alt="video thumbnail image"/>
+						<a class="js-modal-btn" data-video-id="Go09E4OS9OE">
+							<img class="yt-poster" src="<?=$siteBaseURL?>img/inland-strategy/video-placeholder.jpg" alt="video thumbnail image"/>
 							<img class="yt-play-btn" src="<?=$siteBaseURL?>img/youtube-play-btn.svg" alt="play"/>
 						</a>
 					</div>

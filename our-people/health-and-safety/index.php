@@ -28,8 +28,8 @@
 
 				<div class="content-inner m-t-m m-b-lg">
 					<div class="youtube-wrapper">
-						<a class="js-modal-btn" data-video-id="IWXpyBJztFE">
-							<img class="yt-poster" src="<?=$siteBaseURL?>img/video-placeholder.jpg" alt="video thumbnail image"/>
+						<a class="js-modal-btn" data-video-id="o1DbbQ48Hco">
+							<img class="yt-poster" src="<?=$siteBaseURL?>img/health-and-safety/video-placeholder.jpg" alt="video thumbnail image"/>
 							<img class="yt-play-btn" src="<?=$siteBaseURL?>img/youtube-play-btn.svg" alt="play"/>
 						</a>
 					</div>

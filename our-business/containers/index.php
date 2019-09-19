@@ -25,8 +25,8 @@
 					<p>CentrePort is also looking at ways to continue to grow volume and efficiently move more container cargo through the port.</p>
 				
 					<div class="youtube-wrapper m-t-m m-b-m">
-						<a class="js-modal-btn" data-video-id="IWXpyBJztFE">
-							<img class="yt-poster" src="<?=$siteBaseURL?>img/video-placeholder.jpg" alt="video thumbnail image"/>
+						<a class="js-modal-btn" data-video-id="g28Nc_L67nA">
+							<img class="yt-poster" src="<?=$siteBaseURL?>img/containers/video-placeholder.jpg" alt="video thumbnail image"/>
 							<img class="yt-play-btn" src="<?=$siteBaseURL?>img/youtube-play-btn.svg" alt="play"/>
 						</a>
 					</div>
@@ -56,8 +56,8 @@
 						</div>
 						<div class="case-study--content">
 							<div class="youtube-wrapper m-t-lg">
-								<a class="js-modal-btn" data-video-id="IWXpyBJztFE">
-									<img class="yt-poster" src="<?=$siteBaseURL?>img/video-placeholder.jpg" alt="video thumbnail image"/>
+								<a class="js-modal-btn" data-video-id="gpM7gtEHhRc">
+									<img class="yt-poster" src="<?=$siteBaseURL?>img/containers/cs-video-placeholder.jpg" alt="video thumbnail image"/>
 									<img class="yt-play-btn" src="<?=$siteBaseURL?>img/youtube-play-btn.svg" alt="play"/>
 								</a>
 							</div>

@@ -21,8 +21,8 @@
 					<p><strong>History was made in the 2018/19 cruise ship season with ship visits passing the centrury mark for the first time.  By the end of the season a total of 110 visits were achieved.</strong></p>    
 					
 					<div class="youtube-wrapper m-t-m m-b-m">
-						<a class="js-modal-btn" data-video-id="IWXpyBJztFE">
-							<img class="yt-poster" src="<?=$siteBaseURL?>img/video-placeholder.jpg" alt="video thumbnail image"/>
+						<a class="js-modal-btn" data-video-id="C2z4FIXeLpY">
+							<img class="yt-poster" src="<?=$siteBaseURL?>img/cruise/video-placeholder.jpg" alt="video thumbnail image"/>
 							<img class="yt-play-btn" src="<?=$siteBaseURL?>img/youtube-play-btn.svg" alt="play"/>
 						</a>
 					</div>

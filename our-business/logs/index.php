@@ -25,8 +25,8 @@
 					<p>A record 1,709,435 JAS (Japanese Agricultural Standard) was exported. This was a 27 percent increase on the previous year, led by strong demand from China.</p>
 				
 					<div class="youtube-wrapper m-t-m m-b-m">
-						<a class="js-modal-btn" data-video-id="IWXpyBJztFE">
-							<img class="yt-poster" src="<?=$siteBaseURL?>img/video-placeholder.jpg" alt="video thumbnail image"/>
+						<a class="js-modal-btn" data-video-id="K21OGFqBfT0">
+							<img class="yt-poster" src="<?=$siteBaseURL?>img/logs/video-placeholder.jpg" alt="video thumbnail image"/>
 							<img class="yt-play-btn" src="<?=$siteBaseURL?>img/youtube-play-btn.svg" alt="play"/>
 						</a>
 					</div>
@@ -81,9 +81,9 @@
 							<p>“CentrePort is providing the infrastructure that makes it possible.  CentrePort has been a real key to us being able to increase our production.”</p>
 
 							<div class="youtube-wrapper m-t-m m-b-lg">
-								<a class="js-modal-btn" data-video-id="IWXpyBJztFE">
-									<img class="yt-poster" src="<?=$siteBaseURL?>img/video-placeholder.jpg" alt="video thumbnail image"/>
-									<img class="yt-play-btn" src="<?=$siteBaseURL?>img/youtube-play-bt						<div class="case-study--content">	" alt="play"/>
+								<a class="js-modal-btn" data-video-id="ejAqaAz4Mvw">
+									<img class="yt-poster" src="<?=$siteBaseURL?>img/logs/cs-video-placeholder.jpg" alt="video thumbnail image"/>
+									<img class="yt-play-btn" src="<?=$siteBaseURL?>img/youtube-play-btn.svg" alt="play"/>
 								</a>
 							</div>
 						</div>

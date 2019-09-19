@@ -23,8 +23,8 @@
 					<p>The million tonnes through Seaview provides fuel for nearly all land-fuel in the lower North Island. In addition, CentrePort facilitates all the aviation fuel supplies for Wellington International Airport.</p>
 				
 					<div class="youtube-wrapper m-t-m m-b-m">
-						<a class="js-modal-btn" data-video-id="IWXpyBJztFE">
-							<img class="yt-poster" src="<?=$siteBaseURL?>img/video-placeholder.jpg" alt="video thumbnail image"/>
+						<a class="js-modal-btn" data-video-id="DLMmgrQBwVg">
+							<img class="yt-poster" src="<?=$siteBaseURL?>img/ferries-and-fuel/video-placeholder.jpg" alt="video thumbnail image"/>
 							<img class="yt-play-btn" src="<?=$siteBaseURL?>img/youtube-play-btn.svg" alt="play"/>
 						</a>
 					</div>

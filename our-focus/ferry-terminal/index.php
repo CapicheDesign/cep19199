@@ -20,8 +20,8 @@
 					<div class="heading-divider"></div>
 					<p><strong>The Cook Strait ferries are part of the national supply chain, and are the water covered section of State Highway 1, with 3,148 vessel movements in the past year carrying cargo and passengers.</strong></p> 
 					<div class="youtube-wrapper m-t-m m-b-m">
-						<a class="js-modal-btn" data-video-id="IWXpyBJztFE">
-							<img class="yt-poster" src="<?=$siteBaseURL?>img/video-placeholder.jpg" alt="video thumbnail image"/>
+						<a class="js-modal-btn" data-video-id="ytg0Pm2QbSw">
+							<img class="yt-poster" src="<?=$siteBaseURL?>img/ferry-terminal/video-placeholder.jpg" alt="video thumbnail image"/>
 							<img class="yt-play-btn" src="<?=$siteBaseURL?>img/youtube-play-btn.svg" alt="play"/>
 						</a>
 					</div>
