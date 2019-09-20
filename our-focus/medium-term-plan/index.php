@@ -88,12 +88,11 @@
 							<p>StraitNZ Bluebridge has seen a significant increase in their operating efficiency because the distance to travel is significantly shorter.</p>
 							<p>This has improved efficiency, speed and helped with overall operations. The finished area looks like a stretch of asphalt with some markings on it, but within its simplicity is a world-class design for marshalling.</p>
 						</div>
+						<blockquote class="m-t-m m-b-m">
+							<p>“E-site’s proximity to our berths and the improved traffic flow is delivering important operational benefits to meet the evolving needs of our freight customers”</p>
+							<cite>Ed Menzies, General Manager – Commercial, Strait NZ Bluebridge</cite>
+						</blockquote>
 					</div>
-
-					<blockquote class="m-t-m m-b-m">
-						<p>“E-site’s proximity to our berths and the improved traffic flow is delivering important operational benefits to meet the evolving needs of our freight customers”</p>
-						<cite>Ed Menzies, General Manager – Commercial, Strait NZ Bluebridge</cite>
-					</blockquote>
 				</div>
 			</div>
 		</section>

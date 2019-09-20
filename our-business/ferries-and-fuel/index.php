@@ -31,13 +31,13 @@
 
 					<p>Z Energy has been working with CentrePort to ensure the teams are aligned on significant projects and day-to-day activities.</p>
 
-					<blockquote class="m-t-lg m-b-m">
+					<blockquote class="m-t-m m-b-0">
 						<p>“Our positive relationship with CentrePort has continued to grow throughout the last year. Z Energy has developed a great working relationship with the CentrePort Ferries and Bulk teams which has seen us work closely on a number of projects including looking to the future around the capabilities of the Seaview Wharf.<br><br> 
  							This has all been achieved while seeing an increase in the number of tankers utilising the Wharf to discharge fuel into the Seaview Terminals. We look forward to working with the CentrePort team in the year ahead”</p>
 						<cite>Mark Soper, Z Energy Seaview Terminal Manager</cite>
 					</blockquote>
 					
-					<img class="full-width-img m-t-m m-b-m" src="<?=$siteBaseURL?>img/ferries-and-fuel/image-1.jpg" alt=""/>
+					<img class="full-width-img m-t-m m-b-0" src="<?=$siteBaseURL?>img/ferries-and-fuel/image-1.jpg" alt=""/>
 				</div>
 
 				<div class="content-inner m-t-m m-b-m">
@@ -50,7 +50,7 @@
 						<div><img src="<?=$siteBaseURL?>img/ferries-and-fuel/slider-1-img-3.jpg" alt="Seaview provides a number of fuel products in the tank farms out at Seaview"/></div>
 					</div>
 
-					<blockquote class="m-t-lg m-b-m">
+					<blockquote class="m-t-m m-b-0">
 						<p>“Fuel is a critical lifeline which all other lifeline services depend on to restore their network.”</p>
 						<cite>Wellington Lifelines Project</cite>
 					</blockquote>
