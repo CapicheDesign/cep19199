@@ -30,23 +30,23 @@
 					<p>Our financial and operational performance reflect a very successful year, and this has been largely driven by Centerport’s people.   Despite continued operational constraints due to the impacts of the 2016 Kaikoura earthquake, our people have found solutions to deliver for our customers in a safe and efficient manner.</p>
 					<p>We’ve invested in our people to ensure they have the range of skills to work safely and effectively.  For our container services staff, this has been driven by the successful introduction of a fixed-flexi rostering system which guaranteed normalised working hours and opened broader opportunities of tasks / roles.  Providing the appropriate training and support was a priority.</p>
 					<p>One of my most rewarding moments of the year was attending a graduation ceremony for our staff who had gained a range of qualifications, including NZQA recognised courses.  Family and friends attended, and the pride in achievement was clearly apparent.</p>
+				
+					<blockquote class="m-t-m m-b-m">
+						<p>"Almost all our trades have grown again significantly over the last 12 months – and we've invested a lot of energy into bringing key assets back into play and providing what our customers need.</p>  
+						<p>The key to our success is our people – the people have made it work.  They've found solutions, they've worked safely, and they've worked with other people on the port to make it a very successful year,”</p>
+						<cite>Derek Nind, Chief Executive.</cite>
+					</blockquote>
+
+					<img class="full-width-img m-t-m m-b-m" src="<?=$siteBaseURL?>img/ceo-report/crane.jpg" alt="Hurry Crane"/>
 				</div>
-
-				<blockquote class="m-t-m m-b-m">
-					<p>"Almost all our trades have grown again significantly over the last 12 months – and we've invested a lot of energy into bringing key assets back into play and providing what our customers need.</p>  
-					<p>The key to our success is our people – the people have made it work.  They've found solutions, they've worked safely, and they've worked with other people on the port to make it a very successful year,”</p>
-					<cite>Derek Nind, Chief Executive.</cite>
-				</blockquote>
-
-				<img class="full-width-img m-t-m m-b-m" src="<?=$siteBaseURL?>img/ceo-report/crane.jpg" alt="Hurry Crane"/>
 
 				<div class="content-inner">
 					<h2>Health and Safety</h2>
 					<p><strong>CentrePort takes a continuous improvement approach to health and safety, and we built on previous gains.  Positive trends in our key health and safety metrics continued showing the systems and safety-in-design approach is making an impact.  The redesign of our log yard lay-out achieved significant improvement in man-machine separation.</strong></p>    
 					<p>Systems and metrics were only half story – with the safety culture being key.  Our people took ownership of health and safety to complement the supportive approach of management.  Our 23 health and safety representatives benefited from an extensive training programme.  This empowered them to work collaboratively with their colleagues to help achieve CentrePort’s continued evolution from a reactive to proactive health and safety culture.</p>
+				
+					<img class="full-width-img m-t-m m-b-m" src="<?=$siteBaseURL?>img/ceo-report/image-2.jpg" alt=""/>
 				</div>
-		
-				<img class="full-width-img m-t-m m-b-m" src="<?=$siteBaseURL?>img/ceo-report/image-2.jpg" alt=""/>
 
 				<div class="content-inner m-t-m">
 					<h2>Environmental Sustainability</h2>
@@ -72,9 +72,8 @@
 					<p>The planning is considering a variety of factors including safety, resilience, the environment, technology, risk management, the needs of the community, and regional and national economies.</p>
 					<p>The multi-user ferry terminal project sits under that regeneration plan and good progress was made in the delivery of a business case in August 2019. We engaged with the project group of partners to produce a collaborative, well-researched piece of work.  Ensuring connectivity that integrates with the city’s needs and ensures that State Highway One is efficiently connected between the North and South Islands is paramount in that planning.</p>
 				
+					<img class="full-width-img m-t-m m-b-m" src="<?=$siteBaseURL?>img/ceo-report/image-3.jpg" alt=""/>
 				</div>
-
-				<img class="full-width-img m-t-m m-b-m" src="<?=$siteBaseURL?>img/ceo-report/image-3.jpg" alt=""/>
 
 				<div class="content-inner m-t-m">
 					<h2>Resilience</h2>
@@ -82,9 +81,9 @@
 					<p>The removal of redundant buildings on the ‘E-site’ adjacent to Waterloo Quay and remediation of the land created a new vehicle marshalling area for the StraitNZ Bluebridge service, while the removal of the former cruise terminal improved Aotea Quay bulk cargo capacity.</p> 
 					<p>A total of 15 structures have now been removed including the former cruise terminal in Shed 51, Sheds R & S, the Coldstore, and Shed 19 on Waterloo Wharf.  Further projects commenced including the removal of the former BNZ building.</p>
 					<p>Critical resilience work on key assets including Kings Wharf, Aotea Quay, and the Seaview fuel facility progressed.  These involve significant investment and ongoing work in the years to come, that will not only benefit CentrePort, but are important for the emergency Lifelines network.</p>
+				
+					<img class="full-width-img m-t-m m-b-lg" src="<?=$siteBaseURL?>img/ceo-report/image-4.jpg" alt=""/>
 				</div>
-
-				<img class="full-width-img m-t-m m-b-0" src="<?=$siteBaseURL?>img/ceo-report/image-4.jpg" alt=""/>
 
 				</div>
 			</div>

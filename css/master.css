@@ -1580,6 +1580,8 @@ header.content-page-header .centered-container{display:block;position:absolute;l
 header.content-page-header .centered-container{margin-top:-15px}
 }
 header.content-page-header .centered-container .headings{display:block}
+header.content-page-header .centered-container .headings a{color:#231F20}
+header.content-page-header .centered-container .headings a:hover{text-decoration:none;color:#006EC6}
 header.content-page-header .centered-container .headings h2{display:inline;font-weight:300;transition:none}
 @media (max-width:1023px){header.content-page-header .centered-container .headings h2{font-size:1.5em}
 }
@@ -1655,6 +1657,7 @@ html.mobile{height:auto}
 .panel__home.panel__half-height{height:45vh}
 .panel__home.panel__half-height.panel__half-height__top{height:55vh;top:0;padding-top:10vh}
 .panel__home.panel__half-height.panel__half-height__right{left:50%}
+#main>section#highlights .panel--content{position:absolute;bottom:2vh}
 .arrow{width:35px;height:15px}
 @media (max-width:767px){.arrow{margin-top:10px;position:static}
 }
@@ -1731,11 +1734,34 @@ html.mobile{height:auto}
 .panel--icon__worker{background:url(../img/worker.svg) no-repeat;width:70px;height:69px}
 .panel--icon__leaf{background:url(../img/leaf.svg) no-repeat;width:38px;height:72px}
 #business-panel-1{background:url(../img/hubs-bg.jpg) center no-repeat;background-size:cover}
+@media screen and (min-width:768px){#business-panel-1 .panel__home__overlay{transform:translate3d(0,65%,0)}
+#business-panel-1:hover .panel--content{margin-top:45vh}
+}
+#business-panel-1:hover .panel__home__overlay{transform:translate3d(0,0,0)}
 #business-panel-2{background:url(../img/ceo-bg.jpg) center top no-repeat;background-size:cover;color:#fff}
+@media screen and (min-width:768px){#business-panel-2 .panel__home__overlay{transform:translate3d(0,23%,0)}
+#business-panel-2:hover{padding-top:7vh!important}
+}
+@media screen and (min-width:1024px){#business-panel-2 .panel__home__overlay{transform:translate3d(0,19%,0)}
+}
+#business-panel-2:hover .panel__home__overlay{transform:translate3d(0,0,0)}
 #business-panel-3{background:url(../img/chair-bg.jpg) center top no-repeat;background-size:cover;color:#fff}
+@media screen and (min-width:850px){#business-panel-3 .panel__home__overlay{transform:translate3d(0,23%,0)}
+}
+@media screen and (min-width:1024px){#business-panel-3 .panel__home__overlay{transform:translate3d(0,15%,0)}
+}
+@media screen and (min-width:1200px){#business-panel-3 .panel__home__overlay{transform:translate3d(0,19%,0)}
+}
+#business-panel-3:hover .panel__home__overlay{transform:translate3d(0,0,0)}
+#business-panel-3:hover .panel--content{margin-top:6vh}
 #business-panel-4{background:#231F20;position:absolute;left:50%;top:55vh;height:45vh}
 #business-panel-4 .panel--content{margin-top:18vh}
 #business-panel-4:focus .panel--content,#business-panel-4:hover .panel--content{margin-top:0}
+@media screen and (min-width:768px){#business-panel-4 .panel--content{margin-top:7vh}
+#business-panel-4:hover .panel--content{margin-top:3vh}
+}
+@media screen and (min-width:1024px){#business-panel-4 .panel--content{margin-top:11vh}
+}
 #business-panel-4 #trades-subnav-container{display:none;margin-bottom:14vh;transition:margin 150ms linear}
 @media screen and (max-height:735px){#highlights-panel-3 .arrow{display:none}
 #business-panel-4 #trades-subnav-container{margin-bottom:20vh}
@@ -1746,7 +1772,7 @@ html.mobile{height:auto}
 #business-panel-4 #trades-subnav-container nav.trades-subnav ul li a{font-size:1.12em;color:#FBC817;font-weight:700;line-height:1.5}
 #business-panel-4 #trades-subnav-container nav.trades-subnav ul li a:focus,#business-panel-4 #trades-subnav-container nav.trades-subnav ul li a:hover{color:#fff;text-decoration:none}
 #business-panel-4:focus #trades-subnav-container,#business-panel-4:hover #trades-subnav-container{display:block}
-#business-panel-4:focus #trades-link,#business-panel-4:hover #trades-link{display:none}
+#business-panel-4:focus span,#business-panel-4:hover span{display:none}
 .panel--icon__container{background:url(../img/container.svg) no-repeat;width:81px;height:84px;margin-left:-9px;margin-bottom:3vh}
 @media (min-width:1024px) and (max-width:1399px){.panel--icon__container{width:61px;height:64px;margin-bottom:1vh;margin-left:-6px}
 }
@@ -1755,7 +1781,7 @@ html.mobile{height:auto}
 #people-panel-1{background:url(../img/training-bg.jpg) center no-repeat;background-size:cover}
 #people-panel-2{background:url(../img/resilient-bg.jpg) top center no-repeat;background-size:cover}
 #people-panel-3 .panel--content{margin-top:-11vh}
-#people-panel-3:active .panel--content,#people-panel-3:focus .panel--content,#people-panel-3:hover .panel--content{margin-top:2vh}
+#people-panel-3:active .panel--content,#people-panel-3:focus .panel--content,#people-panel-3:hover .panel--content{margin-top:-3vh}
 #people-panel-4{color:#231F20}
 #people-panel-4 .panel--content{transform:translate3d(0,22%,0)}
 #people-panel-4:active,#people-panel-4:focus,#people-panel-4:hover{background:#006EC6;color:#fff}
@@ -1807,13 +1833,13 @@ html.mobile{height:auto}
 .active #financials-panel-1{background-position-y:0}
 .content-page{background:#153145}
 .content-page section{position:relative;min-height:100vh;background:#153145}
-.content-page section aside.left-col{position:fixed;width:40%;height:100%;float:left;min-height:100vh}
+.content-page section aside.left-col{position:fixed;width:40%;height:100%;float:left;min-height:100vh;background:#eee}
 .content-page section#ceo-report aside.left-col{background:url(../img/ceo-report/left-col-img.jpg) center no-repeat #153145;background-size:cover}
 .content-page section .right-col{width:60%;float:right;padding-top:100px;background:#fff;min-height:100vh}
-@media (max-width:767px){.content-page section aside.left-col{display:none}
+@media (max-width:991px){.content-page section aside.left-col{display:none}
 .content-page section .right-col{width:100%;padding-top:120px;float:none;padding-bottom:50px}
 }
-.content-page section .content-inner{padding:0 120px 0 50px}
+.content-page section .content-inner{padding:0 6vw}
 .content-page section .content-inner .h1,.content-page section .content-inner h1{color:#006EC6;font-size:2.22em;margin-top:50px}
 @media (max-width:767px){.content-page section .content-inner{padding:0 25px}
 .content-page section .content-inner .h1,.content-page section .content-inner h1{margin-top:0}
@@ -1830,7 +1856,7 @@ html.mobile{height:auto}
 .content-page section .content-inner .board{border:none;border-collapse:collapse;display:table;width:100%;table-layout:fixed}
 .content-page section .content-inner .board tr td{padding-bottom:20px;width:30%;padding-right:3%;vertical-align:top}
 .content-page section .content-inner .board tr td small{max-width:90%;display:inline-block}
-.content-page blockquote{background:#fff;border:none;padding:10px 50px;color:#231F20}
+.content-page blockquote{background:#fff;border:none;padding:10px 0;color:#231F20}
 .content-page blockquote p{font-size:1.4em;font-weight:300;font-style:italic;line-height:1.2}
 @media (max-width:767px){.content-page blockquote{padding:5px 25px}
 .content-page blockquote p{font-size:1em}
@@ -2184,7 +2210,7 @@ to{transform:translate(0,0)}
 .case-study .case-study--content .heading-divider{margin:25px 0 10px!important}
 }
 .case-study .case-study--content h2{margin-top:10px;margin-bottom:30px;color:#fff!important}
-.case-study blockquote{background:#231F20;border:none;padding:30px 50px;color:#fff}
+.case-study blockquote{background:#006EC6;border:none;padding:0 50px;color:#fff}
 @media (max-width:767px){.case-study .case-study--content h2{font-size:2em;margin-bottom:20px}
 .case-study blockquote{padding:20px 25px}
 }

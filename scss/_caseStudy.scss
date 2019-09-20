@@ -46,9 +46,9 @@
         }
     }
     blockquote {
-        background: $cp-black;
+        background: $cp-blue-light;
         border: none;
-        padding: 30px 50px;
+        padding: 0 50px;
         color: white;
         @media (max-width: 767px) {
             padding: 20px 25px;

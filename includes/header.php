@@ -4,9 +4,11 @@
     </a>
     <div class="centered-container">
         <div class="headings">
+        <a href="<?=$siteBaseURL;?>?s=<?php if ($pageMeta['section'] == 'Highlights'):?>1<?php endif; ?><?php if ($pageMeta['section'] == 'Our Business'):?>2<?php endif; ?><?php if ($pageMeta['section'] == 'Trades'):?>2<?php endif; ?><?php if ($pageMeta['section'] == 'Our People'):?>3<?php endif; ?><?php if ($pageMeta['section'] == 'Our Focus'):?>4<?php endif; ?><?php if ($pageMeta['section'] == 'Financial Statements'):?>5<?php endif; ?>" class="animsition-link">
             <h2 id="areaHeading"><?=$pageMeta['section'];?></h2>
-            <span class="divider" aria-hidden="true">|</span>
-            <h1 id="sectionHeading"><?=$pageMeta['heading'];?></h1>
+        </a>
+        <span class="divider" aria-hidden="true">|</span>
+        <h1 id="sectionHeading"><?=$pageMeta['heading'];?></h1>
         </div>
         <?php include '../../includes/subnav.php'; ?>
     </div>

@@ -24,7 +24,7 @@
                 <span class="mid-size-bold">Governance</span>
                 <span class="arrow arrow-yellow-fwd" href="#"></span>
                 <div class="hover-text-container">
-                    <span>Lorem ipsum dolorem</span>
+                    <span>Download our Governance report</span>
                 </div>
             </div>
         </div>

@@ -30,23 +30,24 @@
 							<img class="yt-play-btn" src="<?=$siteBaseURL?>img/youtube-play-btn.svg" alt="play"/>
 						</a>
 					</div>
-				</div>
 
-				<div class="slick-slider slick-slider__light-blue m-t-lg m-b-m">
-					<div><img src="<?=$siteBaseURL?>img/containers/slider-1-img-1.jpg" alt="Containers up 11% in 2019"/></div>
-					<div><img src="<?=$siteBaseURL?>img/containers/slider-1-img-2.jpg" alt=""/></div>
-					<div><img src="<?=$siteBaseURL?>img/containers/slider-1-img-3.jpg" alt=""/></div>
+					<div class="slick-slider slick-slider__light-blue m-t-lg m-b-m">
+						<div><img src="<?=$siteBaseURL?>img/containers/slider-1-img-1.jpg" alt="Containers up 11% in 2019"/></div>
+						<div><img src="<?=$siteBaseURL?>img/containers/slider-1-img-2.jpg" alt=""/></div>
+						<div><img src="<?=$siteBaseURL?>img/containers/slider-1-img-3.jpg" alt=""/></div>
+					</div>
+
 				</div>
 
 				<div class="content-inner m-t-m m-b-m">
 					<p>CentrePort made the decision to phase out its straddles cranes due to the uneven nature of the land post-quake. From February 2020 they will be replaced with ‘bomb carts’.</p>
 					<p>This will increase lifting capacity from 30 to 70 tonnes – and improve the cycle up to eight minutes from truck-to-crane-to-ship. The bomb carts will also be able to drive directly under cranes – improving safety and productivity.</p>
+				
+					<img class="full-width-img m-b-m" src="<?=$siteBaseURL?>img/containers/image-1.jpg" alt=""/>
 				</div>
 
-				<img class="full-width-img m-b-m" src="<?=$siteBaseURL?>img/containers/image-1.jpg" alt=""/>
-
-				<div class="content-inner m-t-m m-b-lg p-b-lg">
-					<div class="case-study m-t-m m-b-m">
+				<div class="content-inner m-t-m m-b-lg">
+					<div class="case-study m-t-m">
 						<div class="case-study--header">
 							<div class="case-study--heading">
 								<img src="<?=$siteBaseURL?>img/icon-case-study.svg" alt=""/>	
@@ -68,7 +69,7 @@
 							<p><strong>Ali Arc Logistics in Whanganui works in partnership with CentrePort to connect its customers to global networks.</strong></p>
 							<p>The inland port allows Ali Arc to offer customers a set price for storage and transportation of containers to the port by rail. This streamlines logistics and operations for exporters.</p>
 						</div>
-						<blockquote class="case-study--pull-quote m-t-m m-b-lg">
+						<blockquote class="case-study--pull-quote">
 							<p>“We're basically trying to take all the hassle out of it for the customers by providing every service that we can; from devanning a box or an imported container, to delivering the goods to that customer.”</p>
 							<cite>Brendon Bartley, Managing Director, Ali Arc.</cite>
 						</blockquote>

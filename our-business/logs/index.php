@@ -30,12 +30,9 @@
 							<img class="yt-play-btn" src="<?=$siteBaseURL?>img/youtube-play-btn.svg" alt="play"/>
 						</a>
 					</div>
-				</div>
 
-				<div aria-hidden="true" class="slick-slider m-t-m m-b-m">
-					<div><img src="<?=$siteBaseURL?>img/logs/slider-1-img-1.jpg" alt=""/></div>
-					<div><img src="<?=$siteBaseURL?>img/logs/slider-1-img-2.jpg" alt=""/></div>
-					<div><img src="<?=$siteBaseURL?>img/logs/slider-1-img-3.jpg" alt=""/></div>
+					<div class="lottie m-t-m m-b-lg" id="logs-anim"></div>
+
 				</div>
 
 				<div class="content-inner m-t-m">
@@ -46,18 +43,16 @@
 					<p>Logs arrive at the Waingawa rail hub and are sent by rail to Wellington daily.  This has taken a significant number of trucks off the road – reducing the number of truck journeys over the Rimutakas by up to 30,000 annually – an environmental, social and economic win for the region.  Rail also reduces road maintenance coasts and has 66 percent fewer emissions per tonne compared to trucks.</p>
 				</div>
 
-				<div class="lottie m-t-m m-b-lg" id="logs-anim">
-				</div>
-
-				<div class="slick-slider slick-slider__black m-t-m m-b-m">
-					<div><img src="<?=$siteBaseURL?>img/logs/slider-2-img-1.jpg" alt="Increased daily capacity from 30 to 45 wagons"/></div>
-					<div><img src="<?=$siteBaseURL?>img/logs/slider-2-img-2.jpg" alt="Planned growth of 60 wagons per day by March 2020" /></div>
-					<div><img src="<?=$siteBaseURL?>img/logs/slider-2-img-3.jpg" alt="The log trade for us is growing rapidly and it has been a record volume of logs through the port this year. We've grown that business fromapproximately 1.3 to 1.7 million - Derek Nind"/></div>
-				</div>
 
 				<div class="content-inner m-t-m">
 					<p>In July 2019, KiwiRail and CentrePort announced additional capacity from Waingawa from 30 to 45 wagons a day.  Transporting an additional 100,000 tonnes of logs by rail from the Wairarapa to CentrePort will reduce 6,000 truck trips annually, bringing total saved truck movements to 30,000.  Ultimately the expanded service will increase capacity by up to 200,000 tonnes per annum.</p>
 					<p>As log volume continues to increase, CentrePort will invest in infrastructure and rail capacity will grow to meet the demand.</p>
+
+					<div class="slick-slider slick-slider__black m-t-m m-b-m">
+						<div><img src="<?=$siteBaseURL?>img/logs/slider-2-img-1.jpg" alt="Increased daily capacity from 30 to 45 wagons"/></div>
+						<div><img src="<?=$siteBaseURL?>img/logs/slider-2-img-2.jpg" alt="Planned growth of 60 wagons per day by March 2020" /></div>
+						<div><img src="<?=$siteBaseURL?>img/logs/slider-2-img-3.jpg" alt="The log trade for us is growing rapidly and it has been a record volume of logs through the port this year. We've grown that business fromapproximately 1.3 to 1.7 million - Derek Nind"/></div>
+					</div>
 
 					<div class="case-study m-t-m m-b-m p-b-lg">
 						<div class="case-study--header">
@@ -73,7 +68,7 @@
 							<p><strong>Masterton-based Forest Enterprises is one of the companies making the most of CentrePort’s inland Waingawa hub to export its logs through the port.</strong></p>    
 							<p>Forest Enterprises owns about 20,000 hectares of forestry, with 9,000 hectares in the Wairarapa.</p>
 				  		</div>
-						<blockquote class="case-study--pull-quote m-t-m m-b-m">
+						<blockquote class="case-study--pull-quote">
 							<p>“A lot of the wood that was planted in the 1990s is coming into the mid-20s now, so it's time for it to be harvested, creating a big increase for us.”</p>
 							<cite>Bert Hugues, CEO of Forest Enterprises</cite>
 						</blockquote>
@@ -87,7 +82,7 @@
 								</a>
 							</div>
 						</div>
-						<blockquote class="case-study--pull-quote m-t-m m-b-m">
+						<blockquote class="case-study--pull-quote">
 							<p>“The whole system works well. We don’t hear any noise which is exactly what you want from a logistics perspective. We have the assurance that everything is working seamlessly”</p>
 							<cite>Greg Sewell, General Manager Supply Chain, Open Country Dairy.</cite>
 						</blockquote>
@@ -106,7 +101,13 @@
 						<div class="case-study--content">
 							<p>Forest Enterprises freights around 230,000 tonnes of logs a year through CentrePort, 150,000 of that via rail.</p>
 						</div>
-				</div>
+					</div>
+
+					<div aria-hidden="true" class="slick-slider m-t-m m-b-m">
+						<div><img src="<?=$siteBaseURL?>img/logs/slider-1-img-1.jpg" alt=""/></div>
+						<div><img src="<?=$siteBaseURL?>img/logs/slider-1-img-2.jpg" alt=""/></div>
+						<div><img src="<?=$siteBaseURL?>img/logs/slider-1-img-3.jpg" alt=""/></div>
+					</div>
 			</div>
 		</section>
 		<?php include '../../includes/tail-scripts.php'; ?>

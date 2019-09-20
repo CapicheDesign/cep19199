@@ -39,34 +39,33 @@
 					<p>Since August 2017 a total of 26,297 cubic metres of concrete and 6,568 cubic metres of asphalt has been recycled instead of going to landfill.</p>
 					<p>The Waste Minimisation Project won Excellence in Civil Construction at the Concrete New Zealand awards, and was a finalist at the 2019 Wellington Green Gold Awards.</p>
 					<p>In mid-2019, the programme expanded to start accepting third-party concrete waste for recycling.</p>
+
+					<div class="slick-slider m-t-m m-b-m">
+						<div><img src="<?=$siteBaseURL?>img/sustainability/slider-1-img-1.jpg" alt="27,297 cubic tonnes of concrete"/></div>
+						<div><img src="<?=$siteBaseURL?>img/sustainability/slider-1-img-2.jpg" alt="Excellence in Civil Construction at the Concrete NZ awards"/></div>
+						<div><img src="<?=$siteBaseURL?>img/sustainability/slider-1-img-3.jpg" alt="Committed to making ongoing environmental improvements"/></div>
+					</div>
 				</div>
 
-				<div class="slick-slider m-t-0 m-b-m">
-					<div><img src="<?=$siteBaseURL?>img/sustainability/slider-1-img-1.jpg" alt="27,297 cubic tonnes of concrete"/></div>
-					<div><img src="<?=$siteBaseURL?>img/sustainability/slider-1-img-2.jpg" alt="Excellence in Civil Construction at the Concrete NZ awards"/></div>
-					<div><img src="<?=$siteBaseURL?>img/sustainability/slider-1-img-3.jpg" alt="Committed to making ongoing environmental improvements"/></div>
-				</div>
-
-				<div class="content-inner m-t-lg m-b-m"">
+				<div class="content-inner m-t-lg m-b-m">
 					<h2>Carbon Management</h2>
 					<p><strong>A range of carbon reduction activities are being implemented and further reduction opportunities are being explored.</strong></p>
 					<p>CentrePort has several carbon reduction activities underway including the growing CentreRail to remove truck movements, the Waste Minimisation programmes, and energy efficiency measures including delamping.</p>
-				</div>
-
-				<div aria-hidden="true" class="slick-slider m-t-0 m-b-m">
-					<div><img src="<?=$siteBaseURL?>img/sustainability/slider-2-img-1.jpg" alt=""/></div>
-					<div><img src="<?=$siteBaseURL?>img/sustainability/slider-2-img-2.jpg" alt=""/></div>
-					<div><img src="<?=$siteBaseURL?>img/sustainability/slider-2-img-3.jpg" alt=""/></div>
-				</div>
-
-				<div class="content-inner m-t-lg m-b-m"">
+				
+					<div aria-hidden="true" class="slick-slider m-t-m m-b-m">
+						<div><img src="<?=$siteBaseURL?>img/sustainability/slider-2-img-1.jpg" alt=""/></div>
+						<div><img src="<?=$siteBaseURL?>img/sustainability/slider-2-img-2.jpg" alt=""/></div>
+						<div><img src="<?=$siteBaseURL?>img/sustainability/slider-2-img-3.jpg" alt=""/></div>
+					</div>
+				
 					<h3>William Woods</h3>
 					<p><strong>Strategic Planning Manager, CentrePort</strong></p>
+
+					<blockquote class="m-t-m p-b-lg m-b-0">
+						<p>“We’re committed to making ongoing environmental improvements, and doing this alongside our stakeholders including partners, neighbours and businesses for the good of Wellington.”</p>
+					</blockquote>
 				</div>
 
-				<blockquote class="m-t-m p-b-lg m-b-0">
-					<p>“We’re committed to making ongoing environmental improvements, and doing this alongside our stakeholders including partners, neighbours and businesses for the good of Wellington.”</p>
-				</blockquote>
 			</div>
 		</section>
 		<?php include '../../includes/tail-scripts.php'; ?>

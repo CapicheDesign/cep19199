@@ -28,28 +28,35 @@
 							<img class="yt-play-btn" src="<?=$siteBaseURL?>img/youtube-play-btn.svg" alt="play"/>
 						</a>
 					</div>
-				</div>
 
-				<img class="full-width-img m-t-m m-b-m" src="<?=$siteBaseURL?>img/ferries-and-fuel/image-1.jpg" alt=""/>
+					<p>Z Energy has been working with CentrePort to ensure the teams are aligned on significant projects and day-to-day activities.</p>
+
+					<blockquote class="m-t-lg m-b-m">
+						<p>“Our positive relationship with CentrePort has continued to grow throughout the last year. Z Energy has developed a great working relationship with the CentrePort Ferries and Bulk teams which has seen us work closely on a number of projects including looking to the future around the capabilities of the Seaview Wharf.<br><br> 
+ 							This has all been achieved while seeing an increase in the number of tankers utilising the Wharf to discharge fuel into the Seaview Terminals. We look forward to working with the CentrePort team in the year ahead”</p>
+						<cite>Mark Soper, Z Energy Seaview Terminal Manager</cite>
+					</blockquote>
+					
+					<img class="full-width-img m-t-m m-b-m" src="<?=$siteBaseURL?>img/ferries-and-fuel/image-1.jpg" alt=""/>
+				</div>
 
 				<div class="content-inner m-t-m m-b-m">
-
 					<p>Ferries and Bulk General Manager Andrew Steele says given the fuel facility is essential for Lifelines and the regional economy, CentrePort has been working on increasing resilience of the fuel berths over the past year.</p>
 					<p>“At Seaview Wharf we are continuing to improve facilities and we’ve removed a lot of redundant infrastructure to reduce the load on the wharf.  We're also scoping up the longer-term project in terms of resilience developments.”</p>
+				
+					<div class="slick-slider slick-slider__black m-t-lg m-b-m">
+						<div><img src="<?=$siteBaseURL?>img/ferries-and-fuel/slider-1-img-1.jpg" alt="AQ3 supplies tanks at Kaiwharawhara for ferries and bunkering shipping"/></div>
+						<div><img src="<?=$siteBaseURL?>img/ferries-and-fuel/slider-1-img-2.jpg" alt="Burnham Wharf supplies jet fuel to Wellington Airport"/></div>
+						<div><img src="<?=$siteBaseURL?>img/ferries-and-fuel/slider-1-img-3.jpg" alt="Seaview provides a number of fuel products in the tank farms out at Seaview"/></div>
+					</div>
+
+					<blockquote class="m-t-lg m-b-m">
+						<p>“Fuel is a critical lifeline which all other lifeline services depend on to restore their network.”</p>
+						<cite>Wellington Lifelines Project</cite>
+					</blockquote>
 				</div>
 
-				<div class="slick-slider slick-slider__black m-t-lg m-b-m">
-					<div><img src="<?=$siteBaseURL?>img/ferries-and-fuel/slider-1-img-1.jpg" alt="AQ3 supplies tanks at Kaiwharawhara for ferries and bunkering shipping"/></div>
-					<div><img src="<?=$siteBaseURL?>img/ferries-and-fuel/slider-1-img-2.jpg" alt="Burnham Wharf supplies jet fuel to Wellington Airport"/></div>
-					<div><img src="<?=$siteBaseURL?>img/ferries-and-fuel/slider-1-img-3.jpg" alt="Seaview provides a number of fuel products in the tank farms out at Seaview"/></div>
-				</div>
-
-				<blockquote class="m-t-lg m-b-m">
-					<p>“Fuel is a critical lifeline which all other lifeline services depend on to restore their network.”</p>
-					<cite>Wellington Lifelines Project</cite>
-				</blockquote>
-
-				<div class="content-inner m-t-m m-b-lg p-b-lg">
+				<div class="content-inner m-t-m m-b-lg p-b-m">
 					<h2 class="h1">Ferries</h2>
 					<div class="heading-divider"></div>
 					<p>The inter-island ferry services that CentrePort facilitates is a vital link between the North and South Islands, effectively extending State Highway 1 over Cook Strait.</p>

@@ -47,7 +47,9 @@ body#homepage {
     }
 }
 
-#main>section#highlights { background-color: $cp-blue-dark; }
+#main>section#highlights { 
+    background-color: $cp-blue-dark; 
+}
 
 #main>section#business { background-color:white; }
 
@@ -216,6 +218,14 @@ body#homepage {
         }
     }
 }
+
+#main>section#highlights { 
+    .panel--content {
+        position: absolute;
+        bottom: 2vh;
+    }
+}
+
 
 .arrow {
     width: 35px;

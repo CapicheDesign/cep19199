@@ -126,6 +126,13 @@ header {
             }
             .headings {
                 display: block;
+                a {
+                    color: $cp-black;
+                    &:hover {
+                        text-decoration: none;
+                        color: $cp-blue-light;
+                    }
+                }
                 h2 {
                     display: inline;
                     font-weight: 300;

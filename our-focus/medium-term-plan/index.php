@@ -34,12 +34,12 @@
 				<div class="content-inner m-t-lg m-b-m"">
 					<h2>Medium term operating plan</h2>
 					<p><strong>The medium-term operating plan focuses on key enablers for regeneration. CentrePort is working on its plan to better serve the needs of customers, people, and region in the future, and build resilience of its critical assets.</strong></p>
+					<blockquote class="m-t-m m-b-m">
+						<p>“We are continuing the journey of providing the platform for the strategic priorities around a sustainable business – customer, economic, financial and environmental.”</p>
+						<cite>Anthony Delaney, General Manager Regeneration</cite>
+					</blockquote>
+				
 				</div>
-
-				<blockquote class="m-t-m m-b-m">
-					<p>“We are continuing the journey of providing the platform for the strategic priorities around a sustainable business – customer, economic, financial and environmental.”</p>
-					<cite>Anthony Delaney, General Manager Regeneration</cite>
-				</blockquote>
 
 				<div class="content-inner m-t-m m-b-m"">
 					<p>The infrastructure and environment team has spent the last 18 months mapping the port and gathering information and data to make well-informed decisions about the future.</p>  
@@ -89,6 +89,11 @@
 							<p>This has improved efficiency, speed and helped with overall operations. The finished area looks like a stretch of asphalt with some markings on it, but within its simplicity is a world-class design for marshalling.</p>
 						</div>
 					</div>
+
+					<blockquote class="m-t-m m-b-m">
+						<p>“E-site’s proximity to our berths and the improved traffic flow is delivering important operational benefits to meet the evolving needs of our freight customers”</p>
+						<cite>Ed Menzies, General Manager – Commercial, Strait NZ Bluebridge</cite>
+					</blockquote>
 				</div>
 			</div>
 		</section>

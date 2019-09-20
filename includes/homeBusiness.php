@@ -27,7 +27,7 @@
                 <span class="mid-size-bold">Chair&#39;s Report</span>
                 <span class="arrow arrow-white-fwd" href="#"></span>
                 <div class="hover-text-container">
-                    <span>Lorem ipsum dolorem</span>
+                    <span>The Board is pleased to report a year of strong growth in the business, continuous improvement in health and safety and good progress on developing the CentrePort regeneration plan.</span>
                 </div>
             </div>
         </div>
@@ -36,18 +36,18 @@
         <div class="panel--content">
             <div role="presentation" class="panel--icon__container"></div>
             <span class="mid-size-bold">Trades</span>
-            <div id="trades-subnav-container">
-                <p>Result areas and achievement for</p>
-                <nav aria-label="trades-subnav" class="trades-subnav">
-                    <ul>     
-                        <li><a href="our-business/logs/" class="animsition-link">Logs</a></li>
-                        <li><a href="our-business/containers/" class="animsition-link">Containers</a></li>
-                        <li><a href="our-business/ferries-and-fuel/" class="animsition-link">Ferries &amp; Fuel</a></li>
-                        <li><a href="our-business/cruise/" class="animsition-link">Cruise</a></li>
-                        <li><a href="#" class="animsition-link">Other bulk</a></li>
-                    </ul>
-                </nav>
-            </div>
+            <span>CentrePort has performed strongly across all trades – with record setting years for logs and cruise.<br><br></span>
+                <div id="trades-subnav-container">
+                    <p>Result areas and achievement for</p>
+                    <nav aria-label="trades-subnav" class="trades-subnav">
+                        <ul>     
+                            <li><a href="our-business/logs/" class="animsition-link">Logs</a></li>
+                            <li><a href="our-business/containers/" class="animsition-link">Containers</a></li>
+                            <li><a href="our-business/ferries-and-fuel/" class="animsition-link">Ferries &amp; Fuel</a></li>
+                            <li><a href="our-business/cruise/" class="animsition-link">Cruise</a></li>
+                        </ul>
+                    </nav>
+                </div>
             <span class="arrow arrow-yellow-fwd" id="trades-link"></span>
         </div>
     </div>

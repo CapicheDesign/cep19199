@@ -40,12 +40,12 @@
 						</a>
 					</div>
 
-				</div>
+					<div class="slick-slider m-t-lg m-b-m">
+						<div><img src="<?=$siteBaseURL?>img/inland-strategy/slider-1-img-1.jpg" alt=""/></div>
+						<div><img src="<?=$siteBaseURL?>img/inland-strategy/slider-1-img-2.jpg" alt=""/></div>
+						<div><img src="<?=$siteBaseURL?>img/inland-strategy/slider-1-img-3.jpg" alt=""/></div>
+					</div>
 
-				<div class="slick-slider m-t-lg m-b-m">
-					<div><img src="<?=$siteBaseURL?>img/inland-strategy/slider-1-img-1.jpg" alt=""/></div>
-					<div><img src="<?=$siteBaseURL?>img/inland-strategy/slider-1-img-2.jpg" alt=""/></div>
-					<div><img src="<?=$siteBaseURL?>img/inland-strategy/slider-1-img-3.jpg" alt=""/></div>
 				</div>
 
 				<div class="content-inner">
@@ -53,7 +53,7 @@
 					<p>The past year saw record CentreRail volumes supported by the continued development of the hub network with volumes of 800 twenty-foot equivalent (TEUs) containers per week.</p> 
 					<p>Moving forward, CentrePort is looking to expand the model elsewhere with rail hubs in the planning stages in various locations throughout central New Zealand.</p>
 				
-					<div class="case-study m-t-m m-b-m">
+					<div class="case-study m-t-m m-b-m p-b-lg">
 						<div class="case-study--header">
 							<div class="case-study--heading">
 								<img src="<?=$siteBaseURL?>img/icon-case-study.svg" alt=""/>	
@@ -68,15 +68,15 @@
 							<p>Open Country Dairy has a long-standing relationship with CentrePort and moves containerised export product through the Wellington port to its international markets.</p>
 							<p>The Ali Arc and CentrePort service provides efficiencies for Open Country Dairy, with certainty of the daily rail service through to CentrePort.</p>  
 						</div>
-						<blockquote class="case-study--pull-quote m-t-m m-b-m">
-							<p>“Rail works brilliantly. The nature of it means that delivering products is efficient and easy, and means we have to use fewer trucks.”</p>
+						<blockquote class="case-study--pull-quote">
+							<p>“Rail works brilliantly. The nature of it means that delivering products is efficient and easy, and means we have to use fewer trucks,”</p>
 							<cite>Greg Sewell, General Manager Supply Chain, Open Country Dairy.</cite>
 						</blockquote>
 						<div class="case-study--content">
-							<p>Products ready to export are stored at the Whanganui hub, which is hugely important for Open Country Dairy as it frees up storage at their own facility.  The ability for Ali Arc to recondition containers and manage storage is also a huge benefit to Open Country Dairy.</p>
+							<p>Products ready to export are stored at the Whanganui hub, which is hugely important for Open Country Dairy.  The ability for Ali Arc to recondition containers and manage storage is also a huge benefit to Open Country Dairy.</p>
 						</div>
-						<blockquote class="case-study--pull-quote m-t-m m-b-m">
-							<p>“The whole system works well. We don’t hear any noise which is exactly what you want from a logistics perspective. We have the assurance that everything is working seamlessly”</p>
+						<blockquote class="case-study--pull-quote">
+							<p>“The whole system works well. We don’t hear any noise which is exactly what you want from a logistics provider. We have the assurance that everything is working seamlessly.”</p>
 							<cite>Greg Sewell, General Manager Supply Chain, Open Country Dairy.</cite>
 						</blockquote>
 					</div>

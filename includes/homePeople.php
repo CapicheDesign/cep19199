@@ -28,7 +28,7 @@
                 <span class="mid-size-bold">Community<br>Engagement</span>
                 <span class="arrow arrow-white-fwd" href="#"></span>
                 <div class="hover-text-container">
-                    <span>Lorem ipsum dolorem</span>
+                    <span>CentrePort is proud to support Wellington and the wider region as part of the community.</span>
                 </div>
             </div>
         </div>
@@ -49,7 +49,7 @@
             <span class="mid-size-bold">Values</span>
             <span class="arrow arrow-yellow-fwd" href="#"></span>
             <div class="hover-text-container">
-                <span>Lorem ipsum dolorem dolorem</span>
+                <span>Our values underpin everything we do at CentrePort.</span>
             </div>
         </div>
     </a>

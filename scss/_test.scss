@@ -1,96 +1,176 @@
-/* business panels */
-
-.home-test {
-
-    #business-panel-1 {
-        background: url('../img/hubs-bg.jpg') no-repeat center;
-        background-size: cover;
-    }
-
-    #business-panel-2 {
-        background: url('../img/ceo-bg.jpg') no-repeat center;
-        background-size: cover;
-        padding-top: 0;
-        color: white;
-    }
-
-    #business-panel-3 {
-    background: url('../img/chair-bg.jpg') no-repeat center;
-        background-size: cover;
-        padding-top: 0;
-        color: white;
-    }
-
-    #business-panel-4 {
-        top: 55vh;
-        left: 50%;
-        height: 45vh;
+.panel-tile {
+    position: absolute;
+    display: table-cell;
+    overflow: hidden;
+    vertical-align: bottom;
+    &:hover {
         .panel--content {
-            position: absolute;
-            bottom: 10vh;
+            padding-bottom: 190px;
         }
-        @media (max-width: 767px)  {
-            padding-bottom: 0;
-            .arrow {
-                display: none;
-            }
+        .panel-more {
+            top: 0;
+        }
+        .hover-text-container {
+            display: block;
         }
     }
+}
 
-    /* business custom icon */
-        
-    .panel--icon__container {
-        background: url('../img/container.svg') no-repeat;
-        width: 81px;
-        height: 84px;
-        margin-left: -9px;
-        margin-bottom: 3vh;
+.u-half {
+    width: 50%;
+    height: 100%;
+}
+
+.u-quarter {
+    width: 25%;
+    height: 50%;
+}
+
+.u-half-height {
+    height: 50%;
+}
+
+.u-half-width {
+   width: 50%;
+}
+
+.u-top-row {
+    top: 0;
+}
+
+.u-bottom-row {
+    top: 50%;
+}
+
+.panel-topic-link {
+    display: block;
+    background-color: rgba(255, 255, 255, 0.01);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 19;
+}
+
+.panel-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.panel--content {
+    -moz-transition: padding 0.3s cubic-bezier(0.175, 0.885, 0.32, 1);
+    -o-transition: padding 0.3s cubic-bezier(0.175, 0.885, 0.32, 1);
+    -webkit-transition: padding 0.3s cubic-bezier(0.175, 0.885, 0.32, 1);
+    transition: padding 0.3s cubic-bezier(0.175, 0.885, 0.32, 1);
+    *zoom: 1;
+    filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#00000000', endColorstr='#99000000');
+    background-size: 100%;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.6)));
+    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6) 100%);
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6) 100%);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6) 100%);
+    position: absolute;
+    z-index: 9;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 60px 70px;
+    color: #FFF;
+
+    blockquote {
+        transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1);
+        font-size: 36px;
+        font-weight: 300;
+        line-height: 1.4em;
+        max-height: 300px;
+        overflow: hidden;
+    }
+}
+
+.panel-more {
+    -moz-transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1);
+    -o-transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1);
+    -webkit-transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1);
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1);
+    background: transparent url(../img/black-opac70.png) repeat left top;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 6;
+    width: 100.5%;
+    height: 100.5%;
+}
+
+.hover-text-container {
+    display: none;
+}
+
+#bus1 {
+    background-image: url(../img/hubs-bg.jpg);
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+#bus2 {
+    left: 50%;
+    background-image: url(../img/ceo-bg.jpg);
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+#bus3 {
+    left: 75%;
+    background-image: url(../img/chair-bg.jpg);
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+#bus4 {
+    left: 50%;
+    background: $cp-black;
+}
+
+span {
+    display: block;
+    &.large-text {
+        font-size: 3em;
+        font-weight: 900;
+        letter-spacing: -2.5px;
         @media (min-width: 1024px) and (max-width: 1399px) {
-            width: 61px;
-            height: 64px;
-            margin-bottom: 1vh;
-            margin-left: -6px;
+            font-size: 4.5em;
+            letter-spacing: -5px;
         }
-        @media screen and ( max-height: 735px ) {
-            display: none;
-        }
-    }
-
-    /* trades subnav */
-
-    #trades-subnav-container {
-        margin-bottom: 14vh;
-        transition: margin 150ms linear; 
-        @media screen and ( max-height: 735px ) {
-            margin-bottom: 20vh;
-        }
-        nav.trades-subnav {
-            margin-bottom: -50px;
-            margin-left: -40px;
-            z-index: 0;
-            ul {
-                list-style: none;
-                li {
-                    border-bottom: 1px solid white;
-                    cursor: pointer;
-                    a {
-                        font-size: 1.12em;
-                        color: $cp-yellow;
-                        font-weight: 700;
-                        line-height: 1.5;
-                        &:hover, &:focus {
-                            color: white;
-                            text-decoration: none;
-                        }
-                    }
-                }
-            }
+        @media (min-width: 1400px) {
+            font-size: 6em;
+            letter-spacing: -5px;
         }
     }
-
-    #trades-link {
-        bottom: -4vh;
-        transition: all 250ms linear;
+    &.mid-size-text {
+        font-size: 1.5em;
+        @media (max-width: 767px) {
+            // font-size: 2em;
+        }
+        @media (min-width: 1024px) and (max-width: 1399px) {
+            // font-size: 4.5em;
+        }
     }
-
+    &.mid-size-bold {
+        font-size: 1.5em;
+        font-family: 'Roboto-Black', sans-serif;
+        margin-bottom: 10px;
+        @media (min-width: 1024px) {
+            font-size: 2em;
+        }
+    }
 }

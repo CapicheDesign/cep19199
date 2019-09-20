@@ -1,21 +1,82 @@
 /* business panels */
 
-
+/* inland strategy */
 #business-panel-1 {
     background: url('../img/hubs-bg.jpg') no-repeat center;
     background-size: cover;
+    @media screen and ( min-width: 768px ) {
+        .panel__home__overlay {
+            transform: translate3d(0,65%,0);
+        }
+        &:hover {
+            .panel--content {
+                margin-top: 45vh;
+            }
+        }
+    }
+    &:hover {
+        .panel__home__overlay {
+            transform: translate3d(0,0,0);
+        }
+    }
 }
 
 #business-panel-2 {
     background: url('../img/ceo-bg.jpg') no-repeat center top;
     background-size: cover;
     color: white;
+    @media screen and ( min-width: 768px ) {
+        .panel__home__overlay {
+            transform: translate3d(0,23%,0);
+        }
+        &:hover {
+            padding-top: 7vh !important;
+        }
+    }
+    @media screen and ( min-width: 1024px ) {
+        .panel__home__overlay {
+            transform: translate3d(0,19%,0);
+        }
+        &:hover {
+            .panel--content {
+                
+            }
+        }
+    }
+    &:hover {
+        .panel__home__overlay {
+            transform: translate3d(0,0,0);
+        }
+    }
 }
 
 #business-panel-3 {
     background: url('../img/chair-bg.jpg') no-repeat center top;
     background-size: cover;
     color: white;
+    @media screen and ( min-width: 850px ) {
+        .panel__home__overlay {
+            transform: translate3d(0,23%,0);
+        }
+    }
+    @media screen and ( min-width: 1024px ) {
+        .panel__home__overlay {
+            transform: translate3d(0,15%,0);
+        }
+    }
+    @media screen and ( min-width: 1200px ) {
+        .panel__home__overlay {
+            transform: translate3d(0,19%,0);
+        }
+    }
+    &:hover {
+        .panel__home__overlay {
+            transform: translate3d(0,0,0);
+        }
+        .panel--content {
+            margin-top: 6vh;
+        }
+    }
 }
 
 #business-panel-4 {
@@ -38,8 +99,24 @@
             display: none;
         }
     }
-    /* trades subnav */
+    @media screen and ( min-width: 768px ) {
+        .panel--content {
+            margin-top: 7vh;
+        }
+        &:hover {
+            .panel--content {
+                margin-top: 3vh;
+            }
+        }
+    }
+    @media screen and ( min-width: 1024px ) {
+        .panel--content {
+            margin-top: 11vh;
+        }
+    }
+    
 
+    /* trades subnav */
     #trades-subnav-container {
         display: none;
         margin-bottom: 14vh;
@@ -74,7 +151,7 @@
         #trades-subnav-container {
             display: block;
         }
-        #trades-link {
+        span {
             display: none;
         }
     }

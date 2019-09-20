@@ -13,8 +13,9 @@
             height: 100%;
             float:left;
             min-height: 100vh;
+            background: #eee;
 
-            @media (max-width: 767px) {
+            @media (max-width: 991px) {
                 display: none;
             }
         }
@@ -32,7 +33,7 @@
             padding-top: 100px;
             background: white;
             min-height: 100vh;
-            @media (max-width: 767px) {
+            @media (max-width: 991px) {
                 width: 100%;
                 padding-top: 120px;
                 float: none;
@@ -41,7 +42,7 @@
         }
 
         .content-inner {
-            padding: 0 120px 0 50px;
+            padding: 0 6vw;
             @media (max-width: 767px) {
                 padding: 0 25px;
             }
@@ -111,7 +112,7 @@
     blockquote {
         background: white;
         border: none;
-        padding: 10px 50px;
+        padding: 10px 0;
         color: $cp-black;
         @media (max-width: 767px) {
             padding: 5px 25px;
