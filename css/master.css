@@ -1657,7 +1657,6 @@ html.mobile{height:auto}
 .panel__home.panel__half-height{height:45vh}
 .panel__home.panel__half-height.panel__half-height__top{height:55vh;top:0;padding-top:10vh}
 .panel__home.panel__half-height.panel__half-height__right{left:50%}
-#main>section#highlights .panel--content{position:absolute;bottom:2vh}
 .arrow{width:35px;height:15px}
 @media (max-width:767px){.arrow{margin-top:10px;position:static}
 }

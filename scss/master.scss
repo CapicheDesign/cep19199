@@ -6,10 +6,14 @@
 @import "header";
 @import "home";
 @import "homeMobile";
-@import "homeHighlights";
-@import "homeBusiness";
-@import "homePeople";
-@import "homeFocus";
+// @import "homeHighlights-new";
+@import "homeHighlights-old";
+@import "homeBusiness-old";
+// @import "homeBusiness-new";
+@import "homePeople-old";
+// @import "homePeople-new";
+@import "homeFocus-old";
+// @import "homeFocus-new";
 @import "homeFinancials";
 @import "contentPage";
 @import "subnav";
@@ -21,4 +25,3 @@
 @import "slickslider";
 @import "casestudy";
 @import "buorg";
-// @import "test";

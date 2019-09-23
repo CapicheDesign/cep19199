@@ -1,0 +1,71 @@
+#ppl1 {
+    background: url('../img/training-bg.jpg') no-repeat center;
+    background-size: cover;
+}
+
+#ppl2 {
+    background: url('../img/resilient-bg.jpg') no-repeat top center;
+    background-size: cover;
+    left: 50%;
+}
+
+#ppl3 {
+    left: 75%;
+    .panel--content {
+        background-image: none;
+    }
+}
+
+#ppl4 {
+    left: 50%;
+    .panel--content {
+        background-image: none;
+    }
+}
+
+#ppl5 {
+    left: 75%;
+    .panel--content {
+        background-image: none;
+    }
+}
+
+.panel--icon__hardhat {
+    background: url('../img/hardhat.svg') no-repeat;
+    width: 59px;
+    height: 36px;
+    margin-bottom: 2vh;
+    @media (min-width: 1024px) and (max-width: 1399px) {
+        width: 61px;
+        height: 43px;
+        margin-bottom: 1vh;
+        margin-left: -6px;
+    }
+}
+
+.panel--icon__values {
+    background: url('../img/values-icons.svg') no-repeat;
+    width: 273px;
+    height: 54px;
+    margin-bottom: 2vh;
+    max-width: 100%;
+    @media (min-width: 1024px) and (max-width: 1399px) {
+        width: 200px;
+        height: 44px;
+        margin-bottom: 1vh;
+        margin-left: -6px;
+    }
+}
+
+.panel--icon__community {
+    background: url('../img/community-icon.svg') no-repeat;
+    width: 62px;
+    height: 58px;
+    margin-bottom: 2vh;
+    @media (min-width: 1024px) and (max-width: 1399px) {
+        width: 62px;
+        height: 58px;
+        margin-bottom: 1vh;
+        margin-left: -6px;
+    }
+}

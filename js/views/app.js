@@ -28,8 +28,8 @@ var AppView = Backbone.View.extend({
     'click #homepage .homePageLink': 'homePageNav',
     'click .scroll-pagination li a': 'updateNavActive',
     'click #menu li a' : 'updateNavActive',
-    'click #highlights-panel-1': 'moveHighlight1',
-    'click #highlights-panel-4': 'moveHighlight4'
+    'click #high1-link': 'moveHighlight1',
+    'click #high4-link': 'moveHighlight4'
   },
 
   initialize: function() {

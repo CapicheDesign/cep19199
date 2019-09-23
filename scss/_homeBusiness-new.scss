@@ -4,43 +4,72 @@
     overflow: hidden;
     vertical-align: bottom;
     &:hover {
-        .panel--content {
-            padding-bottom: 190px;
-        }
         .panel-more {
             top: 0;
         }
         .hover-text-container {
             display: block;
         }
+        &.p-quarter.p-top-row {
+            .panel--content {
+                padding-top: 70px;
+            }
+        }
+        &.p-half {
+            .panel--content {
+                padding-bottom: 70px;
+            }
+        }
+        &.p-no-overlay {
+            .panel--content {
+                bottom: 12vh;
+            }
+        }
     }
 }
 
-.u-half {
+.p-half {
     width: 50%;
     height: 100%;
 }
 
-.u-quarter {
+.p-quarter {
     width: 25%;
     height: 50%;
 }
 
-.u-half-height {
+.p-half-height {
     height: 50%;
 }
 
-.u-half-width {
+.p-half-width {
    width: 50%;
 }
 
-.u-top-row {
-    top: 0;
+.p-third-width {
+    width: 33.333%;
 }
 
-.u-bottom-row {
-    top: 50%;
+.p-top-row {
+    top: 0;
+    height: 55%;
 }
+
+.p-bottom-row {
+    top: 55%;
+    height: 45%;
+}
+
+.p-no-overlay {
+    .panel--content {
+        -moz-transition: top 0.3s cubic-bezier(0.175, 0.885, 0.32, 1);
+        -o-transition: top 0.3s cubic-bezier(0.175, 0.885, 0.32, 1);
+        -webkit-transition: top 0.3s cubic-bezier(0.175, 0.885, 0.32, 1);
+        transition: top 0.3s cubic-bezier(0.175, 0.885, 0.32, 1);
+        background-image: none;
+    }
+}
+
 
 .panel-topic-link {
     display: block;
@@ -108,6 +137,7 @@
 
 .hover-text-container {
     display: none;
+    margin-top: 20px;
 }
 
 #bus1 {
@@ -139,6 +169,64 @@
 #bus4 {
     left: 50%;
     background: $cp-black;
+    .panel--content {
+        -moz-transition: top 0.6s cubic-bezier(0.175, 0.885, 0.32, 1);
+        -o-transition: top 0.6s cubic-bezier(0.175, 0.885, 0.32, 1);
+        -webkit-transition: top 0.6s cubic-bezier(0.175, 0.885, 0.32, 1);
+        transition: top 0.6s cubic-bezier(0.175, 0.885, 0.32, 1);
+    }
+    /* trades subnav */
+    #trades-subnav-container {
+        display: none;
+        nav.trades-subnav {
+            margin-left: -40px;
+            ul {
+                list-style: none;
+                li {
+                    border-bottom: 1px solid white;
+                    cursor: pointer;
+                    a {
+                        font-size: 1.12em;
+                        color: $cp-yellow;
+                        font-weight: 700;
+                        line-height: 1.5;
+                        &:hover, &:focus {
+                            color: white;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &:hover, &:focus {
+        #trades-subnav-container {
+            display: block;
+        }
+        span {
+            display: none;
+        }
+    }
+
+    /* business custom icon */
+    
+    .panel--icon__container {
+        background: url('../img/container.svg') no-repeat;
+        width: 81px;
+        height: 84px;
+        margin-left: -9px;
+        margin-bottom: 3vh;
+        @media (min-width: 1024px) and (max-width: 1399px) {
+            width: 61px;
+            height: 64px;
+            margin-bottom: 1vh;
+            margin-left: -6px;
+        }
+        @media screen and ( max-height: 735px ) {
+            display: none;
+        }
+    }
+
 }
 
 span {
@@ -158,6 +246,7 @@ span {
     }
     &.mid-size-text {
         font-size: 1.5em;
+        margin-bottom: 20px;
         @media (max-width: 767px) {
             // font-size: 2em;
         }

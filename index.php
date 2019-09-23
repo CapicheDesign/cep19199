@@ -21,13 +21,13 @@
 					</div>
 				</section>
 
-				<?php include $includesPath.'/homeHighlights.php'; ?>
+				<?php include $includesPath.'/homeHighlights-old.php'; ?>
 
-				<?php include $includesPath.'/homeBusiness.php'; ?>
+				<?php include $includesPath.'/homeBusiness-old.php'; ?>
 
-				<?php include $includesPath.'/homePeople.php'; ?>
+				<?php include $includesPath.'/homePeople-old.php'; ?>
 
-				<?php include $includesPath.'/homeFocus.php'; ?>
+				<?php include $includesPath.'/homeFocus-old.php'; ?>
 				
 				<?php include $includesPath.'/homeFinancials.php'; ?>
 			</div>
