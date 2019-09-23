@@ -37,7 +37,7 @@
                     <span class="large-text">110</span>
                     <span class="small-text">Record cruise</span>
                 </div>
-                <span class="arrow arrow-white-fwd" href="#"></span>
+                <span class="arrow arrow-white-fwd"></span>
             </div>
         </div>
         <div class="panel-more"></div>
@@ -59,7 +59,7 @@
         <div class="panel--content">
             <div role="presentation" class="panel--icon__worker"></div>
             <span class="mid-size-text">Regeneration strategy – medium-term plan in action</span>
-            <span class="arrow arrow-yellow-fwd" href="#"></span>
+            <span class="arrow arrow-yellow-fwd"></span>
         </div>
         <div class="panel-more"></div>
     </div>
@@ -70,7 +70,7 @@
         <div class="panel--content">
             <div role="presentation" class="panel--icon__leaf"></div>
             <span class="mid-size-text">Commitment to sustainability and our environment</span>
-            <span class="arrow arrow-yellow-fwd" href="#"></span>
+            <span class="arrow arrow-yellow-fwd"></span>
         </div>
         <div class="panel-more"></div>
     </div>

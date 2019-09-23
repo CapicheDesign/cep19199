@@ -1,0 +1,50 @@
+#fin1 {
+    background: $cp-yellow url('../img/financials-bg.jpg') no-repeat center;
+    background-size: cover;
+    background-position-y: 50vh;
+    transition: background-position 1.25s linear;
+    .panel--content {
+        background-image: none;
+    }
+    &:hover {
+        .button {
+            border-color: #fff !important;
+            background: 0 0 !important;
+            color: #fff !important;
+            &:hover {
+                background: #fff !important;
+                color: #231F20 !important;
+            }
+        }
+    }
+}
+
+#fin2 {
+    background: url('../img/auditors-bg-dark.jpg') no-repeat center;
+    background-size: cover;
+    left: 50%;
+}
+
+#fin3 {
+    background: url('../img/governance-bg.jpg') no-repeat center;
+    background-size: cover;
+    left: 50%;
+}
+
+.panel--icon__financial {
+    background: url('../img/financial.svg') no-repeat;
+    width: 75px;
+    height: 80px;
+    margin-bottom: 3vh;
+    @media (min-width: 1024px) and (max-width: 1399px) {
+        width: 65px;
+        height: 70px;
+        margin-bottom: 1vh;
+    }
+}
+
+.active {
+    #fin1 {
+        background-position-y: 0;
+    }
+}

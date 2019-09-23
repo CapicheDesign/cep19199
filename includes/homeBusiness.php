@@ -16,7 +16,7 @@
         <div class="panel-bg"></div>
         <div class="panel--content">
             <span class="mid-size-bold">CEO Report</span>
-            <span class="arrow arrow-white-fwd" href="#"></span>
+            <span class="arrow arrow-white-fwd"></span>
             <div class="hover-text-container">
                 <span>"This year has been a successful one for CentrePort of growth and recovery."</span>
             </div>
@@ -28,7 +28,7 @@
         <div class="panel-bg"></div>
         <div class="panel--content">
             <span class="mid-size-bold">Chair Report</span>
-            <span class="arrow arrow-white-fwd" href="#"></span>
+            <span class="arrow arrow-white-fwd"></span>
             <div class="hover-text-container">
                 <span>The Board is pleased to report a year of strong growth in the business, continuous improvement in health and safety and good progress on developing the CentrePort regeneration plan.</span>
             </div>

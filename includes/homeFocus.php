@@ -2,7 +2,7 @@
 
 <section data-index=5 id="focus" class="animsition">
     <div class="panel-tile p-half" id="foc1">
-        <a href="our-people/medium-term-plan/" class="panel-topic-link animsition-link"></a>
+        <a href="our-focus/medium-term-plan/" class="panel-topic-link animsition-link"></a>
         <div class="panel-bg"></div>
         <div class="panel--content">
             <div class="panel--content">
@@ -17,7 +17,7 @@
     </div>
 
     <div class="panel-tile p-quarter p-top-row light-blue-bg" id="foc2">
-        <a href="our-business/sustainability/" class="panel-topic-link animsition-link"></a>
+        <a href="our-focus/sustainability/" class="panel-topic-link animsition-link"></a>
         <div class="panel-bg"></div>
         <div class="panel--content">
             <div role="presentation" class="panel--icon__leaf"></div>
@@ -31,7 +31,7 @@
     </div>
 
     <div class="panel-tile p-quarter p-top-row" id="foc3">
-        <a href="our-business/ferry-terminal/" class="panel-topic-link animsition-link"></a>
+        <a href="our-focus/ferry-terminal/" class="panel-topic-link animsition-link"></a>
         <div class="panel-bg"></div>
         <div class="panel--content">
             <span class="mid-size-bold">Multi-user ferry terminal</span>
@@ -44,7 +44,7 @@
     </div>
 
     <div class="panel-tile p-half-height p-half-width p-bottom-row yellow-bg" id="foc4">
-        <a href="our-business/lifelines/" class="panel-topic-link animsition-link"></a>
+        <a href="our-focus/lifelines/" class="panel-topic-link animsition-link"></a>
         <div class="panel-bg"></div>
         <div class="panel--content">
             <div role="presentation" class="panel--icon__ropes"></div>

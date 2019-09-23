@@ -14,20 +14,20 @@
 						<div class="home__content">
 							<h1>2019<br>Annual Report</h1>
 							<h2>The port of choice for<br>Central New Zealand</h2>
-							<button>
+							<a href="#" class="button">
 								Download Annual Report PDF (XXXkb)
-							</button>
+							</a>
 						</div>
 					</div>
 				</section>
 
-				<?php include $includesPath.'/homeHighlights-old.php'; ?>
+				<?php include $includesPath.'/homeHighlights.php'; ?>
 
-				<?php include $includesPath.'/homeBusiness-old.php'; ?>
+				<?php include $includesPath.'/homeBusiness.php'; ?>
 
-				<?php include $includesPath.'/homePeople-old.php'; ?>
+				<?php include $includesPath.'/homePeople.php'; ?>
 
-				<?php include $includesPath.'/homeFocus-old.php'; ?>
+				<?php include $includesPath.'/homeFocus.php'; ?>
 				
 				<?php include $includesPath.'/homeFinancials.php'; ?>
 			</div>

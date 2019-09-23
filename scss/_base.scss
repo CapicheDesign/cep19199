@@ -34,24 +34,28 @@ img {
     width: 100%;
 }
 
-button {
+button, .button {
     border: 1px solid $white;
     background: transparent;
     color: $white;
     font-weight: 700;
     font-size: 0.88em;
     padding: 20px 30px;
+    text-decoration: none;
+    display: inline-block;
     cursor: pointer;
 
     &:hover {
         background: $white;
         color: $cp-black;
+        text-decoration: none;
     }
 
     &:focus {
         background: $white;
         color: $cp-blue-dark;
         border: $cp-blue-dark;
+        text-decoration: none;
     }
     &.button-black {
         border-color: $cp-black;

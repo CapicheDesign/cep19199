@@ -21,15 +21,15 @@
 					</div>
 				</section>
 
-				<?php include $includesPath.'/homeHighlights-new.php'; ?>
+				<?php include $includesPath.'/homeHighlights-old.php'; ?>
 
-				<?php include $includesPath.'/homeBusiness-new.php'; ?>
+				<?php include $includesPath.'/homeBusiness-old.php'; ?>
 
-				<?php include $includesPath.'/homePeople-new.php'; ?>
+				<?php include $includesPath.'/homePeople-old.php'; ?>
 
-				<?php include $includesPath.'/homeFocus-new.php'; ?>
+				<?php include $includesPath.'/homeFocus-old.php'; ?>
 				
-				<?php include $includesPath.'/homeFinancials.php'; ?>
+				<?php include $includesPath.'/homeFinancials-old.php'; ?>
 			</div>
 		<?php include $includesPath.'tail-scripts.php'; ?>
 </body>
