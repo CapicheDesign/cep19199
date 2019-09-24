@@ -135,8 +135,9 @@ header {
                 }
                 h2 {
                     display: inline;
-                    font-weight: 300;
+                    font-weight: 700;
                     transition: none;
+                    color: #ccc;
                     @media (max-width: 1023px) {
                         font-size: 1.5em;
                     }
@@ -150,6 +151,7 @@ header {
                 h1 {
                     transition: none;
                     display: inline;
+                    font-size: 30px;
                     @media (max-width: 1023px) {
                         font-size: 1.5em;
                     }
@@ -210,6 +212,9 @@ header {
             .headings {
                 .divider {
                     font-size: 1.2em;
+                }
+                #areaHeading {
+                    
                 }
                 #sectionHeading {
 

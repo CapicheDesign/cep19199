@@ -27,12 +27,12 @@
         <div class="panel--content">
             <span class="mid-size-text">Strong trades</span>
             <div class="panel--content--inner">
-                <div class="panel--content--half">
+                <div class="panel--content--half" id="logs-highlight">
                     <div role="presentation" class="panel--icon__truck"></div>
                     <span class="large-text">1.7<small>m</small></span>
                     <span class="small-text">Record logs</span>
                 </div>
-                <div class="panel--content--half">
+                <div class="panel--content--half" id="cruise-highlight">
                     <div role="presentation" class="panel--icon__ship"></div>
                     <span class="large-text">110</span>
                     <span class="small-text">Record cruise</span>

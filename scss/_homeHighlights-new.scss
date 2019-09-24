@@ -29,6 +29,11 @@
             width: 50%;
             float: left;
             margin-bottom: 20px;
+            @media (min-width: 992px) and (max-width: 1023px) {
+                &#cruise-highlight {
+                    display: none;
+                }
+            }
         }
         .arrow {
             clear: both;

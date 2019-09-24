@@ -46,6 +46,20 @@ var AppView = Backbone.View.extend({
 
     if ( $('#homepage').length ) {
 
+      /* stop chrome remembering scroll position on reload */
+      if ('scrollRestoration' in history) {
+        history.scrollRestoration = 'manual';
+      }
+      /* reload homepage when resized between mobile/desktop */
+      var limit = 991;
+      var ww = $(window).width();
+      $(window).resize(function() {
+        resW = $(window).width();
+        if ( (ww>limit && resW<limit) || (ww<limit && resW>limit) ) {           
+          location.reload(true);
+        }
+      });
+
       var getUrl = window.location;
       var baseUrl = getUrl .protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];
 
@@ -98,7 +112,7 @@ var AppView = Backbone.View.extend({
     $(window).scroll(this.updateHeaderMobile);
     
     // set small screen size to check mobile 
-    var $screenSize = window.matchMedia("(max-width: 767px)");
+    var $screenSize = window.matchMedia("(max-width: 991px)");
 
     //run screen size check
     this.checkScreenSize($screenSize);
@@ -121,7 +135,6 @@ var AppView = Backbone.View.extend({
         path: '../../js/lib/bodymovin/data.json'
       });
     }
-
   },
   /*** end initalize function ***/
 
@@ -284,7 +297,6 @@ var AppView = Backbone.View.extend({
   // check screen size
   checkScreenSize: function($screenSize) {
     if ($screenSize.matches) { // if small screen size
-     
      
       $('html').addClass('mobile'); // ...add mobile class
       $('.nav__home').addClass('nav__mobile'); // ...add mobile class

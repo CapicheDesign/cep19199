@@ -1,0 +1,98 @@
+.mobile {
+    body#homepage {
+        width: 100%;
+        height: auto;
+        overflow: visible;
+        background: white;
+      }
+
+      .scroll-pagination {
+          display: none !important;
+      }
+
+      #main {
+        height: auto;
+      }
+      
+      #main>section {
+        overflow: visible;
+        position: relative;
+        height: auto;
+        width: 100%;
+        &#home {
+            height: 100vh;
+            padding: 30px;
+            .home__content h1 {
+                font-size: 3em;
+            }
+        }
+
+        .panel-tile {
+            width: 100%;
+            height: auto !important;
+            min-height: 305px !important;
+            display: block;
+            transition: none !important;
+            transform: none !important;
+            position: relative;
+            bottom: auto !important;
+            top: auto !important;
+            left: auto !important;
+            right: auto !important;
+            z-index: 1;
+            .panel--content {
+                position: absolute;
+                height: auto !important;
+                background-image: none;
+                transform: none !important;
+                padding-left: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                .hover-text-container {
+                    display: block;
+                    margin-top: 2vh;
+                    font-size: 1.2em;
+                    span.mid-size-text {
+                        font-size: 1.2em !important;
+                    }
+                }
+            }
+            .panel-more {
+                display: none;
+            }
+        }
+    }
+    .trades-subnav {
+        @media (max-width: 767px) {
+            position: static;
+        }
+    }
+    .panel__home__inner {
+        background: none !important;
+        min-height: 230px !important;
+        height: auto!important;
+        display: block !important;
+        padding-top: 50px !important;
+    }
+    #bus1 {
+        background: url(../img/hubs-bg.jpg) top no-repeat;
+    }
+    #bus2 {
+        background-image: url(../img/ceo-bg.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    #bus3 {
+        background-image: url(../img/chair-bg.jpg);
+        background-size: cover;
+        background-position: center;
+        &:hover {
+            .hover-text-container {
+                display: none !important;
+            }
+        }
+    }
+    #foc4 {
+        border-bottom: 1px solid #000;
+    }
+}
