@@ -1,0 +1,141 @@
+.panel-tile {
+    position: absolute;
+    display: table-cell;
+    overflow: hidden;
+    vertical-align: bottom;
+    &:hover {
+        .panel-more {
+            top: 0;
+        }
+        .hover-text-container {
+            display: block;
+        }
+        &.p-quarter.p-top-row {
+            .panel--content {
+                padding-top: 70px;
+            }
+        }
+        &.p-half {
+            .panel--content {
+                padding-bottom: 70px;
+            }
+        }
+        &.p-no-overlay {
+            .panel--content {
+                bottom: 12vh;
+            }
+        }
+    }
+}
+
+.p-half {
+    width: 50%;
+    height: 100%;
+}
+
+.p-quarter {
+    width: 25%;
+    height: 50%;
+}
+
+.p-half-height {
+    height: 50%;
+}
+
+.p-half-width {
+   width: 50%;
+}
+
+.p-third-width {
+    width: 33.333%;
+}
+
+.p-top-row {
+    top: 0;
+    height: 55%;
+}
+
+.p-bottom-row {
+    top: 55%;
+    height: 45%;
+}
+
+.p-no-overlay {
+    .panel--content {
+        -moz-transition: top 0.3s cubic-bezier(0.175, 0.885, 0.32, 1);
+        -o-transition: top 0.3s cubic-bezier(0.175, 0.885, 0.32, 1);
+        -webkit-transition: top 0.3s cubic-bezier(0.175, 0.885, 0.32, 1);
+        transition: top 0.3s cubic-bezier(0.175, 0.885, 0.32, 1);
+        background-image: none;
+    }
+}
+
+
+.panel-topic-link {
+    display: block;
+    background-color: rgba(255, 255, 255, 0.01);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 19;
+}
+
+.panel-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.panel--content {
+    -moz-transition: padding 0.3s cubic-bezier(0.175, 0.885, 0.32, 1);
+    -o-transition: padding 0.3s cubic-bezier(0.175, 0.885, 0.32, 1);
+    -webkit-transition: padding 0.3s cubic-bezier(0.175, 0.885, 0.32, 1);
+    transition: padding 0.3s cubic-bezier(0.175, 0.885, 0.32, 1);
+    *zoom: 1;
+    filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#00000000', endColorstr='#99000000');
+    background-size: 100%;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.6)));
+    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6) 100%);
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6) 100%);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6) 100%);
+    position: absolute;
+    z-index: 9;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 60px 70px;
+    color: #FFF;
+
+    blockquote {
+        transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1);
+        font-size: 36px;
+        font-weight: 300;
+        line-height: 1.4em;
+        max-height: 300px;
+        overflow: hidden;
+    }
+}
+
+.panel-more {
+    -moz-transition: all 0.9s cubic-bezier(0.175, 0.885, 0.32, 1);
+    -o-transition: all 0.9s cubic-bezier(0.175, 0.885, 0.32, 1);
+    -webkit-transition: all 0.9s cubic-bezier(0.175, 0.885, 0.32, 1);
+    transition: all 0.9s cubic-bezier(0.175, 0.885, 0.32, 1);
+    background: transparent url(../img/black-opac70.png) repeat left top;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 6;
+    width: 100.5%;
+    height: 100.5%;
+}
+
+.hover-text-container {
+    display: none;
+    margin-top: 20px;
+}
