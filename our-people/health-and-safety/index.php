@@ -19,7 +19,7 @@
 					<h1>Health and Safety</h1>
 					<div class="heading-divider"></div>
 					<p><strong>Health and safety is about more than processes and systems. It requires a culture that empowers colleagues to advocate for safer ways of working.</strong></p>
-					<p>Our staff are proactive in delivering our health and safety strategy. The CentrePort health and safety reps and frontline staff are empowered to identify new and safer ways of doing things.</p>  
+					<p>Our staff are proactive in delivering our health and safety strategy. Health and safety representatives and frontline staff are empowered to identify new and safer ways of doing things.</p>  
 				
 					<blockquote class="m-t-m">
 						<p>Health and safety is the number one priority for CentrePort in everything we do.</p>
@@ -33,7 +33,7 @@
 							<img class="yt-play-btn" src="<?=$siteBaseURL?>img/youtube-play-btn.svg" alt="play"/>
 						</a>
 					</div>
-					<div class="slick-slider m-t-lg m-b-m">
+					<div class="slick-slider photo-slider m-t-lg m-b-m">
 						<div><img src="<?=$siteBaseURL?>img/health-and-safety/slider-1-img-1.jpg" alt=""/></div>
 						<div><img src="<?=$siteBaseURL?>img/health-and-safety/slider-1-img-2.jpg" alt=""/></div>
 						<div><img src="<?=$siteBaseURL?>img/health-and-safety/slider-1-img-3.jpg" alt=""/></div>
@@ -42,8 +42,8 @@
 
 				<div class="content-inner m-t-m m-b-m">
 					<p>The bSafe reporting system has been driving innovation and improvement in ways of working, including a greater quality of reporting, and problem solving from the frontline.</p>
-					<p>Frontline staff are intervening, acting and making a difference. This is contributing to the port’s drive to being a zero harm workplace with prevention of injury rates higher than at any point in the past decade.</p>
-					<p>Health and safety is an enabler.  It drives efficiency and effectiveness of but most importantly supports everyone getting home healthy and safe each day.</p>
+					<p>Our staff are intervening, acting and making a difference. This is contributing to our goal to be a zero-harm workplace with fewer injuries than at any point in the past decade.</p>
+					<p>Health and safety enables efficiency and effectiveness, and most importantly, supports everyone getting home healthy and safe each day.</p>
 					
 					<div class="slick-slider slick-slider__black m-t-m m-b-m">
 						<div><img src="<?=$siteBaseURL?>img/health-and-safety/slider-2-img-1.jpg" alt="23 health and safety reps"/></div>
@@ -53,13 +53,13 @@
 				
 					<blockquote class="m-t-m m-b-m">
 						<p>“The port is a dynamic environment and we need to make sure that everybody is focused on that. We're making those changes and we are seeing great progress. Everybody in the business is committed to making that happen. It's a journey and we continue to strive towards our goal of being a zero-harm workplace.”</p>
-						<cite>Derek Nind, CentrePort Chief Executive.</cite>
+						<cite>Derek Nind, CEO, CentrePort</cite>
 					</blockquote>
 				</div>
 
 				<div class="content-inner m-t-m m-b-m">
-					<p>CentrePort can have up to 1,000 people on the ground at various times, including multiple Persons Conducting Business or Undertakings (PCBUs). All PCBUs involving works on Port are put through a three-stage health and safety process.</p>
-					<p>In June 2019 CentrePort was sentenced and fined $506,048 in the District Court at Wellington for the death of Teihi Whaanga following a fall from a ladder. The team continue to think of Teihi every day and his legacy lives on in the ongoing commitment to health and safety on the port.</p> 
+					<p>CentrePort can have up to 1,000 people on the ground at various times, including multiple Persons Conducting Business or Undertakings (PCBUs). All PCBUs working at CentrePort are put through a three-stage health and safety process.</p>
+					<p>In June 2019, CentrePort was sentenced and fined $506,048 in the District Court at Wellington for the death of Teihi Whaanga following a fall from a ladder. The team continue to think of Teihi every day and his legacy continues in the ongoing commitment to health and safety on the port.</p> 
 				
 					<img class="full-width-img m-t-m m-b-m" src="<?=$siteBaseURL?>img/health-and-safety/image-1.jpg" alt=""/>
 				</div>
@@ -76,7 +76,7 @@
 				</div>
 
 				<div class="content-inner m-b-lg m-p-lg">
-					<p>The 4,500 pieces of steel, weighing 5,600 tonnes, for KiwiRail were unloaded and moved onto rail wagons operating along Burma Road and out the north gate to a storage facility in Woburn.</p>
+					<p>The 4,500 pieces of steel for KiwiRail, weighing 5,600 tonnes, were unloaded and moved onto rail wagons operating along Burma Road and out the north gate to a storage facility in Woburn, Lower Hutt.</p>
 				</div>
 			</div>
 		</section>

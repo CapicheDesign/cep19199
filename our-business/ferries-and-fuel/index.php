@@ -19,8 +19,8 @@
 					<h1>Fuel</h1>
 					<div class="heading-divider"></div>
 					<p><strong>For the third year in a row, fuel volumes have been greater than a million tonnes at CentrePort.</strong></p>    
-					<p>Based at Seaview on the Lower Hutt side of Wellington harbour, fuel is the “quiet cargo” for CenterPort and the Seaview wharf facility is a critical asset for the region.</p>  
-					<p>The million tonnes through Seaview provides fuel for nearly all land-fuel in the lower North Island. In addition, CentrePort facilitates all the aviation fuel supplies for Wellington International Airport.</p>
+					<p>Based at Seaview on the Lower Hutt side of Wellington harbour, fuel is the “quiet cargo” for CentrePort and the Seaview wharf facility is a critical asset for the region.</p>  
+					<p>The million tonnes through Seaview provides nearly all of the fuel for the lower North Island. In addition, CentrePort facilitates all the aviation fuel supplies for Wellington International Airport.</p>
 				
 					<div class="youtube-wrapper m-t-m m-b-m">
 						<a class="js-modal-btn" data-video-id="DLMmgrQBwVg">
@@ -33,15 +33,13 @@
 
 					<blockquote class="m-t-m m-b-0">
 						<p>“Our positive relationship with CentrePort has continued to grow throughout the last year. Z Energy has developed a great working relationship with the CentrePort Ferries and Bulk teams which has seen us work closely on a number of projects including looking to the future around the capabilities of the Seaview Wharf.<br><br> 
- 							This has all been achieved while seeing an increase in the number of tankers utilising the Wharf to discharge fuel into the Seaview Terminals. We look forward to working with the CentrePort team in the year ahead”</p>
+ 							This has all been achieved while seeing an increase in the number of tankers utilising the Wharf to discharge fuel into the Seaview Terminals. We look forward to working with the CentrePort team in the year ahead.”</p>
 						<cite>Mark Soper, Z Energy Seaview Terminal Manager</cite>
 					</blockquote>
-					
-					<img class="full-width-img m-t-m m-b-0" src="<?=$siteBaseURL?>img/ferries-and-fuel/image-1.jpg" alt=""/>
 				</div>
 
 				<div class="content-inner m-t-m m-b-m">
-					<p>Ferries and Bulk General Manager Andrew Steele says given the fuel facility is essential for Lifelines and the regional economy, CentrePort has been working on increasing resilience of the fuel berths over the past year.</p>
+					<p>Ferries and Bulk General Manager Andrew Steele said given the fuel facility is essential for Lifelines and the regional economy, CentrePort has been working on increasing resilience of the fuel berths over the past year.</p>
 					<p>“At Seaview Wharf we are continuing to improve facilities and we’ve removed a lot of redundant infrastructure to reduce the load on the wharf.  We're also scoping up the longer-term project in terms of resilience developments.”</p>
 				
 					<div class="slick-slider slick-slider__black m-t-lg m-b-m">
@@ -60,7 +58,9 @@
 					<h2 class="h1">Ferries</h2>
 					<div class="heading-divider"></div>
 					<p>The inter-island ferry services that CentrePort facilitates is a vital link between the North and South Islands, effectively extending State Highway 1 over Cook Strait.</p>
-					<p>Across the Interislander and StraitNZ Bluebridge services a total of 3,148 ferry journeys were undertaken between Wellington and Picton.  The ferry link between the North and South Island is a critical part of New Zealand’s transport network, responsible for moving up to $20bn worth of freight and over 1.1 million passengers per annum.</p>
+					<p>Last year there were a total of 3,148 Interislander and StraitNZ Bluebridge ferry journeys between Wellington and Picton. The ferry link between the North and South Island is a critical part of New Zealand’s transport network, responsible for moving up to $20bn worth of freight and more than 1.1 million passengers per annum.</p>
+				
+					<img class="full-width-img m-t-m m-b-0" src="<?=$siteBaseURL?>img/ferries-and-fuel/image-1-new.jpg" alt=""/>
 				</div>
 
 			</div>

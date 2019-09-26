@@ -19,8 +19,8 @@
 					<h1>Training</h1>
 					<div class="heading-divider"></div>
 
-					<p><strong>This year, CentrePort implemented a fixed flexi-rostering system. This has given the team awareness well in advance when and where they're working, including guaranteed time off and normalised hours.</strong></p>
-					<p>This means CentrePort has needed to broaden the range of skills of all of our staff, involving thousands of hours of training through the year. Front line staff get an opportunity to rotate between areas rather than being specialised in one area. This has created a multi-skilled team and has spread the knowledge to keep the team fresh.</p>  
+					<p><strong>In the past year, CentrePort implemented a fixed flexi-rostering system. This has given the team awareness well in advance when and where they're working, including guaranteed time off and normalised hours.</strong></p>
+					<p>This means we have needed to broaden the range of skills of all of our staff, involving thousands of hours of training through the year. Frontline staff get an opportunity to rotate between areas, rather than being specialised in one area. This has created a multi-skilled team, spreading the skills and knowledge to keep the team fresh.</p>  
 					<p>The training is New Zealand Qualifications Authority approved, providing employees with qualifications that are externally recognised.</p>
 				</div>
 
@@ -56,14 +56,14 @@
 				</div>
 
 				<div class="content-inner m-t-lg m-b-m  p-b-lg">
-					<p>Cargo handler Dave Maule is one of CentrePort’s training coordinators.  He helps implement training programme invested in CentrePort staff.</p>
+					<p>Cargo handler Dave Maule is one of CentrePort’s training coordinators. He helps implement training programme invested in CentrePort staff.</p>
 			
 					<blockquote class="m-t-m m-b-m">
-						<p>“Training of our people is a key focus at CentrePort.  We use training specialists to ensure staff are getting quality instruction. The programme we’ve implemented includes ship lashing and twist-lock use refreshers, and New Zealand certificates in Port Operations, both core and heavy machine operations strand.<br/><br/> 
-						<p>“You never reach the finish line with training.  Continuous development of training methods and materials are being developed.  We are always striving to improve, and the past year has been one of real progress.”</p>
+						<p>“Training of our people is a key focus at CentrePort. We use training specialists to ensure staff are getting quality instruction. The programme we’ve implemented includes ship lashing and twist-lock use refreshers, and New Zealand certificates in Port Operations, both core and heavy machine operations strand.<br/><br/> 
+						<p>“You never reach the finish line with training. Continuous development of training methods and materials are being developed. We are always striving to improve, and the past year has been one of real progress,” said Maule.</p>
 					</blockquote>
 					<h2>Future leaders programme</h2>
-					<p>Part of CentrePort’s overall philosophy to improve its capacity and capability.  The future leaders programme is around identifying talent in the business and working on that talent even before they become promoted or take opportunities internally.</p>
+					<p>Part of our overall philosophy to improve its capacity and capability. The future leaders programme is around identifying talent in the business and working on that talent even before they become promoted or take on internal development opportunities.</p>
 				</div>
 			</div>
 		</section>

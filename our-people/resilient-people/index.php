@@ -18,10 +18,10 @@
 				<div class="content-inner m-b-lg">
 					<h1>Resilient People</h1>
 					<div class="heading-divider"></div>
-					<p><strong>Our business is nothing without its people. This year, people along the front lines have stepped up to meet challenges, solve problems and improve processes.</strong></p>
+					<p><strong>Our business is nothing without its people. This year, our people stepped up to meet challenges, solve problems and improve processes.</strong></p>
 					<p>The flexibility and resilience of staff has been outstanding and is the main reason CentrePort has maintained its strong growth.</p>  
 
-						<div class="slick-slider m-t-m m-b-m">
+						<div class="slick-slider photo-slider m-t-m m-b-m">
 						<div><img src="<?=$siteBaseURL?>img/resilient-people/slider-1-img-1.jpg" alt=""/></div>
 						<div><img src="<?=$siteBaseURL?>img/resilient-people/slider-1-img-2.jpg" alt=""/></div>
 						<div><img src="<?=$siteBaseURL?>img/resilient-people/slider-1-img-3.jpg" alt=""/></div>
@@ -35,7 +35,7 @@
 					</blockquote>
 
 					<p>One of these projects has been a wind assessment of the port.</p>
-					<p>“The environment has changed, it is more exposed.  We have done this with partnerships within our team and externally, we had an expert review the findings to give it robustness.</p> 
+					<p>“The environment has changed; it is more exposed.  We have done this with partnerships within our team and externally, we had an expert review the findings to give it robustness.</p> 
 					<p>“We’ve also been working this year on data mapping the port so that we have detailed site characterisation information. We’ve tested a range of scenarios so we can better plan, invest and mitigate risks on the port,” said Palmer.</p>
 					<p>This work is the largest seismic array in the Southern Hemisphere and has attracted interest from the University of California, Berkeley, University of Texas, University of Auckland and University of Canterbury.</p>
 

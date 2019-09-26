@@ -6,7 +6,7 @@
             <span class="mid-size-bold">Inland Strategy</span>
             <span class="arrow arrow-yellow-fwd"></span>
             <div class="hover-text-container">
-                <span class="mid-size-text">CentrePort’s inland hub strategy continued to help drive economic success across central New Zealand this year.</span>
+                <span class="mid-size-text">CentrePort’s inland strategy continued to help drive economic success across central New Zealand this year.</span>
             </div>
         </div>
         <div class="panel-more"></div>
@@ -18,7 +18,7 @@
             <span class="mid-size-bold">CEO Report</span>
             <span class="arrow arrow-white-fwd"></span>
             <div class="hover-text-container">
-                <span>"This year has been a successful one for CentrePort of growth and recovery."</span>
+                <span>“This has been a successful year of growth and recovery for CentrePort.” - Derek Nind, Chief Executive Officer.</span>
             </div>
         </div>
         <div class="panel-more"></div>

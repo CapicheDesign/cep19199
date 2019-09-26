@@ -19,7 +19,7 @@
 					<h1>Values</h1>
 					<div class="heading-divider"></div>
 
-					<p>CentrePort’s values guide the behaviour and attitude of our people. They are part of our vocabulary and underpin the way we do and think about things at CentrePort. We literally wear our values and look to live them to deliver for our customers and our people.</p>
+					<p>Our values guide the behaviour and attitude of our people. They are part of our vocabulary and underpin the way we do and think about things at CentrePort. We literally wear our values and look to live them to deliver for our customers and our people.</p>
 					<p>A refresh this year saw the imagery evolve but the message remained the same.</p> 
 
 					<div class="slick-slider m-t-m m-b-m">

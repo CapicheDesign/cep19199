@@ -28,9 +28,16 @@
 				<div class="content-inner m-t-m m-b-m">
 					<h2>Board of Directors</h2>
 					<p>The Board is elected by shareholders. The Port Companies Act 1988 and the Companies Act 1993 govern the relationship between CentrePort Limited and its shareholders.</p>
+					<figure>
+						<img src="<?=$siteBaseURL?>img/governance/board.jpg" alt="Trucks waiting to board ferry" />
+						<figcaption>
+						<p><br><small><strong>Centreport Board:</strong> John Monaghan (Director), Sophie Haslem (Director), David Benham (Director) Lachie Johnstone (Chairman), Mark Petersen (Director), Kerrie-Lee Magill (Director)</small></p>
+						</figcaption>
+					</figure>
 				</div>
 
-				<div class="content-inner m-t-m m-b-m">
+				<div class="content-inner m-t-lg m-b-m">
+					<h2>Executive Leadership Team</h2>
 					<table class="board" cellpadding="0" cellspacing="0">
 						<tr>
 							<td>
@@ -46,10 +53,10 @@
 							<td>
 								<table>
 									<tr>
-										<td><img class="board-photo" src="<?=$siteBaseURL?>img/governance/board/lachie-johnstone.jpg" alt="Lachie Johnstone" /></td>
+										<td><img class="board-photo" src="<?=$siteBaseURL?>img/governance/board/chris-gregory.jpg" alt="Chris Gregory" /></td>
 									</tr>
 									<tr>
-										<td><small><strong>Lachie Johnstone</strong><br>Chairman</small></td>
+										<td><small><strong>Chris Gregory</strong><br>Chief Financial Officer</small></td>
 									</tr>
 								</table>
 							</td>
@@ -125,9 +132,43 @@
 								<table>
 									<tr>
 										<td><img class="board-photo" src="<?=$siteBaseURL?>img/governance/board/andrew-locke.jpg" alt="Andrew Locke" /></td>
-										</tr>
-<tr>
+									</tr>
+									<tr>
 										<td><small><strong>Andrew Locke</strong><br>General Manager Commercial</small></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+					<table class="board" cellpadding="0" cellspacing="0">
+						<tr>
+							<td>
+								<table>
+									<tr>
+										<td><img class="board-photo" src="<?=$siteBaseURL?>img/governance/board/paul-terry.jpg" alt="Paul Terry" /></td>
+										</tr>
+										<tr>
+										<td><small><strong>Paul Terry</strong><br>General Manager<br>Infrastructure and Environment</small></td>
+									</tr>
+								</table>
+							</td>
+							<td>
+								<table>
+									<tr>
+										<td><img class="board-photo" src="<?=$siteBaseURL?>img/governance/board/michael-stewart.jpg" alt="Michael Stewart" /></td>
+									</tr>
+									<tr>
+										<td><small><strong>Michael Stewart</strong><br>General Manager Container Services</small></td>
+									</tr>
+								</table>
+							</td>
+							<td>
+								<table>
+									<tr>
+										<td></td>
+									</tr>
+									<tr>
+										<td><small></td>
 									</tr>
 								</table>
 							</td>

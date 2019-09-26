@@ -1,6 +1,6 @@
 <?php require '../../_config.php'; 
 		$pageMeta['section'] = 'Our Business';
-		$pageMeta['heading'] = 'CEO Report';
+		$pageMeta['heading'] = "CEO's Report";
 		$pageMeta['description'] = 'Centreport CEO report 2019';
 ?>
 <?php include '../../includes/html.php'; ?>
@@ -16,7 +16,7 @@
 			</aside>
 			<div class="right-col" role="main">
 				<div class="content-inner">
-					<h1>CEO Report</h1>
+					<h1>CEO's Report</h1>
 					<div class="heading-divider"></div>
 
 					<div class="youtube-wrapper m-t-m m-b-m">
@@ -28,7 +28,7 @@
 
 					<p><strong>A year of growth, building resilience and wide engagement has CentrePort well placed to deliver on an ambitious regeneration plan that will benefit the New Zealand economy.</strong></p>
 					<p>Our financial and operational performance reflect a very successful year, and this has been largely driven by Centerport’s people.   Despite continued operational constraints due to the impacts of the 2016 Kaikoura earthquake, our people have found solutions to deliver for our customers in a safe and efficient manner.</p>
-					<p>We’ve invested in our people to ensure they have the range of skills to work safely and effectively.  For our container services staff, this has been driven by the successful introduction of a fixed-flexi rostering system which guaranteed normalised working hours and opened broader opportunities of tasks / roles.  Providing the appropriate training and support was a priority.</p>
+					<p>We’ve invested in our people to ensure they have the range of skills to work safely and effectively.  For our container services staff, we have introduced a fixed-flexi rostering system which guaranteed regular working hours and opened broader opportunities of tasks and roles.  Providing the appropriate training and support was a priority.</p>
 					<p>One of my most rewarding moments of the year was attending a graduation ceremony for our staff who had gained a range of qualifications, including NZQA recognised courses.  Family and friends attended, and the pride in achievement was clearly apparent.</p>
 				
 					<blockquote class="m-t-m m-b-m">
@@ -51,9 +51,9 @@
 				<div class="content-inner m-t-m">
 					<h2>Environmental Sustainability</h2>
 					<p><strong>Ensuring our business is sustainable and recognising our part in the guardianship of Wellington Harbour were major drivers for our activities in the past year and will continue to be as CentrePort looks to the future.</strong></p> 
-					<p>The waste minimisation programme begun in 2017 continued to help CentrePort’s drive to be a zero-waste port, recycling all waste concrete and asphalt from the various demolition programmes.  All recycled material is then re-used in a variety of projects on port instead of being transported by truck to landfills.  The programme was recognised by being a finalist in the ‘Green Gold’ category of the Wellington Gold Awards.</p>
-					<p>Good progress was made in our environmental management, including attaining a storm water management plan resource consent.</p>  
-					<p>And sustainability is a key consideration in CentrePort’s supply chain design.  For example, the CentreRail service from the Waingawa log hub in the Wairarapa will remove more than 30,000 truck movements over the Remutakas per annum.</p>
+					<p>The waste minimisation programme begun in 2017 continued to help CentrePort’s goal to be a zero-waste port, recycling all waste concrete and asphalt from the various demolition sites. All recycled material is then re-used in a variety of projects on port instead of being transported by truck to landfills.  The programme won Excellence in Civil Construction at the Concrete New Zealand awards, and was a finalist in the ‘Green Gold’ category of the Wellington Gold Awards.</p>
+					<p>Good progress in our environmental management was made, including attaining resource consent for a storm water management plan.</p>  
+					<p>Sustainability is a key consideration in CentrePort’s supply chain design. For example, the CentreRail service from the Waingawa log hub in the Wairarapa will remove more than 30,000 truck movements over the Remutakas per year.</p>
 				</div>
 
 				<div class="content-inner m-t-m">
@@ -62,23 +62,23 @@
 					<p>Our log trade saw a 27 per cent increase to a new high mark of 1.7 million tonnes.  This was enabled by the continued growth of the CentreRail service in partnership with KiwiRail.</p>
 					<p>CentrePort’s investment into regional hubs is providing customers with improved connectivity to markets and greater certainty around price.  The $3 million-plus investment into the Waingawa hub will increase log volume capacity by up to 200,000 tonnes a year.  This will be carried by an expanded CentreRail service. Plans for potential new sites for regional hubs firmed up and are expected to be progressed in 2019/20.</p>
 					<p>The container business grew by 11 per cent despite the removal of a shipping service to New Zealand during the year.   While there were ongoing issues with quake-damaged land which presented operational challenges, productivity returned to pre-quake levels.</p>  
-					<p>A record cruise season with 110 calls into Wellington helped boost the local economy by $60 million with 220,000 passengers visiting the Capital.  Improved systems and extensive planning enabled CentrePort to deliver on the busiest cruise ship season in the port’s history.</p>
+					<p>A record cruise season with 110 calls into Wellington helped boost the local economy by $60 million with 220,000 passengers visiting the Capital. Improved systems and extensive planning enabled CentrePort ensure the busiest cruise ship season in the port’s history was a success.</p>
 				</div>
 
 				<div class="content-inner m-t-m">
 					<h2>Regeneration</h2>
 					<p><strong>CentrePort engaged widely with the assistance of PwC to make good progress on regeneration planning.  We talked with customers, local and central government, and the community, gaining their insights.    Not only will the regeneration plan deliver a 21st century logistics asset to benefit the economy, it must connect with the city and the region.</strong></p>
-					<p>We continued working with international experts including Hamburg Port Consulting and Royal HaskongingDHV as well as Berl and KPMG to explore opportunities with relation to developing a modern and effective logistics supply asset.</p>
+					<p>We continued working with international experts Hamburg Port Consulting and Royal HaskongingDHV, as well as Berl and KPMG to explore opportunities to develop a modern and effective logistics supply asset.</p>
 					<p>The planning is considering a variety of factors including safety, resilience, the environment, technology, risk management, the needs of the community, and regional and national economies.</p>
-					<p>The multi-user ferry terminal project sits under that regeneration plan and good progress was made in the delivery of a business case in August 2019. We engaged with the project group of partners to produce a collaborative, well-researched piece of work.  Ensuring connectivity that integrates with the city’s needs and ensures that State Highway One is efficiently connected between the North and South Islands is paramount in that planning.</p>
+					<p>The <a href="<?=$siteBaseURL?>our-focus/ferry-terminal/">multi-user ferry terminal</a> project sits under that regeneration plan and good progress was made in the delivery of a business case in August 2019. We engaged with the project group of partners to produce a collaborative, well-researched piece of work.  Integrating the city’s needs and ensureing that State Highway 1 is well connected between the North and South Islands is paramount in that planning.</p>
 				
 					<img class="full-width-img m-t-m m-b-m" src="<?=$siteBaseURL?>img/ceo-report/image-3.jpg" alt=""/>
 				</div>
 
 				<div class="content-inner m-t-m">
 					<h2>Resilience</h2>
-					<p><strong>Good progress was made across medium term operating plan projects which are the enablers of the regeneration plan.  The demolition programme continued to remove damaged and/or redundant assets.  The programme creates space allowing for the reconfiguration of operations which in turn provides the opportunity to carry out repair/remediation work.</strong></p>
-					<p>The removal of redundant buildings on the ‘E-site’ adjacent to Waterloo Quay and remediation of the land created a new vehicle marshalling area for the StraitNZ Bluebridge service, while the removal of the former cruise terminal improved Aotea Quay bulk cargo capacity.</p> 
+					<p><strong>Good progress was made across medium term operating plan projects which are the enablers of the regeneration plan. The demolition programme continued to remove damaged and/or redundant assets.  The programme creates space allowing for the reconfiguration of operations which in turn provides the opportunity to carry out repair and remediation work.</strong></p>
+					<p>The removal of redundant buildings on the E-site adjacent to Waterloo Quay and remediation of the land created a new vehicle marshalling area for the StraitNZ Bluebridge service, while the removal of the former cruise terminal improved Aotea Quay bulk cargo capacity.</p> 
 					<p>A total of 15 structures have now been removed including the former cruise terminal in Shed 51, Sheds R & S, the Coldstore, and Shed 19 on Waterloo Wharf.  Further projects commenced including the removal of the former BNZ building.</p>
 					<p>Critical resilience work on key assets including Kings Wharf, Aotea Quay, and the Seaview fuel facility progressed.  These involve significant investment and ongoing work in the years to come, that will not only benefit CentrePort, but are important for the emergency Lifelines network.</p>
 				

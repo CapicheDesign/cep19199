@@ -20,14 +20,14 @@
 					<div class="heading-divider"></div>
 
 					<div class="youtube-wrapper m-t-m m-b-m">
-						<a class="js-modal-btn" data-video-id="Go09E4OS9OE">
-							<img class="yt-poster" src="<?=$siteBaseURL?>img/video-placeholder.jpg" alt="video thumbnail image"/>
+						<a class="js-modal-btn" data-video-id="ixxqboAdQG0">
+							<img class="yt-poster" src="<?=$siteBaseURL?>img/inland-strategy/video-placeholder1.jpg" alt="video thumbnail image"/>
 							<img class="yt-play-btn" src="<?=$siteBaseURL?>img/youtube-play-btn.svg" alt="play"/>
 						</a>
 					</div>
 					<p><strong>CentrePort’s inland hub strategy continued to help drive economic success across the lower North Island this year.</strong></p>
 					<p>CentrePort and KiwiRail have provided the CentreRail service since 2013. This connects businesses in Taranaki, Whanganui, Manawatu, the Wairarapa and Marlborough to global markets.</p>  
-					<p>The inland hubs utilise long-haul rail transport to the port from key aggregation points.  This improves efficiencies in logistics, creating a reliable, sustainable connection from aggregation points to the world.</p>
+					<p>The inland hubs utilise long-haul rail transport to the port from key aggregation points.  This improves efficiencies in logistics, creating a reliable, sustainable connection from these sites to the world.</p>
 
 				</div>
 
@@ -40,7 +40,7 @@
 						</a>
 					</div>
 
-					<div class="slick-slider m-t-lg m-b-m">
+					<div class="slick-slider photo-slider m-t-lg m-b-m">
 						<div><img src="<?=$siteBaseURL?>img/inland-strategy/slider-1-img-1.jpg" alt=""/></div>
 						<div><img src="<?=$siteBaseURL?>img/inland-strategy/slider-1-img-2.jpg" alt=""/></div>
 						<div><img src="<?=$siteBaseURL?>img/inland-strategy/slider-1-img-3.jpg" alt=""/></div>
@@ -66,10 +66,10 @@
 							<h2>Open Country Dairy</h2>
 							<p><strong>Open Country Dairy is the second biggest dairy company in New Zealand, and exports 30 per cent of its products through CentrePort via Whanganui to more than 70 countries across the world.</strong></p>
 							<p>Open Country Dairy has a long-standing relationship with CentrePort and moves containerised export product through the Wellington port to its international markets.</p>
-							<p>The Ali Arc and CentrePort service provides efficiencies for Open Country Dairy, with certainty of the daily rail service through to CentrePort.</p>  
+							<p>The CentrePort partnership with <a href="<?=$siteBaseURL?>our-business/containers#ali-arc">Ali Arc</a> – who provide logistics, storage and transport services – provides efficiencies for Open Country Dairy, with certainty of the daily rail service through to CentrePort.</p>  
 						</div>
 						<blockquote class="case-study--pull-quote">
-							<p>“Rail works brilliantly. The nature of it means that delivering products is efficient and easy, and means we have to use fewer trucks,”</p>
+							<p>“Rail works brilliantly. The nature of it means that delivering products is efficient and easy, and means we have to use fewer trucks.”</p>
 							<cite>Greg Sewell, General Manager Supply Chain, Open Country Dairy.</cite>
 						</blockquote>
 						<div class="case-study--content">

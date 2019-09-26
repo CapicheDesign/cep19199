@@ -29,6 +29,13 @@
         @media (max-width: 767px) {
             padding: 0 25px;
         }
+        a {
+            color: white !important;
+            text-decoration: underline;
+            &:hover {
+                text-decoration: none;
+            }
+        }
         .heading-divider {
             margin: 50px 0 10px !important;
             @media (max-width: 767px) {

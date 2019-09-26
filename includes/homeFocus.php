@@ -6,7 +6,7 @@
         <div class="panel-bg"></div>
         <div class="panel--content">
             <div class="panel--content">
-                <span class="mid-size-bold">Medium term operating plan</span>
+                <span class="mid-size-bold">Medium-term operating plan</span>
                 <span class="arrow arrow-yellow-fwd"></span>
                 <div class="hover-text-container">
                     <span class="mid-size-text">The medium-term operating plan focuses on key enablers for regeneration.</span>

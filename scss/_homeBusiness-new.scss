@@ -110,6 +110,12 @@
     width: 100%;
     padding: 0 60px 70px;
     color: #FFF;
+    @media screen and (max-height: 650px) {
+        padding: 0 30px 15px;
+    }
+    @media screen and (min-height: 651px) and (max-width: 1199px) {
+        padding: 0 30px 70px;
+    }
 
     blockquote {
         transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1);

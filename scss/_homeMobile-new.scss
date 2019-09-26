@@ -22,6 +22,9 @@
         &#home {
             height: 100vh;
             padding: 30px;
+            background: url(../img/home-hero.jpg);
+            background-size: cover;
+            background-position: center;
             .home__content h1 {
                 font-size: 3em;
             }

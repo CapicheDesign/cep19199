@@ -129,6 +129,38 @@ $slick-opacity-not-active: 0.25 !default;
     }
 }
 
+.photo-slider {
+    .slick-prev {
+        left: 25px;
+        [dir="rtl"] & {
+            left: auto;
+            right: 25px;
+        }
+        &:before {
+            content: url(../img/chevron-left-yellow.svg);
+            [dir="rtl"] & {
+                content: url(../img/chevron-right-yellow.svg);
+            }
+        }
+    }
+    .slick-next {
+        right: 25px;
+        [dir="rtl"] & {
+            left: 25px;
+            right: auto;
+        }
+        &:before {
+            content: url(../img/chevron-right-yellow.svg);
+            [dir="rtl"] & {
+                content: url(../img/chevron-left-yellow.svg);
+            }
+        }
+    }
+    .slick-dots li.slick-active button:before {
+        color: $cp-yellow !important;
+    }
+}
+
 /* Dots */
 
 .slick-dotted.slick-slider {

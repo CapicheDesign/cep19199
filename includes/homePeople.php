@@ -19,7 +19,7 @@
             <span class="mid-size-bold">Resilient People</span>
             <span class="arrow arrow-white-fwd"></span>
             <div class="hover-text-container">
-                <span>This year, people along the front lines have stepped up to meet challenges, solve problems and improve processes.</span>
+                <span>This year, our people on the front lines have stepped up to meet challenges, solve problems and improve processes.</span>
             </div>
         </div>
         <div class="panel-more"></div>
@@ -33,7 +33,7 @@
                 <span class="mid-size-bold">Community<br>Engagement</span>
                 <span class="arrow arrow-white-fwd"></span>
                 <div class="hover-text-container">
-                    <span>CentrePort is proud to support Wellington and the wider region as part of the community.</span>
+                    <span>As part of the community, CentrePort is proud to support Wellington and the wider region.</span>
                 </div>
         </div>
         <div class="panel-more"></div>

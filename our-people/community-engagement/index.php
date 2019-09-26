@@ -29,6 +29,7 @@
 						<li>The Waterbourne Watersports Festival Beach Clean-up</li>
 						<li>Hikitea historic floating crane restoration project</li>
 					</ul>
+					<img class="full-width-img m-t-m m-b-0" src="<?=$siteBaseURL?>img/community-engagement/image-1.jpg" alt="Port Nicholson Yacht Club"/>
 				</div>
 			</div>
 		</section>

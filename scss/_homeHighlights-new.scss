@@ -1,12 +1,26 @@
 #high1 {
     .panel--content {
         background-image: none;
+        @media (min-width: 992px) and (max-width: 1219px) {
+            .large-text {
+                font-size: 3.5em;
+            }
+            .mid-size-text {
+                font-size: 1.25em;
+            }
+         }
     }
 }
 
 #high2 {
     left: 33.33%;
     background: url(../img/safety-bg.jpg) center no-repeat;
+    background-size: cover;
+    .mid-size-text {
+        @media (min-width: 992px) and (max-width: 1219px) {
+            font-size: 1.25em;
+         }
+    }
 }
 
 #high3 {
@@ -21,6 +35,9 @@
         }
         .mid-size-text {
             margin-bottom: 20px;
+            @media (min-width: 992px) and (max-width: 1219px) {
+                font-size: 1.25em;
+             }
         }
         .small-text {
             white-space: nowrap;
@@ -29,9 +46,14 @@
             width: 50%;
             float: left;
             margin-bottom: 20px;
-            @media (min-width: 992px) and (max-width: 1023px) {
-                &#cruise-highlight {
-                    display: none;
+            @media (min-width: 992px) and (max-width: 1219px) {
+               .large-text {
+                   font-size: 3em;
+               }
+            }
+            @media screen and (max-height: 780px) {
+                .large-text {
+                    font-size: 3em;
                 }
             }
         }
@@ -43,6 +65,12 @@
 
 #high4 {
     background: url(../img/people-bg.jpg) center no-repeat;
+    background-size: cover;
+    .mid-size-text {
+        @media (min-width: 992px) and (max-width: 1219px) {
+            font-size: 1.25em;
+         }
+    }
 }
 
 #high5 {
@@ -53,6 +81,11 @@
         .panel--icon__worker {
             margin-bottom: 3vh;
         }
+        .mid-size-text {
+            @media (min-width: 992px) and (max-width: 1219px) {
+                font-size: 1.25em;
+             }
+        }
     }
 }
 
@@ -60,6 +93,11 @@
     left: 66.66%;
     .panel--content {
         background-image: none;
+        .mid-size-text {
+            @media (min-width: 992px) and (max-width: 1219px) {
+                font-size: 1.25em;
+             }
+        }
     }
 }
 
