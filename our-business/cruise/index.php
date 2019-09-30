@@ -60,7 +60,7 @@
 					<p>The 2019/20 season will be even bigger, with 123 ships booked to land in Wellington.</p>
 
 					<blockquote class="m-t-m m-b-lg">
-						<p>“Cruise ships contribute $60 million to the Capital’s retail, hospitality and tourism sectors every year. It is a great way to highlight Wellington. We are proud to be part of boosting tourism to the city.”</p>
+						<p>“Cruise ships contribute $56 million to the Capital’s retail, hospitality and tourism sectors every year. It is a great way to highlight Wellington. We are proud to be part of boosting tourism to the city.”</p>
 						<cite>Derek Nind, CEO, CentrePort</cite>
 					</blockquote>
 				</div>

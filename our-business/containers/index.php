@@ -20,7 +20,7 @@
 					<div class="heading-divider"></div>
 
 					<p><strong>The containers business has grown in the past year – showing strong progress in CentrePort’s recovery.</strong></p>    
-					<p>The containers business was 11 percent this year, with 93,846 Twenty-Foot Equivalent Units (TEUs).</p>
+					<p>The containers business was 11 per cent this year, with 93,846 twenty-foot equivalent units (TEUs).</p>
 					<p>This year, CentrePort has increased capacity to continue growing the container business.</p>
 					<p>CentrePort is also looking at ways to continue to grow volume and efficiently move more container cargo through the port.</p>
 				
@@ -40,6 +40,14 @@
 				</div>
 
 				<div class="content-inner m-t-m m-b-m">
+
+					<blockquote class="m-t-m m-b-m">
+						<p>“MSC has been very happy with CentrePort’s operational productivity this year, particularly given the port is still operating in a constrained environment with the container cranes.”</p>
+						<cite>Steve Wright, General Manager at Mediterranean Shipping Co NZ</cite>
+					</blockquote>
+
+					<img class="full-width-img m-b-m" src="<?=$siteBaseURL?>img/containers/msc.jpg" alt=""/>
+
 					<p>We are phasing out straddle cranes due to the uneven nature of the land post-quake. From February 2020 these will be replaced with bomb carts.</p>
 					<p>This will increase lifting capacity from 30 to 70 tonnes – and improve the cycle from truck-to-crane-to-ship by up to eight minutes. The bomb carts will also be able to drive directly under cranes – improving safety and productivity.</p>
 				
@@ -76,7 +84,7 @@
 						<div class="case-study--content p-b-lg">
 							<p>CentreRail's ability to provide certainty around timing of shipments, efficiency of operations, and flexibility ensures the partnership works well.</p>
 							<p>“The relationship is great because our core business is warehousing logistics.  They've got to come from somewhere. If it comes from CentrePort that's the best result for us so the quicker we get with them in and out of the port the better,” said Bartley.</p>
-							<p>“We've got the ability to grow with CentrePort, and we're currently working on a development for adding biosecurity services to what we do.</p>
+							<p>“We've got the ability to grow with CentrePort, and we're currently working on a development for adding biosecurity services to what we do.”</p>
 							<p>More than 20 Whanganui businesses currently use the Ali Arc and CentreRail service.</p>
 						</div>
 					</div>

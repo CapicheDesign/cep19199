@@ -25,7 +25,7 @@
 							<img class="yt-play-btn" src="<?=$siteBaseURL?>img/youtube-play-btn.svg" alt="play"/>
 						</a>
 					</div>
-					<p><strong>CentrePort’s inland hub strategy continued to help drive economic success across the lower North Island this year.</strong></p>
+					<p><strong>CentrePort’s inland strategy continued to help drive economic success across the lower North Island this year.</strong></p>
 					<p>CentrePort and KiwiRail have provided the CentreRail service since 2013. This connects businesses in Taranaki, Whanganui, Manawatu, the Wairarapa and Marlborough to global markets.</p>  
 					<p>The inland hubs utilise long-haul rail transport to the port from key aggregation points.  This improves efficiencies in logistics, creating a reliable, sustainable connection from these sites to the world.</p>
 
@@ -50,7 +50,7 @@
 
 				<div class="content-inner">
 
-					<p>The past year saw record CentreRail volumes supported by the continued development of the hub network with volumes of 800 twenty-foot equivalent (TEUs) containers per week.</p> 
+					<p>The past year saw record CentreRail volumes supported by the continued development of the hub network with volumes of 800 twenty-foot equivalent units(TEUs) containers per week.</p> 
 					<p>Moving forward, CentrePort is looking to expand the model elsewhere with rail hubs in the planning stages in various locations throughout central New Zealand.</p>
 				
 					<div class="case-study m-t-m m-b-m p-b-lg">

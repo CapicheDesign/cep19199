@@ -135,8 +135,17 @@ var AppView = Backbone.View.extend({
         path: '../../js/lib/bodymovin/data.json'
       });
     }
+
+    this.initHomeScrollOnLoad();
   },
   /*** end initalize function ***/
+
+
+  initHomeScrollOnLoad: function() {
+    if ( $('.scroll-pagination').length > 0 ) {
+      $('.scroll-pagination li a.active').trigger('click'); 
+    }
+  },
 
   moveHighlight1: function(e) {
     e.preventDefault();
@@ -149,6 +158,7 @@ var AppView = Backbone.View.extend({
   },
 
   setUpHeader: function() {
+    
     var getUrl = window.location;
     var baseUrl = getUrl .protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];
     if ( $('#homepage').length ) {
@@ -398,7 +408,7 @@ var AppView = Backbone.View.extend({
     if ( $('.mobile').length <= 0 ) {
       var getUrl = window.location;
       var baseUrl = getUrl .protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];
-      if ( $('#homepage').length === 1 ) { // if we are on the home page    
+      if ( $('#homepage').length === 1 ) { 
         var dataIndex = $(e.currentTarget).data('index');
         if ( dataIndex == '1') {
           $('header').addClass('header__transparent');
@@ -470,42 +480,36 @@ var AppView = Backbone.View.extend({
       e.preventDefault();
        /* mobile */
        if ( $(e.currentTarget).attr('id') == 'homeLink' ) {
-        // $('#sectionHeading').text('');
           $sectionTop = $("#home").offset().top;
           $myScroll = $sectionTop -= $headerHeight;
         $('html, body').animate({
           scrollTop: $myScroll
         }, 500);
       } else if( $(e.currentTarget).attr('id') == 'highlightsLink' ) {
-        // $('#sectionHeading').text('Highlights');
         $sectionTop = $("#highlights").offset().top;
         $myScroll = $sectionTop -= $headerHeight;
        $('html, body').animate({
          scrollTop: $myScroll
        }, 500);
       } else if ( $(e.currentTarget).attr('id') == 'businessLink' ) {
-        // $('#sectionHeading').text('Our Business');
         $sectionTop = $("#business").offset().top;
         $myScroll = $sectionTop -= $headerHeight;
        $('html, body').animate({
          scrollTop: $myScroll
        }, 500);
       } else if ( $(e.currentTarget).attr('id') == 'peopleLink' ) {
-        // $('#sectionHeading').text('Our People');
         $sectionTop = $("#people").offset().top;
         $myScroll = $sectionTop -= $headerHeight;
        $('html, body').animate({
          scrollTop: $myScroll
        }, 500);
       } else if ( $(e.currentTarget).attr('id') == 'focusLink' ) {
-        // $('#sectionHeading').text('Our Focus');
         $sectionTop = $("#focus").offset().top;
         $myScroll = $sectionTop -= $headerHeight;
        $('html, body').animate({
          scrollTop: $myScroll
        }, 500);
       } else if ( $(e.currentTarget).attr('id') == 'financialsLink' ) {
-        // $('#sectionHeading').text('Our Financials');
         $sectionTop = $("#financials").offset().top;
         $myScroll = $sectionTop -= $headerHeight;
        $('html, body').animate({

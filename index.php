@@ -13,7 +13,7 @@
 					<div class="landing-inner">
 						<div class="home__content">
 							<h1>2018-2019<br>Annual Report</h1>
-							<h2>The port of choice for<br>Central New Zealand</h2>
+							<h2>The port of choice for<br>central New Zealand</h2>
 							<a href="#" class="button">
 								Download Annual Report PDF (XXXkb)
 							</a>

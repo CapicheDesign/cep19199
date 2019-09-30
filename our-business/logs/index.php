@@ -22,7 +22,7 @@
 					<h2>The incoming wall of wood</h2>
 					<p><strong>The lower North Island region’s forests of the 1990s are reaching maturity. This is creating a “wall of wood” and significant growth for the log industry in the region.</strong></p>    
 					<p>The growth in log volumes through CentrePort has been significant. Volumes have doubled in the past six years, and this growth is predicted to continue over the next decade.</p>
-					<p>A record 1,709,435 JAS (Japanese Agricultural Standard) was exported. This was a 27 percent increase on the previous year, led by strong demand from China.</p>
+					<p>A record 1,709,435 JAS (Japanese Agricultural Standard) was exported. This was a 27 per cent increase on the previous year, led by strong demand from China.</p>
 				
 					<div class="youtube-wrapper m-t-m m-b-m">
 						<a class="js-modal-btn" data-video-id="K21OGFqBfT0">
@@ -39,8 +39,8 @@
 					<h2>Putting the log in logistics</h2>
 					<p><strong>As logging continues to expand, CentrePort has been looking at innovative ways to continue to develop cost-effective, safe, sustainable and efficient supply chain solutions that reduce truck movements.</strong></p>    
 					<p>The Waingawa log hub, outside Masterton, was specifically built to support the efficient and fast movement of logs directly to the Port.</p>  
-					<p>CentrePort developed the land at Waignawa, with the rail maintained by KiwiRail, to ensure there is capacity to take logs directly to the port.</p>
-					<p>Logs arrive at the Waingawa hub and are sent by rail to Wellington daily.  This has taken a significant number of trucks off the road – reducing the number of truck journeys over the Rimutakas by up to 30,000 annually – an environmental, social and economic win for the region.  Rail also reduces road maintenance coasts and has 66 percent fewer emissions per tonne compared to trucks.</p>
+					<p>CentrePort developed the land at Waingawa, with the rail maintained by KiwiRail, to ensure there is capacity to take logs directly to the port.</p>
+					<p>Logs arrive at the Waingawa hub and are sent by rail to Wellington daily.  This has taken a significant number of trucks off the road – reducing the number of truck journeys over the Rimutakas by up to 30,000 annually – an environmental, social and economic win for the region.  Rail also reduces road maintenance coasts and has 66 per cent fewer emissions per tonne compared to trucks.</p>
 				
 					<p>In July 2019, KiwiRail and CentrePort announced additional capacity from Waingawa from 30 to 45 wagons a day.  Transporting an additional 100,000 tonnes of logs by rail from the Wairarapa to CentrePort will reduce a further 6,000 truck trips annually.  Ultimately the expanded service will increase capacity by up to 200,000 tonnes per annum.</p>
 					<p>As log volume continues to increase, we will invest in infrastructure and rail capacity will grow to meet the demand.</p>
@@ -63,11 +63,11 @@
 							<div class="heading-divider"></div>
 							<h2>Forest Enterprises</h2>
 							<p><strong>Masterton-based Forest Enterprises is one of the companies making the most of CentrePort’s inland Waingawa hub to export its logs through the port.</strong></p>    
-							<p>Forest Enterprises owns about 20,000 hectares of forestry, with 9,000 hectares in the Wairarapa.</p>
+							<p>Forest Enterprises manages about 20,000 hectares of forestry, with 9,000 hectares in the Wairarapa.</p>
 				  		</div>
 						<blockquote class="case-study--pull-quote">
 							<p>“A lot of the wood that was planted in the 1990s is coming into the mid-20s now, so it's time for it to be harvested, creating a big increase for us.”</p>
-							<cite>Bert Hugues, CEO of Forest Enterprises</cite>
+							<cite>Bert Hughes, CEO of Forest Enterprises</cite>
 						</blockquote>
 						<div class="case-study--content">	
 							<p>“CentrePort is providing the infrastructure that makes it possible.  CentrePort has been a real key to us being able to increase our production.”</p>
@@ -92,8 +92,8 @@
 						</div>
 
 						<blockquote class="m-t-m m-b-m">
-							<p>“When we look back historically, Derek Nind has been a real driver of the rail solution with investing in Waingawa. CentrePort made a commitment to make the infrastructure available and we would use it in order that there was no risk to either party.  That's just endured so we're really happy with that.”</p>
-							<cite>Bert Hugues, CEO of Forest Enterprises</cite>
+							<p>“When we look back historically, Derek Nind has been a real driver of the rail solution with investing in Waingawa.<br><br>CentrePort made a commitment to make the infrastructure available and we would use it in order that there was no risk to either party.  That's just endured so we're really happy with that.”</p>
+							<cite>Bert Hughes, CEO of Forest Enterprises</cite>
 						</blockquote>
 						<div class="case-study--content">
 							<p>Forest Enterprises freights around 230,000 tonnes of logs a year through CentrePort – 150,000 of that via rail.</p>

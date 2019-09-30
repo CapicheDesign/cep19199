@@ -27,7 +27,7 @@
 					</div>
 
 					<p><strong>A year of growth, building resilience and wide engagement has CentrePort well placed to deliver on an ambitious regeneration plan that will benefit the New Zealand economy.</strong></p>
-					<p>Our financial and operational performance reflect a very successful year, and this has been largely driven by Centerport’s people.   Despite continued operational constraints due to the impacts of the 2016 Kaikoura earthquake, our people have found solutions to deliver for our customers in a safe and efficient manner.</p>
+					<p>Our financial and operational performance reflect a very successful year, and this has been largely driven by CenterPort’s people.   Despite continued operational constraints due to the impacts of the 2016 Kaikoura earthquake, our people have found solutions to deliver for our customers in a safe and efficient manner.</p>
 					<p>We’ve invested in our people to ensure they have the range of skills to work safely and effectively.  For our container services staff, we have introduced a fixed-flexi rostering system which guaranteed regular working hours and opened broader opportunities of tasks and roles.  Providing the appropriate training and support was a priority.</p>
 					<p>One of my most rewarding moments of the year was attending a graduation ceremony for our staff who had gained a range of qualifications, including NZQA recognised courses.  Family and friends attended, and the pride in achievement was clearly apparent.</p>
 				
@@ -43,7 +43,7 @@
 				<div class="content-inner">
 					<h2>Health and Safety</h2>
 					<p><strong>CentrePort takes a continuous improvement approach to health and safety, and we built on previous gains.  Positive trends in our key health and safety metrics continued showing the systems and safety-in-design approach is making an impact.  The redesign of our log yard lay-out achieved significant improvement in man-machine separation.</strong></p>    
-					<p>Systems and metrics were only half story – with the safety culture being key.  Our people took ownership of health and safety to complement the supportive approach of management.  Our 23 health and safety representatives benefited from an extensive training programme.  This empowered them to work collaboratively with their colleagues to help achieve CentrePort’s continued evolution from a reactive to proactive health and safety culture.</p>
+					<p>Systems and metrics were only half the story – with the safety culture being key.  Our people took ownership of health and safety to complement the supportive approach of management.  Our 23 health and safety representatives benefited from an extensive training programme.  This empowered them to work collaboratively with their colleagues to help achieve CentrePort’s continued evolution from a reactive to proactive health and safety culture.</p>
 				
 					<img class="full-width-img m-t-m m-b-m" src="<?=$siteBaseURL?>img/ceo-report/image-2.jpg" alt=""/>
 				</div>
@@ -58,7 +58,7 @@
 
 				<div class="content-inner m-t-m">
 					<h2>Strong trades</h2>
-					<p><strong>There was strong growth across the major trades reflecting gains in CentrePort’s performance and good support from customers.   The robust volumes of logs, containerised cargo, bulk cargoes, vehicles, not only benefitted CentrePort, but reflected a strong performance of the central New Zealand economy.</strong></p>
+					<p><strong>There was strong growth across the major trades reflecting gains in CentrePort’s performance and good support from customers.   The robust volumes of logs, containerised cargo, bulk cargoes and vehicles, not only benefitted CentrePort, but reflected a strong performance of the central New Zealand economy.</strong></p>
 					<p>Our log trade saw a 27 per cent increase to a new high mark of 1.7 million tonnes.  This was enabled by the continued growth of the CentreRail service in partnership with KiwiRail.</p>
 					<p>CentrePort’s investment into regional hubs is providing customers with improved connectivity to markets and greater certainty around price.  The $3 million-plus investment into the Waingawa hub will increase log volume capacity by up to 200,000 tonnes a year.  This will be carried by an expanded CentreRail service. Plans for potential new sites for regional hubs firmed up and are expected to be progressed in 2019/20.</p>
 					<p>The container business grew by 11 per cent despite the removal of a shipping service to New Zealand during the year.   While there were ongoing issues with quake-damaged land which presented operational challenges, productivity returned to pre-quake levels.</p>  
@@ -77,7 +77,7 @@
 
 				<div class="content-inner m-t-m">
 					<h2>Resilience</h2>
-					<p><strong>Good progress was made across medium term operating plan projects which are the enablers of the regeneration plan. The demolition programme continued to remove damaged and/or redundant assets.  The programme creates space allowing for the reconfiguration of operations which in turn provides the opportunity to carry out repair and remediation work.</strong></p>
+					<p><strong>Good progress was made across medium-term operating plan projects which are the enablers of the regeneration plan. The demolition programme continued to remove damaged and/or redundant assets.  The programme creates space allowing for the reconfiguration of operations which in turn provides the opportunity to carry out repair and remediation work.</strong></p>
 					<p>The removal of redundant buildings on the E-site adjacent to Waterloo Quay and remediation of the land created a new vehicle marshalling area for the StraitNZ Bluebridge service, while the removal of the former cruise terminal improved Aotea Quay bulk cargo capacity.</p> 
 					<p>A total of 15 structures have now been removed including the former cruise terminal in Shed 51, Sheds R & S, the Coldstore, and Shed 19 on Waterloo Wharf.  Further projects commenced including the removal of the former BNZ building.</p>
 					<p>Critical resilience work on key assets including Kings Wharf, Aotea Quay, and the Seaview fuel facility progressed.  These involve significant investment and ongoing work in the years to come, that will not only benefit CentrePort, but are important for the emergency Lifelines network.</p>

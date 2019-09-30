@@ -1,6 +1,6 @@
 <?php require '../../_config.php'; 
 		$pageMeta['section'] = 'Our Focus';
-		$pageMeta['heading'] = 'Medium Term Operating Plan';
+		$pageMeta['heading'] = 'Medium-Term Operating Plan';
 		$pageMeta['description'] = 'The past year saw record CentreRail volumes supported by the continued development of the hub network with volumes of 800 twenty-foot equivalent (TEUs) containers per week.';
 ?>
 <?php include '../../includes/html.php'; ?>
@@ -32,7 +32,7 @@
 				</div>
 
 				<div class="content-inner m-t-lg m-b-m"">
-					<h2>Medium term operating plan</h2>
+					<h2>Medium-term operating plan</h2>
 					<p><strong>The medium-term operating plan focuses on key enablers for regeneration. CentrePort is working on its plan to better serve the needs of customers, people, and region in the future, and build resilience of its critical assets.</strong></p>
 					<blockquote class="m-t-m m-b-m">
 						<p>“We are continuing the journey of providing the platform for the strategic priorities around a sustainable business – customer, economic, financial and environmental.”</p>
@@ -90,7 +90,7 @@
 						</div>
 						<blockquote class="m-t-m m-b-m">
 							<p>“E-site’s proximity to our berths and the improved traffic flow is delivering important operational benefits to meet the evolving needs of our freight customers.”</p>
-							<cite>Ed Menzies, General Manager – Commercial, Strait NZ Bluebridge</cite>
+							<cite>Ed Menzies, General Manager – Commercial, StraitNZ Bluebridge</cite>
 						</blockquote>
 					</div>
 				</div>

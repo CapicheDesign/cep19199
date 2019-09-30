@@ -58,7 +58,7 @@
 					<h2 class="h1">Ferries</h2>
 					<div class="heading-divider"></div>
 					<p>The inter-island ferry services that CentrePort facilitates is a vital link between the North and South Islands, effectively extending State Highway 1 over Cook Strait.</p>
-					<p>Last year there were a total of 3,148 Interislander and StraitNZ Bluebridge ferry journeys between Wellington and Picton. The ferry link between the North and South Island is a critical part of New Zealand’s transport network, responsible for moving up to $20bn worth of freight and more than 1.1 million passengers per annum.</p>
+					<p>Last year there were a total of 3,148 Interislander and StraitNZ Bluebridge ferry journeys between Wellington and Picton. The ferry link between the North and South Island is a critical part of New Zealand’s transport network, responsible for moving up to $20 billion worth of freight and more than 1.1 million passengers per annum.</p>
 				
 					<img class="full-width-img m-t-m m-b-0" src="<?=$siteBaseURL?>img/ferries-and-fuel/image-1-new.jpg" alt=""/>
 				</div>

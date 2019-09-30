@@ -30,7 +30,7 @@
             <span class="mid-size-bold">Chair Report</span>
             <span class="arrow arrow-white-fwd"></span>
             <div class="hover-text-container">
-                <span>The Board is pleased to report a year of strong growth in the business, continuous improvement in health and safety and good progress on developing the CentrePort regeneration plan.</span>
+                <span>Chair Lachie Johnstone and the Board are pleased to report a year of strong growth in the business, continuous improvement in health and safety and good progress on developing the CentrePort regeneration plan.</span>
             </div>
         </div>
         <div class="panel-more"></div>
