@@ -1,5 +1,5 @@
 <?php require '../../_config.php'; 
-		$pageMeta['section'] = 'Our People';
+		$pageMeta['section'] = 'Our people';
 		$pageMeta['heading'] = 'Health and Safety';
 		$pageMeta['description'] = 'Health and safety is about more than processes and systems. It requires a culture that empowers colleagues to advocate for safer ways of working.';
 ?>

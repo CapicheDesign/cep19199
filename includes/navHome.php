@@ -14,7 +14,7 @@
             <a href="#" class="homePageLink" id="highlightsLink" title="Highlights">Highlights</a>
         </li>
         <li>
-            <a href="#" class="homePageLink" id="businessLink" title="Our Business">Our Business</a>
+            <a href="#" class="homePageLink" id="businessLink" title="Our Business">Our business</a>
             <a href="#" class="toggleSubnav" aria-haspopup="true" aria-expanded="false">
                 <span></span>
                 <span></span>
@@ -30,7 +30,7 @@
             </ul>
         </li>
         <li>
-            <a href="#" class="homePageLink" id="peopleLink" title="Our People">Our People</a>
+            <a href="#" class="homePageLink" id="peopleLink" title="Our People">Our people</a>
             <a href="#" class="toggleSubnav" aria-haspopup="true" aria-expanded="false">
                 <span></span>
                 <span></span>
@@ -44,7 +44,7 @@
             </ul>
         </li>
         <li>
-            <a href="#" class="homePageLink" id="focusLink" title="Our Focus">Our Focus</a>
+            <a href="#" class="homePageLink" id="focusLink" title="Our Focus">Our focus</a>
             <a href="#" class="toggleSubnav" aria-haspopup="true" aria-expanded="false">
                 <span></span>
                 <span></span>
@@ -57,7 +57,7 @@
             </ul>
         </li>
         <li>
-            <a href="#" class="homePageLink" id="financialsLink" title="Financials">Financials</a>
+            <a href="#" class="homePageLink" id="financialsLink" title="Financials">Financial Statements</a>
             <a href="#" class="toggleSubnav" aria-haspopup="true" aria-expanded="false">
                 <span></span>
                 <span></span>

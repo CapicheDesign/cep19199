@@ -264,7 +264,7 @@ var AppView = Backbone.View.extend({
         element: document.getElementById('business'),
         handler: function() {
           $('.logo').show();
-          $('#sectionHeading').text('Our Business');
+          $('#sectionHeading').text('Our business');
         }
       });
 
@@ -272,7 +272,7 @@ var AppView = Backbone.View.extend({
         element: document.getElementById('people'),
         handler: function() {
           $('.logo').show();
-          $('#sectionHeading').text('Our People');
+          $('#sectionHeading').text('Our people');
         }
       });
 
@@ -280,7 +280,7 @@ var AppView = Backbone.View.extend({
         element: document.getElementById('focus'),
         handler: function() {
           $('.logo').show();
-          $('#sectionHeading').text('Our Focus');
+          $('#sectionHeading').text('Our focus');
         }
       });
 
@@ -435,15 +435,15 @@ var AppView = Backbone.View.extend({
               break;
 
           case 3:
-              headingText = 'Our Business';
+              headingText = 'Our business';
               break;
 
           case 4:
-            headingText = 'Our People';
+            headingText = 'Our people';
             break;
 
           case 5:
-            headingText = 'Our Focus';
+            headingText = 'Our focus';
             break;
 
           case 6:
@@ -546,7 +546,7 @@ var AppView = Backbone.View.extend({
         $('#menuToggle').addClass('white-bg');
         $('.logo img').attr('src',baseUrl+'/img/logo-black.svg');
         $('.logo').show();
-        $('#sectionHeading').text('Our Business');
+        $('#sectionHeading').text('Our business');
         $(".scroll-pagination li a" + "[data-index='3']").addClass("active");
       } else if ( $(e.currentTarget).attr('id') == 'peopleLink' ) {
         $('#main').css({'transform':'translate3d(0px, -300%, 0px)'});
@@ -555,7 +555,7 @@ var AppView = Backbone.View.extend({
         $('#menuToggle').addClass('white-bg');
         $('.logo img').attr('src',baseUrl+'/img/logo-black.svg');
         $('.logo').show();
-        $('#sectionHeading').text('Our People');
+        $('#sectionHeading').text('Our people');
         $(".scroll-pagination li a" + "[data-index='4']").addClass("active");
       } else if ( $(e.currentTarget).attr('id') == 'focusLink' ) {
         $('#main').css({'transform':'translate3d(0px, -400%, 0px)'});
@@ -564,7 +564,7 @@ var AppView = Backbone.View.extend({
         $('#menuToggle').addClass('white-bg');
         $('.logo img').attr('src',baseUrl+'/img/logo-black.svg');
         $('.logo').show();
-        $('#sectionHeading').text('Our Focus');
+        $('#sectionHeading').text('Our focus');
         $(".scroll-pagination li a" + "[data-index='5']").addClass("active");
       } else if ( $(e.currentTarget).attr('id') == 'financialsLink' ) {
         $('#main').css({'transform':'translate3d(0px, -500%, 0px)'});

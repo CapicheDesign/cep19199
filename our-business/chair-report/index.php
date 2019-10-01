@@ -1,5 +1,5 @@
 <?php require '../../_config.php'; 
-		$pageMeta['section'] = 'Our Business';
+		$pageMeta['section'] = 'Our business';
 		$pageMeta['heading'] = 'Chair Report';
 		$pageMeta['description'] = 'Centreport Chair report 2019.';
 ?>

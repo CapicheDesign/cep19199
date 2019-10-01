@@ -1,5 +1,5 @@
 <?php require '../../_config.php'; 
-		$pageMeta['section'] = 'Our People';
+		$pageMeta['section'] = 'Our people';
 		$pageMeta['heading'] = 'Values';
 		$pageMeta['description'] = 'CentrePort’s values guide the behaviour and attitude of our people. They are part of our vocabulary and underpin the way we do and think about things at CentrePort. We literally wear our values and look to live them to deliver for our customers and our people.';
 ?>

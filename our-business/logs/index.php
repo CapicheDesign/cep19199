@@ -6,7 +6,7 @@
 <?php include '../../includes/html.php'; ?>
 <?php include '../../includes/head.php'; ?>
 
-<body class="content-page" id="log">
+<body class="content-page trades" id="log">
 	<div class="animsition" data-animsition-in-class="fade-in-right" data-animsition-in-duration="1000" data-animsition-out-class="fade-out-right" data-animsition-out-duration="800">
 		<?php include '../../includes/nav.php'; ?>
 		<?php include '../../includes/header.php'; ?>

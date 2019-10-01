@@ -1,5 +1,5 @@
 <?php require '../../_config.php'; 
-		$pageMeta['section'] = 'Our People';
+		$pageMeta['section'] = 'Our people';
 		$pageMeta['heading'] = 'Training';
 		$pageMeta['description'] = 'This year CentrePort implemented a fixed flexi-rostering system. This has given the team awareness well in advance when and where they are working, including guaranteed time off and normalised hours.';
 ?>

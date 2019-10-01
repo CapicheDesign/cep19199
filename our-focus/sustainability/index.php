@@ -1,5 +1,5 @@
 <?php require '../../_config.php'; 
-		$pageMeta['section'] = 'Our Focus';
+		$pageMeta['section'] = 'Our focus';
 		$pageMeta['heading'] = 'Sustainability';
 		$pageMeta['description'] = 'CentrePort is committed to environmental sustainability and is a key element of the regeneration plan for the port.';
 ?>

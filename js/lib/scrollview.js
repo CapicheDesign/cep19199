@@ -146,15 +146,15 @@
 						break;
 			
 					case 3:
-						headingText = 'Our Business';
+						headingText = 'Our business';
 						break;
 			
 					case 4:
-					  headingText = 'Our People';
+					  headingText = 'Our people';
 					  break;
 
 					case 5:
-						headingText = 'Our Focus';
+						headingText = 'Our focus';
 						break;
 
 					case 6:
@@ -213,15 +213,15 @@
 						break;
 			
 					case 3:
-						headingText = 'Our Business';
+						headingText = 'Our business';
 						break;
 			
 					case 4:
-					  headingText = 'Our People';
+					  headingText = 'Our people';
 					  break;
 
 					case 5:
-						headingText = 'Our Focus';
+						headingText = 'Our focus';
 						break;
 
 					case 6:

@@ -1,5 +1,5 @@
 <?php require '../../_config.php'; 
-		$pageMeta['section'] = 'Our Business';
+		$pageMeta['section'] = 'Our business';
 		$pageMeta['heading'] = 'Inland Strategy';
 		$pageMeta['description'] = 'The past year saw record CentreRail volumes supported by the continued development of the hub network with volumes of 800 twenty-foot equivalent (TEUs) containers per week.';
 ?>

@@ -1,5 +1,5 @@
 <?php require '../../_config.php'; 
-		$pageMeta['section'] = 'Our Focus';
+		$pageMeta['section'] = 'Our focus';
 		$pageMeta['heading'] = 'Multi-user Ferry Terminal';
 		$pageMeta['description'] = 'The Cook Strait ferries are part of the national supply chain, and are the water covered section of State Highway 1, with 3,148 vessel movements in the past year carrying cargo and passengers.';
 ?>
