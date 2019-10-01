@@ -20,7 +20,7 @@
 					<div class="heading-divider"></div>
 
 					<p><strong>In the past year, CentrePort implemented a fixed flexi-rostering system. This has given the team awareness well in advance when and where they're working, including guaranteed time off and normalised hours.</strong></p>
-					<p>This means we have needed to broaden the range of skills of all of our staff, involving thousands of hours of training through the year. Frontline staff get an opportunity to rotate between areas, rather than being specialised in one area. This has created a multi-skilled team, spreading the skills and knowledge to keep the team fresh.</p>  
+					<p>This means we needed to broaden the range of skills of all of our staff, involving thousands of hours of training through the year. Frontline staff get an opportunity to rotate between areas, rather than being specialised in one area. This has created a multi-skilled team, spreading the skills and knowledge to keep the team fresh.</p>  
 					<p>The training is New Zealand Qualifications Authority approved, providing employees with qualifications that are externally recognised.</p>
 				</div>
 

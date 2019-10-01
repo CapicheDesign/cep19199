@@ -36,7 +36,7 @@
 					<p><strong>The medium-term operating plan focuses on key enablers for regeneration. CentrePort is working on its plan to better serve the needs of customers, people, and region in the future, and build resilience of its critical assets.</strong></p>
 					<blockquote class="m-t-m m-b-m">
 						<p>“We are continuing the journey of providing the platform for the strategic priorities around a sustainable business – customer, economic, financial and environmental.”</p>
-						<cite>Anthony Delaney, General Manager Regeneration</cite>
+						<cite>Anthony Delaney, General Manager Regeneration, CentrePort</cite>
 					</blockquote>
 				
 				</div>
@@ -74,7 +74,7 @@
 							<div class="heading-divider"></div>
 							<h2>StraitNZ Bluebridge – E-site infrastructure</h2>
 							<p><strong>CentrePort has been working alongside StraitNZ Bluebridge to improve its operation and layout.</strong></p>
-							<p>This included re-engineering the E-sites to more efficiently manage StraitNZ Bluebridge’s drop-trailer operation. This is where the trailers that transit between the North and South Island without a truck and are picked up by a truck cab.</p> 
+							<p>This included re-engineering the E-sites to more efficiently manage StraitNZ Bluebridge’s drop-trailer operation. This is where the trailers that transit between the North and South Island without a truck are picked up by a truck cab.</p> 
 							<p>CentrePort enlisted the help of a consultant from Royal HaskoningDHV in Liverpool who has designed ferry terminals throughout Europe. This includes the terminal at Holyhead which berths the Ulysses, the largest ferry in the world.</p> 
 							<p>Following the 2016 Kaikoura earthquake, StraitNZ Bluebridge had been marshalling drop-trailers on Glasgow Wharf but are now able to marshal them directly behind the vessel.</p>  
 						</div>

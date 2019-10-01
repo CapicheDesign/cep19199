@@ -77,7 +77,7 @@
 
 				<div class="content-inner m-t-m">
 					<h2>Resilience</h2>
-					<p><strong>Good progress was made across medium-term operating plan projects which are the enablers of the regeneration plan. The demolition programme continued to remove damaged and/or redundant assets.  The programme creates space allowing for the reconfiguration of operations which in turn provides the opportunity to carry out repair and remediation work.</strong></p>
+					<p><strong>Good progress was made across medium-term operating plan projects which are the enablers of the regeneration plan. The demolition programme continued to remove damaged and redundant assets.  The programme creates space allowing for the reconfiguration of operations which in turn provides the opportunity to carry out repair and remediation work.</strong></p>
 					<p>The removal of redundant buildings on the E-site adjacent to Waterloo Quay and remediation of the land created a new vehicle marshalling area for the StraitNZ Bluebridge service, while the removal of the former cruise terminal improved Aotea Quay bulk cargo capacity.</p> 
 					<p>A total of 15 structures have now been removed including the former cruise terminal in Shed 51, Sheds R & S, the Coldstore, and Shed 19 on Waterloo Wharf.  Further projects commenced including the removal of the former BNZ building.</p>
 					<p>Critical resilience work on key assets including Kings Wharf, Aotea Quay, and the Seaview fuel facility progressed.  These involve significant investment and ongoing work in the years to come, that will not only benefit CentrePort, but are important for the emergency Lifelines network.</p>

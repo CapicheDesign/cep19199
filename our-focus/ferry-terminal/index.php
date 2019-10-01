@@ -26,7 +26,7 @@
 						</a>
 					</div>
 					<p>Through strong collaboration significant progress has been made in advancing the multi-user ferry terminal concept.  CentrePort is a member of the future ports working group which is developing plans for the facility. Along with CentrePort the group consists of NZTA, KiwiRail, StraitNZ Bluebridge, Greater Wellington Regional Council and Wellington City Council.</p>
-					<p>The result of the working groups collaboration over the last 18 months was the delivery of a high-level business case on 16 August 2019.  Kaiwharawhara was announced as the preferred site for the multi-user terminal, subject to further structural and resilience engineering feasibility studies.</p>
+					<p>The result of the working group collaboration over the last 18 months was the delivery of a high-level business case on 16 August 2019.  Kaiwharawhara was announced as the preferred site for the multi-user terminal, subject to further structural and resilience engineering feasibility studies.</p>
 				
 					<img class="full-width-img m-t-m m-b-0" src="<?=$siteBaseURL?>img/ferry-terminal/image-1.jpg" alt=""/>
 				</div>
