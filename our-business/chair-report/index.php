@@ -1,7 +1,7 @@
 <?php require '../../_config.php'; 
 		$pageMeta['section'] = 'Our business';
 		$pageMeta['heading'] = 'Chair Report';
-		$pageMeta['description'] = 'Centreport Chair report 2019.';
+		$pageMeta['description'] = 'Chair Lachie Johnstone and the Board are pleased to report a year of strong growth in the business, continuous improvement in health and safety and good progress on developing the CentrePort regeneration plan.';
 ?>
 <?php include '../../includes/html.php'; ?>
 <?php include '../../includes/head.php'; ?>

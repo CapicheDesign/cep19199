@@ -1,7 +1,7 @@
 <?php require '../../_config.php'; 
 		$pageMeta['section'] = 'Our business';
 		$pageMeta['heading'] = "CEO's Report";
-		$pageMeta['description'] = 'Centreport CEO report 2019';
+		$pageMeta['description'] = 'This has been a successful year of growth and recovery for CentrePort.';
 ?>
 <?php include '../../includes/html.php'; ?>
 <?php include '../../includes/head.php'; ?>

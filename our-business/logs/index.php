@@ -1,7 +1,7 @@
 <?php require '../../_config.php'; 
 		$pageMeta['section'] = 'Trades';
 		$pageMeta['heading'] = 'Logs';
-		$pageMeta['description'] = 'The lower North Island region’s forests of the 1990s are reaching maturity. This is creating a “wall of wood” and significant growth for the log industry in the region.';
+		$pageMeta['description'] = 'The growth in log volumes through CentrePort has been significant. Volumes have doubled in the past six years, and this growth is predicted to continue over the next decade.';
 ?>
 <?php include '../../includes/html.php'; ?>
 <?php include '../../includes/head.php'; ?>
