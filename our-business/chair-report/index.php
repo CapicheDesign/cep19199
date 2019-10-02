@@ -1,6 +1,6 @@
 <?php require '../../_config.php'; 
 		$pageMeta['section'] = 'Our business';
-		$pageMeta['heading'] = 'Chair Report';
+		$pageMeta['heading'] = "Chair's Report";
 		$pageMeta['description'] = 'Chair Lachie Johnstone and the Board are pleased to report a year of strong growth in the business, continuous improvement in health and safety and good progress on developing the CentrePort regeneration plan.';
 ?>
 <?php include '../../includes/html.php'; ?>
@@ -16,7 +16,7 @@
 			</aside>
 			<div class="right-col" role="main">
 				<div class="content-inner">
-					<h1>Chair Report</h1>
+					<h1>Chair's Report</h1>
 					<h2 style="color: #231F20;">Lachie Johnstone, Chair</h2>
 					<div class="heading-divider"></div>
 

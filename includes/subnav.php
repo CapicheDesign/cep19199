@@ -2,7 +2,7 @@
     <?php if ($pageMeta['section'] == 'Our Business'): ?>
         <li><a href="<?=$siteBaseURL?>our-business/inland-strategy/" class="animsition-link <?php if ($pageMeta['heading'] == 'Inland Strategy'):?>active<?php endif; ?>">Inland Strategy</a></li>
         <li><a href="<?=$siteBaseURL?>our-business/ceo-report/" class="animsition-link <?php if ($pageMeta['heading'] == "CEO's Report"):?>active<?php endif; ?>">CEO's Report</a></li>
-        <li><a href="<?=$siteBaseURL?>our-business/chair-report/" class="animsition-link <?php if ($pageMeta['heading'] == 'Chair Report'):?>active<?php endif; ?>">Chair Report</a></li>
+        <li><a href="<?=$siteBaseURL?>our-business/chair-report/" class="animsition-link <?php if ($pageMeta['heading'] == "Chair's Report"):?>active<?php endif; ?>">Chair Report</a></li>
     <?php elseif ($pageMeta['section'] == 'Trades'): ?>
         <li><a href="<?=$siteBaseURL?>our-business/logs/" class="animsition-link <?php if ($pageMeta['heading'] == 'Logs'):?>active<?php endif; ?>">Logs</a></li>
         <li><a href="<?=$siteBaseURL?>our-business/containers/" class="animsition-link <?php if ($pageMeta['heading'] == 'Containers'):?>active<?php endif; ?>">Containers</a></li>

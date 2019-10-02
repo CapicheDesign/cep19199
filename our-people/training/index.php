@@ -48,7 +48,8 @@
 							<cite>Derek Nind, CEO, CentrePort</cite>
 						</blockquote>
 
-					<div class="slick-slider m-t-m m-b-m">
+					<div class="slick-slider photo-slider m-t-m m-b-m">
+						<div><img src="<?=$siteBaseURL?>img/training/slider-1-img-0.jpg" alt=""/></div>
 						<div><img src="<?=$siteBaseURL?>img/training/slider-1-img-1.jpg" alt=""/></div>
 						<div><img src="<?=$siteBaseURL?>img/training/slider-1-img-2.jpg" alt=""/></div>
 						<div><img src="<?=$siteBaseURL?>img/training/slider-1-img-3.jpg" alt=""/></div>

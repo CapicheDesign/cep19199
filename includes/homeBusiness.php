@@ -15,7 +15,7 @@
         <a href="our-business/ceo-report/" class="panel-topic-link animsition-link"></a>
         <div class="panel-bg"></div>
         <div class="panel--content">
-            <span class="mid-size-bold">CEO Report</span>
+            <span class="mid-size-bold">CEO's Report</span>
             <span class="arrow arrow-white-fwd"></span>
             <div class="hover-text-container">
                 <span>“This has been a successful year of growth and recovery for CentrePort.” - Derek Nind, Chief Executive Officer.</span>
@@ -27,7 +27,7 @@
         <a href="our-business/chair-report/" class="panel-topic-link animsition-link"></a>
         <div class="panel-bg"></div>
         <div class="panel--content">
-            <span class="mid-size-bold">Chair Report</span>
+            <span class="mid-size-bold">Chair's Report</span>
             <span class="arrow arrow-white-fwd"></span>
             <div class="hover-text-container">
                 <span>Chair Lachie Johnstone and the Board are pleased to report a year of strong growth in the business, continuous improvement in health and safety and good progress on developing the CentrePort regeneration plan.</span>
