@@ -24,7 +24,7 @@
 					<p>We have and continue to engage with a range of stakeholders, including customers and partners to help shape that plan. We are working with international experts such as Hamburg Consulting and Royal HaskongingDHV and New Zealand-based companies to explore opportunities and consider a wide range of options.</p>
 				
 					<div class="youtube-wrapper m-t-m m-b-m">
-						<a class="js-modal-btn" data-video-id="JvNW-mjWrjQ">
+						<a class="js-modal-btn" data-video-id="TeFkz7W0Oyo">
 							<img class="yt-poster" src="<?=$siteBaseURL?>img/medium-term-plan/video-placeholder-1.jpg" alt="video thumbnail image"/>
 							<img class="yt-play-btn" src="<?=$siteBaseURL?>img/youtube-play-btn.svg" alt="play"/>
 						</a>
