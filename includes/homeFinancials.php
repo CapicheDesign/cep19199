@@ -4,8 +4,8 @@
         <div class="panel--content">
             <div role="presentation" class="panel--icon__financial"></div>
             <span class="mid-size-bold">Financial Statements</span>
-            <a href="#" class="button button-black">
-                Download Financial Statements PDF (175kb)
+            <a href="assets/centreport-2019-financial-statements.pdf" class="button button-black" target="_blank">
+                Download Financial Statements PDF (181kb)
             </a>
         </div>
         <div class="panel-more"></div>
@@ -15,8 +15,8 @@
         <div class="panel-bg"></div>
         <div class="panel--content">
             <span class="mid-size-bold">Auditors Report</span>
-            <a href="#" class="button">
-                Download Auditors Report PDF (175kb)
+            <a href="assets/centreport-2019-auditors-report.pdf"  target="_blank" class="button">
+                Download Auditors Report PDF (518kb)
             </a>
         </div>
         <div class="panel-more"></div>

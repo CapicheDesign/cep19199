@@ -1,6 +1,6 @@
 <?php require '_config.php'; 
 		$pageMeta['section'] = 'Home';
-		$pageMeta['description'] = 'CentrePorts Annual Report 2018-2019';
+		$pageMeta['description'] = 'CentrePort Annual Report 2018-2019';
 ?>
 <?php include 'includes/html.php'; ?>
 <?php include 'includes/head.php'; ?>
@@ -14,8 +14,8 @@
 						<div class="home__content">
 							<h1>2018-2019<br>Annual Report</h1>
 							<h2>The port of choice for<br>central New Zealand</h2>
-							<a href="#" class="button">
-								Download Annual Report PDF (XXXkb)
+							<a href="assets/centreport-2019-annual-report.pdf" class="button" target="_blank">
+								Download Annual Report PDF (5.4mb)
 							</a>
 						</div>
 					</div>

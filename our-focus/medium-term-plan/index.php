@@ -38,7 +38,6 @@
 						<p>“We are continuing the journey of providing the platform for the strategic priorities around a sustainable business – customer, economic, financial and environmental.”</p>
 						<cite>Anthony Delaney, General Manager Regeneration, CentrePort</cite>
 					</blockquote>
-				
 				</div>
 
 				<div class="content-inner m-t-m m-b-m"">

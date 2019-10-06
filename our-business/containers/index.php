@@ -61,7 +61,7 @@
 								<img src="<?=$siteBaseURL?>img/icon-case-study.svg" alt=""/>	
 								<h3>Case Study</h3>
 							</div>
-							<img src="<?=$siteBaseURL?>img/containers/case-study-header.jpg" alt="Brendon Bartley, Managing Director, Ali Arc." />
+							<img src="<?=$siteBaseURL?>img/containers/case-study-header.jpg" alt="Containers on port" />
 						</div>
 						<div class="case-study--content">
 							<div class="youtube-wrapper m-t-lg">
@@ -81,6 +81,9 @@
 							<p>“We're basically trying to take all the hassle out of it for the customers by providing every service that we can; from devanning a box or an imported container, to delivering the goods to that customer.”</p>
 							<cite>Brendon Bartley, Managing Director, Ali Arc.</cite>
 						</blockquote>
+						<div class="case-study--content p-t-m p-b-lg">
+							<img src="<?=$siteBaseURL?>img/containers/case-study-img-1.jpg" alt="Brendon Bartley, Managing Director, Ali Arc." />
+						</div>
 						<div class="case-study--content p-b-lg">
 							<p>CentreRail's ability to provide certainty around timing of shipments, efficiency of operations, and flexibility ensures the partnership works well.</p>
 							<p>“The relationship is great because our core business is warehousing logistics.  They've got to come from somewhere. If it comes from CentrePort that's the best result for us so the quicker we get with them in and out of the port the better,” said Bartley.</p>

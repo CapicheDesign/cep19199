@@ -311,6 +311,9 @@ var AppView = Backbone.View.extend({
       $('html').addClass('mobile'); // ...add mobile class
       $('.nav__home').addClass('nav__mobile'); // ...add mobile class
       $('.header__home #sectionHeading').text('');
+      if ( $('.slick-slider').length > 0 ) { // if small screen size
+       $('.slick-dots').css('display','none');
+      }
     } else { // .. otherwise if large screen size
       this.setUpScrollView(); // ... add scrollview plugin for homepage
       $('html').removeClass('mobile'); // ..remove mobile class
