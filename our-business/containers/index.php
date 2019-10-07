@@ -79,7 +79,7 @@
 						</div>
 						<blockquote class="case-study--pull-quote">
 							<p>“We're basically trying to take all the hassle out of it for the customers by providing every service that we can; from devanning a box or an imported container, to delivering the goods to that customer.”</p>
-							<cite>Brendon Bartley, Managing Director, Ali Arc.</cite>
+							<cite>Brendon Bartley, Managing Director, Ali Arc</cite>
 						</blockquote>
 						<div class="case-study--content p-t-m p-b-lg">
 							<img src="<?=$siteBaseURL?>img/containers/case-study-img-1.jpg" alt="Brendon Bartley, Managing Director, Ali Arc." />

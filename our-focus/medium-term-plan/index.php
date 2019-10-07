@@ -21,7 +21,7 @@
 
 					<p><strong>CentrePort is developing an ambitious regeneration plan that will deliver our vision of a 21st century logistics supply chain asset to benefit the business, the community and the New Zealand economy.</strong></p> 
 					<p>The planning is considering a variety of factors including safety, resilience, the environment, technology, risk management, the needs of the community, and the regional and national economies.</p>
-					<p>We have and continue to engage with a range of stakeholders, including customers and partners to help shape that plan. We are working with international experts such as Hamburg Consulting and Royal HaskongingDHV and New Zealand-based companies to explore opportunities and consider a wide range of options.</p>
+					<p>We have and continue to engage with a range of stakeholders, including customers and partners to help shape that plan. We are working with international experts, such as Hamburg Consulting and Royal HaskongingDHV, and New Zealand-based companies to explore opportunities and consider a wide range of options.</p>
 				
 					<div class="youtube-wrapper m-t-m m-b-m">
 						<a class="js-modal-btn" data-video-id="TeFkz7W0Oyo">
@@ -43,7 +43,7 @@
 				<div class="content-inner m-t-m m-b-m"">
 					<p>The infrastructure and environment team has spent the last 18 months mapping the port and gathering information and data to make well-informed decisions about the future.</p>  
 					<p>A key component of the medium-term operating plan is the demolition programme with 15 structures removed to date. Works to remove the former BNZ and CESCO buildings commenced from mid-2019.  Removal of damaged and redundant structures improves land utilisation by continuing to make additional land available to allow for permanent regeneration works.</p>
-					<p>We are also currently improving its entrance and traffic management, including new weighbridges and an extra exit lane.</p>
+					<p>We are also currently improving entrance and traffic management, including new weighbridges and an extra exit lane.</p>
 
 					<div class="youtube-wrapper m-t-m m-b-m">
 						<a class="js-modal-btn" data-video-id="wpd2Q0i795A">

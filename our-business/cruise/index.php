@@ -34,7 +34,7 @@
 
 					<blockquote class="m-t-m m-b-lg">
 						<p>"Cruise visitors are fantastic for the city’s economy, and passengers certainly add a great buzz and vibrancy to the city.”</p>
-						<cite>David Perks, General Manager of Wellington NZ</cite>
+						<cite>David Perks, General Manager, Wellington NZ</cite>
 					</blockquote>
 
 

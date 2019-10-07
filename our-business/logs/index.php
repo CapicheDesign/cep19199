@@ -67,7 +67,7 @@
 				  		</div>
 						<blockquote class="case-study--pull-quote">
 							<p>“A lot of the wood that was planted in the 1990s is coming into the mid-20s now, so it's time for it to be harvested, creating a big increase for us.”</p>
-							<cite>Bert Hughes, CEO of Forest Enterprises</cite>
+							<cite>Bert Hughes, CEO, Forest Enterprises</cite>
 						</blockquote>
 						<div class="case-study--content">	
 							<p>“CentrePort is providing the infrastructure that makes it possible.  CentrePort has been a real key to us being able to increase our production.”</p>
@@ -93,7 +93,7 @@
 
 						<blockquote class="m-t-m m-b-m">
 							<p>“When we look back historically, Derek Nind has been a real driver of the rail solution with investing in Waingawa.<br><br>CentrePort made a commitment to make the infrastructure available and we would use it in order that there was no risk to either party.  That's just endured so we're really happy with that.”</p>
-							<cite>Bert Hughes, CEO of Forest Enterprises</cite>
+							<cite>Bert Hughes, CEO, Forest Enterprises</cite>
 						</blockquote>
 						<div class="case-study--content">
 							<p>Forest Enterprises freights around 230,000 tonnes of logs a year through CentrePort – 150,000 of that via rail.</p>

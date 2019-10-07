@@ -27,7 +27,7 @@
 					</div>
 
 					<p><strong>A year of growth, building resilience and wide engagement has CentrePort well placed to deliver on an ambitious regeneration plan that will benefit the New Zealand economy.</strong></p>
-					<p>Our financial and operational performance reflect a very successful year, and this has been largely driven by CenterPort’s people.   Despite continued operational constraints due to the impacts of the 2016 Kaikoura earthquake, our people have found solutions to deliver for our customers in a safe and efficient manner.</p>
+					<p>Our financial and operational performance reflect a very successful year, and this has been largely driven by CentrePort’s people.   Despite continued operational constraints due to the impacts of the 2016 Kaikoura earthquake, our people have found solutions to deliver for our customers in a safe and efficient manner.</p>
 					<p>We’ve invested in our people to ensure they have the range of skills to work safely and effectively.  For our container services staff, we have introduced a fixed-flexi rostering system which guaranteed regular working hours and opened broader opportunities of tasks and roles.  Providing the appropriate training and support was a priority.</p>
 					<p>One of my most rewarding moments of the year was attending a graduation ceremony for our staff who had gained a range of qualifications, including NZQA recognised courses.  Family and friends attended, and the pride in achievement was clearly apparent.</p>
 				
@@ -51,7 +51,7 @@
 				<div class="content-inner m-t-m">
 					<h2>Environmental Sustainability</h2>
 					<p><strong>Ensuring our business is sustainable and recognising our part in the guardianship of Wellington Harbour were major drivers for our activities in the past year and will continue to be as CentrePort looks to the future.</strong></p> 
-					<p>The waste minimisation programme begun in 2017 continued to help CentrePort’s goal to be a zero-waste port, recycling all waste concrete and asphalt from the various demolition sites. All recycled material is then re-used in a variety of projects on port instead of being transported by truck to landfills.  The programme won Excellence in Civil Construction at the Concrete New Zealand awards, and was a finalist in the ‘Green Gold’ category of the Wellington Gold Awards.</p>
+					<p>The Waste Minimisation Project begun in 2017 continued to help CentrePort’s goal to be a zero-waste port, recycling all waste concrete and asphalt from the various demolition sites. All recycled material is then re-used in a variety of projects on port instead of being transported by truck to landfills.  The programme won Excellence in Civil Construction at the Concrete New Zealand awards, and was a finalist in the ‘Green Gold’ category of the Wellington Gold Awards.</p>
 					<p>Good progress in our environmental management was made, including attaining resource consent for a storm water management plan.</p>  
 					<p>Sustainability is a key consideration in CentrePort’s supply chain design. For example, the CentreRail service from the Waingawa log hub in the Wairarapa will remove more than 30,000 truck movements over the Remutakas per year.</p>
 				</div>

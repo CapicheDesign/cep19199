@@ -67,7 +67,7 @@
 				<div class="content-inner m-t-m m-b-m">
 					<h2>Craig Riddell</h2>
 					<p><strong>Break Bulk Cargo supervisor</strong></p> 
-					<p>Dealing with complex cargo is one of the highlights of Craig’s job.</p>
+					<p>Dealing with complex cargo is one of the highlights of Craig Riddell’s job.</p>
 
 					<blockquote class="m-t-m m-b-m">
 						<p>“One of the best parts of my job last year was working on a project for KiwiRail that involved unloading thousands of tonnes of steel rails. Each piece was 25 metres and required specialist handling equipment.  Figuring out how to deal with complex and unfamiliar cargo is really challenging but rewarding.”</p>
