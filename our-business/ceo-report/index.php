@@ -33,7 +33,7 @@
 				
 					<blockquote class="m-t-m m-b-m">
 						<p>"Almost all our trades have grown again significantly over the last 12 months – and we've invested a lot of energy into bringing key assets back into play and providing what our customers need.</p>  
-						<p>The key to our success is our people – the people have made it work.  They've found solutions, they've worked safely, and they've worked with other people on the port to make it a very successful year,”</p>
+						<p>The key to our success is our people – the people have made it work.  They've found solutions, they've worked safely, and they've worked with other people on the port to make it a very successful year.”</p>
 						<cite>Derek Nind, Chief Executive.</cite>
 					</blockquote>
 

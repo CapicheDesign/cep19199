@@ -50,7 +50,7 @@
 
 				<div class="content-inner">
 
-					<p>The past year saw record CentreRail volumes supported by the continued development of the hub network with volumes of 800 twenty-foot equivalent units(TEUs) containers per week.</p> 
+					<p>The past year saw record CentreRail volumes supported by the continued development of the hub network with volumes of 800 twenty-foot equivalent units (TEUs) containers per week.</p> 
 					<p>Moving forward, CentrePort is looking to expand the model elsewhere with rail hubs in the planning stages in various locations throughout central New Zealand.</p>
 				
 					<div class="case-study m-t-m m-b-m p-b-lg">
@@ -76,8 +76,7 @@
 							<p>Products ready to export are stored at the Whanganui hub, which is hugely important for Open Country Dairy.  The ability for Ali Arc to recondition containers and manage storage is also a huge benefit to Open Country Dairy.</p>
 						</div>
 						<blockquote class="case-study--pull-quote">
-							<p>“The whole system works well. We don’t hear any noise which is exactly what you want from a logistics provider. We have the assurance that everything is working seamlessly.”</p>
-							<cite>Greg Sewell, General Manager Supply Chain, Open Country Dairy.</cite>
+							<p>“The whole system works well. We don’t hear any noise which is exactly what you want from a logistics provider. We have the assurance that everything is working seamlessly,” said Sewell.</p>
 						</blockquote>
 					</div>
 				</div>

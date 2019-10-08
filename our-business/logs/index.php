@@ -78,12 +78,6 @@
 									<img class="yt-play-btn" src="<?=$siteBaseURL?>img/youtube-play-btn.svg" alt="play"/>
 								</a>
 							</div>
-						</div>
-						<blockquote class="case-study--pull-quote">
-							<p>“The whole system works well. We don’t hear any noise which is exactly what you want from a logistics perspective. We have the assurance that everything is working seamlessly”</p>
-							<cite>Greg Sewell, General Manager Supply Chain, Open Country Dairy.</cite>
-						</blockquote>
-						<div class="case-study--content">	
 							<p>Opened in late 2015, the Waingawa hub south of Masterton has allowed companies like Forest Enterprises to load its logs onto trains bound directly to the port to then on-sell and export.</p>
 						</div>
 						<div class="slick-slider m-t-lg m-b-m">

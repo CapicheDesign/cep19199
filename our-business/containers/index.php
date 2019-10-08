@@ -43,7 +43,7 @@
 
 					<blockquote class="m-t-m m-b-m">
 						<p>“MSC has been very happy with CentrePort’s operational productivity this year, particularly given the port is still operating in a constrained environment with the container cranes.”</p>
-						<cite>Steve Wright, General Manager at Mediterranean Shipping Co NZ</cite>
+						<cite>Steve Wright, General Manager, Mediterranean Shipping Co NZ</cite>
 					</blockquote>
 
 					<img class="full-width-img m-b-m" src="<?=$siteBaseURL?>img/containers/msc.jpg" alt=""/>
