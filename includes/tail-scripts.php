@@ -12,4 +12,4 @@
     catch(e){window.attachEvent("onload", $buo_f)}
 </script>
 
-<!-- <?php include "google-analytics.php"; ?> -->
+<?php include "google-analytics.php"; ?> 
