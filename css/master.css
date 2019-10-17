@@ -1380,6 +1380,7 @@ body,nav #menu li a{letter-spacing:.5px}
 .show{display:block!important}
 .hidden,.visible-lg,.visible-lg-block,.visible-lg-inline,.visible-lg-inline-block,.visible-md,.visible-md-block,.visible-md-inline,.visible-md-inline-block,.visible-sm,.visible-sm-block,.visible-sm-inline,.visible-sm-inline-block,.visible-xs,.visible-xs-block,.visible-xs-inline,.visible-xs-inline-block{display:none!important}
 .text-hide{font:0/0 a;color:transparent;background-color:transparent;border:0}
+body,span.mid-size-bold{font-family:Roboto,sans-serif}
 .affix{position:fixed}
 @-ms-viewport{width:device-width}
 @media (max-width:767px){.visible-xs{display:block!important}
@@ -1442,7 +1443,7 @@ td.visible-print,th.visible-print{display:table-cell!important}
 .scroll-pagination li a:before{width:11px;background:#153145;border-radius:50%;-webkit-border-radius:50%;-moz-border-radius:50%}
 .scroll-pagination li a.active:before{width:11px;background:#FBC817;border-radius:50%;-webkit-border-radius:50%;-moz-border-radius:50%}
 .clearfix:after{content:" ";display:block;height:0}
-body{margin:0 auto;font-family:Roboto,sans-serif;font-size:18px;color:#231F20;line-height:1.2}
+body{margin:0 auto;font-size:18px;color:#231F20;line-height:1.2}
 @media (max-width:767px){body{font-size:12px}
 }
 .h1,h1{font-weight:900}
@@ -1728,7 +1729,7 @@ span.large-text{font-size:4.5em;letter-spacing:-5px}
 @media (min-width:1400px){span.large-text{font-size:6em;letter-spacing:-5px}
 }
 span.mid-size-text{font-size:1.5em;margin-bottom:20px}
-span.mid-size-bold{font-size:1.5em;font-family:Roboto-Black,sans-serif;margin-bottom:10px}
+span.mid-size-bold{font-size:1.5em;margin-bottom:10px;font-weight:900}
 .slick-dots li button:before,.slick-next:before,.slick-prev:before{font-family:Roboto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
 @media (min-width:1024px){span.mid-size-bold{font-size:2em}
 }
