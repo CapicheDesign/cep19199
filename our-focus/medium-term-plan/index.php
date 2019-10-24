@@ -21,7 +21,7 @@
 
 					<p><strong>CentrePort is developing an ambitious regeneration plan that will deliver our vision of a 21st century logistics supply chain asset to benefit the business, the community and the New Zealand economy.</strong></p> 
 					<p>The planning is considering a variety of factors including safety, resilience, the environment, technology, risk management, the needs of the community, and the regional and national economies.</p>
-					<p>We have and continue to engage with a range of stakeholders, including customers and partners to help shape that plan. We are working with international experts, such as Hamburg Consulting and Royal HaskongingDHV, and New Zealand-based companies to explore opportunities and consider a wide range of options.</p>
+					<p>We have and continue to engage with a range of stakeholders, including customers and partners to help shape that plan. We are working with international experts, such as Hamburg Port Consulting and Royal HaskongingDHV, and New Zealand-based companies to explore opportunities and consider a wide range of options.</p>
 				
 					<div class="youtube-wrapper m-t-m m-b-m">
 						<a class="js-modal-btn" data-video-id="TeFkz7W0Oyo">
@@ -88,7 +88,7 @@
 							<p>This has improved efficiency, speed and helped with overall operations. The finished area looks like a stretch of asphalt with some markings on it, but within its simplicity is a world-class design for marshalling.</p>
 						</div>
 						<blockquote class="m-t-m m-b-m">
-							<p>“E-site’s proximity to our berths and the improved traffic flow is delivering important operational benefits to meet the evolving needs of our freight customers.”</p>
+							<p>“The E-site proximity to our berths and the improved traffic flow is delivering important operational benefits to meet the evolving needs of our freight customers.”</p>
 							<cite>Ed Menzies, General Manager – Commercial, StraitNZ Bluebridge</cite>
 						</blockquote>
 					</div>

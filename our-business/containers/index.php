@@ -20,7 +20,7 @@
 					<div class="heading-divider"></div>
 
 					<p><strong>The containers business has grown in the past year – showing strong progress in CentrePort’s recovery.</strong></p>    
-					<p>The containers business was 11 per cent this year, with 93,846 twenty-foot equivalent units (TEUs).</p>
+					<p>The containers business was up 11 per cent this year, with 93,846 twenty-foot equivalent units (TEUs).</p>
 					<p>This year, CentrePort has increased capacity to continue growing the container business.</p>
 					<p>CentrePort is also looking at ways to continue to grow volume and efficiently move more container cargo through the port.</p>
 				
@@ -48,7 +48,7 @@
 
 					<img class="full-width-img m-b-m" src="<?=$siteBaseURL?>img/containers/msc.jpg" alt=""/>
 
-					<p>We are phasing out straddle cranes due to the uneven nature of the land post-quake. From February 2020 these will be replaced with bomb carts.</p>
+					<p>We are phasing out straddle cranes due to the uneven nature of the land post-quake. These are scheduled to be replaced in 2020 with bomb carts.</p>
 					<p>This will increase lifting capacity from 30 to 70 tonnes – and improve the cycle from truck-to-crane-to-ship by up to eight minutes. The bomb carts will also be able to drive directly under cranes – improving safety and productivity.</p>
 				
 					<img class="full-width-img m-b-m" src="<?=$siteBaseURL?>img/containers/image-1.jpg" alt=""/>

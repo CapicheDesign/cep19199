@@ -38,7 +38,7 @@
 				<div class="content-inner m-t-m">
 					<h2>Putting the log in logistics</h2>
 					<p><strong>As logging continues to expand, CentrePort has been looking at innovative ways to continue to develop cost-effective, safe, sustainable and efficient supply chain solutions that reduce truck movements.</strong></p>    
-					<p>The Waingawa log hub, outside Masterton, was specifically built to support the efficient and fast movement of logs directly to the Port.</p>  
+					<p>The Waingawa log hub, outside Masterton, was specifically built to support the efficient and fast movement of logs directly to the port.</p>  
 					<p>CentrePort developed the land at Waingawa, with the rail maintained by KiwiRail, to ensure there is capacity to take logs directly to the port.</p>
 					<p>Logs arrive at the Waingawa hub and are sent by rail to Wellington daily.  This has taken a significant number of trucks off the road – reducing the number of truck journeys over the Rimutakas by up to 30,000 annually – an environmental, social and economic win for the region.  Rail also reduces road maintenance coasts and has 66 per cent fewer emissions per tonne compared to trucks.</p>
 				
@@ -89,9 +89,6 @@
 							<p>“When we look back historically, Derek Nind has been a real driver of the rail solution with investing in Waingawa.<br><br>CentrePort made a commitment to make the infrastructure available and we would use it in order that there was no risk to either party.  That's just endured so we're really happy with that.”</p>
 							<cite>Bert Hughes, CEO, Forest Enterprises</cite>
 						</blockquote>
-						<div class="case-study--content">
-							<p>Forest Enterprises freights around 230,000 tonnes of logs a year through CentrePort – 150,000 of that via rail.</p>
-						</div>
 					</div>
 
 					<div aria-hidden="true" class="slick-slider photo-slider m-t-m m-b-m">

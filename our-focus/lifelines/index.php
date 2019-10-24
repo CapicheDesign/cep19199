@@ -33,7 +33,7 @@
 					</div>
 
 					<p>The Wellington Region Emergency Management Office (WREMO) is developing a resilience plan for Wellington in the event of an emergency. Central government, through the Ministry of Civil Defence and Emergency Management is preparing a national level response plan.</p>  
-					<p>CentrePort participates in the WREMO and national work, including running workshops on being more proactive and planning reviews. CentrePort is represented at various forums, with Anthony Delaney, General Manager Regeneration, covering the infrastructural approach and Andrew Steele, General Manager of Ferries and Fuel, covering operations.</p>
+					<p>CentrePort participates in the WREMO and national work, including running workshops on being more proactive and planning reviews. CentrePort is represented at various forums, with Anthony Delaney, General Manager Regeneration, covering the infrastructural approach and Andrew Steele, General Manager of Ferries and Bulk, covering operations.</p>
 				</div>
 			</div>
 		</section>

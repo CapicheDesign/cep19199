@@ -62,7 +62,7 @@
 					<p>Our log trade saw a 27 per cent increase to a new high mark of 1.7 million tonnes.  This was enabled by the continued growth of the CentreRail service in partnership with KiwiRail.</p>
 					<p>CentrePort’s investment into regional hubs is providing customers with improved connectivity to markets and greater certainty around price.  The $3 million-plus investment into the Waingawa hub will increase log volume capacity by up to 200,000 tonnes a year.  This will be carried by an expanded CentreRail service. Plans for potential new sites for regional hubs firmed up and are expected to be progressed in 2019/20.</p>
 					<p>The container business grew by 11 per cent despite the removal of a shipping service to New Zealand during the year.   While there were ongoing issues with quake-damaged land which presented operational challenges, productivity returned to pre-quake levels.</p>  
-					<p>A record cruise season with 110 calls into Wellington helped boost the local economy by $60 million with 220,000 passengers visiting the Capital. Improved systems and extensive planning enabled CentrePort ensure the busiest cruise ship season in the port’s history was a success.</p>
+					<p>A record cruise season with 110 calls into Wellington helped boost the local economy by $56 million with 220,000 passengers visiting the Capital. Improved systems and extensive planning enabled CentrePort ensure the busiest cruise ship season in the port’s history was a success.</p>
 				</div>
 
 				<div class="content-inner m-t-m">
