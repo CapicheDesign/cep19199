@@ -1491,13 +1491,16 @@ nav #menuToggle span:first-child{-ms-transform-origin:0 0;transform-origin:0 0}
 nav #menuToggle span:nth-last-child(2){-ms-transform-origin:0 100%;transform-origin:0 100%}
 @media (max-width:375px){nav #menuToggle span{width:30px;height:2px;margin-bottom:6px}
 }
-nav #menuToggle .toggleSubnav{float:right;padding:5px 50px 5px 0;margin-top:18px}
+nav #menuToggle .toggleSubnav{position:absolute;right:50px;top:9px}
+@media (min-width:769px){nav #menuToggle .toggleSubnav{top:18px}
+nav #menuToggle .toggleSubnav.sub-nav--open{top:9px!important}
+}
 nav #menuToggle .toggleSubnav span{margin-bottom:0;display:block;width:25px;height:2px;position:relative;background:#006EC6;z-index:1;-ms-transform-origin:5px 0;transform-origin:5px 0}
 @media (max-width:414px){nav #menuToggle .toggleSubnav span{height:1px}
 }
 nav #menuToggle .toggleSubnav span:first-child{-ms-transform-origin:0 0;transform-origin:0 0}
 nav #menuToggle .toggleSubnav span:last-child{margin-top:-2px;-ms-transform-origin:50% 50%;transform-origin:50% 50%;-ms-transform:rotate(90deg);transform:rotate(90deg)}
-nav #menuToggle .toggleSubnav.sub-nav--open{-ms-transform:rotate(45deg);transform:rotate(45deg);padding-top:30px}
+nav #menuToggle .toggleSubnav.sub-nav--open{-ms-transform:rotate(45deg);transform:rotate(45deg);top:0;right:45px}
 nav #menuToggle input{display:block;width:40px;height:32px;position:absolute;top:-7px;left:-5px;cursor:pointer;opacity:0;z-index:2;-webkit-touch-callout:none}
 nav #menuToggle input:focus~span,nav #menuToggle input:hover~span{background:#FBC817}
 nav #menuToggle input:checked~span{opacity:1;-ms-transform:rotate(45deg) translate(-2px,-1px);transform:rotate(45deg) translate(-2px,-1px);background:#006EC6}
@@ -1506,9 +1509,17 @@ nav #menuToggle input:checked~span:nth-last-child(2){-ms-transform:rotate(-45deg
 nav #menuToggle input:checked~ul{-ms-transform:none;transform:none}
 nav #menu{display:none;position:absolute;top:-50px;left:-30px;width:20vw;min-width:400px;height:110vh;margin:0;padding:135px 0 0;background:#fff;list-style-type:none;-webkit-font-smoothing:antialiased;-ms-transform-origin:0 0;transform-origin:0 0;-ms-transform:translate(-100%,0);transform:translate(-100%,0);transition:transform .5s cubic-bezier(.77,.2,.05,1)}
 nav #menu .menu-divider{width:80%;margin-left:30px;margin-bottom:30px;height:1px;background:#006EC6}
-nav #menu li{line-height:2;margin-bottom:20px;width:100%}
+nav #menu li{line-height:2;margin-bottom:20px;width:100%;position:relative}
 nav #menu li.active{background:#006EC6}
 header,nav #menu .sub-nav,nav #menu li.active .toggleSubnav span{background:#fff}
+nav #menu li.active .toggleSubnav{right:50px;top:18px}
+nav #menu li.active .toggleSubnav.sub-nav--open{top:8px;right:45px}
+@media (min-width:375px) and (max-width:768px){nav #menu li.active .toggleSubnav{top:15px}
+nav #menu li.active .toggleSubnav.sub-nav--open{top:5px}
+}
+@media (min-width:769px){nav #menu li.active .toggleSubnav{top:23px}
+nav #menu li.active .toggleSubnav.sub-nav--open{top:11px}
+}
 nav #menu li.active .sub-nav{padding-top:20px}
 nav #menu li.active .sub-nav a.active{color:#006EC6}
 nav #menu li a{color:#231F20;font-size:1.25em;font-weight:600;text-decoration:none;padding:5px 0 5px 30px}
@@ -1519,17 +1530,26 @@ nav #menu li footer p{line-height:1.5}
 nav #menu li footer p span{font-weight:700;font-size:1.2em}
 nav #menu li footer p a{font-size:1em;font-weight:400;padding:0;color:#006EC6}
 nav #menu li footer span{-ms-transform:none!important;transform:none!important;background:0 0!important;width:auto;height:auto;margin:0;position:static;transition:none}
+@media screen and (max-width:414px){nav #menu li footer{display:none}
+}
 nav #menu .sub-nav{display:none;list-style:none;margin-bottom:30px}
 nav #menu .sub-nav li{line-height:2.5;margin-bottom:5px}
 nav #menu .sub-nav li a{font-weight:300;font-size:1em}
 nav #menu .sub-nav li a.active{display:block;width:auto;background:#fff}
 nav #menu .sub-nav li a:focus,nav #menu .sub-nav li a:hover{color:#006EC6}
-.mobile nav #menuToggle .toggleSubnav{margin-top:14px}
-.mobile nav #menuToggle .toggleSubnav.sub-nav--open{padding-top:26px}
 .mobile nav #menuToggle .toggleSubnav.sub-nav--open .sub-nav{margin-top:10px}
 .mobile nav #menuToggle .toggleSubnav span{margin-bottom:1px;width:17px}
-.mobile nav #menu li .sub-nav,header{width:100%}
-header{position:fixed;top:0;z-index:2;height:10vh;min-height:80px;padding:20px 0;box-shadow:0 -6px 10px 0}
+.mobile nav #menu li.active{padding-top:0}
+@media screen and (max-width:320px){.mobile nav #menu li.active{padding-top:5px}
+}
+@media screen and (min-width:768px){.mobile nav #menuToggle .toggleSubnav span{margin-bottom:0}
+.mobile nav #menu li.active .toggleSubnav{top:22px}
+.mobile nav #menu li.active .toggleSubnav.sub-nav--open{top:11px}
+.mobile nav #menu li .toggleSubnav{top:16px}
+.mobile nav #menu li .toggleSubnav.sub-nav--open{top:7px}
+}
+.mobile nav #menu li .sub-nav{width:100%;padding-top:10px}
+header{position:fixed;top:0;z-index:2;width:100%;height:10vh;min-height:80px;padding:20px 0;box-shadow:0 -6px 10px 0}
 header.header__home{position:absolute}
 @media (max-width:374px){header.header__home{position:fixed;height:14vh}
 }
@@ -1564,6 +1584,8 @@ header h1{margin-top:5px}
 }
 @media (min-width:414px) and (max-width:767px){header h1{font-size:30px;margin-top:3px}
 }
+@media (min-width:768px) and (max-width:1023px){header h1{font-size:30px;margin-top:20px}
+}
 header.content-page-header{height:auto;padding:30px 0 40px}
 @media (min-width:768px) and (max-width:1439px){header.content-page-header{min-height:120px}
 }
@@ -1571,19 +1593,15 @@ header.content-page-header{height:auto;padding:30px 0 40px}
 }
 header.content-page-header a.logo{transition:none}
 @media (max-width:1023px){header.content-page-header a.logo{display:none}
+header.content-page-header .centered-container .headings h2{font-size:1.5em}
 }
 header.content-page-header .centered-container{display:block;position:absolute;left:50%;-ms-transform:translateX(-50%);transform:translateX(-50%);top:20px;text-align:center}
-@media (min-width:321px) and (max-width:375px){header.content-page-header .centered-container{left:45%}
-}
-@media (min-width:768px) and (max-width:1023px){header h1{font-size:30px;margin-top:20px}
-header.content-page-header .centered-container{margin-top:-15px}
+@media (min-width:321px) and (max-width:375px){header.content-page-header .centered-container{left:50%}
 }
 header.content-page-header .centered-container .headings{display:block;margin-top:10px}
 header.content-page-header .centered-container .headings a{color:#231F20}
 header.content-page-header .centered-container .headings a:hover{text-decoration:none;color:#006EC6}
 header.content-page-header .centered-container .headings h2{display:inline;font-weight:700;transition:none;color:#ccc}
-@media (max-width:1023px){header.content-page-header .centered-container .headings h2{font-size:1.5em}
-}
 @media (max-width:414px){header.content-page-header .centered-container .headings h2{font-size:1.2em}
 }
 @media (max-width:320px){header.content-page-header .centered-container .headings h2{font-size:1em}
@@ -1608,7 +1626,11 @@ body#homepage,html{background:#153145}
 .mobile .header__home .logo{transition:none!important}
 .mobile .header__home.header__transparent .logo{display:block!important}
 .mobile .content-page-header{min-height:65px}
-.mobile .content-page-header .centered-container{left:55%;width:100%;margin-top:5px}
+@media (min-width:768px){.mobile .content-page-header{min-height:100px}
+}
+.mobile .content-page-header .centered-container{top:50%;-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}
+.mobile .content-page-header .centered-container .headings{margin-top:0}
+.mobile .content-page-header .centered-container .headings h1{white-space:nowrap}
 .mobile .content-page-header .centered-container .headings .divider{font-size:1.2em}
 .mobile .content-page-header #close-btn{display:none}
 html{height:100%}
@@ -1646,7 +1668,7 @@ html.mobile{height:auto}
 }
 .mobile .panel__home__inner{background:0 0!important;min-height:230px!important;height:auto!important;display:block!important;padding-top:50px!important}
 .mobile #bus1{background:url(../img/hubs-bg.jpg) top no-repeat}
-.mobile #bus2,.mobile #bus3{background-size:cover;background-position:center}
+.mobile #bus2,.mobile #bus3{background-size:cover;background-position:center 35%}
 .mobile #bus2{background-image:url(../img/ceo-bg.jpg)}
 .mobile #bus3{background-image:url(../img/chair-bg.jpg)}
 .mobile #bus3:hover .hover-text-container{display:none!important}

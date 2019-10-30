@@ -119,10 +119,7 @@ header {
             top: 20px;
             text-align: center;
             @media (min-width: 321px) and (max-width: 375px) {
-                left: 45%;
-            }
-            @media (min-width: 768px) and (max-width: 1023px) {
-                margin-top: -15px;
+                left: 50%;
             }
             .headings {
                 display: block;
@@ -199,7 +196,6 @@ header {
 .mobile {
     .header__home {
         .logo {
-            // display: none !important;
             transition: none !important;
         }
         &.header__transparent {
@@ -210,11 +206,17 @@ header {
     }
    .content-page-header {
         min-height: 65px;
+        @media (min-width:768px) {
+            min-height: 100px;
+        }
         .centered-container {
-            left: 55%;
-            width: 100%;
-            margin-top: 5px;
+            top: 50%;
+            transform: translate(-50%, -50%);
             .headings {
+                margin-top: 0;
+                h1 {
+                    white-space: nowrap;
+                }
                 .divider {
                     font-size: 1.2em;
                 }

@@ -21,32 +21,36 @@
         width: 100%;
         &#home {
             height: 100vh;
+            padding: 30px;
+            background: url(../img/home-hero.jpg);
+            background-size: cover;
+            background-position: center;
             .home__content h1 {
                 font-size: 3em;
             }
         }
 
-        .panel__home {
+        .panel-tile {
             width: 100%;
             height: auto !important;
-            min-height: 230px !important;
-            max-height: 350px !important;
+            min-height: 305px !important;
             display: block;
-            position: static;
             transition: none !important;
             transform: none !important;
-            .panel__home__overlay {
-                transform: none !important;
-                height: auto !important;
-                padding-top: 0 !important;
-            }
+            position: relative;
+            bottom: auto !important;
+            top: auto !important;
+            left: auto !important;
+            right: auto !important;
+            z-index: 1;
             .panel--content {
-                position: static !important;
+                position: absolute;
                 height: auto !important;
-                padding-left: 5vw;
-                padding-right: 5vw;
-                margin-top: 3vh;
+                background-image: none;
                 transform: none !important;
+                padding-left: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
                 .hover-text-container {
                     display: block;
                     margin-top: 2vh;
@@ -56,47 +60,8 @@
                     }
                 }
             }
-            &#highlights-panel-1 {
-                padding-top: 3vh !important;
-            }
-            &#highlights-panel-3 {
-                padding-top: 3vh !important;
-                padding-bottom: 3vh !important;
-            }
-            &#business-panel-1 {
-                padding-top: 5vh !important;
-            }
-            &#business-panel-4 {
-                .panel--content {
-                    #trades-subnav-container {
-                        display: block;
-                    }
-                }
-            }
-            &#people-panel-2 {
-                padding-top: 3vh;
-                padding-bottom: 3vh;
-            }
-            &#focus-panel-2 {
-                padding-top: 3vh;
-                padding-bottom: 3vh;
-            }
-            &#focus-panel-4 {
-                border-bottom: 2px solid $cp-black;
-                padding: 3vh 0 5vh;
-            }
-            &#financials-panel-1 {
-                padding: 3vh 0 5vh;
-            }
-            &#financials-panel-2 {
-                .panel--content {
-                    margin-top: 10vh;
-                }
-            }
-            &#financials-panel-3 {
-                .panel--content {
-                    margin-top: 15vh;
-                }
+            .panel-more {
+                display: none;
             }
         }
     }
@@ -112,7 +77,25 @@
         display: block !important;
         padding-top: 50px !important;
     }
-    #business-panel-1 {
-        background: url(../img/hubs-bg.jpg) center no-repeat;
+    #bus1 {
+        background: url(../img/hubs-bg.jpg) top no-repeat;
+    }
+    #bus2 {
+        background-image: url(../img/ceo-bg.jpg);
+        background-size: cover;
+        background-position: center 35%;
+    }
+    #bus3 {
+        background-image: url(../img/chair-bg.jpg);
+        background-size: cover;
+        background-position: center 35%;
+        &:hover {
+            .hover-text-container {
+                display: none !important;
+            }
+        }
+    }
+    #foc4 {
+        border-bottom: 1px solid #000;
     }
 }
