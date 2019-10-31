@@ -2134,11 +2134,20 @@ to{transform:translate(0,0)}
 [dir=rtl] .slick-next{left:25px;right:auto}
 [dir=rtl] .slick-next:before{content:url(../img/chevron-left.svg)}
 .photo-slider .slick-prev{left:25px}
+@media (max-width:414px){.slick-next,.slick-prev{height:10px;width:10px}
+.photo-slider .slick-prev{left:15px}
+}
 [dir=rtl] .photo-slider .slick-prev{left:auto;right:25px}
+@media (max-width:414px){[dir=rtl] .photo-slider .slick-prev{right:15px}
+}
 .photo-slider .slick-prev:before{content:url(../img/chevron-left-yellow.svg)}
 .photo-slider .slick-next:before,[dir=rtl] .photo-slider .slick-prev:before{content:url(../img/chevron-right-yellow.svg)}
 .photo-slider .slick-next{right:25px}
+@media (max-width:414px){.photo-slider .slick-next{right:15px}
+}
 [dir=rtl] .photo-slider .slick-next{left:25px;right:auto}
+@media (max-width:414px){[dir=rtl] .photo-slider .slick-next{left:15px}
+}
 [dir=rtl] .photo-slider .slick-next:before{content:url(../img/chevron-left-yellow.svg)}
 .photo-slider .slick-dots li.slick-active button:before{color:#FBC817!important}
 .slick-dotted.slick-slider{margin-bottom:30px}
