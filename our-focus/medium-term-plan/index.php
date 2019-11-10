@@ -1,6 +1,6 @@
 <?php require '../../_config.php'; 
 		$pageMeta['section'] = 'Our Focus';
-		$pageMeta['heading'] = 'Medium-Term Operating Plan';
+		$pageMeta['heading'] = 'Medium-term Operating Plan';
 		$pageMeta['description'] = 'The past year saw record CentreRail volumes supported by the continued development of the hub network with volumes of 800 twenty-foot equivalent (TEUs) containers per week.';
 ?>
 <?php include '../../includes/html.php'; ?>
