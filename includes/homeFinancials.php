@@ -5,7 +5,7 @@
             <div role="presentation" class="panel--icon__financial"></div>
             <span class="mid-size-bold">Financial Statements</span>
             <a href="assets/centreport-2019-financial-statements.pdf" class="button button-black" target="_blank">
-                Download Financial Statements PDF (181kb)
+                Download Financial Statements PDF (981kb)
             </a>
         </div>
         <div class="panel-more"></div>
@@ -16,7 +16,7 @@
         <div class="panel--content">
             <span class="mid-size-bold">Auditors Report</span>
             <a href="assets/centreport-2019-auditors-report.pdf"  target="_blank" class="button">
-                Download Auditors Report PDF (518kb)
+                Download Auditors Report PDF (2.4mb)
             </a>
         </div>
         <div class="panel-more"></div>

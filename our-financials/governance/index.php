@@ -187,7 +187,7 @@
 						<li>appointing and reviewing the performance of the Chief Executive</li>
 						<li>safeguarding and growing the value of CentrePort Limited’s assets.</li>
 					</ul>
-					<a href="<?=$siteBaseURL?>assets/centreport-2019-governance-report.pdf" class="button button-black m-t-m" target="_blank">Download Governance Report (PDF 1.1mb)</a>
+					<a href="<?=$siteBaseURL?>assets/centreport-2019-governance-report.pdf" class="button button-black m-t-m" target="_blank">Download Governance Report (PDF 3.6mb)</a>
 				</div>
 
 			</div>

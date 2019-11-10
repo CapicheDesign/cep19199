@@ -6,7 +6,7 @@
         <div class="headings">
         <a href="<?=$siteBaseURL;?>?s=<?php if ($pageMeta['section'] == 'Highlights'):?>1<?php endif; ?><?php if ($pageMeta['section'] == 'Our Business'):?>2<?php endif; ?><?php if ($pageMeta['section'] == 'Trades'):?>2<?php endif; ?><?php if ($pageMeta['section'] == 'Our People'):?>3<?php endif; ?><?php if ($pageMeta['section'] == 'Our Focus'):?>4<?php endif; ?><?php if ($pageMeta['section'] == 'Financial Information'):?>5<?php endif; ?>" class="animsition-link">
             <h2 id="areaHeading">
-                <?php if ($pageMeta['section'] == 'Trades'):?>Our business<?php endif; ?>
+                <?php if ($pageMeta['section'] == 'Trades'):?>Our Business<?php endif; ?>
                 <?php if ($pageMeta['section'] != 'Trades'):?><?=$pageMeta['section'];?><?php endif; ?>
             </h2>
         </a>
