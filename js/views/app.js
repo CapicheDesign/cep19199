@@ -223,7 +223,7 @@ var AppView = Backbone.View.extend({
   },
 
   updateNavActive: function(e) {
-    if ( !$(e.currentTarget).hasClass('toggleSubnav') ) {
+    if ( !$(e.currentTarget).hasClass('toggleSubnav') && !$(e.currentTarget).hasClass('pdf-link') ) {
       $('#menu li a').removeClass('active');
       $('#menu li').removeClass('active');
       var $linkIndex = $(e.currentTarget).data('index');
@@ -264,7 +264,7 @@ var AppView = Backbone.View.extend({
         element: document.getElementById('business'),
         handler: function() {
           $('.logo').show();
-          $('#sectionHeading').text('Our business');
+          $('#sectionHeading').text('Our Business');
         }
       });
 
@@ -272,7 +272,7 @@ var AppView = Backbone.View.extend({
         element: document.getElementById('people'),
         handler: function() {
           $('.logo').show();
-          $('#sectionHeading').text('Our people');
+          $('#sectionHeading').text('Our People');
         }
       });
 
@@ -280,7 +280,7 @@ var AppView = Backbone.View.extend({
         element: document.getElementById('focus'),
         handler: function() {
           $('.logo').show();
-          $('#sectionHeading').text('Our focus');
+          $('#sectionHeading').text('Our Focus');
         }
       });
 
@@ -288,7 +288,7 @@ var AppView = Backbone.View.extend({
         element: document.getElementById('financials'),
         handler: function() {
           $('.logo').show();
-          $('#sectionHeading').text('Financial Statements');
+          $('#sectionHeading').text('Financial Information');
         }
       });
     }
@@ -438,19 +438,19 @@ var AppView = Backbone.View.extend({
               break;
 
           case 3:
-              headingText = 'Our business';
+              headingText = 'Our Business';
               break;
 
           case 4:
-            headingText = 'Our people';
+            headingText = 'Our People';
             break;
 
           case 5:
-            headingText = 'Our focus';
+            headingText = 'Our Focus';
             break;
 
           case 6:
-            headingText = 'Financial Statements';
+            headingText = 'Financial Information';
             break;
         }
       $('#sectionHeading').text(headingText);
@@ -549,7 +549,7 @@ var AppView = Backbone.View.extend({
         $('#menuToggle').addClass('white-bg');
         $('.logo img').attr('src',baseUrl+'/img/logo-black.svg');
         $('.logo').show();
-        $('#sectionHeading').text('Our business');
+        $('#sectionHeading').text('Our Business');
         $(".scroll-pagination li a" + "[data-index='3']").addClass("active");
       } else if ( $(e.currentTarget).attr('id') == 'peopleLink' ) {
         $('#main').css({'transform':'translate3d(0px, -300%, 0px)'});
@@ -558,7 +558,7 @@ var AppView = Backbone.View.extend({
         $('#menuToggle').addClass('white-bg');
         $('.logo img').attr('src',baseUrl+'/img/logo-black.svg');
         $('.logo').show();
-        $('#sectionHeading').text('Our people');
+        $('#sectionHeading').text('Our People');
         $(".scroll-pagination li a" + "[data-index='4']").addClass("active");
       } else if ( $(e.currentTarget).attr('id') == 'focusLink' ) {
         $('#main').css({'transform':'translate3d(0px, -400%, 0px)'});
@@ -567,7 +567,7 @@ var AppView = Backbone.View.extend({
         $('#menuToggle').addClass('white-bg');
         $('.logo img').attr('src',baseUrl+'/img/logo-black.svg');
         $('.logo').show();
-        $('#sectionHeading').text('Our focus');
+        $('#sectionHeading').text('Our Focus');
         $(".scroll-pagination li a" + "[data-index='5']").addClass("active");
       } else if ( $(e.currentTarget).attr('id') == 'financialsLink' ) {
         $('#main').css({'transform':'translate3d(0px, -500%, 0px)'});
@@ -576,7 +576,7 @@ var AppView = Backbone.View.extend({
         $('#menuToggle').addClass('white-bg');
         $('.logo img').attr('src',baseUrl+'/img/logo-black.svg');
         $('.logo').show();
-        $('#sectionHeading').text('Our Financials');
+        $('#sectionHeading').text('Financial Information');
         $(".scroll-pagination li a" + "[data-index='6']").addClass("active");
       }
     }

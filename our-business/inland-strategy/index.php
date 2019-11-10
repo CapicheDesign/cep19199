@@ -1,5 +1,5 @@
 <?php require '../../_config.php'; 
-		$pageMeta['section'] = 'Our business';
+		$pageMeta['section'] = 'Our Business';
 		$pageMeta['heading'] = 'Inland Strategy';
 		$pageMeta['description'] = 'CentrePort’s inland strategy continued to help drive economic success across the lower North Island this year.';
 ?>

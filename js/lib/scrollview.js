@@ -146,19 +146,19 @@
 						break;
 			
 					case 3:
-						headingText = 'Our business';
+						headingText = 'Our Business';
 						break;
 			
 					case 4:
-					  headingText = 'Our people';
+					  headingText = 'Our People';
 					  break;
 
 					case 5:
-						headingText = 'Our focus';
+						headingText = 'Our Focus';
 						break;
 
 					case 6:
-						headingText = 'Financial Statements';
+						headingText = 'Financial Information';
 						break;
 				  }
 				  if ( $('.mobile').length <= 0 ) {
@@ -213,19 +213,19 @@
 						break;
 			
 					case 3:
-						headingText = 'Our business';
+						headingText = 'Our Business';
 						break;
 			
 					case 4:
-					  headingText = 'Our people';
+					  headingText = 'Our People';
 					  break;
 
 					case 5:
-						headingText = 'Our focus';
+						headingText = 'Our Focus';
 						break;
 
 					case 6:
-						headingText = 'Financial Statements';
+						headingText = 'Financial Information';
 						break;
 				  }
 				 $('#sectionHeading').text(headingText); 

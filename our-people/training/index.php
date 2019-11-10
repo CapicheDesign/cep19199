@@ -1,5 +1,5 @@
 <?php require '../../_config.php'; 
-		$pageMeta['section'] = 'Our people';
+		$pageMeta['section'] = 'Our People';
 		$pageMeta['heading'] = 'Training';
 		$pageMeta['description'] = 'This year CentrePort implemented a fixed flexi-rostering system. This has given the team awareness well in advance when and where they are working, including guaranteed time off and normalised hours.';
 ?>
@@ -57,14 +57,14 @@
 				</div>
 
 				<div class="content-inner m-t-lg m-b-m  p-b-lg">
-					<p>Cargo handler Dave Maule is one of CentrePort’s training coordinators. He helps implement training programme invested in CentrePort staff.</p>
+					<p>Cargo handler Dave Maule is one of CentrePort’s training coordinators. He helps implement training programmes that invest in growing the skills of CentrePort staff.</p>
 			
 					<blockquote class="m-t-m m-b-m">
 						<p>“Training of our people is a key focus at CentrePort. We use training specialists to ensure staff are getting quality instruction. The programme we’ve implemented includes ship lashing and twist-lock use refreshers, and New Zealand certificates in Port Operations, both core and heavy machine operations strand.<br/><br/> 
 						<p>“You never reach the finish line with training. Continuous development of training methods and materials are being developed. We are always striving to improve, and the past year has been one of real progress,” said Maule.</p>
 					</blockquote>
 					<h2>Future leaders programme</h2>
-					<p>Part of our overall philosophy to improve its capacity and capability. The future leaders programme is around identifying talent in the business and working on that talent even before they become promoted or take on internal development opportunities.</p>
+					<p>The future leaders programme is part of our overall philosophy to improve the capacity and capability of people at CentrePort. The future leaders programme is around identifying talent in the business and working on that talent even before they become promoted or take on internal development opportunities.</p>
 				</div>
 			</div>
 		</section>

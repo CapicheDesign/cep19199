@@ -1,5 +1,5 @@
 <?php require '../../_config.php'; 
-		$pageMeta['section'] = 'Our focus';
+		$pageMeta['section'] = 'Our Focus';
 		$pageMeta['heading'] = 'Multi-user Ferry Terminal';
 		$pageMeta['description'] = 'The Cook Strait ferries are part of the national supply chain, and are the water covered section of State Highway 1, with 3,148 vessel movements in the past year carrying cargo and passengers.';
 ?>
@@ -16,7 +16,7 @@
 			</aside>
 			<div class="right-col" role="main">
 				<div class="content-inner m-b-m p-b-lg">
-					<h1>Multi-user Ferry Terminal</h1>
+					<h1>Multi-User Ferry Terminal</h1>
 					<div class="heading-divider"></div>
 					<p><strong>The Cook Strait ferries are part of the national supply chain, and are the water covered section of State Highway 1, with 3,148 vessel movements in the past year carrying cargo and passengers.</strong></p> 
 					<div class="youtube-wrapper m-t-m m-b-m">

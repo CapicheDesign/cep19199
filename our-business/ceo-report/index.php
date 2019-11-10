@@ -1,5 +1,5 @@
 <?php require '../../_config.php'; 
-		$pageMeta['section'] = 'Our business';
+		$pageMeta['section'] = 'Our Business';
 		$pageMeta['heading'] = "CEO's Report";
 		$pageMeta['description'] = 'This has been a successful year of growth and recovery for CentrePort.';
 ?>
@@ -41,7 +41,7 @@
 				</div>
 
 				<div class="content-inner">
-					<h2>Health and Safety</h2>
+					<h2>Health and safety</h2>
 					<p><strong>CentrePort takes a continuous improvement approach to health and safety, and we built on previous gains.  Positive trends in our key health and safety metrics continued showing the systems and safety-in-design approach is making an impact.  The redesign of our log yard lay-out achieved significant improvement in man-machine separation.</strong></p>    
 					<p>Systems and metrics were only half the story – with the safety culture being key.  Our people took ownership of health and safety to complement the supportive approach of management.  Our 23 health and safety representatives benefited from an extensive training programme.  This empowered them to work collaboratively with their colleagues to help achieve CentrePort’s continued evolution from a reactive to proactive health and safety culture.</p>
 				
@@ -49,7 +49,7 @@
 				</div>
 
 				<div class="content-inner m-t-m">
-					<h2>Environmental Sustainability</h2>
+					<h2>Environmental sustainability</h2>
 					<p><strong>Ensuring our business is sustainable and recognising our part in the guardianship of Wellington Harbour were major drivers for our activities in the past year and will continue to be as CentrePort looks to the future.</strong></p> 
 					<p>The Waste Minimisation Project begun in 2017 continued to help CentrePort’s goal to be a zero-waste port, recycling all waste concrete and asphalt from the various demolition sites. All recycled material is then re-used in a variety of projects on port instead of being transported by truck to landfills.  The programme won Excellence in Civil Construction at the Concrete New Zealand awards, and was a finalist in the ‘Green Gold’ category of the Wellington Gold Awards.</p>
 					<p>Good progress in our environmental management was made, including attaining resource consent for a storm water management plan.</p>  

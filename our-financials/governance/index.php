@@ -1,5 +1,5 @@
 <?php require '../../_config.php'; 
-		$pageMeta['section'] = 'Financial Statements';
+		$pageMeta['section'] = 'Financial Information';
 		$pageMeta['heading'] = 'Governance';
 		$pageMeta['description'] = 'The CentrePort Board of Directors (the Board) is committed to maintaining best-practice governance policies and behaviours.';
 ?>
@@ -19,7 +19,7 @@
 					<h1>Governance</h1>
 					<div class="heading-divider"></div>
 
-					<h2>Approach to Corporate Governance</h2>
+					<h2>Approach to corporate governance</h2>
 					<p><strong>The CentrePort Board of Directors (the Board) is committed to maintaining best-practice governance policies and behaviours.</strong></p>
 					<p>Policies are tested against applicable standards detailed in NZX’s Corporate Governance Code. The Board’s governance framework adheres to the majority of applicable standards as if the company were a listed public company. 
 					<p>In addition, the Directors support the principles set out in the Code of Practice for Directors, issued by the Institute of Directors in New Zealand. While recognising that this code expresses principles and does not purport to determine any detailed course of conduct, the Directors support the need for the highest standards of behaviour and accountability.</p> 
@@ -177,7 +177,7 @@
 				</div>
 
 				<div style="clear: both;" class="content-inner m-t-m m-b-lg p-b-lg">
-					<h2>Role of the Board and Responsibilities</h2>
+					<h2>Role of the board and responsibilities</h2>
 					<p>The Board has statutory responsibility for the affairs and activities of CentrePort Limited and its subsidiary companies. Without undermining this responsibility, the day-to-day leadership and management of the Group is delegated to the Chief Executive and management of CentrePort Limited.</p>
 					<p>Key areas of responsibility that remain with the Board are:</p>
 					<ul>

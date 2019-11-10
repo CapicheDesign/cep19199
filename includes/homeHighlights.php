@@ -25,7 +25,7 @@
         <a href="our-business/logs/" class="panel-topic-link animsition-link"></a>
         <div class="panel-bg"></div>
         <div class="panel--content">
-            <span class="mid-size-text">Strong trades</span>
+            <span class="mid-size-text">Strong Trades</span>
             <div class="panel--content--inner">
                 <div class="panel--content--half" id="logs-highlight">
                     <div role="presentation" class="panel--icon__truck"></div>

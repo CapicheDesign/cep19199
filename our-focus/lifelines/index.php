@@ -1,5 +1,5 @@
 <?php require '../../_config.php'; 
-		$pageMeta['section'] = 'Our focus';
+		$pageMeta['section'] = 'Our Focus';
 		$pageMeta['heading'] = 'Lifelines';
 		$pageMeta['description'] = 'CentrePort connects State Highway 1 between the North and South Islands and provides an export connection to the rest of the world.';
 ?>

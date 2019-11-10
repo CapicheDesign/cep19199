@@ -6,7 +6,7 @@
         <div class="panel-bg"></div>
         <div class="panel--content">
             <div class="panel--content">
-                <span class="mid-size-bold">Medium-term operating plan</span>
+                <span class="mid-size-bold">Medium-Term Operating Plan</span>
                 <span class="arrow arrow-yellow-fwd"></span>
                 <div class="hover-text-container">
                     <span class="mid-size-text">The medium-term operating plan focuses on key enablers for regeneration.</span>
@@ -34,7 +34,7 @@
         <a href="our-focus/ferry-terminal/" class="panel-topic-link animsition-link"></a>
         <div class="panel-bg"></div>
         <div class="panel--content">
-            <span class="mid-size-bold">Multi-user ferry terminal</span>
+            <span class="mid-size-bold">Multi-User Ferry Terminal</span>
             <span class="arrow arrow-white-fwd"></span>
             <div class="hover-text-container">
                 <span>Progress of the future ports working group – currently developing plans for a multi-user ferry terminal.</span>

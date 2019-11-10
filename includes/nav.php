@@ -13,8 +13,8 @@
         <li>
             <a href="<?=$siteBaseURL?>?s=1" class="homePageLink" id="highlightsLink" title="Highlights">Highlights</a>
         </li>
-        <li class="<?php if ($pageMeta['section'] == 'Our business'):?>active<?php endif; ?><?php if ($pageMeta['section'] == 'Trades'):?>active<?php endif; ?>">
-            <a href="<?=$siteBaseURL?>?s=2" class="homePageLink <?php if ($pageMeta['section'] == 'Our business'):?>active<?php endif; ?> <?php if ($pageMeta['section'] == 'Trades'):?>active<?php endif; ?>" id="businessLink" title="Our Business">Our business</a>
+        <li class="<?php if ($pageMeta['section'] == 'Our Business'):?>active<?php endif; ?><?php if ($pageMeta['section'] == 'Trades'):?>active<?php endif; ?>">
+            <a href="<?=$siteBaseURL?>?s=2" class="homePageLink <?php if ($pageMeta['section'] == 'Our Business'):?>active<?php endif; ?> <?php if ($pageMeta['section'] == 'Trades'):?>active<?php endif; ?>" id="businessLink" title="Our Business">Our Business</a>
             <a href="#" class="toggleSubnav" aria-haspopup="true" aria-expanded="false">
                 <span></span>
                 <span></span>
@@ -29,8 +29,8 @@
                 <li><a href="<?=$siteBaseURL?>our-business/cruise" class="animsition-link <?php if ($pageMeta['heading'] == 'Cruise'):?>active<?php endif; ?>">Cruise</a></li>
             </ul>
         </li>
-        <li class="<?php if ($pageMeta['section'] == 'Our people'):?>active<?php endif; ?>">
-            <a href="<?=$siteBaseURL?>?s=3" class="homePageLink <?php if ($pageMeta['section'] == 'Our people'):?>active<?php endif; ?>" id="peopleLink" title="Our People">Our people</a>
+        <li class="<?php if ($pageMeta['section'] == 'Our People'):?>active<?php endif; ?>">
+            <a href="<?=$siteBaseURL?>?s=3" class="homePageLink <?php if ($pageMeta['section'] == 'Our People'):?>active<?php endif; ?>" id="peopleLink" title="Our People">Our People</a>
             <a href="#" class="toggleSubnav" aria-haspopup="true" aria-expanded="false">
                 <span></span>
                 <span></span>
@@ -43,8 +43,8 @@
                 <li><a href="<?=$siteBaseURL?>our-people/community-engagement/" class="animsition-link <?php if ($pageMeta['heading'] == 'Community Engagement'):?>active<?php endif; ?>">Community Engagement</a></li>   
             </ul>
         </li>
-        <li class="<?php if ($pageMeta['section'] == 'Our focus'):?>active<?php endif; ?>">
-            <a href="<?=$siteBaseURL?>?s=4" class="homePageLink <?php if ($pageMeta['section'] == 'Our focus'):?>active<?php endif; ?>" id="focusLink" title="Our Focus">Our focus</a>
+        <li class="<?php if ($pageMeta['section'] == 'Our Focus'):?>active<?php endif; ?>">
+            <a href="<?=$siteBaseURL?>?s=4" class="homePageLink <?php if ($pageMeta['section'] == 'Our Focus'):?>active<?php endif; ?>" id="focusLink" title="Our Focus">Our Focus</a>
             <a href="#" class="toggleSubnav" aria-haspopup="true" aria-expanded="false">
                 <span></span>
                 <span></span>
@@ -52,17 +52,18 @@
             <ul class="sub-nav">         
                 <li><a href="<?=$siteBaseURL?>our-focus/medium-term-plan/" class="animsition-link <?php if ($pageMeta['heading'] == 'Medium Term Operating Plan'):?>active<?php endif; ?>">Medium-Term Operating Plan</a></li>
                 <li><a href="<?=$siteBaseURL?>our-focus/sustainability/" class="animsition-link <?php if ($pageMeta['heading'] == 'Sustainability'):?>active<?php endif; ?>">Sustainability</a></li>
-                <li><a href="<?=$siteBaseURL?>our-focus/ferry-terminal/" class="animsition-link <?php if ($pageMeta['heading'] == 'Multi-user Ferry Terminal'):?>active<?php endif; ?>">Multi-user Ferry Terminal</a></li>
+                <li><a href="<?=$siteBaseURL?>our-focus/ferry-terminal/" class="animsition-link <?php if ($pageMeta['heading'] == 'Multi-User Ferry Terminal'):?>active<?php endif; ?>">Multi-User Ferry Terminal</a></li>
                 <li><a href="<?=$siteBaseURL?>our-focus/lifelines/" class="animsition-link <?php if ($pageMeta['heading'] == 'Lifelines'):?>active<?php endif; ?>">Lifelines</a></li>
             </ul>
         </li>
-        <li class="<?php if ($pageMeta['section'] == 'Financial Statements'):?>active<?php endif; ?>">
-            <a href="<?=$siteBaseURL?>?s=5" class="homePageLink <?php if ($pageMeta['section'] == 'Financial Statements'):?>active<?php endif; ?>" id="financialsLink" title="Financials">Financial Statements</a>
+        <li class="<?php if ($pageMeta['section'] == 'Financial Information'):?>active<?php endif; ?>">
+            <a href="<?=$siteBaseURL?>?s=5" class="homePageLink <?php if ($pageMeta['section'] == 'Financial Information'):?>active<?php endif; ?>" id="financialsLink" title="Financial Information">Financial Information</a>
             <a href="#" class="toggleSubnav" aria-haspopup="true" aria-expanded="false">
                 <span></span>
                 <span></span>
             </a>
-            <ul class="sub-nav">         
+            <ul class="sub-nav">
+                <li><a href="<?=$siteBaseURL?>assets/centreport-2019-auditors-report.pdf" class="pdf-link" target="_blank">Auditors Report</a></li>         
                 <li><a href="<?=$siteBaseURL?>our-financials/governance/" class="animsition-link <?php if ($pageMeta['heading'] == 'Governance'):?>active<?php endif; ?>">Governance</a></li>
             </ul>
         </li>

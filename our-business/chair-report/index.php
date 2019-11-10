@@ -1,5 +1,5 @@
 <?php require '../../_config.php'; 
-		$pageMeta['section'] = 'Our business';
+		$pageMeta['section'] = 'Our Business';
 		$pageMeta['heading'] = "Chair's Report";
 		$pageMeta['description'] = 'Chair Lachie Johnstone and the Board are pleased to report a year of strong growth in the business, continuous improvement in health and safety and good progress on developing the CentrePort regeneration plan.';
 ?>
@@ -29,7 +29,7 @@
 				<div class="content-inner m-t-m">
 					<h2>Strong financial and operational performance</h2>
 					<p><strong>Growth strategies, the hard work and resourcefulness of staff and strong support of local and regional customers combined to deliver the strong financial and operational performance.</strong></p>    
-					<p>The underlying profit after tax and before earthquake impacts, changes in fair value and realisation of financial instruments was $16.6m reflecting a 41 per cent improvement on the previous year. Shareholders were paid a dividend of $4m, up from $2m in the previous year.</p>
+					<p>The underlying profit after tax and before earthquake impacts, changes in fair value and realisation of financial instruments was $16.6m reflecting a 40 per cent improvement on the previous year. Shareholders were paid a dividend of $4m, up from $2m in the previous year.</p>
 					<p>Most major trades showed significant growth helping drive a 15 per cent increase in revenue to $85m.</p>
 					<p>Log exports increased by 27 per cent, container volumes by 11 per cent and cruise showed continued strong growth with 110 ship visits – a 36 per cent increase.</p>
 				</div>

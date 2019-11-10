@@ -1,5 +1,5 @@
 <?php require '../../_config.php'; 
-		$pageMeta['section'] = 'Our people';
+		$pageMeta['section'] = 'Our People';
 		$pageMeta['heading'] = 'Resilient People';
 		$pageMeta['description'] = 'Our business is nothing without its people. This year, people along the front lines have stepped up to meet challenges, solve problems and improve processes.';
 ?>
