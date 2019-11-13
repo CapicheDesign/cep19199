@@ -66,7 +66,7 @@
 							<h2>Open Country Dairy</h2>
 							<p><strong>Open Country Dairy is the second biggest dairy company in New Zealand, and exports 30 per cent of its products through CentrePort via Whanganui to more than 70 countries across the world.</strong></p>
 							<p>Open Country Dairy has a long-standing relationship with CentrePort and moves containerised export product through the Wellington port to its international markets.</p>
-							<p>The CentrePort partnership with <a href="<?=$siteBaseURL?>our-business/containers#ali-arc">Ali Arc</a> – who provide logistics, storage and transport services – provides efficiencies for Open Country Dairy, with certainty of the daily rail service through to CentrePort.</p>  
+							<p>The CentrePort partnership with <a href="<?=$siteBaseURL?>our-business/containers#ali-arc">Ali Arc</a> – which provides logistics, storage and transport services – provides efficiencies for Open Country Dairy, with certainty of the daily rail service through to CentrePort.</p>  
 						</div>
 						<blockquote class="case-study--pull-quote">
 							<p>“Rail works brilliantly. The nature of it means that delivering products is efficient and easy, and means we have to use fewer trucks.”</p>

@@ -14,9 +14,9 @@
     <div class="panel-tile p-half-height p-half-width p-top-row" id="fin2">
         <div class="panel-bg"></div>
         <div class="panel--content">
-            <span class="mid-size-bold">Auditors Report</span>
+            <span class="mid-size-bold">Auditor's Report</span>
             <a href="assets/centreport-2019-auditors-report.pdf"  target="_blank" class="button">
-                Download Auditors Report PDF (2.4mb)
+                Download Auditor's Report PDF (303kb)
             </a>
         </div>
         <div class="panel-more"></div>
