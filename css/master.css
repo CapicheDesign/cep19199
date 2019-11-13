@@ -1622,7 +1622,7 @@ header.content-page-header #close-btn{position:absolute;right:20px;width:40px;he
 }
 header.content-page-header #close-btn:focus,header.content-page-header #close-btn:hover{background:url(../img/close-btn-light.svg)}
 body#homepage,html{background:#153145}
-.trades .headings{margin-top:0!important}
+.focus .headings,.trades .headings{margin-top:0!important}
 .mobile .header__home .logo{transition:none!important}
 .mobile .header__home.header__transparent .logo{display:block!important}
 .mobile .content-page-header{min-height:65px}

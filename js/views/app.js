@@ -44,21 +44,22 @@ var AppView = Backbone.View.extend({
       dots: true,
     });
 
-    if ( $('#homepage').length ) {
+    /* stop chrome remembering scroll position on reload */
+    if ('scrollRestoration' in history) {
+      history.scrollRestoration = 'manual';
+    }
 
-      /* stop chrome remembering scroll position on reload */
-      if ('scrollRestoration' in history) {
-        history.scrollRestoration = 'manual';
+    /* reload page when resized between mobile/desktop */
+    var limit = 991;
+    var ww = $(window).width();
+    $(window).resize(function() {
+      resW = $(window).width();
+      if ( (ww>limit && resW<limit) || (ww<limit && resW>limit) ) {           
+        location.reload(true);
       }
-      /* reload homepage when resized between mobile/desktop */
-      var limit = 991;
-      var ww = $(window).width();
-      $(window).resize(function() {
-        resW = $(window).width();
-        if ( (ww>limit && resW<limit) || (ww<limit && resW>limit) ) {           
-          location.reload(true);
-        }
-      });
+    });
+
+    if ( $('#homepage').length ) {
 
       var getUrl = window.location;
       var baseUrl = getUrl .protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];

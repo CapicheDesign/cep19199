@@ -16,7 +16,7 @@
         <div class="panel--content">
             <span class="mid-size-bold">Auditor's Report</span>
             <a href="assets/centreport-2019-auditors-report.pdf"  target="_blank" class="button">
-                Download Auditor's Report PDF (303kb)
+                Download Auditor's Report PDF (562kb)
             </a>
         </div>
         <div class="panel-more"></div>
